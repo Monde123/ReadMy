@@ -32,7 +32,7 @@ ReadMy/
 │   ├── design-principles.md
 │   ├── template-guide.md
 │   ├── visual-diversity.md
-│   └── changelog.md
+│   └─��� changelog.md
 ├── templates/
 │   ├── 001-minimal-clean/
 │   ├── 002-professional-engineer/
@@ -43,7 +43,27 @@ ReadMy/
 │   ├── 007-student-researcher/
 │   ├── 008-robotics-stem/
 │   ├── 009-terminal-creative/
-│   └── 010-open-source-builder/
+│   ├── 010-open-source-builder/
+│   ├── 011-academic-profile/
+│   ├── 012-timeline-journey/
+│   ├── 013-magazine-editorial/
+│   ├── 014-neon-command-center/
+│   ├── 015-soft-gradient-landing/
+│   ├── 016-data-dashboard/
+│   ├── 017-engineering-sheet/
+│   ├── 018-cv-portfolio-split/
+│   ├── 019-roadmap-flow/
+│   ├── 020-documentary-profile/
+│   ├── 021-mosaic-portfolio/
+│   ├── 022-signal-feed/
+│   ├── 023-learning-roadmap/
+│   ├── 024-pitch-deck/
+│   ├── 025-security-lab/
+│   ├── 026-studio-showcase/
+│   ├── 027-briefing-memo/
+│   ├── 028-manifesto-foundry/
+│   ├── 029-event-brief/
+│   └── 030-community-spotlight/
 ├── components/
 ├── assets/
 ├── catalog/
@@ -68,6 +88,26 @@ ReadMy/
 | 008 | Technical Lab Notebook |
 | 009 | Terminal Interface |
 | 010 | Open Source Hub |
+| 011 | Academic Profile |
+| 012 | Timeline Journey |
+| 013 | Magazine Layout |
+| 014 | Neon Command Center |
+| 015 | Soft Gradient Landing |
+| 016 | Data-rich Dashboard |
+| 017 | Engineering Sheet |
+| 018 | CV / Portfolio Split-Screen |
+| 019 | Roadmap Flow |
+| 020 | Documentary Chaptered Profile |
+| 021 | Mosaic Portfolio |
+| 022 | Signal Feed |
+| 023 | Learning Roadmap |
+| 024 | Pitch Deck |
+| 025 | Security Lab |
+| 026 | Studio Showcase |
+| 027 | Briefing Memo |
+| 028 | Manifesto Foundry |
+| 029 | Event Brief |
+| 030 | Community Spotlight |
 
 ## Why the redesign matters
 
@@ -81,7 +121,20 @@ ReadMy aims to help people present themselves in different ways:
 - as a mobile developer with an app-like presentation,
 - as an AI engineer with a dashboard-oriented design,
 - as an open-source maintainer with a community-hub structure,
-- as a developer with a terminal-based presentation.
+- as a developer with a terminal-based presentation,
+- as an academic profile with publication-oriented structure,
+- as a career storyteller with a timeline-based narrative,
+- as an editorial thinker with a magazine-style layout,
+- as a system operator with a command-center visual language,
+- as a designer with a gallery portfolio,
+- as a speaker or advocate with a signal-feed flow,
+- as a learner with a structured roadmap,
+- as a founder with a pitch-deck identity,
+- as a security practitioner with a lab briefing,
+- as an independent studio with a showcase tone,
+- as a strategist with a memo-oriented profile,
+- as a founder with a manifesto-based identity,
+- as a community-facing builder with event and spotlight framing.
 
 ## Design philosophy
 

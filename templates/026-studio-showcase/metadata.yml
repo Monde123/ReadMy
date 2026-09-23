@@ -1,0 +1,25 @@
+id: 026-studio-showcase
+title: Studio Showcase
+category: studio
+audience:
+  - designer
+  - freelancer
+  - creative-builder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: studio-paper
+  animations: none
+  complexity: intermediate
+visual_architecture: va-026
+sections:
+  - identity
+  - studio-focus
+  - recent-work
+  - principles
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

@@ -118,3 +118,243 @@ visual_architectures:
     skill_format: principles-grid
     image_strategy: optional-documented
     assigned_to: 010-open-source-builder
+
+  - id: va-011
+    name: Academic Profile
+    type: academic
+    layout: paper-grid
+    alignment: left
+    density: medium
+    navigation: section-links
+    project_format: publication-cards
+    skill_format: taxonomy
+    image_strategy: none-required
+    assigned_to: 011-academic-profile
+
+  - id: va-012
+    name: Timeline Journey
+    type: portfolio
+    layout: timeline
+    alignment: left
+    density: medium
+    navigation: year-index
+    project_format: milestone-cards
+    skill_format: timeline-tags
+    image_strategy: optional-documented
+    assigned_to: 012-timeline-journey
+
+  - id: va-013
+    name: Magazine Layout
+    type: editorial
+    layout: magazine
+    alignment: left
+    density: high
+    navigation: section-anchors
+    project_format: feature-story
+    skill_format: editorial-columns
+    image_strategy: optional-documented
+    assigned_to: 013-magazine-editorial
+
+  - id: va-014
+    name: Neon Command Center
+    type: creative-tech
+    layout: command-center
+    alignment: center
+    density: high
+    navigation: quick-links
+    project_format: system-panels
+    skill_format: status-grid
+    image_strategy: local-assets
+    assigned_to: 014-neon-command-center
+
+  - id: va-015
+    name: Soft Gradient Landing
+    type: brand-product
+    layout: gradient-landing
+    alignment: center
+    density: medium
+    navigation: hero-links
+    project_format: feature-spotlight
+    skill_format: pill-sets
+    image_strategy: optional-documented
+    assigned_to: 015-soft-gradient-landing
+
+  - id: va-016
+    name: Data-rich Dashboard
+    type: data
+    layout: dashboard
+    alignment: left
+    density: high
+    navigation: compact-index
+    project_format: metric-panels
+    skill_format: data-matrix
+    image_strategy: optional-documented
+    assigned_to: 016-data-dashboard
+
+  - id: va-017
+    name: Engineering Sheet
+    type: backend
+    layout: dense-sheet
+    alignment: left
+    density: high
+    navigation: anchor-index
+    project_format: system-summary
+    skill_format: capability-sheet
+    image_strategy: none-required
+    assigned_to: 017-engineering-sheet
+
+  - id: va-018
+    name: CV / Portfolio Split-Screen
+    type: portfolio
+    layout: split-screen
+    alignment: left
+    density: medium
+    navigation: side-nav
+    project_format: portfolio-panels
+    skill_format: dual-column
+    image_strategy: optional-documented
+    assigned_to: 018-cv-portfolio-split
+
+  - id: va-019
+    name: Roadmap Flow
+    type: product-strategy
+    layout: roadmap
+    alignment: left
+    density: medium
+    navigation: stage-links
+    project_format: milestone-roadmap
+    skill_format: phase-list
+    image_strategy: none-required
+    assigned_to: 019-roadmap-flow
+
+  - id: va-020
+    name: Documentary Chaptered Profile
+    type: story
+    layout: chaptered
+    alignment: left
+    density: medium
+    navigation: chapter-index
+    project_format: narrative-sections
+    skill_format: chapter-tags
+    image_strategy: optional-documented
+    assigned_to: 020-documentary-profile
+
+  - id: va-021
+    name: Mosaic Portfolio
+    type: portfolio
+    layout: gallery-mosaic
+    alignment: center
+    density: medium
+    navigation: section-anchors
+    project_format: visual-cards
+    skill_format: editorial-columns
+    image_strategy: local-assets
+    assigned_to: 021-mosaic-portfolio
+
+  - id: va-022
+    name: Signal Feed
+    type: developer-experience
+    layout: feed
+    alignment: left
+    density: medium
+    navigation: timeline-index
+    project_format: note-stream
+    skill_format: topic-tags
+    image_strategy: optional-documented
+    assigned_to: 022-signal-feed
+
+  - id: va-023
+    name: Learning Roadmap
+    type: education
+    layout: roadmap
+    alignment: left
+    density: medium
+    navigation: phase-links
+    project_format: learning-stages
+    skill_format: focus-threads
+    image_strategy: none-required
+    assigned_to: 023-learning-roadmap
+
+  - id: va-024
+    name: Pitch Deck
+    type: startup
+    layout: slide-sequence
+    alignment: center
+    density: medium
+    navigation: deck-index
+    project_format: slide-panels
+    skill_format: value-matrix
+    image_strategy: optional-documented
+    assigned_to: 024-pitch-deck
+
+  - id: va-025
+    name: Security Lab
+    type: security
+    layout: lab-report
+    alignment: left
+    density: high
+    navigation: section-links
+    project_format: risk-brief
+    skill_format: control-grid
+    image_strategy: none-required
+    assigned_to: 025-security-lab
+
+  - id: va-026
+    name: Studio Showcase
+    type: studio
+    layout: showcase-grid
+    alignment: left
+    density: medium
+    navigation: project-links
+    project_format: case-showcase
+    skill_format: specialty-list
+    image_strategy: optional-documented
+    assigned_to: 026-studio-showcase
+
+  - id: va-027
+    name: Briefing Memo
+    type: operations
+    layout: memo
+    alignment: left
+    density: medium
+    navigation: section-index
+    project_format: briefing-notes
+    skill_format: action-list
+    image_strategy: none-required
+    assigned_to: 027-briefing-memo
+
+  - id: va-028
+    name: Manifesto Foundry
+    type: founder
+    layout: manifesto
+    alignment: left
+    density: medium
+    navigation: principles-index
+    project_format: value-sections
+    skill_format: principles-grid
+    image_strategy: optional-documented
+    assigned_to: 028-manifesto-foundry
+
+  - id: va-029
+    name: Event Brief
+    type: community
+    layout: event-program
+    alignment: left
+    density: medium
+    navigation: talk-links
+    project_format: event-cards
+    skill_format: topic-tags
+    image_strategy: optional-documented
+    assigned_to: 029-event-brief
+
+  - id: va-030
+    name: Community Spotlight
+    type: community
+    layout: community-board
+    alignment: left
+    density: medium
+    navigation: circle-index
+    project_format: contribution-cards
+    skill_format: community-grid
+    image_strategy: optional-documented
+    assigned_to: 030-community-spotlight

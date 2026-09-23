@@ -1,0 +1,26 @@
+id: 020-documentary-profile
+title: Documentary Profile
+category: story
+audience:
+  - builder
+  - designer
+  - technical-storyteller
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: documentary-warm
+  animations: none
+  complexity: intermediate
+visual_architecture: va-020
+sections:
+  - identity
+  - chapter-1
+  - chapter-2
+  - chapter-3
+  - themes
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

@@ -1,0 +1,25 @@
+id: 013-magazine-editorial
+title: Magazine Editorial
+category: editorial
+audience:
+  - designer
+  - writer
+  - product-builder
+style:
+  visual_density: high
+  alignment: left
+  color_palette: editorial-paper
+  animations: none
+  complexity: intermediate
+visual_architecture: va-013
+sections:
+  - identity
+  - editorial-lead
+  - feature-articles
+  - themes
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

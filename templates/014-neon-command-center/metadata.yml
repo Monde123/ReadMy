@@ -1,0 +1,25 @@
+id: 014-neon-command-center
+title: Neon Command Center
+category: creative-tech
+audience:
+  - platform-engineer
+  - developer-experience
+  - product-builder
+style:
+  visual_density: high
+  alignment: center
+  color_palette: neon-graphite
+  animations: optional
+  complexity: advanced
+visual_architecture: va-014
+sections:
+  - identity
+  - live-overview
+  - key-systems
+  - mission
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

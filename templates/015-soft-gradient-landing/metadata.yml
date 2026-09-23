@@ -1,0 +1,25 @@
+id: 015-soft-gradient-landing
+title: Soft Gradient Landing
+category: product
+audience:
+  - designer
+  - product-builder
+  - freelancer
+style:
+  visual_density: medium
+  alignment: center
+  color_palette: soft-gradient
+  animations: optional
+  complexity: beginner
+visual_architecture: va-015
+sections:
+  - identity
+  - value-proposition
+  - product-focus
+  - recent-work
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

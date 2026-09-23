@@ -1,0 +1,25 @@
+id: 025-security-lab
+title: Security Lab
+category: security
+audience:
+  - security-engineer
+  - platform-builder
+  - systems-researcher
+style:
+  visual_density: high
+  alignment: left
+  color_palette: security-graphite
+  animations: none
+  complexity: advanced
+visual_architecture: va-025
+sections:
+  - identity
+  - threat-model
+  - security-posture
+  - current-practice
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

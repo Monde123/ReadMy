@@ -1,0 +1,25 @@
+id: 030-community-spotlight
+title: Community Spotlight
+category: community
+audience:
+  - maintainer
+  - community-builder
+  - open-source-operator
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: community-garden
+  animations: none
+  complexity: intermediate
+visual_architecture: va-030
+sections:
+  - identity
+  - community-map
+  - shared-practices
+  - current-work
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

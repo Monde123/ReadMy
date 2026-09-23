@@ -1,0 +1,25 @@
+id: 012-timeline-journey
+title: Timeline Journey
+category: portfolio
+audience:
+  - product-builder
+  - engineer
+  - career-switcher
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: neutral-chronicle
+  animations: none
+  complexity: beginner
+visual_architecture: va-012
+sections:
+  - identity
+  - timeline
+  - milestones
+  - focus
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

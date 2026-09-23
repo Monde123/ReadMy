@@ -1,0 +1,25 @@
+id: 021-mosaic-portfolio
+title: Mosaic Portfolio
+category: portfolio
+audience:
+  - designer
+  - creative-technologist
+  - visual-builder
+style:
+  visual_density: medium
+  alignment: center
+  color_palette: gallery-neutral
+  animations: none
+  complexity: intermediate
+visual_architecture: va-021
+sections:
+  - identity
+  - selected-work
+  - creative-focus
+  - method
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

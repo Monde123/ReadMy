@@ -52,3 +52,41 @@ All ten template README files were reworked to reflect their assigned visual arc
 ### Decision
 
 The project now treats diversity as a first-class requirement: each template must carry a distinct composition, not just a different subject or color palette.
+
+## 2026-09-23 — Expanded visual diversity to 011–020
+
+### Added
+
+- `011-academic-profile`
+- `012-timeline-journey`
+- `013-magazine-editorial`
+- `014-neon-command-center`
+- `015-soft-gradient-landing`
+- `016-data-dashboard`
+- `017-engineering-sheet`
+- `018-cv-portfolio-split`
+- `019-roadmap-flow`
+- `020-documentary-profile`
+
+### Design coverage
+
+The library now spans academic, editorial, command-center, product-landing, dashboard, engineering-sheet, split-screen portfolio, roadmap, and documentary chaptered layouts, preserving a distinct visual identity across all ten additions.
+
+## 2026-09-23 — Expanded visual diversity to 021–030
+
+### Added
+
+- `021-mosaic-portfolio`
+- `022-signal-feed`
+- `023-learning-roadmap`
+- `024-pitch-deck`
+- `025-security-lab`
+- `026-studio-showcase`
+- `027-briefing-memo`
+- `028-manifesto-foundry`
+- `029-event-brief`
+- `030-community-spotlight`
+
+### Design coverage
+
+The library now includes gallery, feed, roadmap, pitch-deck, security report, studio showcase, memo, manifesto, event brief, and community spotlight architectures, pushing the collection further toward a genuinely differentiated design gallery.
