@@ -1,0 +1,26 @@
+id: 001-minimal-clean
+title: Minimal Clean
+category: minimal
+audience:
+  - software-developer
+  - student
+  - freelancer
+style:
+  visual_density: low
+  alignment: left
+  color_palette: neutral
+  animations: none
+  complexity: beginner
+sections:
+  - identity
+  - summary
+  - skills
+  - technologies
+  - projects
+  - learning
+  - contact
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

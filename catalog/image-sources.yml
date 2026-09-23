@@ -1,0 +1,26 @@
+sources:
+  - id: shields
+    name: Shields.io
+    role: badges
+    url: https://img.shields.io
+    guidance: Use for technology or neutral status badges; do not expose personal identifiers.
+  - id: skill-icons
+    name: Skill Icons
+    role: technology-icons
+    url: https://skillicons.dev
+    guidance: Prefer nearby text labels and document the icon set used.
+  - id: capsule-render
+    name: Capsule Render
+    role: headers-and-footers
+    url: https://capsule-render.vercel.app
+    guidance: Decorative only; keep the profile meaning available in Markdown.
+  - id: github-readme-stats
+    name: GitHub Readme Stats
+    role: statistics
+    url: https://github-readme-stats.vercel.app
+    guidance: Use example-user in repository templates and explain how to replace it.
+  - id: readme-typing-svg
+    name: Readme Typing SVG
+    role: animated-text
+    url: https://readme-typing-svg.demolab.com
+    guidance: Optional; provide a readable static heading before or near the animation.
