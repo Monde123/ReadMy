@@ -11,6 +11,7 @@ style:
   color_palette: terminal-green
   animations: none
   complexity: intermediate
+visual_architecture: va-009
 sections:
   - terminal-hero
   - profile

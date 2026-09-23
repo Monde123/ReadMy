@@ -1,0 +1,120 @@
+visual_architectures:
+  - id: va-001
+    name: Minimal Editorial
+    type: minimal
+    layout: single-column
+    alignment: left
+    density: low
+    navigation: none
+    project_format: editorial-cards
+    skill_format: inline-grouped
+    image_strategy: none-required
+    assigned_to: 001-minimal-clean
+
+  - id: va-002
+    name: Technical Documentation
+    type: professional
+    layout: single-column
+    alignment: left
+    density: medium
+    navigation: none
+    project_format: short-case-summary
+    skill_format: grouped-list
+    image_strategy: none-required
+    assigned_to: 002-professional-engineer
+
+  - id: va-003
+    name: AI Dashboard
+    type: ai-data
+    layout: dashboard
+    alignment: centered
+    density: high
+    navigation: compact-index
+    project_format: project-panels
+    skill_format: capability-table
+    image_strategy: optional-documented
+    assigned_to: 003-ai-engineer
+
+  - id: va-004
+    name: App Showcase
+    type: mobile
+    layout: split-or-product
+    alignment: left
+    density: medium
+    navigation: none
+    project_format: app-cards
+    skill_format: chunked-tags
+    image_strategy: optional-documented
+    assigned_to: 004-mobile-developer
+
+  - id: va-005
+    name: Bento Interface
+    type: frontend
+    layout: bento-grid
+    alignment: center
+    density: medium
+    navigation: none
+    project_format: tile-cards
+    skill_format: grouped-tiles
+    image_strategy: optional-documented
+    assigned_to: 005-frontend-developer
+
+  - id: va-006
+    name: Product Landing Page
+    type: product-builder
+    layout: landing-page
+    alignment: left
+    density: medium
+    navigation: quick-links
+    project_format: feature-showcase
+    skill_format: matrix
+    image_strategy: optional-documented
+    assigned_to: 006-full-stack-ai
+
+  - id: va-007
+    name: Academic Paper
+    type: academic
+    layout: paper-style
+    alignment: left
+    density: medium
+    navigation: section-links
+    project_format: research-notes
+    skill_format: taxonomy
+    image_strategy: none-required
+    assigned_to: 007-student-researcher
+
+  - id: va-008
+    name: Technical Lab Notebook
+    type: robotics-stem
+    layout: lab-journal
+    alignment: left
+    density: medium
+    navigation: section-index
+    project_format: experiments
+    skill_format: stacked-groups
+    image_strategy: optional-documented
+    assigned_to: 008-robotics-stem
+
+  - id: va-009
+    name: Terminal Interface
+    type: creative
+    layout: terminal-style
+    alignment: left
+    density: low
+    navigation: none
+    project_format: command-output
+    skill_format: command-list
+    image_strategy: none-required
+    assigned_to: 009-terminal-creative
+
+  - id: va-010
+    name: Open Source Hub
+    type: open-source
+    layout: community-hub
+    alignment: left
+    density: medium
+    navigation: quick-links
+    project_format: contribution-cards
+    skill_format: principles-grid
+    image_strategy: optional-documented
+    assigned_to: 010-open-source-builder

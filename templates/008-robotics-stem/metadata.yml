@@ -11,6 +11,7 @@ style:
   color_palette: electronics-orange
   animations: optional
   complexity: intermediate
+visual_architecture: va-008
 sections:
   - identity
   - mission

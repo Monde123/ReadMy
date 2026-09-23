@@ -11,6 +11,7 @@ style:
   color_palette: dark-blue
   animations: optional
   complexity: intermediate
+visual_architecture: va-003
 sections:
   - identity
   - focus

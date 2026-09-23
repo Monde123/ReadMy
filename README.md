@@ -4,25 +4,17 @@
 
 ReadMy helps developers, students, researchers, freelancers, and builders create clear, attractive, accessible, and maintainable GitHub profile README files.
 
-## What ReadMy provides
+## Design diversity is a core requirement
 
-- Anonymized profile README templates.
-- Reusable README components.
-- Clear information architectures for different professional profiles.
-- A documented catalog of image, badge, statistics, and animation services.
-- Accessibility and image policies.
-- Design guidance for presenting skills, projects, learning paths, and contact information.
-- A contribution workflow for adding new templates without exposing personal data.
+ReadMy does not simply collect profile templates by profession. It is designed as a library of distinct visual architectures for GitHub profiles.
 
-## Principles
+Each template is expected to have a unique composition, section logic, project layout, and visual identity. Reusing the same layout with a different name or another color is not considered a distinct design.
 
-1. **Anonymized by default** — examples use fictional identities, projects, links, and contact details.
-2. **Structure before decoration** — the content hierarchy must remain useful without images.
-3. **Reusable by design** — templates are composed from documented sections and components.
-4. **Accessible presentation** — images require meaningful alternative text and must not carry essential information alone.
-5. **Honest positioning** — examples should communicate skills and goals clearly without fabricated personal claims.
-6. **External resources are documented** — remote images, badges, statistics, and generators are cataloged.
-7. **Beginner-friendly customization** — every template explains what to replace and where.
+## Unique design rule
+
+> A complete visual architecture must not be reused more than once in the collection.
+
+This rule prevents the repository from becoming a set of near-duplicate README files that only differ in wording or technology badges.
 
 ## Repository map
 
@@ -39,45 +31,82 @@ ReadMy/
 │   ├── image-policy.md
 │   ├── design-principles.md
 │   ├── template-guide.md
+│   ├── visual-diversity.md
 │   └── changelog.md
 ├── templates/
-│   └── 001-minimal-clean/
-│       ├── README.md
-│       ├── metadata.yml
-│       └── customization.md
+│   ├── 001-minimal-clean/
+│   ├── 002-professional-engineer/
+│   ├── 003-ai-engineer/
+│   ├── 004-mobile-developer/
+│   ├── 005-frontend-developer/
+│   ├── 006-full-stack-ai/
+│   ├── 007-student-researcher/
+│   ├── 008-robotics-stem/
+│   ├── 009-terminal-creative/
+│   └── 010-open-source-builder/
 ├── components/
-│   └── README.md
 ├── assets/
-│   └── README.md
 ├── catalog/
 │   ├── templates.yml
+│   ├── visual-architectures.yml
 │   └── image-sources.yml
 ├── examples/
-│   └── README.md
 └── .github/
-    └── PULL_REQUEST_TEMPLATE.md
 ```
 
-## First template
+## Current visual architecture set
 
-[001 — Minimal Clean](templates/001-minimal-clean/README.md) is the first reference template. It demonstrates a low-density, professional profile for a fictional software engineer named John Doe.
+| Template | Visual architecture |
+|---|---|
+| 001 | Minimal Editorial |
+| 002 | Technical Documentation |
+| 003 | AI Dashboard |
+| 004 | App Showcase |
+| 005 | Bento Interface |
+| 006 | Product Landing Page |
+| 007 | Academic Paper |
+| 008 | Technical Lab Notebook |
+| 009 | Terminal Interface |
+| 010 | Open Source Hub |
 
-## Planned collection
+## Why the redesign matters
 
-The initial collection will grow toward at least 50 anonymized designs, including minimal, professional, academic, student, mobile, frontend, backend, AI, data, cybersecurity, open-source, creative, freelance, and product-builder profiles.
+The repository's real value is no longer only in the content of a profile README; it is in the diversity of the experiences that can be created from the same information.
 
-## How to use a template
+ReadMy aims to help people present themselves in different ways:
 
-1. Open a template directory.
-2. Read its `customization.md` file.
-3. Copy `README.md` into your own profile repository.
-4. Replace fictional values and placeholders with your own information.
-5. Keep the hierarchy and accessibility guidance.
-6. Validate external links and image URLs before publishing.
+- as a builder with a product page,
+- as a technical engineer with a documentation layout,
+- as a researcher with an academic structure,
+- as a mobile developer with an app-like presentation,
+- as an AI engineer with a dashboard-oriented design,
+- as an open-source maintainer with a community-hub structure,
+- as a developer with a terminal-based presentation.
 
-## Contributing
+## Design philosophy
 
-Read the [contribution guide](CONTRIBUTING.md), especially the [anonymization policy](docs/anonymization-policy.md) and [image policy](docs/image-policy.md), before submitting a template or component.
+1. Distinct composition for each template.
+2. Different visual rhythm across templates.
+3. Different project presentation patterns.
+4. Distinct navigation and information hierarchy.
+5. Optional images, but only when they add meaning.
+6. Clear customization paths, even for highly visual templates.
+7. Same anonymization and accessibility standards for all templates.
+
+## Contributing new templates
+
+When adding a new README design, ensure that it is not just a variant of an existing structure. A contribution should change at least:
+
+- the page composition,
+- the project card system,
+- the skill presentation,
+- the visual density,
+- the navigation model,
+- the section ordering,
+- the palette or layout language,
+- the image strategy.
+
+If these remain the same, the design is not distinct enough.
 
 ## License
 

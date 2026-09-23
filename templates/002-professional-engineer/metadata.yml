@@ -11,6 +11,7 @@ style:
   color_palette: neutral-blue
   animations: none
   complexity: beginner
+visual_architecture: va-002
 sections:
   - identity
   - positioning

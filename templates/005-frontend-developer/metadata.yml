@@ -11,6 +11,7 @@ style:
   color_palette: warm-gradient
   animations: optional
   complexity: beginner
+visual_architecture: va-005
 sections:
   - identity
   - design-focus

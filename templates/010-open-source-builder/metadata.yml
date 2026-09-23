@@ -11,6 +11,7 @@ style:
   color_palette: community-purple
   animations: optional
   complexity: intermediate
+visual_architecture: va-010
 sections:
   - identity
   - open-source-focus

@@ -11,6 +11,7 @@ style:
   color_palette: purple-teal
   animations: optional
   complexity: advanced
+visual_architecture: va-006
 sections:
   - hero
   - navigation
