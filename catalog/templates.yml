@@ -5,35 +5,65 @@ templates:
     status: available
     path: templates/001-minimal-clean/README.md
     complexity: beginner
-    image_mode: optional-local
+    image_mode: none-required
+    visual_architecture: va-001
+    audience:
+      - minimal-developer
+      - typography-enthusiast
+      - zen-engineer
+
   - id: 002-professional-engineer
     title: Professional Engineer
     category: professional
     status: available
     path: templates/002-professional-engineer/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: none-required
+    visual_architecture: va-002
+    audience:
+      - senior-software-engineer
+      - lead-developer
+      - engineering-manager
+
   - id: 003-ai-engineer
     title: AI Engineer
     category: ai-data
     status: available
     path: templates/003-ai-engineer/README.md
-    complexity: intermediate
+    complexity: advanced
     image_mode: optional-documented
+    visual_architecture: va-003
+    audience:
+      - ai-engineer
+      - machine-learning-specialist
+      - llm-systems-architect
+
   - id: 004-mobile-developer
     title: Mobile Developer
     category: mobile
     status: available
     path: templates/004-mobile-developer/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-004
+    audience:
+      - ios-engineer
+      - android-engineer
+      - mobile-platform-architect
+
   - id: 005-frontend-developer
     title: Frontend Developer
     category: frontend
     status: available
     path: templates/005-frontend-developer/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-005
+    audience:
+      - frontend-developer
+      - design-engineer
+      - ui-systems-specialist
+
   - id: 006-full-stack-ai
     title: Full-Stack & AI Engineer
     category: freelance-product
@@ -41,13 +71,25 @@ templates:
     path: templates/006-full-stack-ai/README.md
     complexity: advanced
     image_mode: optional-documented
+    visual_architecture: va-006
+    audience:
+      - full-stack-engineer
+      - freelance-builder
+      - ai-product-developer
+
   - id: 007-student-researcher
     title: Student Researcher
     category: academic
     status: available
     path: templates/007-student-researcher/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: none-required
+    visual_architecture: va-007
+    audience:
+      - undergraduate-researcher
+      - graduate-student
+      - cs-scholar
+
   - id: 008-robotics-stem
     title: Robotics & STEM
     category: student
@@ -55,157 +97,294 @@ templates:
     path: templates/008-robotics-stem/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-008
+    audience:
+      - robotics-engineer
+      - embedded-systems-developer
+      - mechatronics-builder
+
   - id: 009-terminal-creative
     title: Terminal Creative
     category: creative
     status: available
     path: templates/009-terminal-creative/README.md
     complexity: intermediate
-    image_mode: none-required
+    image_mode: local-assets
+    visual_architecture: va-009
+    audience:
+      - cli-enthusiast
+      - creative-coder
+      - terminal-purist
+
   - id: 010-open-source-builder
     title: Open Source Builder
-    category: open-source
+    category: community
     status: available
     path: templates/010-open-source-builder/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-010
+    audience:
+      - open-source-maintainer
+      - developer-toolmaker
+      - package-author
+
   - id: 011-academic-profile
     title: Academic Profile
     category: academic
-    status: planned
+    status: available
     path: templates/011-academic-profile/README.md
-    complexity: beginner
+    complexity: advanced
     image_mode: none-required
+    visual_architecture: va-011
+    audience:
+      - postdoctoral-researcher
+      - university-faculty
+      - research-scientist
+
   - id: 012-timeline-journey
     title: Timeline Journey
-    category: portfolio
-    status: planned
+    category: narrative
+    status: available
     path: templates/012-timeline-journey/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-012
+    audience:
+      - staff-engineer
+      - engineering-leader
+      - veteran-developer
+
   - id: 013-magazine-editorial
     title: Magazine Editorial
     category: editorial
-    status: planned
+    status: available
     path: templates/013-magazine-editorial/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-013
+    audience:
+      - design-technologist
+      - editorial-developer
+      - creative-director
+
   - id: 014-neon-command-center
     title: Neon Command Center
     category: creative-tech
-    status: planned
+    status: available
     path: templates/014-neon-command-center/README.md
     complexity: advanced
     image_mode: local-assets
+    visual_architecture: va-014
+    audience:
+      - cyber-architect
+      - telemetry-engineer
+      - security-ops-lead
+
   - id: 015-soft-gradient-landing
     title: Soft Gradient Landing
     category: product
-    status: planned
+    status: available
     path: templates/015-soft-gradient-landing/README.md
-    complexity: beginner
-    image_mode: optional-documented
+    complexity: intermediate
+    image_mode: local-assets
+    visual_architecture: va-015
+    audience:
+      - product-engineer
+      - indie-hacker
+      - micro-saas-founder
+
   - id: 016-data-dashboard
     title: Data Dashboard
     category: data
-    status: planned
+    status: available
     path: templates/016-data-dashboard/README.md
-    complexity: intermediate
+    complexity: advanced
     image_mode: optional-documented
+    visual_architecture: va-016
+    audience:
+      - principal-data-architect
+      - analytics-engineer
+      - big-data-developer
+
   - id: 017-engineering-sheet
     title: Engineering Sheet
     category: backend
-    status: planned
+    status: available
     path: templates/017-engineering-sheet/README.md
     complexity: advanced
     image_mode: none-required
+    visual_architecture: va-017
+    audience:
+      - infrastructure-lead
+      - devops-architect
+      - principal-reliability-engineer
+
   - id: 018-cv-portfolio-split
     title: CV / Portfolio Split
-    category: portfolio
-    status: planned
+    category: professional
+    status: available
     path: templates/018-cv-portfolio-split/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-018
+    audience:
+      - lead-architect
+      - vp-engineering
+      - senior-staff-engineer
+
   - id: 019-roadmap-flow
     title: Roadmap Flow
-    category: product-strategy
-    status: planned
+    category: narrative
+    status: available
     path: templates/019-roadmap-flow/README.md
     complexity: intermediate
-    image_mode: none-required
+    image_mode: optional-documented
+    visual_architecture: va-019
+    audience:
+      - platform-engineer
+      - product-architect
+      - technical-program-manager
+
   - id: 020-documentary-profile
     title: Documentary Profile
-    category: story
-    status: planned
+    category: systems
+    status: available
     path: templates/020-documentary-profile/README.md
-    complexity: intermediate
+    complexity: advanced
     image_mode: optional-documented
+    visual_architecture: va-020
+    audience:
+      - systems-investigator
+      - sre-director
+      - principal-architect
+
   - id: 021-mosaic-portfolio
     title: Mosaic Portfolio
     category: portfolio
-    status: planned
+    status: available
     path: templates/021-mosaic-portfolio/README.md
     complexity: intermediate
     image_mode: local-assets
+    visual_architecture: va-021
+    audience:
+      - creative-developer
+      - ui-engineer
+      - design-technologist
+
   - id: 022-signal-feed
     title: Signal Feed
-    category: developer-experience
-    status: planned
+    category: narrative
+    status: available
     path: templates/022-signal-feed/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-022
+    audience:
+      - engineering-writer
+      - technical-curator
+      - systems-commentator
+
   - id: 023-learning-roadmap
     title: Learning Roadmap
     category: education
-    status: planned
+    status: available
     path: templates/023-learning-roadmap/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: none-required
+    visual_architecture: va-023
+    audience:
+      - self-taught-engineer
+      - computer-science-student
+      - lifelong-learner
+
   - id: 024-pitch-deck
     title: Pitch Deck
-    category: startup
-    status: planned
+    category: product
+    status: available
     path: templates/024-pitch-deck/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-024
+    audience:
+      - startup-founder
+      - technical-ceo
+      - venture-backed-engineer
+
   - id: 025-security-lab
     title: Security Lab
     category: security
-    status: planned
+    status: available
     path: templates/025-security-lab/README.md
     complexity: advanced
     image_mode: none-required
+    visual_architecture: va-025
+    audience:
+      - offensive-security-engineer
+      - vulnerability-researcher
+      - application-security-architect
+
   - id: 026-studio-showcase
     title: Studio Showcase
-    category: studio
-    status: planned
+    category: creative
+    status: available
     path: templates/026-studio-showcase/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-026
+    audience:
+      - creative-technologist
+      - spatial-computing-engineer
+      - design-engineering-studio
+
   - id: 027-briefing-memo
     title: Briefing Memo
-    category: operations
-    status: planned
+    category: executive
+    status: available
     path: templates/027-briefing-memo/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: none-required
+    visual_architecture: va-027
+    audience:
+      - strategy-and-ops-lead
+      - vp-engineering
+      - technical-program-director
+
   - id: 028-manifesto-foundry
     title: Manifesto Foundry
-    category: founder
-    status: planned
+    category: narrative
+    status: available
     path: templates/028-manifesto-foundry/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-028
+    audience:
+      - software-artisan
+      - systems-craftsman
+      - pragmatic-architect
+
   - id: 029-event-brief
     title: Event Brief
-    category: community
-    status: planned
+    category: event
+    status: available
     path: templates/029-event-brief/README.md
-    complexity: beginner
+    complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-029
+    audience:
+      - keynote-speaker
+      - technical-trainer
+      - conference-presenter
+
   - id: 030-community-spotlight
     title: Community Spotlight
     category: community
-    status: planned
+    status: available
     path: templates/030-community-spotlight/README.md
     complexity: intermediate
     image_mode: optional-documented
+    visual_architecture: va-030
+    audience:
+      - community-organizer
+      - conference-speaker
+      - engineering-mentor
