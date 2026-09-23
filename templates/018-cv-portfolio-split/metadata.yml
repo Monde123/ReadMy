@@ -1,0 +1,25 @@
+id: 018-cv-portfolio-split
+title: CV / Portfolio Split
+category: portfolio
+audience:
+  - designer
+  - product-builder
+  - freelancer
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: clean-white
+  animations: none
+  complexity: beginner
+visual_architecture: va-018
+sections:
+  - identity
+  - side-panel
+  - selected-work
+  - approach
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

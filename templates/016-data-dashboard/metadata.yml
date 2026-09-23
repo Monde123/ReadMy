@@ -1,0 +1,26 @@
+id: 016-data-dashboard
+title: Data Dashboard
+category: data
+audience:
+  - data-engineer
+  - product-analyst
+  - product-builder
+style:
+  visual_density: high
+  alignment: left
+  color_palette: analytical-blue
+  animations: none
+  complexity: intermediate
+visual_architecture: va-016
+sections:
+  - identity
+  - overview
+  - analytics-story
+  - outcomes
+  - focus
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

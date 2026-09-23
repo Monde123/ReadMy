@@ -38,6 +38,16 @@ A new template may reuse small components, but not a whole design system.
 | 008 | Technical Lab Notebook | Experiments, observations, and learning notes |
 | 009 | Terminal Interface | Monospace command-style storytelling |
 | 010 | Open Source Hub | Community, contribution, and maintenance focus |
+| 011 | Academic Profile | Research-first, structured, publication-oriented identity |
+| 012 | Timeline Journey | Milestone-based personal story across time |
+| 013 | Magazine Layout | Editorial storytelling with strong feature hierarchy |
+| 014 | Neon Command Center | High-contrast system dashboard with sci-fi mood |
+| 015 | Soft Gradient Landing | Friendly brand-style landing page with warm soft geometry |
+| 016 | Data-rich Dashboard | Metrics, analytics, and evidence-led personal narrative |
+| 017 | Engineering Sheet | Dense technical reference layout for backend systems |
+| 018 | CV / Portfolio Split-Screen | Resume + portfolio dual framing |
+| 019 | Roadmap Flow | Strategic evolution and future direction |
+| 020 | Documentary Chaptered Profile | Narrative reading experience with chaptered sections |
 
 ## Diversity strategy
 

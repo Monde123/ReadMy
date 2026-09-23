@@ -73,3 +73,69 @@ templates:
     title: Academic Profile
     category: academic
     status: planned
+    path: templates/011-academic-profile/README.md
+    complexity: beginner
+    image_mode: none-required
+  - id: 012-timeline-journey
+    title: Timeline Journey
+    category: portfolio
+    status: planned
+    path: templates/012-timeline-journey/README.md
+    complexity: beginner
+    image_mode: optional-documented
+  - id: 013-magazine-editorial
+    title: Magazine Editorial
+    category: editorial
+    status: planned
+    path: templates/013-magazine-editorial/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+  - id: 014-neon-command-center
+    title: Neon Command Center
+    category: creative-tech
+    status: planned
+    path: templates/014-neon-command-center/README.md
+    complexity: advanced
+    image_mode: local-assets
+  - id: 015-soft-gradient-landing
+    title: Soft Gradient Landing
+    category: product
+    status: planned
+    path: templates/015-soft-gradient-landing/README.md
+    complexity: beginner
+    image_mode: optional-documented
+  - id: 016-data-dashboard
+    title: Data Dashboard
+    category: data
+    status: planned
+    path: templates/016-data-dashboard/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+  - id: 017-engineering-sheet
+    title: Engineering Sheet
+    category: backend
+    status: planned
+    path: templates/017-engineering-sheet/README.md
+    complexity: advanced
+    image_mode: none-required
+  - id: 018-cv-portfolio-split
+    title: CV / Portfolio Split
+    category: portfolio
+    status: planned
+    path: templates/018-cv-portfolio-split/README.md
+    complexity: beginner
+    image_mode: optional-documented
+  - id: 019-roadmap-flow
+    title: Roadmap Flow
+    category: product-strategy
+    status: planned
+    path: templates/019-roadmap-flow/README.md
+    complexity: intermediate
+    image_mode: none-required
+  - id: 020-documentary-profile
+    title: Documentary Profile
+    category: story
+    status: planned
+    path: templates/020-documentary-profile/README.md
+    complexity: intermediate
+    image_mode: optional-documented

@@ -1,0 +1,26 @@
+id: 011-academic-profile
+title: Academic Profile
+category: academic
+audience:
+  - researcher
+  - student
+  - academic-collaborator
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: muted-academic
+  animations: none
+  complexity: beginner
+visual_architecture: va-011
+sections:
+  - identity
+  - research-focus
+  - selected-work
+  - methods
+  - education
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

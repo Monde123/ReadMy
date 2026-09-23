@@ -52,3 +52,22 @@ All ten template README files were reworked to reflect their assigned visual arc
 ### Decision
 
 The project now treats diversity as a first-class requirement: each template must carry a distinct composition, not just a different subject or color palette.
+
+## 2026-09-23 — Expanded visual diversity to 011–020
+
+### Added
+
+- `011-academic-profile`
+- `012-timeline-journey`
+- `013-magazine-editorial`
+- `014-neon-command-center`
+- `015-soft-gradient-landing`
+- `016-data-dashboard`
+- `017-engineering-sheet`
+- `018-cv-portfolio-split`
+- `019-roadmap-flow`
+- `020-documentary-profile`
+
+### Design coverage
+
+The library now spans academic, editorial, command-center, product-landing, dashboard, engineering-sheet, split-screen portfolio, roadmap, and documentary chaptered layouts, preserving a distinct visual identity across all ten additions.

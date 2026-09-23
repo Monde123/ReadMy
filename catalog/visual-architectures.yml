@@ -118,3 +118,123 @@ visual_architectures:
     skill_format: principles-grid
     image_strategy: optional-documented
     assigned_to: 010-open-source-builder
+
+  - id: va-011
+    name: Academic Profile
+    type: academic
+    layout: paper-grid
+    alignment: left
+    density: medium
+    navigation: section-links
+    project_format: publication-cards
+    skill_format: taxonomy
+    image_strategy: none-required
+    assigned_to: 011-academic-profile
+
+  - id: va-012
+    name: Timeline Journey
+    type: portfolio
+    layout: timeline
+    alignment: left
+    density: medium
+    navigation: year-index
+    project_format: milestone-cards
+    skill_format: timeline-tags
+    image_strategy: optional-documented
+    assigned_to: 012-timeline-journey
+
+  - id: va-013
+    name: Magazine Layout
+    type: editorial
+    layout: magazine
+    alignment: left
+    density: high
+    navigation: section-anchors
+    project_format: feature-story
+    skill_format: editorial-columns
+    image_strategy: optional-documented
+    assigned_to: 013-magazine-editorial
+
+  - id: va-014
+    name: Neon Command Center
+    type: creative-tech
+    layout: command-center
+    alignment: center
+    density: high
+    navigation: quick-links
+    project_format: system-panels
+    skill_format: status-grid
+    image_strategy: local-assets
+    assigned_to: 014-neon-command-center
+
+  - id: va-015
+    name: Soft Gradient Landing
+    type: brand-product
+    layout: gradient-landing
+    alignment: center
+    density: medium
+    navigation: hero-links
+    project_format: feature-spotlight
+    skill_format: pill-sets
+    image_strategy: optional-documented
+    assigned_to: 015-soft-gradient-landing
+
+  - id: va-016
+    name: Data-rich Dashboard
+    type: data
+    layout: dashboard
+    alignment: left
+    density: high
+    navigation: compact-index
+    project_format: metric-panels
+    skill_format: data-matrix
+    image_strategy: optional-documented
+    assigned_to: 016-data-dashboard
+
+  - id: va-017
+    name: Engineering Sheet
+    type: backend
+    layout: dense-sheet
+    alignment: left
+    density: high
+    navigation: anchor-index
+    project_format: system-summary
+    skill_format: capability-sheet
+    image_strategy: none-required
+    assigned_to: 017-engineering-sheet
+
+  - id: va-018
+    name: CV / Portfolio Split-Screen
+    type: portfolio
+    layout: split-screen
+    alignment: left
+    density: medium
+    navigation: side-nav
+    project_format: portfolio-panels
+    skill_format: dual-column
+    image_strategy: optional-documented
+    assigned_to: 018-cv-portfolio-split
+
+  - id: va-019
+    name: Roadmap Flow
+    type: product-strategy
+    layout: roadmap
+    alignment: left
+    density: medium
+    navigation: stage-links
+    project_format: milestone-roadmap
+    skill_format: phase-list
+    image_strategy: none-required
+    assigned_to: 019-roadmap-flow
+
+  - id: va-020
+    name: Documentary Chaptered Profile
+    type: story
+    layout: chaptered
+    alignment: left
+    density: medium
+    navigation: chapter-index
+    project_format: narrative-sections
+    skill_format: chapter-tags
+    image_strategy: optional-documented
+    assigned_to: 020-documentary-profile

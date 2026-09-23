@@ -1,0 +1,25 @@
+id: 017-engineering-sheet
+title: Engineering Sheet
+category: backend
+audience:
+  - backend-engineer
+  - platform-engineer
+  - systems-builder
+style:
+  visual_density: high
+  alignment: left
+  color_palette: technical-neutral
+  animations: none
+  complexity: advanced
+visual_architecture: va-017
+sections:
+  - identity
+  - system-context
+  - architecture-profile
+  - implementation-notes
+  - contact
+anonymized: true
+images:
+  external: none
+  local_assets: none
+  alt_text_required: false

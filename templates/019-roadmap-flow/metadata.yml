@@ -1,0 +1,25 @@
+id: 019-roadmap-flow
+title: Roadmap Flow
+category: product-strategy
+audience:
+  - product-builder
+  - strategist
+  - technical-founder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: strategic-neutral
+  animations: none
+  complexity: intermediate
+visual_architecture: va-019
+sections:
+  - identity
+  - roadmap
+  - current-direction
+  - principles
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true
