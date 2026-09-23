@@ -1,0 +1,15 @@
+title: Prolific Toolmaker & CLI Crafter
+category: open-source
+status: available
+complexity: intermediate
+image_mode: optional-documented
+visual_architecture: va-039
+audience:
+  - cli-tool-developer
+  - open-source-package-creator
+  - full-stack-indie-builder
+features:
+  - Structured multi-tier project & package catalog (Active, CLI, Legacy)
+  - Go-skill-icons categorized tech stacks
+  - OneDark themed GitHub streak and stats
+  - BuyMeACoffee sponsorship callout

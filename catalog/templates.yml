@@ -493,4 +493,18 @@ templates:
       - ai-researcher
       - data-science-scholar
 
+  - id: 039-prolific-toolmaker-hacker
+    title: Prolific Toolmaker & CLI Crafter
+    category: open-source
+    status: available
+    path: templates/039-prolific-toolmaker-hacker/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+    visual_architecture: va-039
+    audience:
+      - cli-tool-developer
+      - open-source-package-creator
+      - full-stack-indie-builder
+
+
 
