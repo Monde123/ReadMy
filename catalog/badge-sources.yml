@@ -1,0 +1,66 @@
+sources:
+  - id: shields
+    name: Shields.io
+    role: badge-library
+    url: https://img.shields.io
+    guidance: Use these as neutral badges for technologies, stack, and status. Avoid personal identifiers.
+    categories:
+      - technology
+      - status
+      - learning-track
+      - availability
+      - environment
+
+  - id: simple-icons
+    name: Simple Icons
+    role: service-badges
+    url: https://simpleicons.org
+    guidance: Best for recognizable platforms like GitHub, GitLab, Flutter, React, Docker, and similar tools.
+    categories:
+      - platform
+      - tool
+      - ecosystem
+
+  - id: devicon
+    name: Devicon
+    role: technology-icons
+    url: https://cdn.jsdelivr.net/gh/devicons/devicon/icons
+    guidance: Great for tech stacks in a more classic icon style. Use in a labeled cluster, not alone.
+    categories:
+      - language
+      - framework
+      - database
+      - cloud
+      - tooling
+
+  - id: skill-icons
+    name: Skill Icons
+    role: grouped-stack-icons
+    url: https://skillicons.dev
+    guidance: Best in compact groups of 5-10 technologies. Label them explicitly in text to avoid ambiguity.
+    categories:
+      - stack
+      - developer-tools
+      - frontend
+      - backend
+      - data
+
+  - id: shields-badges
+    name: Shields Badges
+    role: status-badges
+    url: https://img.shields.io/badge
+    guidance: Standard badges for status, availability, contact points, and quick access actions.
+    categories:
+      - call-to-action
+      - contact
+      - availability
+      - profile-action
+
+  - id: static-badge-sets
+    name: Static Badge Sets
+    role: local-asset-or-documentation
+    url: local
+    guidance: Prefer local SVG badge variants when the badge is needed repeatedly across templates.
+    categories:
+      - neutral-badges
+      - template-consistent-badges

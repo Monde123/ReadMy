@@ -1,0 +1,89 @@
+sources:
+  - id: devicon
+    name: Devicon
+    role: technology-icons
+    url: https://cdn.jsdelivr.net/gh/devicons/devicon/icons
+    guidance: Best for classic technology icons. Use alongside visible text labels and provide local alternatives when necessary.
+    families:
+      - programming-languages
+      - frameworks
+      - databases
+      - devops
+      - operating-systems
+
+  - id: skill-icons
+    name: Skill Icons
+    role: technology-icons
+    url: https://skillicons.dev
+    guidance: Convenient for a stacked icon set. Use only when there is a nearby explanatory label.
+    families:
+      - language-icons
+      - stack-icons
+      - tooling-icons
+
+  - id: shields
+    name: Shields.io
+    role: badges
+    url: https://img.shields.io
+    guidance: Use for neutral status badges, technology labels, and compatibility markers. Keep references generic and non-personal.
+    families:
+      - technology-badges
+      - lifecycle-badges
+      - contact-badges
+
+  - id: simple-icons
+    name: Simple Icons
+    role: badges-and-icons
+    url: https://simpleicons.org
+    guidance: Great for explicit service or platform badges. Use with a real text label when possible.
+    families:
+      - services
+      - ecosystems
+      - social-platforms
+
+  - id: github-readme-stats
+    name: GitHub Readme Stats
+    role: statistics
+    url: https://github-readme-stats.vercel.app
+    guidance: Use sample placeholders like example-user and explain replacement variables. Keep it purely stat-driven.
+    families:
+      - contribution-statistics
+      - language-statistics
+      - profile-summary
+
+  - id: readme-typing-svg
+    name: Readme Typing SVG
+    role: animated-text
+    url: https://readme-typing-svg.demolab.com
+    guidance: Optional highlight only. It should not carry the full meaning of the README.
+    families:
+      - animated-headings
+      - minimal-motion
+
+  - id: capsul-render
+    name: Capsule Render
+    role: decorative-header
+    url: https://capsule-render.vercel.app
+    guidance: Decorative only. Never place essential identity information only inside this banner.
+    families:
+      - headers
+      - wave-and-hero-sections
+
+  - id: github-profile-summary-cards
+    name: GitHub Profile Summary Cards
+    role: profile-summaries
+    url: https://github-profile-summary-cards.vercel.app
+    guidance: Use for a compact dashboard style. Helpful for data-rich templates.
+    families:
+      - profile-details
+      - repos-per-language
+      - most-used-language
+
+  - id: streak-stats
+    name: GitHub Readme Streak Stats
+    role: contribution-status
+    url: https://streak-stats.demolab.com
+    guidance: Keep it optional and secondary to the portfolio content.
+    families:
+      - streak-analytics
+      - productivity-statistics
