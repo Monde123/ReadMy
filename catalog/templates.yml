@@ -480,3 +480,17 @@ templates:
       - flutter-mobile-engineer
       - full-stack-web-developer
 
+  - id: 038-ai-research-innovator
+    title: AI Researcher & Applied ML Innovator
+    category: ai-data
+    status: available
+    path: templates/038-ai-research-innovator/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+    visual_architecture: va-038
+    audience:
+      - machine-learning-engineer
+      - ai-researcher
+      - data-science-scholar
+
+

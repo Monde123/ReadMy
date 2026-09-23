@@ -443,5 +443,18 @@ visual_architectures:
     image_strategy: optional-documented
     assigned_to: 037-mern-flutter-capsule
 
+  - id: va-038
+    name: AI Researcher & Applied ML Innovator
+    type: ai-data
+    layout: scholar-matrix
+    alignment: center-split
+    density: high
+    navigation: academic-badges
+    project_format: paper-implementations
+    skill_format: matrix-three-column
+    image_strategy: optional-documented
+    assigned_to: 038-ai-research-innovator
+
+
 
 
