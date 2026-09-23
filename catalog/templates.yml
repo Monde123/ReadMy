@@ -453,3 +453,16 @@ templates:
       - security-researcher
       - reverse-engineer
       - stealth-architect
+
+  - id: 036-fintech-saas-builder
+    title: FinTech & SaaS Production Builder
+    category: applied-profile
+    status: available
+    path: templates/036-fintech-saas-builder/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+    visual_architecture: va-036
+    audience:
+      - fullstack-saas-developer
+      - fintech-payment-engineer
+      - emerging-market-tech-founder

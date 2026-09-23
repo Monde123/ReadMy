@@ -419,3 +419,16 @@ visual_architectures:
     image_strategy: none-required
     assigned_to: 035-top-secret-dossier
 
+  - id: va-036
+    name: FinTech & SaaS Production Builder
+    type: applied-profile
+    layout: commercial-saas
+    alignment: center-split
+    density: high
+    navigation: header-badges
+    project_format: commercial-products
+    skill_format: skillicons-taxonomy
+    image_strategy: optional-documented
+    assigned_to: 036-fintech-saas-builder
+
+
