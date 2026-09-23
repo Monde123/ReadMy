@@ -1,7 +1,22 @@
-# Customizing Engineering Sheet
+# Customization Guide: Engineering Blueprint Sheet
 
-This template suits backend, platform, or systems-heavy profiles where clarity, reliability, and structure are more important than visual polish.
+The `017-engineering-sheet` template models your profile after an industrial **Engineering Drawing & Reliability Blueprint Sheet**, ideal for Principal SREs, Cloud Architects, and Infrastructure Engineers.
 
-Replace the fictional stack, architecture notes, and operational concerns with your own work. Keep the section logic if it matches your role, or simplify it for a more focused profile.
+## Quick Start (3 Steps)
 
-The template is intentionally information-dense. It is designed to read like a concise technical brief rather than a marketing page.
+1. **Title Block & Credentials**:
+   - Customize the ASCII Drawing Header block (Drawing Number, Revision, Project Name, Lead Architect).
+   - Replace `Samantha Weiss, PE` with your name, certifications, and licenses.
+
+2. **Reliability Scorecard & Blueprint Matrix**:
+   - Update the 4 quantitative SLO scorecard cells (Annual Uptime, MTTR, P99 Latency, RPO/RTO).
+   - Customize the Architectural Blueprint table with your specific failover mechanisms and redundancy strategies.
+
+3. **Failure Mode Analysis (FMEA) & Checklists**:
+   - Populate the FMEA table with edge cases you have solved in production.
+   - Adjust the Architectural Verification Checklist to reflect your operational standards.
+
+## Industry Rigour
+
+- Demonstrates rigorous, disciplined engineering thinking rather than buzzwords.
+- Compatible with all markdown parsers, with clear ASCII borders and high-contrast tables.

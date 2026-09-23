@@ -1,23 +1,24 @@
 id: 022-signal-feed
 title: Signal Feed
-category: developer-experience
+category: narrative
 audience:
-  - developer-advocate
-  - technical-writer
-  - community-builder
+  - engineering-writer
+  - technical-curator
+  - systems-commentator
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: signal-ink
+  visual_density: high
+  alignment: centered-dispatch
+  color_palette: radio-blue-amber
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-022
 sections:
-  - identity
-  - signal-feed
-  - focus-areas
-  - public-work
-  - contact
+  - station-masthead
+  - publication-badges
+  - recent-dispatches-table
+  - reading-annotations-grid
+  - technology-radar-block
+  - rss-subscription-footer
 anonymized: true
 images:
   external: optional

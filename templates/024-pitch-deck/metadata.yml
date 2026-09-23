@@ -1,24 +1,26 @@
 id: 024-pitch-deck
 title: Pitch Deck
-category: startup
+category: product
 audience:
-  - founder
-  - product-builder
-  - startup-operator
+  - startup-founder
+  - technical-ceo
+  - venture-backed-engineer
 style:
-  visual_density: medium
-  alignment: center
-  color_palette: boardroom-light
+  visual_density: high
+  alignment: centered-slides
+  color_palette: venture-emerald-indigo
   animations: none
   complexity: intermediate
 visual_architecture: va-024
 sections:
-  - identity
-  - problem
-  - solution
-  - why-now
-  - current-focus
-  - contact
+  - company-station-masthead
+  - venture-traction-badges
+  - slide-01-pain-point
+  - slide-02-solution
+  - slide-03-traction-matrix
+  - slide-04-defensive-moat
+  - slide-05-team-and-round-ask
+  - investor-dataroom-footer
 anonymized: true
 images:
   external: optional

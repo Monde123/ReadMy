@@ -1,25 +1,24 @@
 id: 008-robotics-stem
-title: Robotics & STEM
-category: student
+title: Robotics STEM
+category: hardware
 audience:
   - robotics-engineer
-  - stem-builder
-  - applied-researcher
+  - embedded-firmware-developer
+  - mechatronics-specialist
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: lab-slate
+  visual_density: high
+  alignment: centered-spec-sheet
+  color_palette: industrial-amber-slate
   animations: none
-  complexity: intermediate
+  complexity: advanced
 visual_architecture: va-008
 sections:
-  - hypothesis
-  - current-experiment
-  - lab-log
-  - toolkit
-  - research-interests
-  - field-notes
-  - contact
+  - hardware-masthead
+  - perception-control-flow
+  - hardware-bom-table
+  - robotics-platforms-grid
+  - safety-standards
+  - lab-connect-footer
 anonymized: true
 images:
   external: optional

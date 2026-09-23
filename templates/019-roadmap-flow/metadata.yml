@@ -1,23 +1,24 @@
 id: 019-roadmap-flow
 title: Roadmap Flow
-category: product-strategy
+category: narrative
 audience:
-  - product-builder
-  - strategist
-  - technical-founder
+  - platform-engineer
+  - product-architect
+  - technical-program-manager
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: strategic-neutral
+  visual_density: high
+  alignment: centered-matrix
+  color_palette: emerald-azure-amber
   animations: none
   complexity: intermediate
 visual_architecture: va-019
 sections:
-  - identity
-  - roadmap
-  - current-direction
-  - principles
-  - contact
+  - roadmap-masthead
+  - cadence-badge-row
+  - quarterly-roadmap-matrix
+  - milestone-progress-bars
+  - open-rfcs-table
+  - community-feedback-footer
 anonymized: true
 images:
   external: optional

@@ -1,23 +1,24 @@
 id: 018-cv-portfolio-split
-title: CV / Portfolio Split
-category: portfolio
+title: CV Portfolio Split
+category: professional
 audience:
-  - designer
-  - product-builder
-  - freelancer
+  - lead-architect
+  - vp-engineering
+  - senior-staff-engineer
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: clean-white
+  visual_density: high
+  alignment: split-two-column
+  color_palette: slate-executive-monochrome
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-018
 sections:
-  - identity
-  - side-panel
-  - selected-work
-  - approach
-  - contact
+  - split-table-wrapper
+  - left-curriculum-vitae-dossier
+  - right-mission-and-philosophy
+  - right-flagship-implementations
+  - right-career-trajectory-tree
+  - dossier-footer
 anonymized: true
 images:
   external: optional

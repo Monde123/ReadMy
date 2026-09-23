@@ -1,50 +1,97 @@
-# Build Sheet
+<!-- READMY_TEMPLATE: 017-engineering-sheet -->
+<div align="center">
 
-### Backend systems & platform reliability
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ DRAWING NO: ENG-2026-SYS-017   │ REVISION: REV-D (PRODUCTION APPROVED)  │ SHEET: 1 OF 1│
+│ PROJECT: DISTRIBUTED INFRASTRUCTURE RELIABILITY BLUEPRINT & SRE SCORECARD             │
+│ LEAD ARCHITECT: SAMANTHA WEISS, PE  │ DISCIPLINE: SITE RELIABILITY & CLOUD PLATFORMS  │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-I design systems that are clear under load, understandable in operation, and resilient enough to support real-world scale.
+# Samantha Weiss, PE
+### Principal Reliability Engineer • High-Availability Cloud Infrastructure
 
-## System context
+Designing fault-tolerant, self-healing platforms with mathematically provable SLAs and zero-downtime deployment pipelines.
 
-### Core responsibilities
-- API design and service boundaries
-- Reliability and observability
-- Developer tooling and operational clarity
-- Performance and lifecycle review
+<p>
+  <img src="https://img.shields.io/badge/Certification-AWS_Solutions_Architect_Pro-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS Pro" />
+  <img src="https://img.shields.io/badge/Certification-CKA_Certified_Kubernetes_Admin-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="CKA" />
+  <img src="https://img.shields.io/badge/License-Professional_Engineer_(PE)-059669?style=flat-square" alt="PE" />
+  <img src="https://img.shields.io/badge/Status-Review_Board_Chair-1e293b?style=flat-square" alt="Review Board" />
+</p>
 
-### Primary stack
-- Languages: Go, TypeScript, Python
-- Systems: distributed services, queues, APIs, monitoring
-- Practices: documentation, contracts, incident review
+</div>
 
-## Current architecture profile
+---
 
-### Platform services
-A set of internal workflows for managing service communication, resilience, and release safety.
+## 📊 Production SLA & Reliability Scorecard
 
-`API Design` `Infrastructure` `Observability`
+<table width="100%">
+  <tr>
+    <td width="25%" align="center">
+      <h4>🎯 ANNUAL UPTIME</h4>
+      <p><code>99.995%</code></p>
+      <small>Downtime budget: 26.3 min/yr</small>
+    </td>
+    <td width="25%" align="center">
+      <h4>⏱️ MTTR</h4>
+      <p><code>&lt; 4.2 Minutes</code></p>
+      <small>Automated canary rollback</small>
+    </td>
+    <td width="25%" align="center">
+      <h4>⚡ P99 LATENCY</h4>
+      <p><code>&lt; 14 ms</code></p>
+      <small>Global edge termination</small>
+    </td>
+    <td width="25%" align="center">
+      <h4>🛡️ RPO / RTO</h4>
+      <p><code>0s / &lt; 30s</code></p>
+      <small>Continuous WAL streaming</small>
+    </td>
+  </tr>
+</table>
 
-### Reliability engineering
-Small but high-leverage improvements in logging, metrics, and failure handling.
+---
 
-`Monitoring` `Incident Review` `Ops` `Resilience`
+## 📐 Architectural Blueprint & Redundancy Strategy
 
-### Developer enablement
-Structured conventions and tooling that help teams move quickly without losing clarity.
+| Subsystem Tier | Active Technology | Redundancy Architecture | Failover Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Edge Ingress** | Cloudflare Workers + Anycast DNS | Multi-region BGP routing | Automated DNS health-check reroute (&lt; 3s) |
+| **Control Plane** | Kubernetes v1.31 (3 Control Nodes) | Multi-AZ etcd quorum | Raft leader election with quorum lease |
+| **Compute Mesh** | Nomad + Cilium Service Mesh | Auto-scaling worker pools | Health check eviction + container reschedule |
+| **Storage Engine** | PostgreSQL Multi-AZ Cluster | Synchronous streaming replica | Patroni automated leader failover (&lt; 10s) |
+| **Observability** | Prometheus Agent + Thanos | Dual-scrape collectors | Object store long-term retention + PagerDuty |
 
-`Tooling` `Documentation` `Automation` `Standards`
+---
 
-## Implementation notes
+## 🔍 Failure Mode and Effects Analysis (FMEA)
 
-- Prefer simple interfaces over hidden complexity.
-- Keep contracts explicit and discoverable.
-- Treat observability as a product feature, not a side task.
-- Make operational trade-offs visible and reviewable.
+| Potential Failure Mode | Potential Effect | Severity | Prevention & Detection Control |
+| :--- | :--- | :---: | :--- |
+| **Cloud Region Blackhole** | Total loss of primary AZ | `HIGH` | Active-active cross-region warm standbys with Envoy routing |
+| **Database Connection Exhaustion**| Application HTTP 500 spike | `CRITICAL` | Kernel-level PgBouncer connection pooling with client queuing |
+| **Memory Leak in Ingress Proxy** | Container OOM kill | `MEDIUM` | Automated cgroup memory limit alerts + graceful rolling restarts |
 
-## Contact
+---
 
-- GitHub: [example-user](https://github.com/example-user)
-- Architecture notes: [example.systems](https://example.systems)
-- Email: hello@example.systems
+## 📋 Architectural Verification Checklist
 
-> The best engineering systems are understandable in a crisis and useful in the day-to-day.
+- [x] All stateful workloads back up encrypted snapshots every 60 minutes with tested restore drills.
+- [x] Chaos engineering tests (Chaos Mesh) run automatically on weekly staging builds.
+- [x] Zero-trust mutual TLS (mTLS) enforced on 100% of internal pod-to-pod communications.
+- [x] PagerDuty runbooks linked directly in Prometheus alert annotations.
+
+---
+
+<div align="center">
+
+```text
+====================================================================================================
+ BLUEPRINT APPROVAL SEAL: S. WEISS, PE #48291 // STAMP VALIDATED FOR PRODUCTION IMPLEMENTATION
+ Contacts: samantha@reliability.pe  •  GitHub: @example-user  •  Incident Post-Mortems: /postmortems
+====================================================================================================
+```
+
+</div>

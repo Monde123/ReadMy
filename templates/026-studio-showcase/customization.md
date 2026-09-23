@@ -1,7 +1,22 @@
-# Customizing Studio Showcase
+# Customization Guide: Studio Showcase
 
-This template suits independent practitioners, design studios, and builders who want to present their work with a curated, high-end visual tone.
+The `026-studio-showcase` template formats your GitHub presence as an authentic **Creative Technology Studio & Collective Roster**, tailored for creative technologists, spatial web agencies, audiovisual collectives, and design engineering consultancies.
 
-Swap in your studio name, project references, and service lines. Keep the focus on how you think and what you make rather than only the technologies you use.
+## Quick Start (3 Steps)
 
-The design remains legible even without visuals, so it is useful as both a portfolio and a concise professional landing page.
+1. **Studio Header & Badges**:
+   - Customize the studio name (`KINESIS STUDIO`) and city hubs (London, Berlin, Tokyo).
+   - Update top badges with commissions shipped, core stack (WebGPU, Three.js, Rust), and booking availability.
+
+2. **Studio Disciplines & Flagship Commissions**:
+   - Update the 4 studio disciplines (Spatial Web, Audiovisual Systems, Physical Computing, High-FPS Frontends).
+   - Feature 2 client commissions or interactive installations with technical specs (resolutions, frame timings, hardware sensors).
+
+3. **Collaboration Workflow & Collective Partners**:
+   - Customize the 4-phase studio delivery workflow.
+   - List the partners and specialists in your studio collective.
+   - Update contact coordinates for commissioning new work.
+
+## Creative Authority
+
+- Sets your creative engineering practice apart with tangible technical benchmarks, shader architectures, and installation stability standards.

@@ -2,23 +2,24 @@ id: 011-academic-profile
 title: Academic Profile
 category: academic
 audience:
-  - researcher
-  - student
-  - academic-collaborator
+  - university-professor
+  - postdoctoral-researcher
+  - phd-candidate
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: muted-academic
+  visual_density: high
+  alignment: centered-scholar
+  color_palette: oxford-blue-crimson
   animations: none
-  complexity: beginner
+  complexity: advanced
 visual_architecture: va-011
 sections:
-  - identity
-  - research-focus
-  - selected-work
-  - methods
-  - education
-  - contact
+  - scholar-masthead
+  - citation-metric-badges
+  - mathematical-formulation-block
+  - peer-reviewed-publications-table
+  - doctoral-dissertation-accordion
+  - academic-service-list
+  - scholarly-contacts-footer
 anonymized: true
 images:
   external: optional

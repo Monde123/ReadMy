@@ -2,26 +2,25 @@ id: 001-minimal-clean
 title: Minimal Clean
 category: minimal
 audience:
-  - software-developer
-  - student
-  - freelancer
+  - backend-engineer
+  - systems-programmer
+  - minimalist-developer
 style:
   visual_density: low
-  alignment: left
-  color_palette: neutral
+  alignment: left-minimal
+  color_palette: monochrome-paper
   animations: none
   complexity: beginner
 visual_architecture: va-001
 sections:
-  - identity
-  - summary
-  - skills
-  - technologies
-  - projects
-  - learning
-  - contact
+  - name-and-discipline
+  - focus-and-practice
+  - selected-engineering-list
+  - capabilities-and-systems
+  - writing-and-dispatches
+  - clean-index-footer
 anonymized: true
 images:
-  external: false
-  local_assets: optional
-  alt_text_required: true
+  external: none
+  local_assets: none
+  alt_text_required: false

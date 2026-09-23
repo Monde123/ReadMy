@@ -2,22 +2,24 @@ id: 025-security-lab
 title: Security Lab
 category: security
 audience:
-  - security-engineer
-  - platform-builder
-  - systems-researcher
+  - security-researcher
+  - application-security-engineer
+  - penetration-tester
 style:
   visual_density: high
-  alignment: left
-  color_palette: security-graphite
+  alignment: centered-terminal-shield
+  color_palette: crimson-emerald-slate
   animations: none
   complexity: advanced
 visual_architecture: va-025
 sections:
-  - identity
-  - threat-model
-  - security-posture
-  - current-practice
-  - contact
+  - warning-masthead
+  - credential-badges
+  - threat-modeling-matrix
+  - coordinated-disclosures-grid
+  - security-toolchain-table
+  - pgp-public-key-block
+  - disclosure-policy-footer
 anonymized: true
 images:
   external: optional

@@ -1,7 +1,22 @@
-# Customizing Learning Roadmap
+# Customization Guide: Learning Roadmap
 
-Use this template when you want your profile to communicate growth, curiosity, and a clear path of learning.
+The `023-learning-roadmap` template organizes your profile as an inspiring **Self-Directed Computer Science Curriculum & Learning Tracker**, featuring interactive GitHub markdown checkboxes, syllabus tiers, and completed lab exercises.
 
-Replace the roadmap stages, learning threads, and study loops with your own progress. This template works well when your expertise is increasing through building, reading, and reflection rather than static accomplishments alone.
+## Quick Start (3 Steps)
 
-The structure is intentionally simple and legible, so it remains useful even if you prefer a more minimal profile.
+1. **Header & Progress Badges**:
+   - Replace `Jesse Thorne` with your name and study objective.
+   - Update top badges with your current focus, total logged study hours, syllabus module progress, and current active streak.
+
+2. **The 4-Tier Master Syllabus**:
+   - Customize the 4 tiers (e.g. Systems, OS, Distributed Systems, Compilers) to reflect your actual learning track.
+   - Toggle completed checkboxes with `[x]` and in-progress/future topics with `[ ]`.
+
+3. **Open Lab Repositories & Study Routine**:
+   - Link your actual solution repositories for classic university courses (MIT 6.824, CS:APP, xv6, Stanford CS144).
+   - Customize the weekly study schedule demonstrating your deliberate practice and discipline.
+
+## Relentless Curiosity
+
+- Highlights immense grit, discipline, and self-motivation—traits universally prized by engineering managers and founders.
+- Markdown checkboxes `[x]` render natively in GitHub as interactive task lists.

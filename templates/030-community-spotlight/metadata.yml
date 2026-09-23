@@ -2,22 +2,23 @@ id: 030-community-spotlight
 title: Community Spotlight
 category: community
 audience:
-  - maintainer
-  - community-builder
-  - open-source-operator
+  - community-organizer
+  - conference-speaker
+  - engineering-mentor
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: community-garden
+  visual_density: high
+  alignment: centered-spotlight
+  color_palette: purple-emerald-rose
   animations: none
   complexity: intermediate
 visual_architecture: va-030
 sections:
-  - identity
-  - community-map
-  - shared-practices
-  - current-work
-  - contact
+  - community-masthead
+  - impact-metric-badges
+  - conference-talks-archive
+  - mentorship-office-hours-grid
+  - community-initiatives-list
+  - speaker-rider-footer
 anonymized: true
 images:
   external: optional

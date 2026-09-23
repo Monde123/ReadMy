@@ -1,25 +1,26 @@
 id: 017-engineering-sheet
 title: Engineering Sheet
-category: backend
+category: systems
 audience:
-  - backend-engineer
-  - platform-engineer
-  - systems-builder
+  - principal-reliability-engineer
+  - cloud-architect
+  - infrastructure-director
 style:
   visual_density: high
-  alignment: left
-  color_palette: technical-neutral
+  alignment: centered-blueprint
+  color_palette: industrial-blueprint-cyan
   animations: none
   complexity: advanced
 visual_architecture: va-017
 sections:
-  - identity
-  - system-context
-  - architecture-profile
-  - implementation-notes
-  - contact
+  - drawing-title-block
+  - sla-reliability-scorecard
+  - architectural-blueprint-table
+  - fmea-risk-matrix
+  - verification-checklist
+  - approval-seal-footer
 anonymized: true
 images:
-  external: none
-  local_assets: none
-  alt_text_required: false
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

@@ -1,23 +1,24 @@
 id: 012-timeline-journey
 title: Timeline Journey
-category: portfolio
+category: narrative
 audience:
-  - product-builder
-  - engineer
-  - career-switcher
+  - staff-engineer
+  - engineering-leader
+  - veteran-developer
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: neutral-chronicle
+  visual_density: high
+  alignment: centered-timeline
+  color_palette: slate-azure-emerald
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-012
 sections:
-  - identity
-  - timeline
-  - milestones
-  - focus
-  - contact
+  - narrative-masthead
+  - career-metric-badges
+  - chronological-timeline-tree
+  - architectural-bets-table
+  - technology-lifecycle-matrix
+  - retrospectives-footer
 anonymized: true
 images:
   external: optional

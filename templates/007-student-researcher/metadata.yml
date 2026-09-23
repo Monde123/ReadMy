@@ -2,25 +2,25 @@ id: 007-student-researcher
 title: Student Researcher
 category: academic
 audience:
-  - computer-science-student
-  - ai-student
-  - junior-researcher
+  - undergraduate-researcher
+  - graduate-student
+  - academic-intern
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: academic-blue
+  visual_density: high
+  alignment: centered-academic
+  color_palette: oxford-blue-slate
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-007
 sections:
-  - identity
-  - academic-focus
-  - learning-path
-  - experiments
-  - goals
-  - contact
+  - university-affiliation-masthead
+  - academic-credential-badges
+  - lab-rotations-grid
+  - open-coursework-syllabi-table
+  - academic-milestone-tree
+  - advisor-contacts-footer
 anonymized: true
 images:
-  external: false
-  local_assets: optional
+  external: optional
+  local_assets: recommended
   alt_text_required: true

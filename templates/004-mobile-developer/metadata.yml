@@ -2,24 +2,23 @@ id: 004-mobile-developer
 title: Mobile Developer
 category: mobile
 audience:
-  - mobile-developer
-  - flutter-developer
-  - react-native-developer
+  - ios-engineer
+  - android-engineer
+  - mobile-platform-architect
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: mobile-purple
-  animations: optional
-  complexity: beginner
+  visual_density: high
+  alignment: centered-dual-device
+  color_palette: apple-google-slate
+  animations: none
+  complexity: intermediate
 visual_architecture: va-004
 sections:
-  - identity
-  - summary
-  - mobile-stack
-  - products
-  - strengths
-  - learning
-  - contact
+  - mobile-masthead
+  - store-metrics-badges
+  - dual-device-showcase
+  - mobile-architecture-table
+  - delivery-pipeline-tree
+  - store-links-footer
 anonymized: true
 images:
   external: optional

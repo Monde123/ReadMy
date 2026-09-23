@@ -2,22 +2,22 @@ id: 013-magazine-editorial
 title: Magazine Editorial
 category: editorial
 audience:
-  - designer
-  - writer
-  - product-builder
+  - product-engineer
+  - technical-writer
+  - design-systems-lead
 style:
   visual_density: high
-  alignment: left
-  color_palette: editorial-paper
+  alignment: editorial-columns
+  color_palette: ink-paper-serif
   animations: none
   complexity: intermediate
 visual_architecture: va-013
 sections:
-  - identity
-  - editorial-lead
-  - feature-articles
-  - themes
-  - contact
+  - publication-masthead
+  - lead-story-split-column
+  - case-studies-grid
+  - selected-essays-table
+  - correspondence-footer
 anonymized: true
 images:
   external: optional

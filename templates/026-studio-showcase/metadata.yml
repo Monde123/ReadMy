@@ -1,23 +1,25 @@
 id: 026-studio-showcase
 title: Studio Showcase
-category: studio
+category: creative
 audience:
-  - designer
-  - freelancer
-  - creative-builder
+  - creative-technologist
+  - spatial-computing-engineer
+  - design-engineering-studio
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: studio-paper
+  visual_density: high
+  alignment: centered-studio
+  color_palette: purple-gold-slate
   animations: none
   complexity: intermediate
 visual_architecture: va-026
 sections:
-  - identity
-  - studio-focus
-  - recent-work
-  - principles
-  - contact
+  - studio-masthead
+  - practice-badges
+  - disciplines-capabilities-table
+  - client-commissions-grid
+  - collaboration-workflow-tree
+  - collective-partners-list
+  - commission-inquiries-footer
 anonymized: true
 images:
   external: optional

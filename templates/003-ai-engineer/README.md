@@ -1,74 +1,115 @@
-# Jordan Smith
-
-### AI Engineer
-
+<!-- READMY_TEMPLATE: 003-ai-engineer -->
 <div align="center">
 
-| SYSTEM | STATUS | FOCUS |
-|---|---|---|
-| Model layer | active | reliable evaluation |
-| Retrieval | stable | grounded responses |
-| Deployment | preparing | production monitoring |
-| Research | iterating | human-centered AI |
+# Dr. Elena Rostova
+### Senior Machine Learning Systems Engineer • LLM Inference & Alignment
+
+Specializing in distributed model training, quantized tensor runtimes (vLLM / TensorRT-LLM), and scalable retrieval pipelines.
+
+<p>
+  <img src="https://img.shields.io/badge/Model_Runtime-vLLM_•_TensorRT--LLM-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA" />
+  <img src="https://img.shields.io/badge/PyTorch-2.5-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/CUDA_Compute-8x_H100_SXM5-000000?style=flat-square" alt="CUDA Compute" />
+  <img src="https://img.shields.io/badge/HuggingFace-elena--rostova-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" />
+</p>
 
 </div>
 
-## Mission
+---
 
-I build AI systems that are useful in production: reliable pipelines, measurable quality, and interfaces people can trust.
+## 🎛️ Model Registry & Evaluation Benchmark Matrix
 
-## Core modules
+| Model Identifier | Base Architecture | Param Count | Quantization | Benchmark (MMLU-Pro / GSM8K) | Latency (TTFT / TPS) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **`Aura-Reason-7B`** | LLaMA-3.1 Fine-Tune | `7.2B` | `AWQ 4-bit` | `74.8%` / `88.2%` | `18ms` / `142 tok/s` |
+| **`Vektor-Embed-v2`**| ModernBERT Custom | `340M` | `FP16` | `MTEB Score: 68.4` | `4.2ms` / `N/A` |
+| **`Chronos-Code-14B`**| Qwen-2.5 Distillation | `14.7B` | `GPTQ 8-bit` | `HumanEval: 79.4%` | `32ms` / `98 tok/s` |
 
-| Module | Purpose | Current signal |
-|---|---|---|
-| Data pipeline | Clean, structured inputs | stable |
-| Models | Reproducible training flows | improving |
-| Retrieval | Source-aware answers | active |
-| Evaluation | Quality checks and benchmark loops | growing |
-| Delivery | Safe deployment and observability | preparing |
+---
 
-## Active stack
+## 🔄 Low-Latency Inference & Grounding Pipeline
 
-### Data & modeling
-`Python` `NumPy` `Pandas` `scikit-learn` `PyTorch`
+```text
+[ User Prompt ] 
+       │ (Streaming SSE / gRPC)
+       ▼
+┌────────────────────────────────────────────────────────┐
+│  Guardrail Filter (Llama-Guard-3 + Regex Jailbreak)   │
+└────────────────────────────────────────────────────────┘
+       │                                         │
+       ▼ (Vector Semantic Search)                ▼ (BM25 Hybrid Sparse)
+┌──────────────────────────────┐         ┌──────────────────────────────┐
+│  Qdrant HNSW Collection      │         │  Elasticsearch Inverted Index │
+└──────────────────────────────┘         └──────────────────────────────┘
+       │                                         │
+       └────────────────────┬────────────────────┘
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│  Cross-Encoder Re-Ranker (bge-reranker-large, top-5)   │
+└────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│  vLLM Engine (PagedAttention + Speculative Decoding)   │
+│  Hardware: NVIDIA H100 80GB (NVLink 900 GB/s)          │
+└────────────────────────────────────────────────────────┘
+                            │
+                            ▼ (Output Token Stream, p99 < 25ms)
+```
 
-### Applications
-`Transformers` `Vector Search` `FastAPI` `Docker` `Git`
+---
 
-## Flagship systems
+## 🚀 Shipped Open Weights & Production Systems
 
-### VisionLab
-Benchmarking image-classification experiments across datasets and model variants.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="#aura-reason">Aura-Reason-7B</a></h3>
+      <p><em>Open weights reasoning model trained with Direct Preference Optimization (DPO).</em></p>
+      <ul>
+        <li>100k curated chain-of-thought synthetic dialogue pairs.</li>
+        <li>Curated filtering for hallucinations via verifiable code execution sandboxes.</li>
+        <li>Downloaded over 180,000 times on HuggingFace Hub.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square" alt="Apache 2.0" />
+        <img src="https://img.shields.io/badge/Downloads-180k+-green?style=flat-square" alt="Downloads" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="#turborag">TurboRAG Engine</a></h3>
+      <p><em>Asynchronous distributed RAG pipeline processing 4,000 queries per second.</em></p>
+      <ul>
+        <li>Zero-copy tensor cache across GPU shared host memory.</li>
+        <li>Automated chunking with AST-aware code parsing.</li>
+        <li>Sub-50ms p99 end-to-end question answering latency.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Language-Rust_&_Python-orange?style=flat-square" alt="Rust & Python" />
+        <img src="https://img.shields.io/badge/Status-Production-emerald?style=flat-square" alt="Production" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-`Python` `PyTorch` `OpenCV` `Evaluation`
+---
 
-### KnowledgeDesk
-Retrieval-assisted question answering with source-grounded responses.
+## 💻 MLOps & Training Infrastructure
 
-`Python` `FastAPI` `Embeddings` `Evaluation`
+| Domain | Frameworks & Compute | Production Workloads |
+| :--- | :--- | :--- |
+| **Distributed Training** | `PyTorch Distributed`, `DeepSpeed ZeRO-3`, `Megatron-LM` | 3D parallelism across multi-node SLURM GPU clusters |
+| **Inference Serving** | `vLLM`, `TensorRT-LLM`, `TGI`, `Triton Inference Server` | PagedAttention, continuous batching, chunked prefill |
+| **Evaluation & Datasets** | `Lighteval`, `lm-evaluation-harness`, `Weights & Biases` | Automated regression sweeps, automated synthetic data pipelines |
 
-### DeployWatch
-Monitoring flows for model quality, drift signals, and service health.
+---
 
-`MLOps` `Observability` `Docker` `Monitoring`
+<div align="center">
 
-## Research direction
+### 🔬 Research Collaborations & Weights Inquiries
 
-- Reliable AI evaluation
-- Human-centered ML
-- Efficient serving patterns
-- Low-resource and practical AI systems
+[HuggingFace Profile](https://huggingface.co/example-user) • [Google Scholar](https://scholar.google.com) • [arXiv Papers](https://arxiv.org) • [Email Elena](mailto:elena@ai-systems.org)
 
-## Next iteration
+> *"Models are only as good as the evaluation harnesses that measure them."*
 
-- MLOps foundations
-- Monitoring and observability
-- Distributed inference
-- Production AI safety
-
-## Contact
-
-- GitHub: [example-user](https://github.com/example-user)
-- Research notes: [example.com](https://example.com)
-
-> Building useful intelligence with measurable outcomes.
+</div>
