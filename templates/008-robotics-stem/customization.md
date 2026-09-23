@@ -1,11 +1,7 @@
 # Customizing Robotics & STEM
 
-Use this template for a profile that combines software, artificial intelligence,
-hardware, robotics, or technical education.
+This template is designed as a compact research notebook rather than a standard engineering profile.
 
-Replace the fictional projects with experiments you can describe clearly. Mention
-hardware components only when they help explain the system or learning objective.
+Replace the fictional name, experiment notes, toolkit, research interests, and neutral links. Keep the lab style if your profile is research-oriented, or simplify it if you want a more product-facing robotics identity.
 
-If you add photos or diagrams, use generic assets or local illustrations. Do not
-include faces, school identifiers, private workspaces, serial numbers, or
-identifiable workshop participants.
+The value of this template comes from structured observation, honest iteration, and small measurable experiments rather than polished marketing language.

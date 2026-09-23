@@ -1,10 +1,7 @@
 # Customizing Frontend Developer
 
-Replace the identity, positioning statement, tools, projects, and neutral links.
+This template follows a modular, product-like interface structure. It is designed to feel systematic and polished without becoming noisy.
 
-Use the design-focus section to communicate the kind of interface problems you
-care about. Avoid listing every library you have ever used; select the tools that
-support your current positioning.
+Replace the identity, positioning statement, tools, project names, and neutral links. Keep the layered structure if it supports your portfolio, or reduce it if your profile is more compact.
 
-If you add screenshots, use fictional data and provide captions or nearby text so
-the project remains understandable without the image.
+The visual rhythm is intentionally built around a few strong blocks: a banner, a design-focus matrix, and a small set of selected work items. If you add screenshots or graphics, use fictional data and keep the accompanying text clear enough to understand without the image.

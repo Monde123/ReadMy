@@ -2,23 +2,23 @@ id: 008-robotics-stem
 title: Robotics & STEM
 category: student
 audience:
-  - robotics-student
-  - stem-educator
-  - ai-hardware-builder
+  - robotics-engineer
+  - stem-builder
+  - applied-researcher
 style:
   visual_density: medium
   alignment: left
-  color_palette: electronics-orange
-  animations: optional
+  color_palette: lab-slate
+  animations: none
   complexity: intermediate
 visual_architecture: va-008
 sections:
-  - identity
-  - mission
-  - skills
-  - projects
-  - teaching
-  - future-direction
+  - hypothesis
+  - current-experiment
+  - lab-log
+  - toolkit
+  - research-interests
+  - field-notes
   - contact
 anonymized: true
 images:
