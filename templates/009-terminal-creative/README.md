@@ -13,18 +13,17 @@ useful tools · thoughtful interfaces · small experiments
 
 ## Profile
 
-I build compact software tools and playful experiments that make technical ideas
-more approachable.
+I build compact software tools and playful experiments that make technical ideas more approachable.
 
 ## Toolkit
 
 `JavaScript` `TypeScript` `Python` `Node.js` `SQLite` `Git` `Linux`
 
-## Commands I Like
+## Commands I like
 
 ```text
 $ build
-Turn an idea into a small, testable experience.
+Turn an idea into a testable experience.
 
 $ simplify
 Remove complexity that does not serve the user.
@@ -39,22 +38,17 @@ Publish useful experiments and invite improvement.
 ## Experiments
 
 ### TinyServe
-
 A lightweight command-line utility for serving local files during development.
 
 `Node.js` `CLI` `HTTP`
 
 ### PromptGarden
-
-A small collection of structured prompts and evaluation notes for exploring
-creative AI workflows.
+A small collection of prompts and notes for exploring creative AI workflows.
 
 `Python` `Markdown` `Evaluation`
 
 ### ColorTerminal
-
-A terminal-based visual experiment that turns structured data into compact color
-and text patterns.
+A terminal-based visual experiment that turns structured data into compact color and text patterns.
 
 `Python` `ANSI`
 

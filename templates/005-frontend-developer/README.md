@@ -1,44 +1,49 @@
 # Casey Johnson
 
-### Frontend Developer | UI Engineering
+### Frontend Developer
 
-I build responsive, accessible interfaces that make complex products easier to
-understand and use.
+I build interfaces that feel clear, responsive, and useful before they feel impressive.
 
-## Design Focus
+## Design focus
 
-- Accessible interaction patterns
-- Responsive layouts and reusable components
-- Design-system consistency
-- Performance-conscious interfaces
-- Clear states for loading, errors, and empty data
+<div align="center">
+  <table>
+    <tr>
+      <td>Accessible patterns</td>
+      <td>UI systems</td>
+      <td>Responsive layouts</td>
+    </tr>
+    <tr>
+      <td>Performance</td>
+      <td>Interaction clarity</td>
+      <td>Reusable components</td>
+    </tr>
+  </table>
+</div>
 
-## Frontend Stack
+## Frontend stack
 
 `React` `TypeScript` `Next.js` `CSS` `Tailwind CSS` `Storybook` `Git`
 
-## Selected Work
+## Selected work
 
-### InterfaceKit
+| Project | Description |
+|---|---|
+| InterfaceKit | Reusable component library for consistent product interfaces |
+| InsightBoard | Analytics dashboard focused on clarity and scanability |
 
-A reusable component library for consistent product interfaces and documented
-interaction patterns.
-
+**InterfaceKit**  
 `React` `TypeScript` `Storybook`
 
-### InsightBoard
-
-A responsive analytics dashboard designed to turn dense information into clear
-visual workflows.
-
+**InsightBoard**  
 `Next.js` `TypeScript` `Charts`
 
 ## Principles
 
-- Accessibility is part of quality, not an optional layer.
+- Accessibility is part of quality.
+- Good interfaces explain what is happening.
+- Reusable components should be understandable.
 - Visual polish should support comprehension.
-- Components should be reusable without becoming mysterious.
-- Good interfaces explain what is happening and what to do next.
 
 ## Connect
 

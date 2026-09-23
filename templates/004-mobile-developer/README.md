@@ -2,42 +2,47 @@
 
 ### Mobile Software Developer
 
-I create focused mobile experiences with attention to usability, performance,
-offline behavior, and clear product flows.
+I craft mobile products with attention to usability, responsiveness, and flow clarity.
 
-## Mobile Stack
+<div>
+  <table>
+    <tr>
+      <td><strong>Platform</strong><br>Flutter / React Native</td>
+      <td><strong>State</strong><br>Clean flows, resilient UI</td>
+      <td><strong>UX</strong><br>Simple, reliable, testable</td>
+    </tr>
+  </table>
+</div>
+
+## Mobile stack
 
 `Flutter` `Dart` `React Native` `JavaScript` `Firebase` `REST APIs`
 
-## Products & Experiments
+## Product highlights
 
 ### LearnHub Mobile
-
-A learning application concept with course discovery, progress tracking, and
-notifications.
+A learning app experience built around discovery, progress, and reminders.
 
 `Flutter` `Firebase` `Riverpod`
 
 ### CareConnect
-
-A scheduling-focused mobile experience that helps users manage appointments and
-receive timely reminders.
+A scheduling product focused on appointments, reminders, and mobile clarity.
 
 `React Native` `TypeScript` `REST API`
 
 ## Strengths
 
-- Building responsive interfaces for different screen sizes
-- Connecting mobile clients to secure APIs
-- Designing clear navigation and state flows
-- Handling loading, empty, offline, and error states
-- Testing user journeys before release
+- Responsive mobile UI design
+- Clear state and navigation patterns
+- Secure API integration
+- Offline and loading-state thinking
+- User-journey validation
 
-## Currently Learning
+## Learning path
 
 - Mobile accessibility
-- Offline-first architecture
-- Automated release pipelines
+- Offline-first product design
+- Automated release workflows
 
 ## Connect
 

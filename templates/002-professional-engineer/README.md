@@ -2,45 +2,52 @@
 
 ### Software Engineer | Backend & API Development
 
-I design reliable software systems, build maintainable APIs, and turn practical
-requirements into products that are clear, testable, and ready to evolve.
+## Context
 
-## What I Do
+I design reliable software systems and APIs that support team workflows, product operations, and maintainable growth.
 
-- Design backend services and REST APIs
-- Model data and integrate relational databases
-- Improve reliability through testing and documentation
-- Automate repetitive development workflows
-- Collaborate across product and engineering teams
+## System profile
 
-## Core Technologies
+| Area | Focus |
+|---|---|
+| Backend | Service design and integration |
+| APIs | REST design and contract clarity |
+| Data | Data modeling and reliability |
+| Delivery | Testing, documentation, deployment |
+| Collaboration | Product-minded engineering |
 
-`Python` `TypeScript` `Node.js` `PostgreSQL` `Docker` `Git`
+## Capabilities
 
-## Selected Work
+- Designing modular backend services
+- Implementing clean API contracts
+- Improving observability and failure handling
+- Writing testable, maintainable code
+- Supporting engineering and product teams
+
+## Selected work
 
 ### CommerceCore
+A platform for catalogs, orders, and customer workflows.
 
-A modular business platform for catalog, order, and customer workflows.
-
-`TypeScript` `Node.js` `PostgreSQL`
+**Stack:** `TypeScript` `Node.js` `PostgreSQL`
 
 ### ServiceDesk API
+A request-management API for internal operations and approvals.
 
-A documented REST API for tracking requests, permissions, and operational status.
+**Stack:** `Python` `FastAPI` `Docker`
 
-`Python` `FastAPI` `Docker`
+## Operating principles
 
-## Engineering Principles
+- Prefer understandable systems over clever ones.
+- Treat reliability as part of product quality.
+- Document the why, not only the what.
+- Secure the boundaries before scaling the features.
 
-- Prefer simple designs that are easy to explain.
-- Make failures observable and recoverable.
-- Document decisions close to the code.
-- Treat security and accessibility as product requirements.
-
-## Connect
+## Contact
 
 - GitHub: [example-user](https://github.com/example-user)
 - Portfolio: [example.com](https://example.com)
+
+---
 
 > Building dependable software with clarity and care.

@@ -1,55 +1,58 @@
 # Jordan Smith
 
-### AI Engineer | Machine Learning & Intelligent Systems
+### AI Engineer
 
-I build practical AI systems from data preparation and model development to
-evaluation, APIs, and responsible deployment.
+```text
+Modeling  ▣  Retrieval  ▣  Evaluation  ▣  Deployment
+```
 
-## Focus Areas
+## Summary
 
-- Machine learning and deep learning
-- Natural language and retrieval systems
-- Computer vision experimentation
-- Model evaluation and reproducibility
-- AI application integration
+I build AI systems that are useful in production: from data preparation and modeling to experiments, validation, and API integration.
 
-## Technical Stack
+## Focus areas
 
-### Data & Modeling
+| Domain | Current focus |
+|---|---|
+| ML | Reproducible models and evaluation |
+| NLP | Retrieval and source-aware systems |
+| Vision | Experiments, feature extraction, benchmarking |
+| MLOps | Monitoring and deployment quality |
+| Product | Human-centered AI integration |
 
+## Stack
+
+### Data & modeling
 `Python` `NumPy` `Pandas` `scikit-learn` `PyTorch`
 
-### AI Applications
-
+### Applications
 `Transformers` `Vector Search` `FastAPI` `Docker` `Git`
 
-## Selected Projects
+## Project snapshots
 
 ### VisionLab
-
-An image-analysis workspace for comparing classification models and evaluation
-metrics across controlled experiments.
+Benchmarking image-classification experiments across datasets and model variants.
 
 `Python` `PyTorch` `OpenCV`
 
 ### KnowledgeDesk
-
-A retrieval-assisted question-answering prototype with source-aware responses.
+Retrieval-assisted question answering with source-grounded responses.
 
 `Python` `FastAPI` `Embeddings` `Evaluation`
 
-## Research Interests
+## Research interest
 
-- Reliable evaluation of AI systems
-- Low-resource language technologies
-- Human-centered machine learning
-- Efficient model serving
+- Reliable AI evaluation
+- Human-centered ML
+- Efficient serving patterns
+- Low-resource and practical AI systems
 
-## Currently Learning
+## Learning roadmap
 
 - MLOps foundations
-- Model monitoring
+- Monitoring and observability
 - Distributed inference
+- Production AI safety
 
 ## Connect
 

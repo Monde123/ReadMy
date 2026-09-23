@@ -1,53 +1,45 @@
 # Avery Thomas
 
-### Open Source Developer | Community Builder
+### Open Source Developer
 
-I create developer tools, documentation, and collaborative projects that help
-people build, learn, and contribute with confidence.
+I create tools, documentation, and collaborative workflows that help people build, learn, and contribute with confidence.
 
-## Open Source Focus
+## Open source focus
 
-- Developer experience and command-line tools
-- Clear documentation and onboarding
-- Small utilities with focused responsibilities
-- Reproducible examples and tests
-- Welcoming contribution workflows
+- Developer experience
+- Clear documentation
+- Small utility tools
+- Reproducible examples
+- Community-friendly workflows
 
-## Selected Projects
+## Maintained projects
 
 ### CodeGarden
-
-A collection of small developer utilities designed to solve common local workflow
-problems without unnecessary complexity.
+A set of small developer utilities for streamlining common local tasks.
 
 `TypeScript` `CLI` `Testing`
 
 ### DocsStarter
-
-An open documentation starter with contribution guidance, examples, and accessible
-content patterns.
+An open documentation starter with contribution guidance and accessibility patterns.
 
 `Markdown` `Static Site` `Accessibility`
 
 ### ShareKit
-
-A sample project that demonstrates issue templates, pull-request guidance, and a
-simple release workflow for a community repository.
+A lightweight repo template for open-source issue, PR, and release practices.
 
 `GitHub Actions` `Documentation` `Open Source`
 
-## Contribution Values
+## Contribution values
 
 - Make the first contribution easy to understand.
 - Explain decisions, not only implementation details.
-- Review ideas with respect and technical precision.
 - Prefer sustainable maintenance over unnecessary features.
+- Review ideas with respect and technical precision.
 - Credit inspiration and distinguish original work from references.
 
 ## Collaboration
 
-I am interested in projects involving developer tools, documentation, education,
-accessibility, and practical open-source infrastructure.
+I am interested in projects involving developer tools, documentation, learning, accessibility, and practical open-source infrastructure.
 
 ## Contact
 

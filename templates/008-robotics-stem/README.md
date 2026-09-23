@@ -2,61 +2,49 @@
 
 ### AI, Robotics & STEM Builder
 
-I combine software, electronics, and education to make intelligent technology
-more understandable, practical, and accessible.
+> I combine software, electronics, and education to make intelligent technology understandable and useful.
 
 ## Mission
 
-I enjoy turning technical concepts into hands-on projects that connect code with
-the physical world.
+I enjoy turning technical concepts into hands-on projects that connect code with the physical world.
 
-## Skills
+## Toolchain
 
 ### Software & AI
-
 `Python` `C++` `Computer Vision` `Machine Learning` `Linux`
 
 ### Hardware & Robotics
-
 `Microcontrollers` `Sensors` `Automation` `Embedded Systems`
 
 ### Education
-
 `Project-Based Learning` `Technical Workshops` `STEM Activities`
 
-## Selected Projects
+## Experimental log
 
 ### SmartGarden
-
-A learning prototype that combines environmental sensors with a small dashboard
-for observing and interpreting plant conditions.
+A prototype that combines environmental sensors and a simple dashboard for observing plant conditions.
 
 `Python` `Sensors` `Data Visualization`
 
 ### RoverLab
-
-A modular robotics experiment for exploring movement, distance sensing, and
-rule-based navigation.
+A robotics experiment focused on movement, distance sensing, and rule-based navigation.
 
 `C++` `Microcontroller` `Ultrasonic Sensor`
 
-## Teaching Approach
+## Teaching approach
 
 ```text
 Learn → Build → Experiment → Explain → Improve
 ```
 
-I use small, visible experiments to help beginners understand programming,
-robotics, data, and problem solving.
+## Future direction
 
-## Future Direction
+- Edge AI for education
+- Accessible STEM resources
+- Computer vision in practical systems
+- Open and reproducible experiments
 
-- Edge AI for educational robotics
-- Accessible STEM learning resources
-- Computer vision for real-world projects
-- Open hardware and reproducible experiments
-
-## Connect
+## Contact
 
 - GitHub: [example-user](https://github.com/example-user)
 - Project notes: [example.com](https://example.com)

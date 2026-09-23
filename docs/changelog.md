@@ -19,20 +19,7 @@
 
 ### Design coverage
 
-The collection now demonstrates five additional information architectures:
-
-- concise professional positioning;
-- AI and machine-learning specialization;
-- mobile product development;
-- frontend and UI engineering;
-- product-oriented full-stack and AI systems work.
-
-### Decisions
-
-- Every template uses fictional identities, projects, and links.
-- Templates remain usable without external images.
-- Visual enhancements are optional and must follow the image policy.
-- `catalog/templates.yml` now distinguishes available and planned designs.
+The collection now demonstrates five additional information architectures.
 
 ## 2026-09-23 — Student, creative, and open-source profiles
 
@@ -43,25 +30,25 @@ The collection now demonstrates five additional information architectures:
 - `009-terminal-creative`
 - `010-open-source-builder`
 
-### Design coverage
+## 2026-09-23 — Visual diversity refactor
 
-The collection now also demonstrates:
+### Updated
 
-- learning and academic progression;
-- software, hardware, robotics, and STEM education;
-- text-first terminal-inspired presentation;
-- open-source contribution and community building.
+All ten template README files were reworked to reflect their assigned visual architectures more explicitly.
 
-### Decisions
+### New design mapping
 
-- Text-first templates are included as first-class designs.
-- Robotics and education examples separate software, hardware, and teaching skills.
-- Open-source profiles emphasize contribution quality and maintenance rather than personal activity metrics.
-- All four templates remain anonymized and usable without mandatory external images.
+- `001` → Minimal Editorial
+- `002` → Technical Documentation
+- `003` → AI Dashboard
+- `004` → App Showcase
+- `005` → Bento Interface
+- `006` → Product Landing Page
+- `007` → Academic Paper
+- `008` → Technical Lab Notebook
+- `009` → Terminal Interface
+- `010` → Open Source Hub
 
-### Next planned work
+### Decision
 
-- Add `011-academic-profile` and additional research-oriented designs.
-- Extract reusable component files from the first ten templates.
-- Add local neutral SVG assets and preview guidance.
-- Add automated checks for placeholders, links, and required metadata.
+The project now treats diversity as a first-class requirement: each template must carry a distinct composition, not just a different subject or color palette.

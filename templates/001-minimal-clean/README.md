@@ -1,50 +1,49 @@
-# John Doe
+# Alex Martin
 
 ### Software Engineer
 
-I build practical and maintainable software with a focus on clean architecture,
-useful products, and continuous learning.
+I build dependable systems, clear APIs, and product-friendly tooling that teams can trust and extend.
 
-## Core Skills
+---
 
-- Backend development
-- REST APIs
-- Database design
-- Software architecture
+## Overview
+
+I work at the intersection of product thinking and backend engineering. My focus is on building systems that are understandable, maintainable, and reliable under real-world pressure.
+
+## Core strengths
+
+- Backend architecture
+- REST API design
+- Database modeling
 - Testing and documentation
+- System reliability
 
 ## Technologies
 
-`Python` `JavaScript` `TypeScript` `SQL` `Git` `Docker`
+`Python` `TypeScript` `Node.js` `PostgreSQL` `Docker` `Git`
 
-## Selected Projects
+## Selected work
 
-### TaskFlow
-
-A simple task management application designed around clear workflows and
-maintainable application structure.
+### CommerceCore
+A modular platform for catalog, order, and customer workflow management.
 
 `TypeScript` `Node.js` `PostgreSQL`
 
-### DataForge
+### ServiceDesk API
+A documented internal API for request tracking, permissions, and operational status.
 
-A small data processing project focused on transforming, validating, and
-exporting structured data.
+`Python` `FastAPI` `Docker`
 
-`Python` `Pandas` `Docker`
+## Learning focus
 
-## Currently Learning
-
-- Distributed systems
-- Cloud deployment
-- Observability
-- Open-source collaboration
+- Operational resilience
+- Secure defaults
+- Service boundaries
+- Product-aware engineering
 
 ## Connect
 
 - GitHub: [example-user](https://github.com/example-user)
-- Email: [hello@example.com](mailto:hello@example.com)
+- Portfolio: [example.com](https://example.com)
 
----
-
-> Building useful software, one well-designed system at a time.
+> Build clearly, ship reliably, improve continuously.

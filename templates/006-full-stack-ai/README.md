@@ -3,63 +3,57 @@
 ### Full-Stack Engineer & AI Application Builder
 
 I design complete products across frontend, backend, cloud, data, and AI layers.
-My focus is turning uncertain ideas into reliable, testable, and useful systems.
 
-## Quick Navigation
+## Hero
+
+> Build the product. Understand the system. Improve it continuously.
+
+## Quick links
 
 [About](#about) · [Stack](#stack) · [Projects](#projects) · [Learning](#learning) · [Contact](#contact)
 
 ## About
 
-I enjoy working at the intersection of product design and engineering. I build
-interfaces, APIs, data workflows, and AI-assisted features with a strong focus on
-clear boundaries and observable behavior.
+I work at the intersection of engineering and product thinking. I enjoy building interfaces, APIs, workflows, and AI features with clear boundaries and observable behavior.
 
 ## Stack
 
-| Area | Tools and concepts |
+| Area | Tools |
 |---|---|
-| Frontend | React, Next.js, TypeScript, accessibility |
-| Backend | Python, Node.js, FastAPI, REST APIs |
-| Data | PostgreSQL, Redis, vector search, pipelines |
-| AI | LLM applications, RAG, evaluation, prompt safety |
+| Frontend | React, Next.js, TypeScript |
+| Backend | Python, Node.js, FastAPI |
+| Data | PostgreSQL, Redis, pipelines |
+| AI | LLM apps, RAG, evaluation |
 | Delivery | Docker, Linux, CI, monitoring |
 
-## Flagship Project
+## Flagship project
 
 ### CommerceVision
+A product pipeline that combines storefront flows, async backend jobs, and AI-assisted product organization.
 
-A fictional product pipeline that combines a web storefront, asynchronous backend
-jobs, and AI-assisted product organization.
-
-- Clear job status instead of blocking requests
+- Clear job status
 - Validation at system boundaries
-- Human review for uncertain AI outputs
-- Documented fallbacks when an integration is unavailable
+- Human review for uncertain outputs
+- Documented fallback paths
 
 `Next.js` `FastAPI` `PostgreSQL` `Docker`
 
 ## Projects
 
 ### WorkflowOS
-
-A modular workspace for teams to manage requests, permissions, and operational
-signals.
+A modular workspace for requests, permissions, and operational signals.
 
 ### LocalLens
-
-An offline-friendly knowledge tool that keeps sensitive notes close to the user.
+An offline-friendly knowledge tool that keeps notes close to the user.
 
 ## Learning
 
 - Distributed systems
-- Secure AI application patterns
-- Observability for asynchronous workflows
-- High-performance systems programming
+- Secure AI patterns
+- Observability for async workflows
+- Systems programming
 
 ## Contact
 
 - GitHub: [example-user](https://github.com/example-user)
 - Website: [example.com](https://example.com)
-
-> Build the product, understand the system, improve it continuously.

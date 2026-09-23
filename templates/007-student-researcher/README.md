@@ -1,19 +1,20 @@
 # Riley Anderson
 
-### Computer Science Student | AI & Research Enthusiast
+### Computer Science Student
 
-I am building strong foundations in software engineering, data, and artificial
-intelligence through structured learning and practical experiments.
+## Abstract
 
-## Academic Focus
+I am building strong foundations in software engineering, data analysis, and machine learning through structured study and practical experimentation.
+
+## Research interests
 
 - Algorithms and data structures
 - Machine learning fundamentals
-- Data analysis and visualization
-- Software design and testing
-- Responsible use of artificial intelligence
+- Data visualization and analysis
+- Responsible AI
+- Software engineering discipline
 
-## Learning Path
+## Learning path
 
 ```text
 Programming
@@ -27,30 +28,26 @@ Machine Learning
 Research Projects
 ```
 
-## Experiments
+## Current experiments
 
 ### StudyNotes
-
-A small knowledge-management project for organizing technical notes, references,
-and learning progress.
+A small knowledge hub for organizing learning resources and technical references.
 
 `Python` `Markdown` `SQLite`
 
 ### ModelNotebook
-
-A reproducible workspace for comparing simple machine-learning experiments and
-recording evaluation decisions.
+An experiment workspace for comparing baseline ML approaches and tracking evaluation decisions.
 
 `Python` `scikit-learn` `Jupyter`
 
-## Current Goals
+## Goals
 
-- Strengthen problem-solving skills
-- Build a consistent project portfolio
-- Learn how to read technical papers
+- Strengthen problem-solving rigor
+- Build a project portfolio with evidence
+- Learn to read and discuss technical papers
 - Contribute to beginner-friendly open source
 
-## Connect
+## Contact
 
 - GitHub: [example-user](https://github.com/example-user)
 - Notes: [example.com](https://example.com)
