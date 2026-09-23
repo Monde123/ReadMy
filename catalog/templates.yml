@@ -506,5 +506,19 @@ templates:
       - open-source-package-creator
       - full-stack-indie-builder
 
+  - id: 040-quantum-prism-cascade
+    title: The Quantum Prism Tri-Cascade
+    category: creative-avant-garde
+    status: available
+    path: templates/040-quantum-prism-cascade/README.md
+    complexity: advanced
+    image_mode: none-required
+    visual_architecture: va-040
+    audience:
+      - creative-technologist
+      - frontier-researcher
+      - quantum-shader-artist
+
+
 
 
