@@ -431,4 +431,17 @@ visual_architectures:
     image_strategy: optional-documented
     assigned_to: 036-fintech-saas-builder
 
+  - id: va-037
+    name: MERN & Flutter Dynamic Capsule
+    type: full-stack
+    layout: capsule-waving
+    alignment: center-split
+    density: high
+    navigation: media-badges
+    project_format: accordion-details
+    skill_format: shields-taxonomy
+    image_strategy: optional-documented
+    assigned_to: 037-mern-flutter-capsule
+
+
 

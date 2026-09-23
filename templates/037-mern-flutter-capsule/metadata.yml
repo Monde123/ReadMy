@@ -1,0 +1,16 @@
+title: MERN & Flutter Dynamic Capsule
+category: full-stack
+status: available
+complexity: intermediate
+image_mode: optional-documented
+visual_architecture: va-037
+audience:
+  - mern-stack-developer
+  - flutter-mobile-engineer
+  - full-stack-web-developer
+features:
+  - Capsule-render SVG waving gradient header and footer
+  - Spotify live listening integration
+  - Interactive project accordion details
+  - Comprehensive technology shields taxonomy
+  - Multi-source GitHub analytics with trophies and snake

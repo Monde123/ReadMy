@@ -466,3 +466,17 @@ templates:
       - fullstack-saas-developer
       - fintech-payment-engineer
       - emerging-market-tech-founder
+
+  - id: 037-mern-flutter-capsule
+    title: MERN & Flutter Dynamic Capsule
+    category: full-stack
+    status: available
+    path: templates/037-mern-flutter-capsule/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+    visual_architecture: va-037
+    audience:
+      - mern-stack-developer
+      - flutter-mobile-engineer
+      - full-stack-web-developer
+
