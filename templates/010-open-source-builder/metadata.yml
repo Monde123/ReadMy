@@ -13,11 +13,12 @@ style:
   complexity: intermediate
 visual_architecture: va-010
 sections:
-  - identity
-  - open-source-focus
-  - projects
+  - system-status
+  - core-mission
+  - operating-modules
+  - maintained-projects
   - contribution-values
-  - collaboration
+  - community-focus
   - contact
 anonymized: true
 images:

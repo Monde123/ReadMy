@@ -1,16 +1,25 @@
 # Avery Thomas
 
-### Open Source Developer
+### Open Source Builder
+
+```text
+SYSTEM: community-driven tools
+STATUS: building with documentation first
+MODULES: tooling · maintenance · onboarding · collaboration
+```
+
+## Core mission
 
 I create tools, documentation, and collaborative workflows that help people build, learn, and contribute with confidence.
 
-## Open source focus
+## Operating modules
 
-- Developer experience
-- Clear documentation
-- Small utility tools
-- Reproducible examples
-- Community-friendly workflows
+| Module | Purpose | Current signal |
+|---|---|---|
+| Tooling | Small utilities that reduce friction | active |
+| Docs | Clear onboarding and contributor guidance | active |
+| Maintenance | Sustainable workflows and contribution hygiene | stable |
+| Community | Helpful collaboration and onboarding paths | growing |
 
 ## Maintained projects
 
@@ -37,7 +46,7 @@ A lightweight repo template for open-source issue, PR, and release practices.
 - Review ideas with respect and technical precision.
 - Credit inspiration and distinguish original work from references.
 
-## Collaboration
+## Community focus
 
 I am interested in projects involving developer tools, documentation, learning, accessibility, and practical open-source infrastructure.
 

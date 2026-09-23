@@ -3,22 +3,23 @@ title: AI Engineer
 category: ai-data
 audience:
   - ai-engineer
-  - machine-learning-engineer
+  - ml-engineer
   - data-scientist
 style:
-  visual_density: medium
-  alignment: centered
-  color_palette: dark-blue
+  visual_density: high
+  alignment: center
+  color_palette: cool-dashboard
   animations: optional
   complexity: intermediate
 visual_architecture: va-003
 sections:
-  - identity
-  - focus
-  - stack
-  - projects
-  - research
-  - learning
+  - mission
+  - system-status
+  - core-modules
+  - active-stack
+  - flagship-systems
+  - research-direction
+  - next-iteration
   - contact
 anonymized: true
 images:

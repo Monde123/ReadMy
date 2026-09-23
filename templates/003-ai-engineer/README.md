@@ -2,25 +2,32 @@
 
 ### AI Engineer
 
-```text
-Modeling  ▣  Retrieval  ▣  Evaluation  ▣  Deployment
-```
+<div align="center">
 
-## Summary
+| SYSTEM | STATUS | FOCUS |
+|---|---|---|
+| Model layer | active | reliable evaluation |
+| Retrieval | stable | grounded responses |
+| Deployment | preparing | production monitoring |
+| Research | iterating | human-centered AI |
 
-I build AI systems that are useful in production: from data preparation and modeling to experiments, validation, and API integration.
+</div>
 
-## Focus areas
+## Mission
 
-| Domain | Current focus |
-|---|---|
-| ML | Reproducible models and evaluation |
-| NLP | Retrieval and source-aware systems |
-| Vision | Experiments, feature extraction, benchmarking |
-| MLOps | Monitoring and deployment quality |
-| Product | Human-centered AI integration |
+I build AI systems that are useful in production: reliable pipelines, measurable quality, and interfaces people can trust.
 
-## Stack
+## Core modules
+
+| Module | Purpose | Current signal |
+|---|---|---|
+| Data pipeline | Clean, structured inputs | stable |
+| Models | Reproducible training flows | improving |
+| Retrieval | Source-aware answers | active |
+| Evaluation | Quality checks and benchmark loops | growing |
+| Delivery | Safe deployment and observability | preparing |
+
+## Active stack
 
 ### Data & modeling
 `Python` `NumPy` `Pandas` `scikit-learn` `PyTorch`
@@ -28,33 +35,38 @@ I build AI systems that are useful in production: from data preparation and mode
 ### Applications
 `Transformers` `Vector Search` `FastAPI` `Docker` `Git`
 
-## Project snapshots
+## Flagship systems
 
 ### VisionLab
 Benchmarking image-classification experiments across datasets and model variants.
 
-`Python` `PyTorch` `OpenCV`
+`Python` `PyTorch` `OpenCV` `Evaluation`
 
 ### KnowledgeDesk
 Retrieval-assisted question answering with source-grounded responses.
 
 `Python` `FastAPI` `Embeddings` `Evaluation`
 
-## Research interest
+### DeployWatch
+Monitoring flows for model quality, drift signals, and service health.
+
+`MLOps` `Observability` `Docker` `Monitoring`
+
+## Research direction
 
 - Reliable AI evaluation
 - Human-centered ML
 - Efficient serving patterns
 - Low-resource and practical AI systems
 
-## Learning roadmap
+## Next iteration
 
 - MLOps foundations
 - Monitoring and observability
 - Distributed inference
 - Production AI safety
 
-## Connect
+## Contact
 
 - GitHub: [example-user](https://github.com/example-user)
 - Research notes: [example.com](https://example.com)

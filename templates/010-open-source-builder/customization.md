@@ -1,12 +1,7 @@
 # Customizing Open Source Builder
 
-Use this template when collaboration, maintenance, documentation, or public tooling
-is central to your profile.
+This template is structured like a compact operating system for an open-source practice: mission, modules, maintained projects, and contribution principles.
 
-Replace the fictional projects with repositories or contributions you can describe
-accurately. If you list work inspired by another project, credit the original
-source and explain your contribution.
+Replace the fictional projects, values, and neutral links. Keep the project descriptions honest and practical, especially if they represent real community or contribution work.
 
-Avoid using real contribution counts or activity statistics in the anonymized
-example. If you add dynamic statistics to your own profile, replace the placeholder
-with your own account only after copying the template.
+The template works best for people who want to present their work as maintainership, tooling, documentation, and collaboration rather than as a standard software portfolio.

@@ -1,11 +1,7 @@
 # Customizing AI Engineer
 
-Use this template for a profile centered on AI engineering, machine learning, or
-data-driven product development.
+This template reads like a compact control room for an AI practice: a small dashboard of focus areas, active systems, and active delivery loops.
 
-Replace the fictional projects with work that demonstrates a concrete problem,
-data source, method, and evaluation approach. Avoid claiming production impact or
-research results unless you can support those claims.
+Replace the fictional profile, stack, module descriptions, project names, and neutral links. Keep the structure if you want to signal a systems-thinking profile, or simplify it if you prefer a more compact, research-heavy version.
 
-Images, model badges, and dynamic statistics are optional. If added, follow the
-ReadMy image policy and use placeholders in the template itself.
+The dashboard is intentionally modular. It works best when your work is organized around multiple active tracks, not a single project list.

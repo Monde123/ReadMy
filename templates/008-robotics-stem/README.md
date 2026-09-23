@@ -1,52 +1,54 @@
-# Jamie Wilson
+# Avery Turner
 
-### AI, Robotics & STEM Builder
-
-> I combine software, electronics, and education to make intelligent technology understandable and useful.
-
-## Mission
-
-I enjoy turning technical concepts into hands-on projects that connect code with the physical world.
-
-## Toolchain
-
-### Software & AI
-`Python` `C++` `Computer Vision` `Machine Learning` `Linux`
-
-### Hardware & Robotics
-`Microcontrollers` `Sensors` `Automation` `Embedded Systems`
-
-### Education
-`Project-Based Learning` `Technical Workshops` `STEM Activities`
-
-## Experimental log
-
-### SmartGarden
-A prototype that combines environmental sensors and a simple dashboard for observing plant conditions.
-
-`Python` `Sensors` `Data Visualization`
-
-### RoverLab
-A robotics experiment focused on movement, distance sensing, and rule-based navigation.
-
-`C++` `Microcontroller` `Ultrasonic Sensor`
-
-## Teaching approach
+### Robotics & STEM Researcher
 
 ```text
-Learn → Build → Experiment → Explain → Improve
+HYPOTHESIS: reliable autonomous systems require clear feedback loops.
+OBSERVATION: small mechanisms create the clearest signals.
+SCALE: compact experiments, measurable iteration, concrete learning.
 ```
 
-## Future direction
+## Current experiment
 
-- Edge AI for education
-- Accessible STEM resources
-- Computer vision in practical systems
-- Open and reproducible experiments
+I work at the intersection of robotics, systems thinking, and practical engineering. My focus is on building small, testable machines and tools that improve understanding before scaling complexity.
+
+## Lab log
+
+### Experiment 01 — Sensor calibration
+A compact verification loop for testing reliability and improving signal quality.
+
+`Sensors` `Calibration` `Measurement` `Embedded`
+
+### Experiment 02 — Motion control
+Testing small movement systems under constrained conditions and comparing operating assumptions.
+
+`Robotics` `Control` `Testing` `Simulation`
+
+### Experiment 03 — Feedback loops
+Building simple systems that reveal what is happening in real time and support debugging.
+
+`Systems` `Diagnostics` `Monitoring` `Iteration`
+
+## Toolkit
+
+`Python` `C++` `ROS` `Linux` `Electronics` `CAD` `Git`
+
+## Research interests
+
+- Embedded systems
+- Sensor reliability
+- Human-centered automation
+- Compact robotics workflows
+
+## Field notes
+
+- Minimal hardware often reveals the real bottleneck.
+- Good systems are observable before they are scalable.
+- Reliable experiments produce better design decisions than clever demos.
 
 ## Contact
 
 - GitHub: [example-user](https://github.com/example-user)
-- Project notes: [example.com](https://example.com)
+- Research log: [example.com](https://example.com)
 
-> Technology becomes more powerful when people can understand and build with it.
+> Build the smallest thing that teaches the truth.
