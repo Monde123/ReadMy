@@ -71,3 +71,22 @@ The project now treats diversity as a first-class requirement: each template mus
 ### Design coverage
 
 The library now spans academic, editorial, command-center, product-landing, dashboard, engineering-sheet, split-screen portfolio, roadmap, and documentary chaptered layouts, preserving a distinct visual identity across all ten additions.
+
+## 2026-09-23 — Expanded visual diversity to 021–030
+
+### Added
+
+- `021-mosaic-portfolio`
+- `022-signal-feed`
+- `023-learning-roadmap`
+- `024-pitch-deck`
+- `025-security-lab`
+- `026-studio-showcase`
+- `027-briefing-memo`
+- `028-manifesto-foundry`
+- `029-event-brief`
+- `030-community-spotlight`
+
+### Design coverage
+
+The library now includes gallery, feed, roadmap, pitch-deck, security report, studio showcase, memo, manifesto, event brief, and community spotlight architectures, pushing the collection further toward a genuinely differentiated design gallery.

@@ -1,0 +1,25 @@
+id: 029-event-brief
+title: Event Brief
+category: community
+audience:
+  - speaker
+  - community-builder
+  - facilitator
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: event-lumen
+  animations: none
+  complexity: beginner
+visual_architecture: va-029
+sections:
+  - identity
+  - upcoming-events
+  - topics
+  - what-i-bring
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

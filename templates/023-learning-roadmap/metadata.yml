@@ -1,0 +1,25 @@
+id: 023-learning-roadmap
+title: Learning Roadmap
+category: education
+audience:
+  - learner
+  - technical-mentor
+  - self-directed-builder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: learning-slate
+  animations: none
+  complexity: beginner
+visual_architecture: va-023
+sections:
+  - identity
+  - roadmap
+  - learning-threads
+  - study-loops
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

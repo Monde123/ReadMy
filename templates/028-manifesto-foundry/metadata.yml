@@ -1,0 +1,25 @@
+id: 028-manifesto-foundry
+title: Manifesto Foundry
+category: founder
+audience:
+  - founder
+  - builder
+  - opinionated-creator
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: manifesto-ivory
+  animations: none
+  complexity: intermediate
+visual_architecture: va-028
+sections:
+  - identity
+  - principle
+  - values
+  - focus
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

@@ -1,0 +1,25 @@
+id: 022-signal-feed
+title: Signal Feed
+category: developer-experience
+audience:
+  - developer-advocate
+  - technical-writer
+  - community-builder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: signal-ink
+  animations: none
+  complexity: beginner
+visual_architecture: va-022
+sections:
+  - identity
+  - signal-feed
+  - focus-areas
+  - public-work
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

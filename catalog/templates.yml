@@ -139,3 +139,73 @@ templates:
     path: templates/020-documentary-profile/README.md
     complexity: intermediate
     image_mode: optional-documented
+  - id: 021-mosaic-portfolio
+    title: Mosaic Portfolio
+    category: portfolio
+    status: planned
+    path: templates/021-mosaic-portfolio/README.md
+    complexity: intermediate
+    image_mode: local-assets
+  - id: 022-signal-feed
+    title: Signal Feed
+    category: developer-experience
+    status: planned
+    path: templates/022-signal-feed/README.md
+    complexity: beginner
+    image_mode: optional-documented
+  - id: 023-learning-roadmap
+    title: Learning Roadmap
+    category: education
+    status: planned
+    path: templates/023-learning-roadmap/README.md
+    complexity: beginner
+    image_mode: none-required
+  - id: 024-pitch-deck
+    title: Pitch Deck
+    category: startup
+    status: planned
+    path: templates/024-pitch-deck/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+  - id: 025-security-lab
+    title: Security Lab
+    category: security
+    status: planned
+    path: templates/025-security-lab/README.md
+    complexity: advanced
+    image_mode: none-required
+  - id: 026-studio-showcase
+    title: Studio Showcase
+    category: studio
+    status: planned
+    path: templates/026-studio-showcase/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+  - id: 027-briefing-memo
+    title: Briefing Memo
+    category: operations
+    status: planned
+    path: templates/027-briefing-memo/README.md
+    complexity: beginner
+    image_mode: none-required
+  - id: 028-manifesto-foundry
+    title: Manifesto Foundry
+    category: founder
+    status: planned
+    path: templates/028-manifesto-foundry/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+  - id: 029-event-brief
+    title: Event Brief
+    category: community
+    status: planned
+    path: templates/029-event-brief/README.md
+    complexity: beginner
+    image_mode: optional-documented
+  - id: 030-community-spotlight
+    title: Community Spotlight
+    category: community
+    status: planned
+    path: templates/030-community-spotlight/README.md
+    complexity: intermediate
+    image_mode: optional-documented

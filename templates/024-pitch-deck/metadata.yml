@@ -1,0 +1,26 @@
+id: 024-pitch-deck
+title: Pitch Deck
+category: startup
+audience:
+  - founder
+  - product-builder
+  - startup-operator
+style:
+  visual_density: medium
+  alignment: center
+  color_palette: boardroom-light
+  animations: none
+  complexity: intermediate
+visual_architecture: va-024
+sections:
+  - identity
+  - problem
+  - solution
+  - why-now
+  - current-focus
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

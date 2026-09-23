@@ -1,0 +1,25 @@
+id: 027-briefing-memo
+title: Briefing Memo
+category: operations
+audience:
+  - strategy-lead
+  - product-manager
+  - operator
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: memo-paper
+  animations: none
+  complexity: beginner
+visual_architecture: va-027
+sections:
+  - identity
+  - executive-summary
+  - key-contexts
+  - briefing-notes
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

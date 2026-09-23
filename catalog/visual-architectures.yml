@@ -238,3 +238,123 @@ visual_architectures:
     skill_format: chapter-tags
     image_strategy: optional-documented
     assigned_to: 020-documentary-profile
+
+  - id: va-021
+    name: Mosaic Portfolio
+    type: portfolio
+    layout: gallery-mosaic
+    alignment: center
+    density: medium
+    navigation: section-anchors
+    project_format: visual-cards
+    skill_format: editorial-columns
+    image_strategy: local-assets
+    assigned_to: 021-mosaic-portfolio
+
+  - id: va-022
+    name: Signal Feed
+    type: developer-experience
+    layout: feed
+    alignment: left
+    density: medium
+    navigation: timeline-index
+    project_format: note-stream
+    skill_format: topic-tags
+    image_strategy: optional-documented
+    assigned_to: 022-signal-feed
+
+  - id: va-023
+    name: Learning Roadmap
+    type: education
+    layout: roadmap
+    alignment: left
+    density: medium
+    navigation: phase-links
+    project_format: learning-stages
+    skill_format: focus-threads
+    image_strategy: none-required
+    assigned_to: 023-learning-roadmap
+
+  - id: va-024
+    name: Pitch Deck
+    type: startup
+    layout: slide-sequence
+    alignment: center
+    density: medium
+    navigation: deck-index
+    project_format: slide-panels
+    skill_format: value-matrix
+    image_strategy: optional-documented
+    assigned_to: 024-pitch-deck
+
+  - id: va-025
+    name: Security Lab
+    type: security
+    layout: lab-report
+    alignment: left
+    density: high
+    navigation: section-links
+    project_format: risk-brief
+    skill_format: control-grid
+    image_strategy: none-required
+    assigned_to: 025-security-lab
+
+  - id: va-026
+    name: Studio Showcase
+    type: studio
+    layout: showcase-grid
+    alignment: left
+    density: medium
+    navigation: project-links
+    project_format: case-showcase
+    skill_format: specialty-list
+    image_strategy: optional-documented
+    assigned_to: 026-studio-showcase
+
+  - id: va-027
+    name: Briefing Memo
+    type: operations
+    layout: memo
+    alignment: left
+    density: medium
+    navigation: section-index
+    project_format: briefing-notes
+    skill_format: action-list
+    image_strategy: none-required
+    assigned_to: 027-briefing-memo
+
+  - id: va-028
+    name: Manifesto Foundry
+    type: founder
+    layout: manifesto
+    alignment: left
+    density: medium
+    navigation: principles-index
+    project_format: value-sections
+    skill_format: principles-grid
+    image_strategy: optional-documented
+    assigned_to: 028-manifesto-foundry
+
+  - id: va-029
+    name: Event Brief
+    type: community
+    layout: event-program
+    alignment: left
+    density: medium
+    navigation: talk-links
+    project_format: event-cards
+    skill_format: topic-tags
+    image_strategy: optional-documented
+    assigned_to: 029-event-brief
+
+  - id: va-030
+    name: Community Spotlight
+    type: community
+    layout: community-board
+    alignment: left
+    density: medium
+    navigation: circle-index
+    project_format: contribution-cards
+    skill_format: community-grid
+    image_strategy: optional-documented
+    assigned_to: 030-community-spotlight
