@@ -388,3 +388,68 @@ templates:
       - community-organizer
       - conference-speaker
       - engineering-mentor
+
+  - id: 031-cyberpunk-netrunner
+    title: Cyberpunk Netrunner
+    category: creative-tech
+    status: available
+    path: templates/031-cyberpunk-netrunner/README.md
+    complexity: advanced
+    image_mode: none-required
+    visual_architecture: va-031
+    audience:
+      - offensive-security-engineer
+      - low-level-systems-hacker
+      - crypto-protocol-developer
+
+  - id: 032-deep-space-astrophysics
+    title: Deep Space Flight Telemetry
+    category: scientific
+    status: available
+    path: templates/032-deep-space-astrophysics/README.md
+    complexity: advanced
+    image_mode: none-required
+    visual_architecture: va-032
+    audience:
+      - aerospace-engineer
+      - scientific-computing-researcher
+      - simulation-systems-developer
+
+  - id: 033-dungeon-rpg-character-sheet
+    title: Dungeon RPG Character Sheet
+    category: creative
+    status: available
+    path: templates/033-dungeon-rpg-character-sheet/README.md
+    complexity: intermediate
+    image_mode: none-required
+    visual_architecture: va-033
+    audience:
+      - game-developer
+      - creative-engineer
+      - full-stack-humorist
+
+  - id: 034-audio-synth-rack
+    title: Audio Modular Synth Rack
+    category: creative
+    status: available
+    path: templates/034-audio-synth-rack/README.md
+    complexity: advanced
+    image_mode: none-required
+    visual_architecture: va-034
+    audience:
+      - audio-dsp-engineer
+      - music-software-developer
+      - creative-technologist
+
+  - id: 035-top-secret-dossier
+    title: Top Secret Classified Dossier
+    category: security
+    status: available
+    path: templates/035-top-secret-dossier/README.md
+    complexity: advanced
+    image_mode: none-required
+    visual_architecture: va-035
+    audience:
+      - security-researcher
+      - reverse-engineer
+      - stealth-architect

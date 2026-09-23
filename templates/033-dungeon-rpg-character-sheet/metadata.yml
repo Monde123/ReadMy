@@ -1,0 +1,15 @@
+title: Dungeon RPG Character Sheet
+category: creative
+status: available
+complexity: intermediate
+image_mode: none-required
+visual_architecture: va-033
+audience:
+  - game-developer
+  - creative-engineer
+  - full-stack-humorist
+features:
+  - RPG D&D Character Stats Matrix
+  - Legendary Equipped Inventory Table
+  - Main Quest & Side Quest logbooks
+  - Spellbook & Skill Tree taxonomy

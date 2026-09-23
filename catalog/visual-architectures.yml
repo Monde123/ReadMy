@@ -358,3 +358,64 @@ visual_architectures:
     skill_format: community-grid
     image_strategy: optional-documented
     assigned_to: 030-community-spotlight
+
+  - id: va-031
+    name: Cyberpunk Netrunner
+    type: creative-tech
+    layout: cyberdeck-hud
+    alignment: center-split
+    density: high
+    navigation: neural-links
+    project_format: mission-consoles
+    skill_format: offensive-matrix
+    image_strategy: none-required
+    assigned_to: 031-cyberpunk-netrunner
+
+  - id: va-032
+    name: Deep Space Flight Telemetry
+    type: scientific
+    layout: telemetry-console
+    alignment: center-split
+    density: high
+    navigation: dsn-uplinks
+    project_format: flight-ephemeris
+    skill_format: astrodynamics-stack
+    image_strategy: none-required
+    assigned_to: 032-deep-space-astrophysics
+
+  - id: va-033
+    name: Dungeon RPG Character Sheet
+    type: creative
+    layout: rpg-sheet
+    alignment: center-split
+    density: high
+    navigation: quest-index
+    project_format: quest-logs
+    skill_format: spellbook-tree
+    image_strategy: none-required
+    assigned_to: 033-dungeon-rpg-character-sheet
+
+  - id: va-034
+    name: Audio Modular Synth Rack
+    type: creative
+    layout: eurorack-rack
+    alignment: center-split
+    density: high
+    navigation: studio-patches
+    project_format: audio-modules
+    skill_format: dsp-toolbox
+    image_strategy: none-required
+    assigned_to: 034-audio-synth-rack
+
+  - id: va-035
+    name: Top Secret Classified Dossier
+    type: security
+    layout: redacted-dossier
+    alignment: center-split
+    density: high
+    navigation: clearance-index
+    project_format: black-projects
+    skill_format: operational-arsenal
+    image_strategy: none-required
+    assigned_to: 035-top-secret-dossier
+

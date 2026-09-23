@@ -1,0 +1,15 @@
+title: Audio Modular Synth Rack
+category: creative
+status: available
+complexity: advanced
+image_mode: none-required
+visual_architecture: va-034
+audience:
+  - audio-dsp-engineer
+  - music-software-developer
+  - creative-technologist
+features:
+  - Eurorack Patch Cable Matrix ASCII banner
+  - Real-time ASCII Oscilloscope Waveform
+  - DSP Audio Signal Chain Table
+  - JUCE / CLAP / WebAudio Plugin Pipeline

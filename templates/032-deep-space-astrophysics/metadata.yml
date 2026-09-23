@@ -1,0 +1,15 @@
+title: Deep Space Flight Telemetry
+category: scientific
+status: available
+complexity: advanced
+image_mode: none-required
+visual_architecture: va-032
+audience:
+  - aerospace-engineer
+  - scientific-computing-researcher
+  - simulation-systems-developer
+features:
+  - Deep Space Network orbital telemetry header
+  - Gravitational N-body flight telemetry box
+  - Payload science instruments table
+  - DSN ground uplink communications card

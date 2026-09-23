@@ -1,0 +1,15 @@
+title: Cyberpunk Netrunner
+category: creative-tech
+status: available
+complexity: advanced
+image_mode: none-required
+visual_architecture: va-031
+audience:
+  - offensive-security-engineer
+  - low-level-systems-hacker
+  - crypto-protocol-developer
+features:
+  - ASCII HUD Frame Header
+  - Real-time Cyberdeck Telemetry metrics
+  - Active Missions in pseudo-terminal format
+  - Cryptographic PGP Comm-Channel
