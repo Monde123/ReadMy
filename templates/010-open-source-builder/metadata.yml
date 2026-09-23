@@ -1,0 +1,25 @@
+id: 010-open-source-builder
+title: Open Source Builder
+category: open-source
+audience:
+  - open-source-maintainer
+  - community-builder
+  - developer-tools-builder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: community-purple
+  animations: optional
+  complexity: intermediate
+sections:
+  - identity
+  - open-source-focus
+  - projects
+  - contribution-values
+  - collaboration
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

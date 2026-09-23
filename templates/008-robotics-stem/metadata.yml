@@ -1,0 +1,26 @@
+id: 008-robotics-stem
+title: Robotics & STEM
+category: student
+audience:
+  - robotics-student
+  - stem-educator
+  - ai-hardware-builder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: electronics-orange
+  animations: optional
+  complexity: intermediate
+sections:
+  - identity
+  - mission
+  - skills
+  - projects
+  - teaching
+  - future-direction
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

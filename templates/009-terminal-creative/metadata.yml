@@ -1,0 +1,25 @@
+id: 009-terminal-creative
+title: Terminal Creative
+category: creative
+audience:
+  - creative-developer
+  - cli-developer
+  - experimental-builder
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: terminal-green
+  animations: none
+  complexity: intermediate
+sections:
+  - terminal-hero
+  - profile
+  - toolkit
+  - commands
+  - experiments
+  - contact
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

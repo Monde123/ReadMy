@@ -1,0 +1,25 @@
+id: 007-student-researcher
+title: Student Researcher
+category: academic
+audience:
+  - computer-science-student
+  - ai-student
+  - junior-researcher
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: academic-blue
+  animations: none
+  complexity: beginner
+sections:
+  - identity
+  - academic-focus
+  - learning-path
+  - experiments
+  - goals
+  - contact
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

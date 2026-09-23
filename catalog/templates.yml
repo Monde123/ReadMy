@@ -44,16 +44,32 @@ templates:
   - id: 007-student-researcher
     title: Student Researcher
     category: academic
-    status: planned
+    status: available
+    path: templates/007-student-researcher/README.md
+    complexity: beginner
+    image_mode: none-required
   - id: 008-robotics-stem
     title: Robotics & STEM
     category: student
-    status: planned
+    status: available
+    path: templates/008-robotics-stem/README.md
+    complexity: intermediate
+    image_mode: optional-documented
   - id: 009-terminal-creative
     title: Terminal Creative
     category: creative
-    status: planned
+    status: available
+    path: templates/009-terminal-creative/README.md
+    complexity: intermediate
+    image_mode: none-required
   - id: 010-open-source-builder
     title: Open Source Builder
     category: open-source
+    status: available
+    path: templates/010-open-source-builder/README.md
+    complexity: intermediate
+    image_mode: optional-documented
+  - id: 011-academic-profile
+    title: Academic Profile
+    category: academic
     status: planned
