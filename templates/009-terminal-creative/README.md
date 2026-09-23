@@ -52,6 +52,11 @@ A terminal-based visual experiment that turns structured data into compact color
 
 `Python` `ANSI`
 
+### SignalBoard
+An experimental dashboard for capturing summaries, observations, and learning loops in a compact interface.
+
+`TypeScript` `Web` `UI`
+
 ## Contact
 
 - GitHub: [example-user](https://github.com/example-user)

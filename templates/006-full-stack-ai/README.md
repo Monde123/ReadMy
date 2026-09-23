@@ -2,23 +2,21 @@
 
 ### Full-Stack Engineer & AI Application Builder
 
-I design complete products across frontend, backend, cloud, data, and AI layers.
+I design end-to-end product experiences where interfaces, APIs, workflows, and AI features work together clearly.
 
-## Hero
-
-> Build the product. Understand the system. Improve it continuously.
-
-## Quick links
+<div align="center">
 
 [About](#about) · [Stack](#stack) · [Projects](#projects) · [Learning](#learning) · [Contact](#contact)
 
+</div>
+
 ## About
 
-I work at the intersection of engineering and product thinking. I enjoy building interfaces, APIs, workflows, and AI features with clear boundaries and observable behavior.
+I work at the intersection of engineering and product thinking. I enjoy building interfaces, APIs, workflows, and AI features with clear boundaries, observable behavior, and a strong sense of product purpose.
 
 ## Stack
 
-| Area | Tools |
+| Layer | Tools |
 |---|---|
 | Frontend | React, Next.js, TypeScript |
 | Backend | Python, Node.js, FastAPI |
@@ -40,11 +38,24 @@ A product pipeline that combines storefront flows, async backend jobs, and AI-as
 
 ## Projects
 
+<div align="center">
+
+| Project | Focus |
+|---|---|
+| WorkflowOS | Modular workspace for requests, permissions, and operational signals |
+| LocalLens | Offline-friendly knowledge tool with an emphasis on context and clarity |
+| PulsePilot | Product analytics assistant for release notes and idea prioritization |
+
+</div>
+
 ### WorkflowOS
 A modular workspace for requests, permissions, and operational signals.
 
 ### LocalLens
 An offline-friendly knowledge tool that keeps notes close to the user.
+
+### PulsePilot
+An AI-focused internal product that helps teams identify the most important product signals and next steps.
 
 ## Learning
 
@@ -57,3 +68,5 @@ An offline-friendly knowledge tool that keeps notes close to the user.
 
 - GitHub: [example-user](https://github.com/example-user)
 - Website: [example.com](https://example.com)
+
+> Build the product. Understand the system. Improve it continuously.

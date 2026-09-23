@@ -2,24 +2,20 @@
 
 ### Frontend Developer
 
-I build interfaces that feel clear, responsive, and useful before they feel impressive.
+I design interfaces that feel clear before they feel impressive.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&text=UI%20SYSTEMS&color=gradient&fontSize=40" alt="Decorative banner reading UI systems" width="100%" />
+</p>
 
 ## Design focus
 
-<div align="center">
-  <table>
-    <tr>
-      <td>Accessible patterns</td>
-      <td>UI systems</td>
-      <td>Responsive layouts</td>
-    </tr>
-    <tr>
-      <td>Performance</td>
-      <td>Interaction clarity</td>
-      <td>Reusable components</td>
-    </tr>
-  </table>
-</div>
+| Layer | Purpose | Signal |
+|---|---|---|
+| Systems | Consistency | Predictable patterns |
+| Interaction | Clarity | Minimal friction |
+| Accessibility | Trust | Clear semantics |
+| Performance | Precision | Fast feedback |
 
 ## Frontend stack
 
@@ -27,16 +23,30 @@ I build interfaces that feel clear, responsive, and useful before they feel impr
 
 ## Selected work
 
-| Project | Description |
-|---|---|
-| InterfaceKit | Reusable component library for consistent product interfaces |
-| InsightBoard | Analytics dashboard focused on clarity and scanability |
+<div align="center">
 
-**InterfaceKit**  
-`React` `TypeScript` `Storybook`
+| Project | Type | Description |
+|---|---|---|
+| InterfaceKit | Component library | Reusable UI primitives for calm, scalable product teams |
+| InsightBoard | Product dashboard | Analytics and decision surfaces designed for clarity |
+| FlowNotes | Workflow tooling | Lightweight collaboration patterns for complex product work |
 
-**InsightBoard**  
-`Next.js` `TypeScript` `Charts`
+</div>
+
+### InterfaceKit
+A design system built to give product teams consistent structure without sacrificing personality.
+
+`React` `TypeScript` `Storybook` `Design Systems`
+
+### InsightBoard
+A dashboard focused on decision quality, readable data, and faster comprehension under pressure.
+
+`Next.js` `TypeScript` `Charts` `UX`
+
+### FlowNotes
+Cross-functional notes and workflow patterns that reduce friction between product, design, and engineering.
+
+`Frontend` `Collaboration` `Product thinking`
 
 ## Principles
 
