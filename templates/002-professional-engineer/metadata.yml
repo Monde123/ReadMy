@@ -1,0 +1,25 @@
+id: 002-professional-engineer
+title: Professional Engineer
+category: professional
+audience:
+  - software-engineer
+  - backend-developer
+  - freelancer
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: neutral-blue
+  animations: none
+  complexity: beginner
+sections:
+  - identity
+  - positioning
+  - capabilities
+  - selected-work
+  - principles
+  - contact
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

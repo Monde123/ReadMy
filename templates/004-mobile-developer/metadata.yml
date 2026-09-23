@@ -1,0 +1,26 @@
+id: 004-mobile-developer
+title: Mobile Developer
+category: mobile
+audience:
+  - mobile-developer
+  - flutter-developer
+  - react-native-developer
+style:
+  visual_density: medium
+  alignment: left
+  color_palette: mobile-purple
+  animations: optional
+  complexity: beginner
+sections:
+  - identity
+  - summary
+  - mobile-stack
+  - products
+  - strengths
+  - learning
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

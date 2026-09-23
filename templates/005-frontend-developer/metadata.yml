@@ -1,0 +1,25 @@
+id: 005-frontend-developer
+title: Frontend Developer
+category: frontend
+audience:
+  - frontend-developer
+  - ui-engineer
+  - design-system-builder
+style:
+  visual_density: medium
+  alignment: centered
+  color_palette: warm-gradient
+  animations: optional
+  complexity: beginner
+sections:
+  - identity
+  - design-focus
+  - frontend-stack
+  - selected-work
+  - principles
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

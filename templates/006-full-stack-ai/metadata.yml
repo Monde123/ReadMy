@@ -1,0 +1,28 @@
+id: 006-full-stack-ai
+title: Full-Stack & AI Engineer
+category: freelance-product
+audience:
+  - full-stack-engineer
+  - ai-application-builder
+  - product-builder
+style:
+  visual_density: high
+  alignment: left
+  color_palette: purple-teal
+  animations: optional
+  complexity: advanced
+sections:
+  - hero
+  - navigation
+  - positioning
+  - stack
+  - flagship-project
+  - projects
+  - labs
+  - roadmap
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

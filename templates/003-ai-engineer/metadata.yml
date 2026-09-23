@@ -1,0 +1,26 @@
+id: 003-ai-engineer
+title: AI Engineer
+category: ai-data
+audience:
+  - ai-engineer
+  - machine-learning-engineer
+  - data-scientist
+style:
+  visual_density: medium
+  alignment: centered
+  color_palette: dark-blue
+  animations: optional
+  complexity: intermediate
+sections:
+  - identity
+  - focus
+  - stack
+  - projects
+  - research
+  - learning
+  - contact
+anonymized: true
+images:
+  external: optional
+  local_assets: recommended
+  alt_text_required: true

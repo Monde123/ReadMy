@@ -9,16 +9,51 @@ templates:
   - id: 002-professional-engineer
     title: Professional Engineer
     category: professional
-    status: planned
+    status: available
+    path: templates/002-professional-engineer/README.md
+    complexity: beginner
+    image_mode: none-required
   - id: 003-ai-engineer
     title: AI Engineer
     category: ai-data
-    status: planned
+    status: available
+    path: templates/003-ai-engineer/README.md
+    complexity: intermediate
+    image_mode: optional-documented
   - id: 004-mobile-developer
     title: Mobile Developer
     category: mobile
-    status: planned
+    status: available
+    path: templates/004-mobile-developer/README.md
+    complexity: beginner
+    image_mode: optional-documented
   - id: 005-frontend-developer
     title: Frontend Developer
     category: frontend
+    status: available
+    path: templates/005-frontend-developer/README.md
+    complexity: beginner
+    image_mode: optional-documented
+  - id: 006-full-stack-ai
+    title: Full-Stack & AI Engineer
+    category: freelance-product
+    status: available
+    path: templates/006-full-stack-ai/README.md
+    complexity: advanced
+    image_mode: optional-documented
+  - id: 007-student-researcher
+    title: Student Researcher
+    category: academic
+    status: planned
+  - id: 008-robotics-stem
+    title: Robotics & STEM
+    category: student
+    status: planned
+  - id: 009-terminal-creative
+    title: Terminal Creative
+    category: creative
+    status: planned
+  - id: 010-open-source-builder
+    title: Open Source Builder
+    category: open-source
     status: planned
