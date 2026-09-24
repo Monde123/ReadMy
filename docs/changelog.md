@@ -90,3 +90,11 @@ The library now spans academic, editorial, command-center, product-landing, dash
 ### Design coverage
 
 The library now includes gallery, feed, roadmap, pitch-deck, security report, studio showcase, memo, manifesto, event brief, and community spotlight architectures, pushing the collection further toward a genuinely differentiated design gallery.
+
+## 2026-09-24 — 40 Visual Architectures & Profile Adapter AI Skill
+
+### Added
+- Completed all 40 templates (031 through 040: RPG character sheet, Cyberpunk HUD, Retro MS-DOS, Redacted Dossier, Vintage Broadsheet, FinTech SaaS, Flutter Mobile, AI Researcher, Prolific Toolmaker, and Quantum Prism Cascade).
+- Introduced the **ReadMy Profile Adapter AI Skill** (`readmy-profile-adapter`) in `/skills/system_skills/readmy_profile_adapter/SKILL.md` and `docs/readmy-profile-adapter-skill.md`.
+- Integrated real-time GitHub telemetry ingestion, structural preservation transfusion, and targeted interactive questioning directly into ReadMy Studio.
+- Updated main `README.md` with complete quick-start guide on creating special `<username>/<username>` GitHub profile repositories.

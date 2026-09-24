@@ -24,6 +24,10 @@ Local SVGs, placeholders, separators, preview images, and other neutral visual r
 
 Machine-readable descriptions of templates and external services. Catalogs make the collection searchable and can support future generators or validation tools.
 
+### Profile Adapter AI Skill Layer
+
+An intelligent adaptation system (`readmy-profile-adapter`) that ingests live developer telemetry from the GitHub public API, maps repositories and languages into the chosen template's slots, and prompts for missing data through targeted questions while strictly preserving the template's markup and visual geometry.
+
 ### Documentation
 
 Rules and decisions that keep the project coherent: design principles, anonymization, image usage, contribution, and customization.
