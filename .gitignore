@@ -1,0 +1,8 @@
+# Local tooling & dev artifacts (never committed to repository)
+.DS_Store
+*.local
+node_modules/
+dist/
+.cache/
+test-preview/
+.tmp/

@@ -1,25 +1,25 @@
 id: 010-open-source-builder
 title: Open Source Builder
-category: open-source
+category: community
 audience:
   - open-source-maintainer
-  - community-builder
-  - developer-tools-builder
+  - developer-toolmaker
+  - package-author
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: community-purple
-  animations: optional
+  visual_density: high
+  alignment: centered-ecosystem
+  color_palette: emerald-gold-slate
+  animations: none
   complexity: intermediate
 visual_architecture: va-010
 sections:
-  - system-status
-  - core-mission
-  - operating-modules
-  - maintained-projects
-  - contribution-values
-  - community-focus
-  - contact
+  - maintainer-masthead
+  - stats-badge-row
+  - repo-health-matrix
+  - flagship-utilities-grid
+  - maintainer-covenant
+  - sponsor-tiers-table
+  - ecosystem-connect-footer
 anonymized: true
 images:
   external: optional

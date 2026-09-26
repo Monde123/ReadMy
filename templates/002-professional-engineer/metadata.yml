@@ -1,26 +1,27 @@
 id: 002-professional-engineer
 title: Professional Engineer
-category: professional
+category: systems
 audience:
-  - software-engineer
-  - backend-developer
-  - freelancer
+  - backend-engineer
+  - distributed-systems-architect
+  - staff-engineer
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: neutral-blue
+  visual_density: high
+  alignment: left-rfc
+  color_palette: slate-datasheet
   animations: none
-  complexity: beginner
+  complexity: advanced
 visual_architecture: va-002
 sections:
-  - identity
-  - positioning
-  - capabilities
-  - selected-work
-  - principles
-  - contact
+  - rfc-masthead
+  - abstract
+  - system-parameters-table
+  - normative-tenets
+  - reference-systems-grid
+  - runbook-terminal-verification
+  - colophon-signature
 anonymized: true
 images:
-  external: false
-  local_assets: optional
+  external: optional
+  local_assets: recommended
   alt_text_required: true

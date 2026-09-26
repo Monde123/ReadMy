@@ -2,23 +2,24 @@ id: 016-data-dashboard
 title: Data Dashboard
 category: data
 audience:
-  - data-engineer
-  - product-analyst
-  - product-builder
+  - principal-data-architect
+  - analytics-engineer
+  - big-data-developer
 style:
   visual_density: high
-  alignment: left
-  color_palette: analytical-blue
+  alignment: centered-lakehouse
+  color_palette: cyan-purple-emerald
   animations: none
-  complexity: intermediate
+  complexity: advanced
 visual_architecture: va-016
 sections:
-  - identity
-  - overview
-  - analytics-story
-  - outcomes
-  - focus
-  - contact
+  - data-masthead
+  - ingestion-kpi-badges
+  - lakehouse-flow-diagram
+  - modern-data-stack-table
+  - flagship-data-products-grid
+  - data-governance-covenant
+  - connect-footer
 anonymized: true
 images:
   external: optional

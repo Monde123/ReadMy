@@ -1,7 +1,24 @@
-# Customizing Briefing Memo
+# Customization Guide: Briefing Memo
 
-This template is ideal for people whose work is strategic, operational, or cross-functional rather than purely code-centric.
+The `027-briefing-memo` template frames your profile as an authoritative **Executive Decision Memorandum** (modeled after Amazon 6-pagers, Bridgewater memos, and military staff papers). It is ideal for Strategy & Operations Leads, VP of Engineering, and Technical Program Directors.
 
-Replace the summary, priorities, and notes with your own work context. Keep the memo tone if it matches your practice, or simplify to a more personal and less formal voice.
+## Quick Start (3 Steps)
 
-This format works well when clarity, direction, and execution are more important than a polished visual performance.
+1. **Memorandum Header**:
+   - Customize the ASCII memo header block with your company or organization name.
+   - Replace `Ely Mapes` with your name and official title.
+   - State the strategic subject and explicit action requested.
+
+2. **Executive Summary & Options Trade-off Matrix**:
+   - Write a crisp diagnosis of the operational challenge with quantitative metrics (latency, headcount, velocity).
+   - Customize the 3-option comparison table (comparing costs, risks, time-to-value, and ROI).
+
+3. **Recommendation & 90-Day Execution Timeline**:
+   - Detail your strategic recommendation and governance principles.
+   - Adjust the 3-month milestone timeline with concrete deliverables and cost-saving metrics.
+   - Add your communication coordinates in the sign-off docket.
+
+## Executive Gravitas
+
+- Demonstrates clear, disciplined decision-making and cross-functional leadership.
+- Pure GFM formatting ensures crisp rendering on mobile devices, executive tablets, and all GitHub themes.

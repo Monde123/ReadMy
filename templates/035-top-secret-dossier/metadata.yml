@@ -1,0 +1,15 @@
+title: Top Secret Classified Dossier
+category: security
+status: available
+complexity: advanced
+image_mode: none-required
+visual_architecture: va-035
+audience:
+  - security-researcher
+  - reverse-engineer
+  - stealth-architect
+features:
+  - Declassified Document ASCII Header
+  - Redacted Unicode CIA/SCP style file records
+  - Interactive clickable memoranda declassification
+  - Cryptographic Dead-Drop contact card

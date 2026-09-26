@@ -1,23 +1,25 @@
 id: 029-event-brief
 title: Event Brief
-category: community
+category: event
 audience:
-  - speaker
-  - community-builder
-  - facilitator
+  - keynote-speaker
+  - technical-trainer
+  - conference-presenter
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: event-lumen
+  visual_density: high
+  alignment: centered-speaker-sheet
+  color_palette: speaker-violet-gold
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-029
 sections:
-  - identity
-  - upcoming-events
-  - topics
-  - what-i-bring
-  - contact
+  - speaker-station-masthead
+  - speaker-snapshot-badges
+  - ready-to-deliver-keynotes-grid
+  - technical-workshops-table
+  - technical-speaker-rider-block
+  - organizer-testimonials
+  - check-availability-footer
 anonymized: true
 images:
   external: optional

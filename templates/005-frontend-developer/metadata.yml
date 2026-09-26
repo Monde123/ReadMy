@@ -4,22 +4,21 @@ category: frontend
 audience:
   - frontend-developer
   - ui-engineer
-  - design-system-builder
+  - design-system-architect
 style:
-  visual_density: medium
-  alignment: centered
-  color_palette: warm-gradient
-  animations: optional
-  complexity: beginner
+  visual_density: high
+  alignment: asymmetric-bento
+  color_palette: indigo-emerald
+  animations: none
+  complexity: intermediate
 visual_architecture: va-005
 sections:
-  - identity
-  - banner
-  - design-focus
-  - frontend-stack
-  - selected-work
-  - principles
-  - contact
+  - header-masthead
+  - bento-telemetry-grid
+  - interactive-primitive-demo
+  - tech-toolchain
+  - project-showcase-matrix
+  - footer-connect
 anonymized: true
 images:
   external: optional

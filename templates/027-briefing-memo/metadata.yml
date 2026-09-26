@@ -1,23 +1,24 @@
 id: 027-briefing-memo
 title: Briefing Memo
-category: operations
+category: executive
 audience:
-  - strategy-lead
-  - product-manager
-  - operator
+  - strategy-and-ops-lead
+  - vp-engineering
+  - technical-program-director
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: memo-paper
+  visual_density: high
+  alignment: left-executive-memo
+  color_palette: corporate-slate-gold
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-027
 sections:
-  - identity
-  - executive-summary
-  - key-contexts
-  - briefing-notes
-  - contact
+  - executive-memo-masthead
+  - executive-summary-diagnosis
+  - strategic-options-matrix
+  - decisive-recommendation
+  - execution-timeline-tree
+  - sign-off-docket-footer
 anonymized: true
 images:
   external: optional

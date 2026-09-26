@@ -1,27 +1,23 @@
-# Customizing Minimal Clean
+# Customization Guide: Minimal Clean
 
-This template is intentionally compact and does not require external images.
+The `001-minimal-clean` template embodies **distilled engineering minimalism**: zero flashy badges, zero external scripts, zero broken image widgets, and pristine typographic hierarchy.
 
-## Replace these values
+## Quick Start (3 Steps)
 
-- `John Doe` with your display name.
-- `Software Engineer` with your role or current direction.
-- The summary with two or three sentences about your work.
-- The skills and technologies with your actual focus.
-- `TaskFlow` and `DataForge` with your own projects.
-- `example-user` with your GitHub username.
-- `hello@example.com` with a public contact address if you want to display one.
+1. **Identity & Philosophy**:
+   - Replace `Alex Martin` with your name.
+   - Update your location, role, and core focus sentence.
+   - Adjust the 3 personal tenets in the monospace text block.
 
-## Keep the structure
+2. **Selected Projects & System Capabilities**:
+   - Replace the 3 highlighted projects with your best work (focus on problem, implementation, and quantified technical metrics).
+   - Edit the grouped capabilities list (Languages, Storage, Protocols, Environments).
 
-The template is organized to answer, in order:
+3. **Writing & Index Links**:
+   - Update links to your technical essays, blog posts, or RFCs.
+   - Update email, GitHub handle, and PGP/RSS links in the footer index.
 
-1. Who are you?
-2. What can you do?
-3. What have you built?
-4. What are you learning?
-5. How can someone contact you?
+## Design Tenets
 
-## Optional changes
-
-You may add a local banner, statistics, or social links, but keep them below the core introduction and document any external service that you add.
+- Zero third-party image tracking or external network dependencies.
+- Perfect rendering on mobile, text-mode browsers, e-ink displays, and dark/light GitHub themes.

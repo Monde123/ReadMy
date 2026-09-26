@@ -1,26 +1,24 @@
 id: 006-full-stack-ai
-title: Full-Stack & AI Engineer
-category: freelance-product
+title: Full-Stack AI Engineer
+category: ai
 audience:
   - full-stack-engineer
-  - ai-application-builder
-  - product-builder
+  - ai-application-developer
+  - llm-product-architect
 style:
   visual_density: high
-  alignment: left
-  color_palette: purple-teal
-  animations: optional
-  complexity: advanced
+  alignment: centered-topology
+  color_palette: teal-indigo-slate
+  animations: none
+  complexity: intermediate
 visual_architecture: va-006
 sections:
-  - hero
-  - navigation
-  - positioning
-  - stack
-  - flagship-project
-  - projects
-  - learning
-  - contact
+  - header-masthead
+  - full-stack-system-topology
+  - technical-capabilities-table
+  - flagship-products-grid
+  - production-ai-principles
+  - connect-footer
 anonymized: true
 images:
   external: optional

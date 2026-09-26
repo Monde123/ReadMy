@@ -1,7 +1,21 @@
-# Customizing Data Dashboard
+# Customization Guide: Data Dashboard
 
-This template is designed for profiles centered on analytics, experimentation, and evidence-driven product work.
+The `016-data-dashboard` template presents your profile as an authoritative **Data Platform Architecture & Lakehouse Dashboard**, ideal for Data Engineers, Analytics Architects, and Lakehouse Specialists.
 
-Replace the example metrics, signals, and outcomes with your own work. Keep the dashboard logic if it fits your role, but avoid misleading numbers or fabricated performance claims.
+## Quick Start (3 Steps)
 
-Use neutral and readable structure. If you include charts or data visuals, make sure they remain accessible and not overly decorative.
+1. **Header & Data Scorecard**:
+   - Replace `Devon Rhodes` with your name and role.
+   - Update top badges with your scale metrics (Daily Ingestion Volume, Events Streamed, p95 Query Latency, and Freshness SLA).
+
+2. **Lakehouse Architecture & Modern Data Stack**:
+   - Update the ASCII pipeline diagram showing your Bronze, Silver, and Gold layers (Iceberg/Delta Lake, dbt, ClickHouse/Snowflake).
+   - Customize the Modern Data Stack table with your preferred ingestion, storage, transformation, and governance tools.
+
+3. **Flagship Data Products & Quality Covenant**:
+   - Highlight 2 data platforms or open-source data contract frameworks with quantified latency reductions and business impact.
+   - Adjust the governance SLAs to reflect your data engineering standards.
+
+## Production Rigour
+
+- Elevates your profile above simple SQL queries by demonstrating end-to-end distributed data architecture, schema enforcement, and sub-second query performance.

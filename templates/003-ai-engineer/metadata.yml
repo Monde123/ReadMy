@@ -1,26 +1,24 @@
 id: 003-ai-engineer
 title: AI Engineer
-category: ai-data
+category: ai
 audience:
-  - ai-engineer
-  - ml-engineer
-  - data-scientist
+  - machine-learning-engineer
+  - llm-systems-architect
+  - ai-researcher
 style:
   visual_density: high
-  alignment: center
-  color_palette: cool-dashboard
-  animations: optional
-  complexity: intermediate
+  alignment: centered-dashboard
+  color_palette: nvidia-green-slate
+  animations: none
+  complexity: advanced
 visual_architecture: va-003
 sections:
-  - mission
-  - system-status
-  - core-modules
-  - active-stack
-  - flagship-systems
-  - research-direction
-  - next-iteration
-  - contact
+  - header-masthead
+  - model-registry-table
+  - inference-pipeline-flow
+  - flagship-models-grid
+  - mlops-infra-matrix
+  - research-colophon
 anonymized: true
 images:
   external: optional

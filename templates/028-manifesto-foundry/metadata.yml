@@ -1,23 +1,24 @@
 id: 028-manifesto-foundry
 title: Manifesto Foundry
-category: founder
+category: narrative
 audience:
-  - founder
-  - builder
-  - opinionated-creator
+  - software-artisan
+  - systems-craftsman
+  - pragmatic-architect
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: manifesto-ivory
+  visual_density: high
+  alignment: centered-manifesto
+  color_palette: foundry-gold-charcoal
   animations: none
   complexity: intermediate
 visual_architecture: va-028
 sections:
-  - identity
-  - principle
-  - values
-  - focus
-  - contact
+  - foundry-masthead
+  - philosophy-badges
+  - six-tenets-of-craftsmanship
+  - rejections-vs-commitments-table
+  - shipped-artifacts-grid
+  - seal-of-craftsmanship-footer
 anonymized: true
 images:
   external: optional

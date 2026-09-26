@@ -1,7 +1,22 @@
-# Customizing Community Spotlight
+# Customization Guide: Community Spotlight
 
-This template suits people whose work centers on community health, maintainer support, contributor experience, and open collaboration.
+The `030-community-spotlight` template is designed for **Community Organizers, Conference Keynote Speakers, Mentors, and Developer Advocates** who share knowledge, deliver talks, and offer mentorship.
 
-Replace the community circles, practices, and current work with your own environment. This format is especially effective when the profile should feel welcoming, grounded, and people-centered.
+## Quick Start (3 Steps)
 
-The design remains simple and legible so it can work both as a profile and as a lightweight community-facing landing page.
+1. **Header & Impact Metrics**:
+   - Replace `Amara Okafor` with your name and community focus.
+   - Adjust top badges with your mentorship hours delivered, keynote count, community members, and office hours availability.
+
+2. **Conference Keynotes Archive & Office Hours**:
+   - List your past or upcoming talks with conference names, descriptions, video recording links, and slide decks.
+   - Customize your 1-on-1 Mentorship & Office Hours section with the topics you mentor on and your scheduling link (`cal.com` or `calendly.com`).
+
+3. **Community Initiatives & Speaker Rider**:
+   - Detail the meetups, open-source initiatives, or non-profits you lead or contribute to.
+   - Include your speaker requirements and email address for conference organizers.
+
+## Human Connection & Leadership
+
+- Highlights empathetic leadership and genuine community contribution alongside technical expertise.
+- Formatted in clean GFM with high legibility across mobile and desktop devices.

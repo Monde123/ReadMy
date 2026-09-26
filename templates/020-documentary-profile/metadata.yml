@@ -1,24 +1,24 @@
 id: 020-documentary-profile
 title: Documentary Profile
-category: story
+category: systems
 audience:
-  - builder
-  - designer
-  - technical-storyteller
+  - systems-investigator
+  - sre-director
+  - principal-architect
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: documentary-warm
+  visual_density: high
+  alignment: centered-forensic-case
+  color_palette: slate-crimson-cyan
   animations: none
-  complexity: intermediate
+  complexity: advanced
 visual_architecture: va-020
 sections:
-  - identity
-  - chapter-1
-  - chapter-2
-  - chapter-3
-  - themes
-  - contact
+  - forensics-station-masthead
+  - investigative-badges
+  - featured-case-study-accordion
+  - forensic-case-archive-table
+  - systems-archaeology-philosophy
+  - research-archive-footer
 anonymized: true
 images:
   external: optional

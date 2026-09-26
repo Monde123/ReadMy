@@ -1,11 +1,23 @@
-# Customizing Student Researcher
+# Customization Guide: Student Researcher
 
-Use this template when your profile should emphasize learning, academic direction,
-and practical experiments rather than professional experience.
+The `007-student-researcher` template highlights your academic trajectory, undergraduate/graduate lab rotations, open study notes, and research internships.
 
-Replace the fictional identity, subjects, projects, goals, and links. Keep the
-learning path honest and specific. It is better to name a small number of concrete
-areas than to claim mastery of a very broad stack.
+## Quick Start (3 Steps)
 
-The text-based learning path works without images and can be replaced with a simple
-list if your profile needs a more compact format.
+1. **Academic Header & Badges**:
+   - Replace `Riley Anderson` with your name.
+   - Update your university affiliation, major (e.g. B.S. / M.S. in CS), and expected graduation date.
+   - Adjust badges for your GPA/Honors, Lab affiliation, and Student Research Fellowships.
+
+2. **Research Projects & Open Coursework**:
+   - Feature 2 active lab rotations or independent study projects with advisor names and key findings.
+   - Fill out the Open Coursework table with links to your course lab repos or published notes.
+
+3. **Milestones & Future Goals**:
+   - Update the 4-year academic milestone tree (teaching assistantships, awards, paper submissions).
+   - Customize the footer with your university `.edu` email, PDF CV link, and career aspirations (e.g., Ph.D. or industry research roles).
+
+## Academic Rigour
+
+- Demonstrates genuine academic discipline and intellectual curiosity.
+- Clean Markdown formatting ensures your repositories appear organized and credible to university admissions committees and tech recruiters.

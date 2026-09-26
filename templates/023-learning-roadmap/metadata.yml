@@ -2,22 +2,23 @@ id: 023-learning-roadmap
 title: Learning Roadmap
 category: education
 audience:
-  - learner
-  - technical-mentor
-  - self-directed-builder
+  - self-taught-engineer
+  - computer-science-student
+  - lifelong-learner
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: learning-slate
+  visual_density: high
+  alignment: centered-syllabus
+  color_palette: cobalt-emerald-amber
   animations: none
-  complexity: beginner
+  complexity: intermediate
 visual_architecture: va-023
 sections:
-  - identity
-  - roadmap
-  - learning-threads
-  - study-loops
-  - contact
+  - learning-masthead
+  - study-progress-badges
+  - four-tier-master-syllabus
+  - open-lab-repositories-table
+  - study-rhythm-block
+  - curriculum-notes-footer
 anonymized: true
 images:
   external: optional

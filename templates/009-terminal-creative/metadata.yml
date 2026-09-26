@@ -2,25 +2,24 @@ id: 009-terminal-creative
 title: Terminal Creative
 category: creative
 audience:
-  - creative-developer
   - cli-developer
-  - experimental-builder
+  - systems-hacker
+  - creative-coder
 style:
-  visual_density: medium
-  alignment: left
-  color_palette: terminal-green
+  visual_density: high
+  alignment: left-terminal
+  color_palette: terminal-matrix-green
   animations: none
   complexity: intermediate
 visual_architecture: va-009
 sections:
-  - terminal-hero
-  - profile
-  - toolkit
-  - commands
-  - experiments
-  - contact
+  - fastfetch-hero
+  - core-directives
+  - active-daemons-grid
+  - installed-binaries-matrix
+  - shell-exit-footer
 anonymized: true
 images:
-  external: false
-  local_assets: optional
+  external: optional
+  local_assets: recommended
   alt_text_required: true
