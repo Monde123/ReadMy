@@ -1,0 +1,61 @@
+{
+  "placeholders": [
+    "role"
+  ],
+  "warnings": [
+    "role absent : placeholder {{role}}, aucun intitulé inventé"
+  ],
+  "provenance": [
+    {
+      "field": "consent",
+      "source": "defaut",
+      "reason": "objet absent, défaut documenté false pour les quatre clés"
+    },
+    {
+      "field": "name",
+      "source": "github.name"
+    },
+    {
+      "field": "role",
+      "source": "placeholder"
+    },
+    {
+      "field": "summary",
+      "source": "github.bio"
+    },
+    {
+      "field": "location",
+      "source": "omis",
+      "reason": "consentement.showLocation=false"
+    },
+    {
+      "field": "organization",
+      "source": "omis",
+      "reason": "consentement.showCompany=false"
+    },
+    {
+      "field": "projects",
+      "source": "github.repos",
+      "reason": "plafond 4, forks exclus"
+    },
+    {
+      "field": "stack",
+      "source": "omis",
+      "reason": "composant stack absent du gabarit"
+    },
+    {
+      "field": "links.github",
+      "source": "github.login"
+    },
+    {
+      "field": "email",
+      "source": "omis",
+      "reason": "consentement.showEmail=false"
+    },
+    {
+      "field": "social",
+      "source": "omis",
+      "reason": "consentement.showSocial=false ou identifiant absent"
+    }
+  ]
+}

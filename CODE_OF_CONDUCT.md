@@ -1,15 +1,37 @@
-# Code of Conduct
+# Code de conduite
 
-## Our standard
+## Notre attente
 
-ReadMy is a collaborative project. Participants are expected to be respectful, constructive, and inclusive.
+ReadMy est un projet collaboratif. On s'adresse aux autres avec précision et respect. On critique le changement, pas la personne.
 
-Unacceptable behavior includes harassment, discrimination, personal attacks, doxxing, publishing private information, and submitting content that violates the anonymization policy.
+Sont inacceptables : le harcèlement, la discrimination, les attaques personnelles, la divulgation de données privées, et le dépôt de secrets ou de profils réels non anonymisés.
 
-## Enforcement
+## Application
 
-Project maintainers may edit, reject, or remove contributions that do not meet these standards. Serious or repeated violations may result in a ban from project spaces.
+Les personnes qui maintiennent le dépôt peuvent modifier, refuser ou retirer une contribution qui ne respecte pas ce texte. Une violation répétée ou grave peut mener à une exclusion des espaces du projet.
 
-## Scope
+## Portée
 
-This code of conduct applies to issues, pull requests, discussions, reviews, and other project spaces.
+Ce code s'applique aux issues, pull requests, revues, discussions et autres espaces du projet.
+
+## Signalement
+
+Écrire à la personne qui maintient le dépôt par un canal privé GitHub. Ne pas coller de secret ni de donnée personnelle dans une issue publique.
+
+## État
+
+Le texte reprend le code déjà présent sur `main`, en français, sans changer la licence du projet.
+
+## Prochaines actions
+
+Moïse peut désigner une adresse de signalement si le message privé GitHub ne suffit pas.
+
+## Risques
+
+Sans adresse nommée, un signalement dépend de la disponibilité du propriétaire du dépôt.
+
+### Notion bonus
+
+- Page « Conduite » avec le canal de signalement.
+- Date de relecture annuelle.
+- Lien vers `SECURITY.md` pour les secrets.

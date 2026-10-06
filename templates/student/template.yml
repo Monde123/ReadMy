@@ -1,0 +1,22 @@
+id: student
+version: 2.0.0
+title: Étudiante
+summary: Parcours d'apprentissage avec projets et feuille de route.
+audiences:
+  - etudiant
+  - debutant
+theme: paper
+banner: masthead
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - checklist
+  - projects
+  - stack
+  - links
+  - colophon
+requires:
+  - name
+  - role

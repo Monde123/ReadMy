@@ -1,0 +1,22 @@
+name: Camille Bernard
+role: Mainteneuse open source
+summary: "Je garde des bibliothèques petites et je réponds aux rapports."
+focus: "Le triage tient dans la semaine, pas dans le trimestre."
+principles:
+  - "Une issue sans reproduction reste une question."
+  - "La note de version dit ce qui casse."
+  - "Le gel des dépendances est un choix, pas un oubli."
+projects:
+  - name: lice
+    url: https://github.com/example-user/lice
+    description: "Vérifie un fichier de licence avant la publication."
+    language: Go
+  - name: rebord
+    url: https://github.com/example-user/rebord
+    description: "Découpe un changelog en notes par version."
+    language: JavaScript
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Soutien
+    url: https://example.com/soutien

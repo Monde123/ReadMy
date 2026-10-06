@@ -1,0 +1,30 @@
+{
+  "github": {
+    "login": "octocat",
+    "name": "The Octocat",
+    "bio": "I love tacos",
+    "company": "@github",
+    "blog": "https://github.blog",
+    "location": "San Francisco",
+    "email": "octocat@example.com",
+    "twitter_username": "octocat",
+    "repos": [
+      {
+        "name": "Hello-World",
+        "html_url": "https://github.com/octocat/Hello-World",
+        "description": "My first repository",
+        "language": "C",
+        "stargazers_count": 42,
+        "fork": false
+      },
+      {
+        "name": "Spoon-Knife",
+        "html_url": "https://github.com/octocat/Spoon-Knife",
+        "description": "This repo is a fork",
+        "language": "HTML",
+        "stargazers_count": 10000,
+        "fork": true
+      }
+    ]
+  }
+}

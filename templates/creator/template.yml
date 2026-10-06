@@ -1,0 +1,20 @@
+id: creator
+version: 2.0.0
+title: Création
+summary: Vitrine courte pour le design et les prototypes.
+audiences:
+  - createur
+theme: violet
+banner: masthead
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - projects
+  - stack
+  - links
+  - colophon
+requires:
+  - name
+  - role

@@ -1,0 +1,31 @@
+name: Défaut
+description: Un gabarit, la CLI ou la skill ne font pas ce que le contrat décrit.
+title: "défaut: "
+labels:
+  - qualité
+body:
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: textarea
+    id: obtenu
+    attributes:
+      label: Comportement obtenu
+      description: Collez la commande et le message d'erreur. Retirez tout secret avant.
+    validations:
+      required: true
+  - type: input
+    id: gabarit
+    attributes:
+      label: Gabarit
+      placeholder: minimal
+  - type: textarea
+    id: version
+    attributes:
+      label: Version de Node
+      description: Sortie de `node -v`.
+    validations:
+      required: true

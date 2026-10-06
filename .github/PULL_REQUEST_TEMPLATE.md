@@ -1,33 +1,23 @@
-## Summary
+## Intention
 
-Describe the design or documentation change in one paragraph.
+<!-- Public visé, gabarit ou composant, une seule intention. -->
 
-## Type of change
+## Vérification
 
-- [ ] New template
-- [ ] New component
-- [ ] Documentation
-- [ ] Catalog update
-- [ ] Bug fix
-- [ ] Accessibility improvement
+```bash
+node --test tests/*.test.js
+node tools/validate.js
+```
 
-## Anonymization checklist
+Coller le résumé (nombre de tests, échecs).
 
-- [ ] No real names or usernames are included.
-- [ ] No personal contact details are included.
-- [ ] No private or identifiable screenshots are included.
-- [ ] Dynamic statistics use placeholders.
-- [ ] Project and organization names are fictional or neutral.
+## Contrôles
 
-## Image checklist
+- [ ] Aucun service distant nouveau (Shields, Vercel, Heroku, skillicons, Demolab).
+- [ ] Aucun fait inventé pour remplir un trou.
+- [ ] Les fichiers générés viennent de `node tools/build.js`.
+- [ ] Pas de secret dans le diff.
 
-- [ ] Images have meaningful alternative text.
-- [ ] External services are documented.
-- [ ] Essential information is also available as text.
-- [ ] The contribution follows the image policy.
+## Licence
 
-## Documentation checklist
-
-- [ ] `metadata.yml` is present for new templates.
-- [ ] `customization.md` explains replacement values.
-- [ ] The change log has been updated when appropriate.
+La licence MIT du dépôt ne change pas dans cette pull request.

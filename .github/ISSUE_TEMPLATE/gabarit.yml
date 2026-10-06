@@ -1,0 +1,30 @@
+name: Gabarit
+description: Proposer un gabarit qui occupe un public encore absent du catalogue.
+title: "gabarit: "
+labels:
+  - gabarit
+body:
+  - type: textarea
+    id: public
+    attributes:
+      label: Public
+    validations:
+      required: true
+  - type: textarea
+    id: trou
+    attributes:
+      label: Quel trou du catalogue ce gabarit couvre
+      description: Nommez les gabarits existants qui ne suffisent pas.
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Thème envisagé
+      options:
+        - paper
+        - ink
+        - signal
+        - violet
+    validations:
+      required: true

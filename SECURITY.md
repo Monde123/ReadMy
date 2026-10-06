@@ -1,20 +1,37 @@
-# Security Policy
+# Sécurité
 
-## Scope
+## Périmètre
 
-ReadMy does not request secrets, API keys, passwords, or private profile data. Do not submit them in issues, pull requests, templates, images, or examples.
+ReadMy ne demande pas de secret, de clé d'API, de mot de passe ni de donnée de profil privé. Ne les collez pas dans une issue, une pull request, un gabarit, une image ou un exemple.
 
-## Reporting
+Le rendu s'arrête avec `SECRET_DETECTE` s'il reconnaît un motif de jeton. Le message d'erreur ne répète pas la valeur.
 
-If you find a secret, personal data exposure, malicious link, or other security concern, do not publish sensitive details in a public issue. Contact the repository maintainer privately through GitHub and provide the affected path and a minimal description.
+## Signalement
 
-## Prevention
+Si vous trouvez un secret, une donnée personnelle, un lien malveillant ou un autre problème de sécurité, n'ouvrez pas d'issue publique avec le détail. Contactez la personne qui maintient le dépôt en privé et indiquez le chemin du fichier.
 
-Contributors should check for:
+## Ce que les contributions évitent
 
-- tokens and credentials;
-- personal contact details;
-- tracking identifiers;
-- unsafe external links;
-- identifiable screenshots;
-- copied private assets.
+- Jetons et identifiants.
+- Coordonnées personnelles réelles.
+- Pixels de suivi.
+- Procédures d'attaque dans les gabarits.
+- Copies d'écrans identifiables.
+
+## État
+
+La politique de `main` est conservée et précisée pour la CLI v2.
+
+## Prochaines actions
+
+Aucun programme de prime n'est ouvert. Ne pas en annoncer un.
+
+## Risques
+
+Le détecteur de secrets reconnaît quelques préfixes courants. Il ne remplace pas une revue humaine.
+
+### Notion bonus
+
+- Journal privé des signalements, sans coller le secret.
+- Lien vers le code `SECRET_DETECTE`.
+- Rappel : l'archive v1 n'est pas le catalogue supporté.
