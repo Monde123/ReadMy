@@ -102,15 +102,23 @@ OK adapt injection false
 
 Lecture : un document vide, une tabulation et une clé dupliquée échouent avec un code. Un profil sans nom, un nom de 5 000 caractères et une URL `javascript:` échouent avec un code. Un profil sans dépôt n'invente pas de projet. Un lieu présent dans la fixture avec consentement par défaut reste absent (`false`). Une bio qui contient une balise `script` n'est pas réémise telle quelle (`false` sur la recherche de la balise brute).
 
+## CI GitHub
+
+Deux exécutions du workflow `qualite` sur `0533b82`, conclusion `success` :
+
+- Push : https://github.com/Monde123/ReadMy/actions/runs/37399984080
+- Pull request : https://github.com/Monde123/ReadMy/actions/runs/37399996521
+
+Les étapes `tests` et `validation` sont vertes dans les deux.
+
 ## Ce qui n'est pas vérifié ici
 
 - Le rendu visuel dans le navigateur GitHub (clair, sombre, 360 px). Les SVG sont bien formés et le texte est aussi dans le HTML. Le débordement écran n'a pas été photographié.
-- La CI GitHub Actions : le workflow est dans le dépôt, l'exécution distante dépend du push.
 - Un appel à l'API GitHub live. Les tests utilisent les fixtures.
 
 ## État
 
-Les critères automatiques locaux sont verts après la correction de l'échec intermédiaire. Le rendu GitHub.com et la CI distante restent ouverts.
+Les critères automatiques locaux sont verts après la correction de l'échec intermédiaire. La CI GitHub du commit `0533b82` est verte. Le rendu dans le navigateur GitHub reste ouvert.
 
 ## Prochaines actions
 

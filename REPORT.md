@@ -45,13 +45,13 @@ Le détail, le coût de retour et les décisions secondaires sont dans `DECISION
 
 ## Blocages
 
-Aucun blocage d'écriture : la branche a pu être créée et les fichiers écrits. La CI distante n'est connue qu'après le push. Le rendu dans l'interface GitHub (clair, sombre, mobile) n'a pas été ouvert dans un navigateur pendant ce travail.
+Aucun blocage d'écriture : la branche a pu être créée, poussée, et la PR ouverte. La CI `qualite` est verte sur `0533b82` (push [37399984080](https://github.com/Monde123/ReadMy/actions/runs/37399984080), pull request [37399996521](https://github.com/Monde123/ReadMy/actions/runs/37399996521)). Le rendu dans l'interface GitHub (clair, sombre, mobile) n'a pas été ouvert dans un navigateur pendant ce travail.
 
 ## Vérification locale
 
 1. Ce qui a été exécuté est détaillé dans `QUALITE.md`, avec l'échec intermédiaire et les entrées hostiles.
 2. `node --test tests/*.test.js` et `node tools/validate.js` sont les commandes de sortie.
-3. Non vérifié : page GitHub rendue, Actions avant le push, API GitHub live.
+3. Non vérifié : page GitHub rendue dans un navigateur, API GitHub live. La CI distante, elle, a tourné et elle est verte sur le commit cité plus haut.
 4. Pire cas non couvert : un bandeau très long sur un écran de 360 px, ou un document YAML complet copié depuis un autre outil (ancres, multiligne). Le parseur refuse ces formes avec un code, il ne les interprète pas à moitié.
 
 ## État
