@@ -1,0 +1,21 @@
+id: engineer
+version: 2.0.0
+title: Ingénieure
+summary: Fiche technique sobre pour un profil de production.
+audiences:
+  - professionnel
+theme: ink
+banner: sheet
+projects: table
+components:
+  - banner
+  - identity
+  - prose
+  - principles
+  - stack
+  - projects
+  - links
+  - colophon
+requires:
+  - name
+  - role

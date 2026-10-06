@@ -24,12 +24,16 @@ GitHub n'affiche pas un SVG collé dans le Markdown. Le bandeau est un fichier d
 
 ## Gabarit
 
-`templates/<id>/template.yml` déclare l'identité du gabarit. Clés acceptées, et aucune autre : `id`, `version`, `title`, `summary`, `audiences`, `theme`, `banner`, `projects`, `components`, `requires`.
+`templates/<id>/template.yml` déclare l'identité du gabarit. Clés acceptées, et aucune autre : `id`, `version`, `title`, `summary`, `audiences`, `theme`, `banner`, `projects`, `components`, `requires`, `layout`.
+
+`layout` choisit la géométrie dans `lib/layouts.js`. Valeur par défaut `stack`, conservée pour les tests du squelette historique. Le catalogue actif n'a pas le droit d'utiliser `stack` : chaque gabarit a un layout unique. `metadata.yml` répète cette architecture dans `style.architecture` pour quelqu'un qui ne lit pas le YAML du moteur. `customization.md` est le guide de copie, il n'est pas régénéré.
+
+Les layouts actifs : `editorial`, `rfc`, `tui`, `roadmap`, `bibliography`, `pitch`, `briefing`, `chronicle`, `desk`, `studio`.
 
 - `theme` : `paper`, `ink`, `signal`, `violet`.
-- `banner` : `rule`, `terminal`, `masthead`, `sheet`.
+- `banner` : `rule`, `terminal`, `masthead`, `sheet`, `rfc`, `steps`, `cite`, `slides`, `stamp`, `spine`, `desk`, `frame`.
 - `projects` : `list` ou `table`.
-- `version` : semver `MAJEUR.MINEUR.CORRECTIF`. Tout le catalogue est en `2.0.0`.
+- `version` : semver `MAJEUR.MINEUR.CORRECTIF`. Les gabarits actifs sont en `2.1.0`. Les composants de rendu listés dans le registre restent en `2.0.0`.
 
 Une clé inconnue lève `TEMPLATE_CLE_INCONNUE`. Un thème inconnu lève `THEME_INCONNU`. Il n'y a pas de thème de repli.
 
@@ -62,7 +66,7 @@ Seule la forme `#rrggbb` est acceptée. `#fff` lève `COULEUR_INVALIDE`.
 
 ## Composants
 
-`components/registry.json` donne la version `2.0.0` de chaque bloc : `banner`, `identity`, `prose`, `projects`, `stack`, `publications`, `timeline`, `checklist`, `pitch`, `principles`, `links`, `colophon`. Le commentaire d'en-tête du README énumère `nom@version`. Un composant dupliqué dans le gabarit lève `COMPOSANT_DUPLIQUE`.
+`components/registry.json` est en `2.1.0`. Les composants de rendu restent en `2.0.0` : `banner`, `identity`, `prose`, `projects`, `stack`, `publications`, `timeline`, `checklist`, `pitch`, `principles`, `links`, `colophon`. Le commentaire d'en-tête du README énumère `nom@version`. Un composant dupliqué dans le gabarit lève `COMPOSANT_DUPLIQUE`. Les entrées `blocks` pointent vers les fichiers Markdown copiables.
 
 ## YAML accepté
 

@@ -1,9 +1,9 @@
 {
   "name": "readmy",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "type": "module",
-  "description": "Catalogue durable de README de profil GitHub. CLI locale, sans dépendance.",
+  "description": "Galerie de templates de profil GitHub. CLI locale, sans dépendance.",
   "bin": {
     "readmy": "./cli/readmy.js"
   },

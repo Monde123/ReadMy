@@ -1,0 +1,18 @@
+name: Inès Morel
+role: Ingénieure logiciel
+summary: "Je conçois des services petits, explicites et observables."
+focus: "La latence reste prévisible et les interfaces restent courtes."
+projects:
+  - name: Bruine
+    url: https://github.com/example-user/bruine
+    description: "Service HTTP minimal en Go, avec délais bornés."
+    language: Go
+  - name: Carnet
+    url: https://github.com/example-user/carnet
+    description: "Notes techniques versionnées en Markdown."
+    language: Markdown
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Notes
+    url: https://example.com/notes

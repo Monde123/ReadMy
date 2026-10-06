@@ -1,11 +1,12 @@
 id: engineer
-version: 2.0.0
+version: 2.1.0
 title: Ingénieure
-summary: Fiche technique sobre pour un profil de production.
+summary: Fiche technique au format RFC, paramètres, invariants et systèmes de référence.
 audiences:
   - professionnel
 theme: ink
-banner: sheet
+banner: rfc
+layout: rfc
 projects: table
 components:
   - banner

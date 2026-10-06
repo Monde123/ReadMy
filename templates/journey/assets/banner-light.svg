@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="156" viewBox="0 0 880 156" role="img">
   <title>Awa Ndiaye — Ingénieure système</title>
-  <rect width="880" height="140" fill="#ffffff"/>
-  <text x="32" y="62" fill="#1f2328" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">Awa Ndiaye</text>
-  <text x="32" y="96" fill="#59636e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Ingénieure système</text>
-  <line x1="32" y1="116" x2="848" y2="116" stroke="#0550ae" stroke-width="4"/>
+  <rect width="880" height="156" fill="#ffffff"/>
+  <line x1="36" y1="16" x2="36" y2="140" stroke="#0550ae" stroke-width="4"/>
+  <circle cx="36" cy="36" r="6" fill="#0550ae"/>
+  <circle cx="36" cy="84" r="6" fill="#ffffff" stroke="#0550ae" stroke-width="2"/>
+  <circle cx="36" cy="128" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+  <text x="64" y="78" fill="#1f2328" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30">Awa Ndiaye</text>
+  <text x="64" y="110" fill="#59636e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Ingénieure système</text>
 </svg>

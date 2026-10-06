@@ -1,0 +1,22 @@
+id: terminal
+title: Terminal
+category: interface
+audience:
+  - createur
+  - professionnel
+style:
+  visual_density: medium
+  alignment: monospace
+  architecture: tui
+sections:
+  - fenetre
+  - whoami
+  - a-propos
+  - projets
+  - stack
+  - liens
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

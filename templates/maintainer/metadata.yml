@@ -1,0 +1,20 @@
+id: maintainer
+title: Mainteneur
+category: opensource
+audience:
+  - professionnel
+  - createur
+style:
+  visual_density: high
+  alignment: desk
+  architecture: desk
+sections:
+  - tenue
+  - bureau
+  - regles
+  - file
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

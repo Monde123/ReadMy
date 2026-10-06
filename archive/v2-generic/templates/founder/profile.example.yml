@@ -1,0 +1,16 @@
+name: Omar Diallo
+role: Fondateur d'un outil de notes d'équipe
+pitch:
+  problem: "Les décisions orales disparaissent dès la réunion suivante."
+  offer: "Un carnet partagé qui force une décision, un propriétaire et une date."
+  proof: "Le dépôt public montre le format des notes et les tests du parseur."
+projects:
+  - name: Seance
+    url: https://github.com/example-user/seance
+    description: "Format texte pour une décision d'équipe."
+    language: TypeScript
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Produit
+    url: https://example.com/seance

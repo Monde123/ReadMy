@@ -1,0 +1,24 @@
+name: Hanaé Wolff
+role: Designeuse d'interfaces
+summary: "Je prototype des interfaces lisibles avant d'ajouter du mouvement."
+focus: "Contraste, états vides, et textes qui tiennent sur un téléphone."
+stack:
+  - name: Outils
+    items:
+      - Figma
+      - CSS
+      - TypeScript
+projects:
+  - name: Atelier
+    url: https://github.com/example-user/atelier
+    description: "Maquettes versionnées d'un système de formulaires."
+    language: TypeScript
+  - name: Lisiere
+    url: https://github.com/example-user/lisiere
+    description: "Jeu d'états vides et d'erreurs pour une application fictive."
+    language: CSS
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Cahier
+    url: https://example.com/atelier

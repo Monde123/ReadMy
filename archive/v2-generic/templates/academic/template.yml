@@ -1,0 +1,20 @@
+id: academic
+version: 2.0.0
+title: Recherche
+summary: Page de recherche limitée aux textes réellement publiés.
+audiences:
+  - etudiant
+  - professionnel
+theme: paper
+banner: masthead
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - publications
+  - links
+  - colophon
+requires:
+  - name
+  - role

@@ -1,12 +1,13 @@
 id: founder
-version: 2.0.0
+version: 2.1.0
 title: Produit
-summary: Problème, offre et preuve, sans métrique inventée.
+summary: Trois lames de pitch, problème, offre et preuve, puis le dépôt.
 audiences:
   - createur
   - professionnel
 theme: signal
-banner: rule
+banner: slides
+layout: pitch
 projects: list
 components:
   - banner

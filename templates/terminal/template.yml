@@ -1,12 +1,13 @@
 id: terminal
-version: 2.0.0
+version: 2.1.0
 title: Terminal
-summary: Profil en fenêtre de terminal, contenu lisible sans image.
+summary: Session shell lisible sans image, commandes whoami, ls et printenv.
 audiences:
   - createur
   - professionnel
 theme: ink
 banner: terminal
+layout: tui
 projects: list
 components:
   - banner

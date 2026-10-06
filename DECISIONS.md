@@ -86,11 +86,18 @@ Chaque ligne répond à une question ouverte. Le choix privilégie un retour arr
 - Raison : un appel réseau rend la CI fragile et réintroduit les services qu'on retire.
 - Retour arrière : ajouter un job réseau séparé, sans bloquer le job principal.
 
+## D13 — Galerie exploitable, moteur conservé
+
+- Question : les dix gabarits de la v2 fusionnée sur `main` (`93fc17d`) sont le même squelette (bandeau, titre, « En bref », liste ou tableau). Faut-il les remplacer par des templates copiables, ou garder le moteur comme produit ?
+- Choix : garder la CLI, `adapt`, la validation, les SVG locaux et la skill qui n'invente pas. Remplacer le rendu par dix layouts distincts (`editorial`, `rfc`, `tui`, `roadmap`, `bibliography`, `pitch`, `briefing`, `chronicle`, `desk`, `studio`), dont les huit prioritaires et les deux optionnels mainteneur et atelier. Chaque dossier actif gagne `metadata.yml` et `customization.md`. Les blocs Markdown copiables reviennent dans `components/`. L'ancien rendu est copié dans `archive/v2-generic/`, pas effacé de l'historique. Branche `rebuild/exploitable-templates`, aucun push sur `main`, aucun merge, aucun force-push.
+- Raison : un développeur doit choisir un template, voir un README déjà beau et suivre un guide, sans lire `ARCHITECTURE.md`. Homogénéiser encore les README aurait raté la demande.
+- Retour arrière : restaurer les fichiers de `archive/v2-generic/` dans `templates/`, retirer la clé `layout` et `lib/layouts.js`, puis relancer `node tools/build.js`. `main` ne bouge pas tant que cette PR n'est pas fusionnée.
+
 ## Actions laissées à Moïse
 
 Ces actions ne sont pas exécutées :
 
-- Fusionner la PR `rebuild/v2` vers `main`.
+- Fusionner la PR `rebuild/exploitable-templates` vers `main`. La PR `rebuild/v2` est déjà fusionnée (#5).
 - Supprimer définitivement des gabarits de l'historique de `main` (l'archive de branche suffit tant que `main` n'a pas bougé).
 - Changer la licence.
 - Publier une release GitHub v2.0.0 ou pousser une étiquette.
@@ -101,11 +108,11 @@ Ces actions ne sont pas exécutées :
 
 ## État
 
-Douze décisions sont appliquées sur la branche. Les actions de la liste ci-dessus attendent Moïse.
+D1 à D12 ont été appliquées puis fusionnées sur `main` par la PR #5. D13 est ouverte sur `rebuild/exploitable-templates` et attend Moïse. Les actions ci-dessous qui parlaient de fusionner `rebuild/v2` sont closes par cette fusion. Restent ouvertes : la fusion de la galerie exploitable, la licence, la publication, les issues et les étiquettes.
 
 ## Prochaines actions
 
-Lire D2, D5 et D7 en priorité : ce sont le catalogue, la skill et la non-publication.
+Lire D13 en priorité : c'est le passage du squelette unique à la galerie exploitable. D2, D5 et D7 restent le catalogue d'origine, la skill et la non-publication.
 
 ## Risques
 
@@ -115,4 +122,4 @@ Une décision de catalogue peut écarter un gabarit auquel Moïse tenait. Le fic
 
 - Base « Décisions » avec question, choix, coût de retour.
 - Vue « À valider » filtrée sur la liste de la section homonyme.
-- Lien vers la PR `rebuild/v2`.
+- Lien vers la PR `rebuild/exploitable-templates`.

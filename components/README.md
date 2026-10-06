@@ -1,38 +1,54 @@
 # Composants
 
-Le registre versionné est [`registry.json`](registry.json). Chaque entrée `2.0.0` a une fonction dans [`lib/render.js`](../lib/render.js).
+Deux usages.
 
-| Composant | Rôle |
+Le moteur lit [`registry.json`](registry.json) : les clés `components` sont les blocs que `lib/render.js` sait assembler. Les gabarits actifs ne passent plus par le même assemblage. Chacun a un `layout` (`editorial`, `rfc`, `tui`, `roadmap`, `bibliography`, `pitch`, `briefing`, `chronicle`, `desk`, `studio`).
+
+Les fichiers Markdown de ce dossier sont l'autre usage : des blocs à copier dans un README, sans CLI. Remplace les `{{ }}`. N'invente pas un dépôt, un diplôme ou un chiffre pour remplir un trou. Pas de Shields, Vercel, Heroku, skillicons, Demolab ni komarev.
+
+## En-têtes
+
+| Bloc | Architecture |
 |---|---|
-| banner | SVG local clair et sombre |
-| identity | Nom, rôle, et lieu ou organisation seulement s'ils sont écrits |
-| prose | Résumé et focus |
-| projects | Liste ou tableau |
-| stack | Groupes de technologies, sans badge distant |
-| publications | Année, titre, support |
-| timeline | Parcours |
-| checklist | Statuts `fait`, `encours`, `prevu` |
-| pitch | Problème, offre, preuve |
-| principles | Principes rédigés par l'auteur |
-| links | URL `https` ou `mailto` |
-| colophon | Mention ReadMy et absence de service tiers |
+| [editorial](headers/editorial.md) | Nom, rôle, deux filets |
+| [rfc-masthead](headers/rfc-masthead.md) | Manchette de fiche technique |
+| [terminal-session](headers/terminal-session.md) | Session `$ whoami` |
+| [briefing](headers/briefing.md) | Diffusion défensive |
 
-Les blocs Markdown de la v1 sont dans [`archive/v1/components`](../archive/v1/components/README.md).
+## Projets, stack, temps
+
+| Bloc | Architecture |
+|---|---|
+| [sparse-selection](projects/sparse-selection.md) | Un projet, un paragraphe |
+| [reference-pair](projects/reference-pair.md) | Deux systèmes côte à côte |
+| [planches](projects/planches.md) | Planches numérotées |
+| [maintenance-desk](projects/maintenance-desk.md) | Dépôt, engagement, langage |
+| [parameter-table](tech-stacks/parameter-table.md) | Paramètre et valeur |
+| [inline-groups](tech-stacks/inline-groups.md) | Groupes sur une ligne |
+| [jalons](timelines/jalons.md) | fait, en cours, prévu |
+| [chronique](timelines/chronique.md) | période, titre, détail |
+| [bibliographie](timelines/bibliographie.md) | année, titre, support |
+| [trois-lames](pitch/trois-lames.md) | problème, offre, preuve |
+
+## Pieds
+
+| Bloc | Architecture |
+|---|---|
+| [liens-calmes](footers/liens-calmes.md) | Liens séparés par un point médian |
+| [fin-de-rfc](footers/fin-de-rfc.md) | Fin de fiche |
+| [sortie-shell](footers/sortie-shell.md) | `$ exit 0` |
+| [divulgation](footers/divulgation.md) | Canal de signalement, sans procédure d'attaque |
+
+Les blocs de la v1, y compris ceux qui dépendaient de badges distants, restent dans [`archive/v1/components`](../archive/v1/components/README.md).
 
 ## État
 
-Le registre et le rendu portent la même version `2.0.0`.
+Registre `2.1.0`. Les composants de rendu restent en `2.0.0`. Les blocs copiables sont en `2.1.0`.
 
 ## Prochaines actions
 
-Toute addition met à jour ce tableau, le JSON, le rendu et un test.
+Un bloc nouveau ajoute un fichier, une entrée `blocks` et un lien dans ce tableau.
 
 ## Risques
 
-Un composant décrit ici et absent du registre fait échouer `COMPOSANT_INCONNU` dès qu'un gabarit le nomme. L'inverse, un composant de registre oublié dans ce tableau, n'est pas bloquant : le test de contraste et de rendu ne lit pas ce fichier. Garder les deux alignés à la main.
-
-### Notion bonus
-
-- Base des composants avec la version.
-- Lien vers le test qui refuse un composant dupliqué.
-- Rappel : pas de badge Shields dans un nouveau bloc.
+Un bloc copié puis rempli avec un faux dépôt ressemble à un profil. La CLI, elle, refuse d'inventer. Le remix manuel n'a pas cette barrière : relis les `{{ }}` avant de publier.

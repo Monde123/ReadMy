@@ -1,0 +1,20 @@
+id: academic
+title: Recherche
+category: research
+audience:
+  - etudiant
+  - professionnel
+style:
+  visual_density: medium
+  alignment: bibliography
+  architecture: bibliography
+sections:
+  - kicker
+  - question
+  - bibliographie
+  - adresses
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

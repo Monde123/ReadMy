@@ -32,7 +32,7 @@ function main() {
   if (command === "list") {
     for (const id of templateIds(root)) {
       const { template } = loadTemplate(root, id);
-      process.stdout.write(`${template.id}\t${template.title}\t${template.theme}\n`);
+      process.stdout.write(`${template.id}\t${template.title}\t${template.layout}\n`);
     }
     return;
   }

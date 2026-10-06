@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="168" viewBox="0 0 880 168" role="img">
   <title>Lina Costa — Étudiante en informatique</title>
-  <rect width="880" height="140" fill="#0d1117"/>
-  <text x="32" y="36" fill="#79c0ff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" letter-spacing="2">PROFIL</text>
-  <text x="32" y="78" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="36">Lina Costa</text>
-  <text x="32" y="110" fill="#9198a1" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Étudiante en informatique</text>
+  <rect width="880" height="168" fill="#1c1410"/>
+  <line x1="80" y1="44" x2="800" y2="44" stroke="#7c2d12" stroke-width="2"/>
+  <circle cx="80" cy="44" r="10" fill="#fdba74"/>
+  <circle cx="440" cy="44" r="10" fill="#1c1410" stroke="#fdba74" stroke-width="3"/>
+  <circle cx="800" cy="44" r="10" fill="#1c1410" stroke="#fdba74" stroke-width="3"/>
+  <text x="80" y="72" fill="#ffedd5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">fait</text>
+  <text x="440" y="72" fill="#ffedd5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">en cours</text>
+  <text x="800" y="72" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">prévu</text>
+  <text x="32" y="118" fill="#ffedd5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28">Lina Costa</text>
+  <text x="32" y="148" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Étudiante en informatique</text>
 </svg>

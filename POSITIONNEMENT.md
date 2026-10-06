@@ -10,7 +10,7 @@
 
 ## Promesse
 
-ReadMy fournit un README de profil GitHub lisible dans un an, composé de données, d'un thème et d'images SVG locales.
+ReadMy est une galerie de templates exploitables pour un profil GitHub : une architecture distincte par gabarit, un README déjà lisible, un guide de remplacement en français. Le moteur (CLI, skill, SVG locaux) sert à injecter des faits sans les inventer. Il n'est pas le produit que l'on ouvre en premier.
 
 ## Personnes visées
 
@@ -27,12 +27,12 @@ Les générateurs (GPRM, README Maker, awesome-github-profile-readme) gagnent su
 
 1. Aucune image ne dépend de Shields, Vercel, Heroku, skillicons, Demolab ou komarev. Les liens `https://github.com/...` et `https://example.com/...` restent des liens, pas des images.
 2. Le format de sortie est Markdown GitHub plus SVG dans le même dossier.
-3. Ajouter un gabarit, c'est ajouter `template.yml` et `profile.example.yml`, puis lancer le rendu. Pas de second fichier à maintenir à la main.
+3. Ajouter un gabarit, c'est ajouter une architecture absente du catalogue, le trio `README.md`, `metadata.yml`, `customization.md`, puis lancer le rendu. Un développeur peut aussi copier le README et les blocs de `components/` sans la CLI.
 4. Les décisions prises sans Moïse sont dans `DECISIONS.md`. La licence MIT reste celle du dépôt.
 
 ## Catalogue retenu
 
-Dix gabarits : `minimal`, `engineer`, `student`, `academic`, `terminal`, `maintainer`, `creator`, `founder`, `security`, `journey`. Le détail du tri est dans `AUDIT.md`.
+Dix gabarits, dix layouts : `editorial`, `rfc`, `tui`, `roadmap`, `bibliography`, `pitch`, `briefing`, `chronicle`, `desk`, `studio`. Les identifiants restent `minimal`, `engineer`, `terminal`, `student`, `academic`, `founder`, `security`, `journey`, `maintainer`, `creator`. Le squelette unique de la v2 générique est dans `archive/v2-generic/`. Le tri d'origine est dans `AUDIT.md`.
 
 ## Feuille de route
 

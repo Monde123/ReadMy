@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "components": {
     "banner": { "version": "2.0.0", "description": "Bandeau SVG local, variantes clair et sombre." },
     "identity": { "version": "2.0.0", "description": "Nom, rôle, organisation et lieu seulement s'ils sont fournis." },
@@ -13,5 +13,25 @@
     "principles": { "version": "2.0.0", "description": "Liste de principes rédigés par l'auteur." },
     "links": { "version": "2.0.0", "description": "Liens https ou mailto validés." },
     "colophon": { "version": "2.0.0", "description": "Mention ReadMy et absence de service tiers." }
+  },
+  "blocks": {
+    "headers/editorial": { "version": "2.1.0", "file": "headers/editorial.md" },
+    "headers/rfc-masthead": { "version": "2.1.0", "file": "headers/rfc-masthead.md" },
+    "headers/terminal-session": { "version": "2.1.0", "file": "headers/terminal-session.md" },
+    "headers/briefing": { "version": "2.1.0", "file": "headers/briefing.md" },
+    "tech-stacks/parameter-table": { "version": "2.1.0", "file": "tech-stacks/parameter-table.md" },
+    "tech-stacks/inline-groups": { "version": "2.1.0", "file": "tech-stacks/inline-groups.md" },
+    "projects/sparse-selection": { "version": "2.1.0", "file": "projects/sparse-selection.md" },
+    "projects/reference-pair": { "version": "2.1.0", "file": "projects/reference-pair.md" },
+    "projects/planches": { "version": "2.1.0", "file": "projects/planches.md" },
+    "projects/maintenance-desk": { "version": "2.1.0", "file": "projects/maintenance-desk.md" },
+    "timelines/jalons": { "version": "2.1.0", "file": "timelines/jalons.md" },
+    "timelines/chronique": { "version": "2.1.0", "file": "timelines/chronique.md" },
+    "timelines/bibliographie": { "version": "2.1.0", "file": "timelines/bibliographie.md" },
+    "pitch/trois-lames": { "version": "2.1.0", "file": "pitch/trois-lames.md" },
+    "footers/liens-calmes": { "version": "2.1.0", "file": "footers/liens-calmes.md" },
+    "footers/fin-de-rfc": { "version": "2.1.0", "file": "footers/fin-de-rfc.md" },
+    "footers/sortie-shell": { "version": "2.1.0", "file": "footers/sortie-shell.md" },
+    "footers/divulgation": { "version": "2.1.0", "file": "footers/divulgation.md" }
   }
 }
