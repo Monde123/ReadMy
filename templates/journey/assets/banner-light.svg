@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Awa Ndiaye — Ingénieure système</title>
+  <rect width="880" height="140" fill="#ffffff"/>
+  <text x="32" y="62" fill="#1f2328" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">Awa Ndiaye</text>
+  <text x="32" y="96" fill="#59636e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Ingénieure système</text>
+  <line x1="32" y1="116" x2="848" y2="116" stroke="#0550ae" stroke-width="4"/>
+</svg>

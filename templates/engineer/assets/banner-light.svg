@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Marc Elbaz — Ingénieur plateforme</title>
+  <rect width="880" height="140" fill="#f6f8fa"/>
+  <text x="32" y="40" fill="#57606a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">NOM</text>
+  <text x="140" y="40" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">Marc Elbaz</text>
+  <text x="32" y="72" fill="#57606a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">ROLE</text>
+  <text x="140" y="72" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">Ingénieur plateforme</text>
+  <line x1="32" y1="96" x2="848" y2="96" stroke="#d0d7de" stroke-width="2"/>
+  <text x="32" y="122" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">READMY · SVG LOCAL</text>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "components": {
+    "banner": { "version": "2.0.0", "description": "Bandeau SVG local, variantes clair et sombre." },
+    "identity": { "version": "2.0.0", "description": "Nom, rôle, organisation et lieu seulement s'ils sont fournis." },
+    "prose": { "version": "2.0.0", "description": "Résumé et focus en paragraphes HTML échappés." },
+    "projects": { "version": "2.0.0", "description": "Projets en liste ou en tableau, selon le gabarit." },
+    "stack": { "version": "2.0.0", "description": "Groupes de technologies en liste, sans badge distant." },
+    "publications": { "version": "2.0.0", "description": "Tableau année, titre, support." },
+    "timeline": { "version": "2.0.0", "description": "Parcours daté." },
+    "checklist": { "version": "2.0.0", "description": "Feuille de route avec statut explicite." },
+    "pitch": { "version": "2.0.0", "description": "Problème, offre, preuve." },
+    "principles": { "version": "2.0.0", "description": "Liste de principes rédigés par l'auteur." },
+    "links": { "version": "2.0.0", "description": "Liens https ou mailto validés." },
+    "colophon": { "version": "2.0.0", "description": "Mention ReadMy et absence de service tiers." }
+  }
+}

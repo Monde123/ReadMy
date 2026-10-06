@@ -1,0 +1,21 @@
+id: terminal
+version: 2.0.0
+title: Terminal
+summary: Profil en fenêtre de terminal, contenu lisible sans image.
+audiences:
+  - createur
+  - professionnel
+theme: ink
+banner: terminal
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - projects
+  - stack
+  - links
+  - colophon
+requires:
+  - name
+  - role

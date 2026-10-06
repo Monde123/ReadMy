@@ -1,0 +1,26 @@
+name: Lina Costa
+role: Étudiante en informatique
+summary: "J'apprends les systèmes en livrant de petits programmes lisibles."
+focus: "Cette année : réseaux, tests, et un stage de quatre mois."
+checklist:
+  - label: "Terminer le cours de réseaux"
+    status: fait
+  - label: "Publier un correctif documenté"
+    status: encours
+  - label: "Présenter le projet de fin d'études"
+    status: prevu
+stack:
+  - name: Langages
+    items:
+      - Python
+      - JavaScript
+projects:
+  - name: Boussole
+    url: https://github.com/example-user/boussole
+    description: "Petit client HTTP qui affiche les codes de statut."
+    language: Python
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: CV
+    url: https://example.com/lina-cv

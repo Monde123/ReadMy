@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Samir Adler — Développeur d'outils en ligne de commande</title>
+  <rect width="880" height="140" fill="#010409"/>
+  <rect x="16" y="16" width="848" height="108" rx="10" fill="#010409" stroke="#30363d" stroke-width="2"/>
+  <circle cx="40" cy="40" r="5" fill="#f0f6fc"/>
+  <circle cx="58" cy="40" r="5" fill="#8b949e"/>
+  <circle cx="76" cy="40" r="5" fill="#30363d"/>
+  <text x="32" y="72" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">$ whoami</text>
+  <text x="32" y="100" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Samir Adler — Développeur d'outils en ligne de commande</text>
+</svg>

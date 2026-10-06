@@ -1,0 +1,20 @@
+id: security
+version: 2.0.0
+title: Sécurité défensive
+summary: Principes de défense et projets de durcissement, sans mode opératoire d'attaque.
+audiences:
+  - professionnel
+theme: ink
+banner: sheet
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - principles
+  - projects
+  - links
+  - colophon
+requires:
+  - name
+  - role
