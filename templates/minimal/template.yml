@@ -1,12 +1,13 @@
 id: minimal
-version: 2.0.0
+version: 2.1.0
 title: Minimal
-summary: Profil court et typographique, pour une lecture immédiate.
+summary: Page éditoriale basse densité, un nom, un filet, une sélection.
 audiences:
   - debutant
   - professionnel
 theme: paper
 banner: rule
+layout: editorial
 projects: list
 components:
   - banner

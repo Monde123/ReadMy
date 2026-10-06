@@ -124,6 +124,48 @@ Les critères automatiques locaux sont verts après la correction de l'échec in
 
 Lire le check GitHub de la PR. Si un job échoue, corriger avant de considérer la livraison finie.
 
+## Galerie 2.1.0
+
+Branche `rebuild/exploitable-templates`. Node `v22.14.0`.
+
+Échec intermédiaire, corrigé : `node --test tests/*.test.js` a renvoyé 26 réussites et 1 échec, `bloc footers/sortie-shell sans placeholder`. Le bloc ne contenait aucun `{{ }}`, donc le contrôle ne pouvait pas distinguer un modèle d'un texte figé. Ajout de `{{status}}`. Le résultat ci-dessous est celui d'après correction.
+
+Commande : `node --test tests/*.test.js` puis `node tools/validate.js`.
+
+```text
+# tests 27
+# pass 27
+# fail 0
+validation: ok
+```
+
+Quel bug le test de géométrie attrape : un retour au squelette unique. Il exige un marqueur visible par gabarit (`FORMAT RFC`, `$ whoami`, `Jalons`, `Bibliographie`, `01 — Problème`, `DIFFUSION : DÉFENSIVE`, `Chronique`, `Bureau`, `Mur d'atelier`, `Sélection`) et refuse `<h2>En bref</h2>` dans les dix README générés.
+
+Entrées hostiles exécutées par `tests/layouts.test.js` (testé et exécuté, pas seulement écrit) :
+
+- Nom `<script>alert(1)</script>` sur le layout `rfc` : la balise brute est absente, `&lt;script&gt;` est présent, `FORMAT RFC` reste.
+- Description `</pre><script>alert(1)</script>` sur le layout `tui` : la fermeture brute est absente, `&lt;/pre&gt;` est présent, `$ whoami` reste.
+- Projets vides sur `editorial` : le titre `Sélection` reste et le commentaire `section:projets omise` apparaît. Aucun projet fabriqué.
+- Pitch absent : les trois lames restent, avec `section:pitch omise`.
+- Layout `neon` : code `TEMPLATE_INVALIDE`.
+
+Poids mesurés avec `os.path.getsize`, en octets. Clair et sombre ont la même taille.
+
+| Gabarit | README | SVG clair | SVG sombre |
+|---|---:|---:|---:|
+| academic | 1264 | 802 | 802 |
+| creator | 1471 | 701 | 701 |
+| engineer | 1841 | 763 | 763 |
+| founder | 1226 | 657 | 657 |
+| journey | 1396 | 794 | 794 |
+| maintainer | 1551 | 953 | 953 |
+| minimal | 1144 | 581 | 581 |
+| security | 1884 | 738 | 738 |
+| student | 1475 | 1164 | 1164 |
+| terminal | 1178 | 853 | 853 |
+
+Somme des vingt SVG : 16 012 octets. Maximum mesuré : 1 164. Plafond : 20 000.
+
 ## Risques
 
 Le contrôleur d'images peut confondre une mention de balise dans la documentation avec une vraie image. C'est arrivé une fois. Écrire « image HTML » plutôt que la balise.

@@ -1,81 +1,63 @@
 # ReadMy
 
-Un README de profil GitHub qui reste lisible sans Shields, Vercel ni Heroku : des données, un thème, du Markdown et deux SVG locaux.
+Des templates exploitables pour ton profil GitHub. Tu choisis une architecture, tu lis un README déjà mis en page, tu suis le guide, et tu publies. Le moteur reste un outil : il n'est pas obligatoire.
 
-![Bandeau du gabarit minimal : Inès Morel, ingénieure logiciel](templates/minimal/assets/banner-light.svg)
+![Bandeau du gabarit minimal](templates/minimal/assets/banner-light.svg)
 
-Dix gabarits. Une commande. Une skill qui n'invente pas de dépôt, de diplôme ni de chiffre.
+Pas de Shields, pas de Vercel, pas de Heroku. Le texte se lit sans image. Les bandeaux sont des SVG du dépôt.
 
 ## En une minute
 
-Il faut Node 22. Aucun `npm install`.
+Deux chemins. Le premier ne demande pas Node.
+
+**Copie manuelle.** Ouvre un gabarit, par exemple [minimal](templates/minimal/README.md). Copie ce `README.md` et, si tu gardes le bandeau, le dossier `assets/` à la racine du dépôt `<identifiant>/<identifiant>`. Suis [customization.md](templates/minimal/customization.md) : il dit quoi remplacer, quels liens poser, et quelles sections retirer.
+
+**CLI, si tu pars d'un fichier.** Node 22, aucun `npm install`.
 
 ```bash
 git clone https://github.com/Monde123/ReadMy.git
 cd ReadMy
-git checkout rebuild/v2
 node cli/readmy.js list
 node cli/readmy.js render --template minimal --out ./mon-profil
 ```
 
-Copiez `mon-profil/README.md` et le dossier `mon-profil/assets/` à la racine du dépôt GitHub qui porte votre identifiant (`<identifiant>/<identifiant>`), sur la branche par défaut, dépôt public. Le profil s'affiche sur `https://github.com/<identifiant>`.
-
-Pour partir de données GitHub déjà enregistrées dans un JSON :
+Copie ensuite `mon-profil/README.md` et `mon-profil/assets/` au même endroit. Pour injecter un profil GitHub déjà enregistré en JSON, sans inventer de dépôt ni de rôle :
 
 ```bash
 node cli/readmy.js adapt --template minimal --profile profil.json --out ./mon-profil
 ```
 
-Le format de `profil.json` est décrit dans la [skill](skills/readmy-profile-adapter/SKILL.md). L'exemple versionné est [octocat](skills/readmy-profile-adapter/examples/octocat-minimal/README.md).
+Le format est dans la [skill](skills/readmy-profile-adapter/SKILL.md). L'exemple versionné est [octocat](skills/readmy-profile-adapter/examples/octocat-minimal/README.md).
 
 ## Galerie
 
-| Gabarit | Pour qui |
+Chaque ligne est une architecture différente. Le lien ouvre un README d'exemple, personnes et dépôts fictifs, prêt à lire sur GitHub.
+
+| Gabarit | Architecture |
 |---|---|
-| [minimal](templates/minimal/README.md) | Une page courte |
-| [engineer](templates/engineer/README.md) | Une fiche de production |
-| [student](templates/student/README.md) | Un parcours d'apprentissage |
-| [academic](templates/academic/README.md) | Des textes réellement écrits |
-| [terminal](templates/terminal/README.md) | Des outils en ligne de commande |
-| [maintainer](templates/maintainer/README.md) | Des dépôts tenus dans le temps |
-| [creator](templates/creator/README.md) | Une vitrine d'interface |
-| [founder](templates/founder/README.md) | Un problème, une offre, une preuve |
-| [security](templates/security/README.md) | La défense et la divulgation |
-| [journey](templates/journey/README.md) | Une chronologie |
+| [minimal](templates/minimal/README.md) | Éditorial basse densité : un nom, deux filets, une sélection |
+| [engineer](templates/engineer/README.md) | Fiche RFC : paramètres, invariants, systèmes côte à côte |
+| [terminal](templates/terminal/README.md) | Session shell : `whoami`, `ls`, `printenv` |
+| [student](templates/student/README.md) | Feuille de jalons : fait, en cours, prévu |
+| [academic](templates/academic/README.md) | Page de recherche : question puis bibliographie numérotée |
+| [founder](templates/founder/README.md) | Pitch en trois lames : problème, offre, preuve |
+| [security](templates/security/README.md) | Note défensive : périmètre et divulgation, sans procédure d'attaque |
+| [journey](templates/journey/README.md) | Chronique : un épisode daté, puis le chapitre en cours |
+| [maintainer](templates/maintainer/README.md) | Bureau : dépôt, engagement tenu, file d'accueil |
+| [creator](templates/creator/README.md) | Mur d'atelier : une planche numérotée par projet |
 
-Le détail des aperçus est dans [GALERIE.md](GALERIE.md). Les 40 gabarits précédents sont conservés dans [archive/v1](archive/v1/README.md).
+Le guide de chaque gabarit est `templates/<id>/customization.md`. Les blocs à recopier sans CLI sont dans [components](components/README.md).
 
-## Carte du dépôt
+## Si tu contribues
 
-- [ARCHITECTURE.md](ARCHITECTURE.md) — données, thèmes, composants, skill, CLI
-- [CONTRIBUTING.md](CONTRIBUTING.md) — ajouter un gabarit
-- [POSITIONNEMENT.md](POSITIONNEMENT.md) — promesse et feuille de route
-- [AUDIT.md](AUDIT.md) — mesure du dépôt d'origine
-- [DECISIONS.md](DECISIONS.md) — choix faits en l'absence de Moïse
-- [QUALITE.md](QUALITE.md) — résultats d'exécution
-- [REPORT.md](REPORT.md) — compte rendu de la reconstruction
-- [CHANGELOG.md](CHANGELOG.md) — version 2.0.0
-- [design/tokens.json](design/tokens.json) — couleurs et espacements
-- [components/registry.json](components/registry.json) — composants versionnés
+Le moteur, les tests et les décisions sont à part. Tu n'en as pas besoin pour publier ton profil.
+
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [POSITIONNEMENT.md](POSITIONNEMENT.md)
+- [DECISIONS.md](DECISIONS.md)
+- [ARCHITECTURE.md](ARCHITECTURE.md)
+- [REPORT-exploitable.md](REPORT-exploitable.md)
 
 ## Licence
 
 MIT. Le fichier [LICENSE](LICENSE) est celui déjà présent sur `main`. Copyright (c) 2026 Moise Koudanko.
-
-## État
-
-Branche `rebuild/v2`. La release GitHub v2.0.0 est rédigée dans [RELEASE_v2.0.0.md](RELEASE_v2.0.0.md) et n'est pas publiée.
-
-## Prochaines actions
-
-Fusionner seulement après lecture de `DECISIONS.md`. Les actions irréversibles y sont listées.
-
-## Risques
-
-Tant que la branche n'est pas sur `main`, la commande `git checkout rebuild/v2` reste nécessaire. Après fusion, elle ne l'est plus.
-
-### Notion bonus
-
-- Page d'accueil avec la phrase de promesse et les dix gabarits.
-- Bouton vers la PR, pas vers une release.
-- Rappel « pas de service tiers dans les images ».

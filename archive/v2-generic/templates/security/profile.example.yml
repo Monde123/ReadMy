@@ -1,0 +1,22 @@
+name: Léa Fischer
+role: Ingénieure sécurité produit
+summary: "J'aide les équipes à réduire la surface d'attaque et à publier des correctifs."
+focus: "Divulgation coordonnée, revues de dépendances, et journaux exploitables."
+principles:
+  - "Un rapport reçoit un accusé, puis une date de correctif."
+  - "Les secrets ne vivent ni dans le dépôt ni dans le README."
+  - "Le correctif est accompagné d'un test qui échouait avant."
+projects:
+  - name: Garde-fou
+    url: https://github.com/example-user/garde-fou
+    description: "Refuse une publication si un motif de secret est présent."
+    language: Go
+  - name: Dependances
+    url: https://github.com/example-user/dependances
+    description: "Liste les dépendances directes et leur licence."
+    language: Python
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Signalement
+    url: https://example.com/security

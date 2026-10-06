@@ -1,12 +1,13 @@
 id: student
-version: 2.0.0
+version: 2.1.0
 title: Étudiante
-summary: Parcours d'apprentissage avec projets et feuille de route.
+summary: Feuille de jalons et atelier, pour montrer ce qui est fait, en cours et prévu.
 audiences:
   - etudiant
   - debutant
-theme: paper
-banner: masthead
+theme: signal
+banner: steps
+layout: roadmap
 projects: list
 components:
   - banner

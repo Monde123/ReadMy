@@ -1,0 +1,22 @@
+id: student
+title: Étudiante
+category: learning
+audience:
+  - etudiant
+  - debutant
+style:
+  visual_density: medium
+  alignment: ladder
+  architecture: roadmap
+sections:
+  - bandeau
+  - ou-jen-suis
+  - jalons
+  - atelier
+  - outils
+  - suivi
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

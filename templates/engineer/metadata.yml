@@ -1,0 +1,21 @@
+id: engineer
+title: Ingénieure
+category: systems
+audience:
+  - professionnel
+style:
+  visual_density: high
+  alignment: left-rfc
+  architecture: rfc
+sections:
+  - masthead
+  - resume
+  - parametres
+  - invariants
+  - systemes
+  - correspondance
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

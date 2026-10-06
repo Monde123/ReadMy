@@ -1,0 +1,25 @@
+name: Awa Ndiaye
+role: Ingénieure système
+location: Lyon
+summary: "Je documente le chemin plutôt que la liste des outils."
+focus: "Du support vers la plateforme, en gardant les post-mortems publics."
+timeline:
+  - period: "2018"
+    title: "Support applicatif"
+    detail: "Reproduire les incidents avant de proposer un correctif."
+  - period: "2021"
+    title: "Équipe plateforme"
+    detail: "Mettre les déploiements derrière une file et une revue."
+  - period: "2024"
+    title: "Fiabilité"
+    detail: "Budgets d'erreur écrits et exercices de reprise trimestriels."
+projects:
+  - name: Reprise
+    url: https://github.com/example-user/reprise
+    description: "Scénario de restauration commenté pour une base fictive."
+    language: Python
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Journal
+    url: https://example.com/journal

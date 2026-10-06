@@ -1,11 +1,12 @@
 id: creator
-version: 2.0.0
+version: 2.1.0
 title: Création
-summary: Vitrine courte pour le design et les prototypes.
+summary: Mur d'atelier, une planche numérotée par projet.
 audiences:
   - createur
 theme: violet
-banner: masthead
+banner: frame
+layout: studio
 projects: list
 components:
   - banner

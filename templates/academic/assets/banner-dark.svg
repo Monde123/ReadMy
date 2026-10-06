@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="156" viewBox="0 0 880 156" role="img">
   <title>Nora Belkacem — Chargée de recherche</title>
-  <rect width="880" height="140" fill="#0d1117"/>
-  <text x="32" y="36" fill="#79c0ff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" letter-spacing="2">PROFIL</text>
-  <text x="32" y="78" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="36">Nora Belkacem</text>
-  <text x="32" y="110" fill="#9198a1" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Chargée de recherche</text>
+  <rect width="880" height="156" fill="#0d1117"/>
+  <text x="32" y="32" fill="#79c0ff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" letter-spacing="2">RECHERCHE</text>
+  <line x1="32" y1="42" x2="220" y2="42" stroke="#79c0ff" stroke-width="1"/>
+  <line x1="32" y1="48" x2="220" y2="48" stroke="#79c0ff" stroke-width="1"/>
+  <text x="32" y="96" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="34">Nora Belkacem</text>
+  <text x="32" y="128" fill="#9198a1" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Chargée de recherche</text>
 </svg>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="160" viewBox="0 0 880 160" role="img">
   <title>Omar Diallo — Fondateur d'un outil de notes d'équipe</title>
-  <rect width="880" height="140" fill="#1c1410"/>
-  <text x="32" y="62" fill="#ffedd5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">Omar Diallo</text>
-  <text x="32" y="96" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Fondateur d'un outil de notes d'équipe</text>
-  <line x1="32" y1="116" x2="848" y2="116" stroke="#fdba74" stroke-width="4"/>
+  <rect width="880" height="160" fill="#1c1410"/>
+  <text x="28" y="108" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="72">01</text>
+  <text x="210" y="78" fill="#ffedd5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">Omar Diallo</text>
+  <text x="210" y="112" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Fondateur d'un outil de notes d'équipe</text>
 </svg>

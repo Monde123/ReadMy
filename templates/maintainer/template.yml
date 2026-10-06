@@ -1,12 +1,13 @@
 id: maintainer
-version: 2.0.0
+version: 2.1.0
 title: Mainteneur
-summary: Tableau de dépôts pour une personne qui tient des projets ouverts.
+summary: Bureau de maintenance, dépôt, engagement tenu et règles d'accueil.
 audiences:
   - professionnel
   - createur
 theme: ink
-banner: sheet
+banner: desk
+layout: desk
 projects: table
 components:
   - banner

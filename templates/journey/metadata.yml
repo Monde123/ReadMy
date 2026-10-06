@@ -1,0 +1,20 @@
+id: journey
+title: Parcours
+category: narrative
+audience:
+  - professionnel
+  - etudiant
+style:
+  visual_density: medium
+  alignment: timeline
+  architecture: chronicle
+sections:
+  - fil
+  - chronique
+  - chapitre
+  - suite
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

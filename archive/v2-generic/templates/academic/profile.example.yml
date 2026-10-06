@@ -1,0 +1,18 @@
+name: Nora Belkacem
+role: Chargée de recherche
+summary: "Je travaille sur la vérification de protocoles distribués."
+focus: "Les preuves et les artefacts suivent le même dépôt."
+publications:
+  - year: "2025"
+    title: "Horloges explicites pour un consensus pédagogique"
+    venue: "Cahiers fictifs de systèmes"
+    url: https://example.com/notes/horloges
+  - year: "2024"
+    title: "Un modèle TLA+ commenté pour un atelier"
+    venue: "Actes fictifs d'un séminaire"
+    url: https://example.com/notes/tla-atelier
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Page
+    url: https://example.com/nora

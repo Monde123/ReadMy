@@ -1,12 +1,13 @@
 id: journey
-version: 2.0.0
+version: 2.1.0
 title: Parcours
-summary: Récit chronologique d'un parcours professionnel.
+summary: Chronique datée, un épisode par titre, puis le chapitre en cours.
 audiences:
   - professionnel
   - etudiant
 theme: paper
-banner: rule
+banner: spine
+layout: chronicle
 projects: list
 components:
   - banner

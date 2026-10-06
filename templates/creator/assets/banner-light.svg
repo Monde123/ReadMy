@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="156" viewBox="0 0 880 156" role="img">
   <title>Hanaé Wolff — Designeuse d'interfaces</title>
-  <rect width="880" height="140" fill="#faf5ff"/>
-  <text x="32" y="36" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" letter-spacing="2">PROFIL</text>
-  <text x="32" y="78" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="36">Hanaé Wolff</text>
-  <text x="32" y="110" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Designeuse d'interfaces</text>
+  <rect width="880" height="156" fill="#faf5ff"/>
+  <rect x="20" y="16" width="840" height="124" fill="none" stroke="#e9d5ff" stroke-width="2"/>
+  <rect x="28" y="24" width="824" height="108" fill="none" stroke="#6d28d9" stroke-width="1"/>
+  <text x="48" y="84" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">Hanaé Wolff</text>
+  <text x="48" y="114" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Designeuse d'interfaces</text>
 </svg>

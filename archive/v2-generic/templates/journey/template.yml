@@ -1,0 +1,21 @@
+id: journey
+version: 2.0.0
+title: Parcours
+summary: Récit chronologique d'un parcours professionnel.
+audiences:
+  - professionnel
+  - etudiant
+theme: paper
+banner: rule
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - timeline
+  - projects
+  - links
+  - colophon
+requires:
+  - name
+  - role

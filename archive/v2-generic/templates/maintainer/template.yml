@@ -1,0 +1,21 @@
+id: maintainer
+version: 2.0.0
+title: Mainteneur
+summary: Tableau de dépôts pour une personne qui tient des projets ouverts.
+audiences:
+  - professionnel
+  - createur
+theme: ink
+banner: sheet
+projects: table
+components:
+  - banner
+  - identity
+  - prose
+  - principles
+  - projects
+  - links
+  - colophon
+requires:
+  - name
+  - role

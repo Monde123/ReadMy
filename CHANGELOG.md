@@ -1,6 +1,21 @@
 # Journal
 
-Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Les versions suivent le semver. La version 2.0.0 est rédigée et n'est pas publiée sur GitHub.
+Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Les versions suivent le semver. La version 2.1.0 est rédigée et n'est pas publiée sur GitHub.
+
+## [2.1.0] — 2026-10-06
+
+### Ajouté
+
+- Dix layouts distincts : `editorial`, `rfc`, `tui`, `roadmap`, `bibliography`, `pitch`, `briefing`, `chronicle`, `desk`, `studio`.
+- `metadata.yml` et `customization.md` pour chaque gabarit actif.
+- Bibliothèque de blocs Markdown copiables dans `components/`.
+- Copie du rendu générique v2 dans `archive/v2-generic/`.
+
+### Modifié
+
+- Le README d'accueil décrit la galerie avant le moteur.
+- La skill injecte les faits dans la géométrie du gabarit choisi.
+- `package.json` passe à `2.1.0` et reste `private`.
 
 ## [2.0.0] — 2026-10-06
 

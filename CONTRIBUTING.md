@@ -2,24 +2,32 @@
 
 ## Plan
 
-1. Lire l'architecture et l'anonymisation avant d'ajouter un gabarit.
-2. Ajouter des données et un thème, puis générer le README.
-3. Couvrir le changement par un test qui peut échouer.
-4. Vérifier liens, SVG, contraste et absence de service distant.
-5. Décrire le public et la décision dans la pull request.
+1. Lire un gabarit actif et son `customization.md` avant d'en ajouter un.
+2. Choisir une architecture qui n'existe pas encore. Une variante de couleur du même squelette est refusée.
+3. Écrire les faits fictifs, générer le README, puis relire la page comme un développeur qui ne lancera pas la CLI.
+4. Couvrir le changement par un test qui peut échouer.
+5. Vérifier liens, SVG, contraste et absence de service distant.
 
 ## Avant de modifier
 
-- [Architecture](ARCHITECTURE.md)
-- [Décisions](DECISIONS.md)
 - [Positionnement](POSITIONNEMENT.md)
+- [Décisions](DECISIONS.md)
+- [Architecture](ARCHITECTURE.md)
 - [Code de conduite](CODE_OF_CONDUCT.md)
 
 Les personnes, dépôts, chiffres et organisations des exemples sont fictifs. On ne copie pas un profil réel dans le catalogue.
 
 ## Ajouter un gabarit
 
-Créer `templates/<id>/` avec `template.yml` et `profile.example.yml`. L'`id` est le nom du dossier, en minuscules. Réutiliser les composants de `components/registry.json`. Un composant nouveau monte sa version dans le registre et dans `lib/render.js`, avec un test.
+Créer `templates/<id>/` avec :
+
+- `template.yml` — `layout` obligatoire, différent des layouts déjà pris
+- `profile.example.yml` — faits fictifs seulement
+- `metadata.yml` — `id`, `title`, `category`, `audience`, `style.architecture` égal au layout, `sections`, `anonymized: true`, images locales
+- `customization.md` — en français, avec la section « Remplacer »
+- `assets/` — produits par le rendu, SVG clair et sombre
+
+L'`id` est le nom du dossier, en minuscules. Un layout nouveau se code dans `lib/layouts.js` et s'ajoute à `LAYOUTS`. Un bloc copiable nouveau vit dans `components/`, avec une entrée `blocks` du registre.
 
 Puis :
 
@@ -29,36 +37,41 @@ node --test tests/*.test.js
 node tools/validate.js
 ```
 
-Le README et les SVG générés se committent. Les éditer à la main fait échouer la comparaison avec le rendu.
+Le README généré se committe. Le modifier à la main fait échouer la comparaison avec le rendu. Pour un profil personnel, on copie le README et on suit `customization.md` : ce fichier-là n'est pas régénéré.
 
 Node 22 suffit. Il n'y a pas de `npm install`.
 
+## Remix manuel
+
+`components/` contient des blocs Markdown avec des `{{ }}`. Ils servent sans la CLI. Le générateur ne les lit pas ligne à ligne : il possède la même géométrie dans `lib/layouts.js`. Si tu changes un bloc copiable, dis-le dans la pull request, et aligne le layout seulement si le gabarit actif doit suivre.
+
 ## Ce qui fait échouer la revue
 
-- Une image Shields, Vercel, Heroku, skillicons, Demolab ou komarev.
-- Un fait inventé pour remplir une section (étoile, diplôme, revenu, dépôt).
+- Une image Shields, Vercel, Heroku, skillicons, Demolab, githubusercontent ou komarev dans le catalogue actif.
+- Un fait inventé pour remplir une section.
+- Deux gabarits avec le même `layout`.
 - Une couleur de texte sous 4,5:1.
 - Un secret, même factice, dans un profil exemple.
 - Une procédure d'attaque dans le gabarit `security`.
 
 ## Pull request
 
-Indiquer le public, le gabarit ou le composant touché, et le résultat de `node --test tests/*.test.js`. Une intention par pull request.
+Indiquer le public, l'architecture, et le résultat de `node --test tests/*.test.js`. Une intention par pull request.
 
 ## État
 
-Le chemin de contribution est la CLI et les tests de cette branche.
+Le chemin court pour un utilisateur est la galerie. Le chemin de contribution est la CLI, les layouts et les tests.
 
 ## Prochaines actions
 
-Le premier gabarit extérieur devrait réutiliser les composants existants, pour vérifier que le guide suffit.
+Le prochain gabarit doit occuper un trou (enseignement, écriture), pas une nouvelle couleur d'un layout existant.
 
 ## Risques
 
-Le sous-ensemble YAML refuse des documents que d'autres outils acceptent. L'erreur nommée est le signal attendu, pas un README écrit à la main.
+Le sous-ensemble YAML refuse des documents que d'autres outils acceptent. L'erreur nommée est le signal attendu.
 
 ### Notion bonus
 
-- Modèle de tâche « nouveau gabarit » avec les trois commandes.
-- Liste des composants autorisés, liée au registre.
-- Case « tests collés dans la PR ».
+- Modèle de tâche « nouveau layout » avec les trois commandes.
+- Liste des architectures déjà prises.
+- Case « customization.md relu sans ouvrir ARCHITECTURE.md ».

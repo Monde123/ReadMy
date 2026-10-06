@@ -1,0 +1,21 @@
+id: minimal
+title: Minimal
+category: editorial
+audience:
+  - debutant
+  - professionnel
+style:
+  visual_density: low
+  alignment: left
+  architecture: editorial
+sections:
+  - bandeau
+  - identite
+  - prose
+  - selection
+  - liens
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

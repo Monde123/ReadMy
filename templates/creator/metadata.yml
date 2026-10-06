@@ -1,0 +1,19 @@
+id: creator
+title: Création
+category: studio
+audience:
+  - createur
+style:
+  visual_density: medium
+  alignment: plates
+  architecture: studio
+sections:
+  - intention
+  - matieres
+  - mur
+  - visite
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true

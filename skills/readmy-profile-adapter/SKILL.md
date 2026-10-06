@@ -7,11 +7,16 @@ description: Produit un README de profil ReadMy à partir d'un gabarit et d'un p
 
 ## Plan
 
-1. Lire le gabarit demandé et le profil public autorisé.
-2. Appliquer le consentement : lieu, email, organisation et réseau sont exclus par défaut.
-3. Laisser un placeholder explicite quand un fait manque.
-4. Produire le Markdown, les SVG locaux et la provenance.
-5. Demander à la personne les trous restants, sans les remplir.
+1. Choisir un gabarit du catalogue. Son `layout` est la géométrie à préserver (`editorial`, `rfc`, `tui`, `roadmap`, `bibliography`, `pitch`, `briefing`, `chronicle`, `desk`, `studio`).
+2. Lire le profil public autorisé.
+3. Appliquer le consentement : lieu, email, organisation et réseau sont exclus par défaut.
+4. Injecter seulement les faits fournis dans cette géométrie. Laisser un placeholder explicite quand un fait manque.
+5. Produire le Markdown, les SVG locaux et la provenance.
+6. Demander à la personne les trous restants, sans les remplir.
+
+## Géométrie
+
+`adapt` ne réécrit pas un gabarit vers un squelette commun. Les titres, les numéros de lames, la session shell, la bibliographie ou la chronique restent ceux du layout. Une section sans fait garde son titre et reçoit un commentaire `section:… omise`, ou le placeholder `{{role}}` pour le rôle. Aucune section n'est remplie avec un dépôt, un diplôme ou un chiffre inventé.
 
 ## Entrées
 

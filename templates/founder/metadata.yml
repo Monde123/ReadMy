@@ -1,0 +1,21 @@
+id: founder
+title: Produit
+category: product
+audience:
+  - createur
+  - professionnel
+style:
+  visual_density: low
+  alignment: slides
+  architecture: pitch
+sections:
+  - lame-01
+  - lame-02
+  - lame-03
+  - depot
+  - contact
+anonymized: true
+images:
+  external: false
+  local_assets: optional
+  alt_text_required: true
