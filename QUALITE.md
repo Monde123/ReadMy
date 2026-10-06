@@ -166,6 +166,11 @@ Poids mesurés avec `os.path.getsize`, en octets. Clair et sombre ont la même t
 
 Somme des vingt SVG : 16 012 octets. Maximum mesuré : 1 164. Plafond : 20 000.
 
+CI GitHub du commit `b11d626`, workflow `qualite`, conclusion `success` :
+
+- Push : https://github.com/Monde123/ReadMy/actions/runs/37524238904
+- Pull request : https://github.com/Monde123/ReadMy/actions/runs/37524259186
+
 ## Risques
 
 Le contrôleur d'images peut confondre une mention de balise dans la documentation avec une vraie image. C'est arrivé une fois. Écrire « image HTML » plutôt que la balise.
