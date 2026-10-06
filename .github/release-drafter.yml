@@ -1,0 +1,35 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+change-template: "- $TITLE (#$NUMBER)"
+change-title-escapes: '\<*_&'
+version-resolver:
+  major:
+    labels:
+      - "rupture"
+  minor:
+    labels:
+      - "gabarit"
+  patch:
+    labels:
+      - "qualité"
+  default: patch
+categories:
+  - title: "Gabarits"
+    labels:
+      - "gabarit"
+  - title: "Qualité"
+    labels:
+      - "qualité"
+  - title: "Documentation"
+    labels:
+      - "documentation"
+  - title: "Autres"
+    labels:
+      - "maintenance"
+template: |
+  ## ReadMy $RESOLVED_VERSION
+
+  $CHANGES
+no-changes-template: "Aucun changement étiqueté."
+include-pre-releases: false
+prerelease: false

@@ -1,0 +1,25 @@
+labels:
+  - name: good first issue
+    color: "7057ff"
+    description: Changement bien délimité pour une première contribution
+  - name: gabarit
+    color: "0e8a16"
+    description: Gabarit de profil
+  - name: skill
+    color: "fbca04"
+    description: Adaptateur de profil
+  - name: documentation
+    color: "0075ca"
+    description: Documentation
+  - name: qualité
+    color: "b60205"
+    description: Tests, contraste, liens, CI
+  - name: maintenance
+    color: "c5def5"
+    description: Dépendances et tâches récurrentes
+  - name: rupture
+    color: "b60205"
+    description: Changement de contrat qui monte la version majeure
+  - name: à valider
+    color: "d93f0b"
+    description: Décision réservée à Moïse
