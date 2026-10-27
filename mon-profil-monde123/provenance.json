@@ -1,0 +1,67 @@
+{
+  "placeholders": [],
+  "warnings": [],
+  "provenance": [
+    {
+      "field": "consent.showLocation",
+      "source": "user"
+    },
+    {
+      "field": "consent.showEmail",
+      "source": "user"
+    },
+    {
+      "field": "consent.showCompany",
+      "source": "user"
+    },
+    {
+      "field": "consent.showSocial",
+      "source": "user"
+    },
+    {
+      "field": "name",
+      "source": "user"
+    },
+    {
+      "field": "role",
+      "source": "user"
+    },
+    {
+      "field": "summary",
+      "source": "user"
+    },
+    {
+      "field": "location",
+      "source": "omis",
+      "reason": "consentement.showLocation=false"
+    },
+    {
+      "field": "organization",
+      "source": "omis",
+      "reason": "consentement.showCompany=false"
+    },
+    {
+      "field": "projects",
+      "source": "github.repos",
+      "reason": "plafond 4, forks exclus"
+    },
+    {
+      "field": "stack",
+      "source": "github.repos.language"
+    },
+    {
+      "field": "links.github",
+      "source": "github.login"
+    },
+    {
+      "field": "email",
+      "source": "omis",
+      "reason": "consentement.showEmail=false"
+    },
+    {
+      "field": "social",
+      "source": "omis",
+      "reason": "consentement.showSocial=false ou identifiant absent"
+    }
+  ]
+}

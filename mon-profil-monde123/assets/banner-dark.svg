@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Moise Koudanko — Mobile Developer (Flutter &amp; React Native)</title>
+  <rect width="880" height="140" fill="#010409"/>
+  <path d="M 24 34 L 24 24 L 34 24" fill="none" stroke="#f0f6fc" stroke-width="2"/>
+  <path d="M 856 34 L 856 24 L 846 24" fill="none" stroke="#f0f6fc" stroke-width="2"/>
+  <path d="M 24 106 L 24 116 L 34 116" fill="none" stroke="#f0f6fc" stroke-width="2"/>
+  <path d="M 856 106 L 856 116 L 846 116" fill="none" stroke="#f0f6fc" stroke-width="2"/>
+  <text x="36" y="44" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" letter-spacing="1">NOM</text>
+  <text x="120" y="44" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="bold">Moise Koudanko</text>
+  <text x="36" y="76" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" letter-spacing="1">ROLE</text>
+  <text x="120" y="76" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17">Mobile Developer (Flutter &amp; React Native)</text>
+  <line x1="36" y1="96" x2="844" y2="96" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="36" y="122" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" letter-spacing="1">ENGINEERING SHEET · LOCAL ASSET</text>
+</svg>

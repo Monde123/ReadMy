@@ -114,3 +114,31 @@ test("la skill énonce l'interdiction d'inventer", () => {
     skill.includes("N'invente aucun dépôt, chiffre, diplôme, récompense ou intitulé de poste.")
   );
 });
+
+test("les liens personnalisés dans overrides sont acceptés et validés", () => {
+  const result = adaptProfile({
+    template: minimal,
+    github: { login: "monde", name: "Moise", repos: [] },
+    overrides: {
+      links: [
+        { label: "LinkedIn", url: "https://www.linkedin.com/in/moise-koudanko/" },
+      ],
+    },
+    tokens,
+    registry,
+  });
+  assert.ok(result.markdown.includes("LinkedIn"));
+  assert.ok(result.markdown.includes("https://www.linkedin.com/in/moise-koudanko/"));
+  assert.ok(result.provenance.some((item) => item.field === "links.LinkedIn" && item.source === "user"));
+
+  assert.throws(
+    () => adaptProfile({
+      template: minimal,
+      github: { login: "monde", repos: [] },
+      overrides: { links: [{ label: "Bad", url: "http://insecure.com" }] },
+      tokens,
+      registry,
+    }),
+    (error) => error instanceof ReadMyError && error.code === "URL_INVALIDE",
+  );
+});
