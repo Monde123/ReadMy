@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Dr. Elena Rostova — Senior Machine Learning Systems Engineer</title>
+  <defs>
+    <pattern id="scanlines" width="10" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2" x2="10" y2="2" stroke="#30363d" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="140" fill="#010409"/>
+  <rect width="880" height="140" fill="url(#scanlines)"/>
+  <polygon points="16,34 34,16 846,16 864,34 864,122 846,140 16,140" fill="none" stroke="#f0f6fc" stroke-width="1.5"/>
+  <rect x="24" y="24" width="6" height="6" fill="#f0f6fc"/>
+  <text x="38" y="30" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">HUD // NODE-ALPHA // SECTOR-07</text>
+  <text x="840" y="30" text-anchor="end" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">DEFCON 5 · ONLINE</text>
+  <text x="36" y="64" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="bold">Dr. Elena Rostova</text>
+  <text x="36" y="98" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="1">&gt; Senior Machine Learning Systems Engineer</text>
+  <line x1="36" y1="118" x2="844" y2="118" stroke="#30363d" stroke-width="1"/>
+  <circle cx="830" cy="118" r="4" fill="#f0f6fc"/>
+</svg>

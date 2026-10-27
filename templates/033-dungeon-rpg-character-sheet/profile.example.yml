@@ -1,0 +1,55 @@
+name: Eldrin Shadowstride
+role: Level 42 Code-Mage & Dungeon Architect
+metrics:
+  - label: FOR / STR
+    value: "18 (+4)"
+    detail: Compiler Heavy Lifting
+  - label: DEX / AGI
+    value: "20 (+5)"
+    detail: "Fast Refactoring Speed"
+  - label: INT / MANA
+    value: "22 (+6)"
+    detail: "Algorithm Optimization"
+  - label: PV / HP
+    value: "142 / 142"
+    detail: Max Resilience
+summary: "J'arpente les donjons des bases de code legacy, désamorce les pièges de concurrence et terrasse les dragons de fuite mémoire."
+focus: "Spécialisation dans les incantations Rust sans allocation dynamique et la magie des compilateurs LLVM."
+stack:
+  - name: Spellbook & Grimoires
+    items:
+      - Rust
+      - C++20
+      - Haskell
+      - Assembly x86
+  - name: Enchanted Artifacts
+    items:
+      - Neovim
+      - Valgrind
+      - GDB
+      - Perf
+projects:
+  - name: Vorpal-Compiler
+    url: https://github.com/example-user/vorpal
+    description: "Compilateur JIT de langage fantastique produisant du code machine vectorisé."
+    language: Rust
+    stars: 780
+  - name: Mithril-Engine
+    url: https://github.com/example-user/mithril
+    description: "Moteur de rendu ASCII pour jeux de rôle textuels dans un terminal Unix."
+    language: C
+    stars: 1120
+checklist:
+  - label: "Nettoyer les catacombes de la dette technique"
+    status: fait
+  - label: "Forger l'armure de tests d'intégration"
+    status: encours
+  - label: "Conquérir le donjon des microservices"
+    status: prevu
+links:
+  - label: Guild Registry
+    url: https://github.com/example-user
+  - label: Character Sheet
+    url: https://example.com/character
+  - label: Grimoire
+    url: https://example.com/spells

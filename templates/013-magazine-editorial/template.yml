@@ -1,0 +1,22 @@
+id: 013-magazine-editorial
+version: 2.0.0
+title: Magazine Editorial
+summary: Mise en page élégante inspirée de la grande presse technologique et des revues de design.
+audiences:
+  - auteur
+  - designer
+theme: paper
+banner: masthead
+projects: list
+components:
+  - banner
+  - identity
+  - prose
+  - publications
+  - projects
+  - principles
+  - links
+  - colophon
+requires:
+  - name
+  - role

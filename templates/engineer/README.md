@@ -29,11 +29,20 @@
 </ul>
 
 <h2>Projets</h2>
-<table>
-<thead><tr><th>Projet</th><th>Description</th><th>Langage</th></tr></thead>
+<table width="100%">
 <tbody>
-<tr><td><a href="https://github.com/example-user/quai">Quai</a></td><td>Orchestrateur de migrations avec arrêt explicite.</td><td>Go</td></tr>
-<tr><td><a href="https://github.com/example-user/balise">Balise</a></td><td>Sondes de latence pour files internes.</td><td>Python</td></tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/example-user/quai">Quai</a></h3>
+      <p>Orchestrateur de migrations avec arrêt explicite.</p>
+      <p><sub> · <code>Go</code></sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/example-user/balise">Balise</a></h3>
+      <p>Sondes de latence pour files internes.</p>
+      <p><sub> · <code>Python</code></sub></p>
+    </td>
+  </tr>
 </tbody>
 </table>
 

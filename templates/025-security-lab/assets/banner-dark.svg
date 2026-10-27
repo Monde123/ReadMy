@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Sarah Chen — Principal Vulnerability Researcher &amp; Red Team Operator</title>
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="880" height="140" fill="#1c1410"/>
+  <rect x="16" y="16" width="848" height="108" rx="8" fill="#1c1410" stroke="#7c2d12" stroke-width="1.5" filter="url(#shadow)"/>
+  <line x1="16" y1="46" x2="864" y2="46" stroke="#7c2d12" stroke-width="1"/>
+  <circle cx="36" cy="31" r="5" fill="#ff5f56"/>
+  <circle cx="52" cy="31" r="5" fill="#ffbd2e"/>
+  <circle cx="68" cy="31" r="5" fill="#27c93f"/>
+  <text x="440" y="35" text-anchor="middle" fill="#fdba74" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">bash — 80x24</text>
+  <text x="36" y="74" fill="#fdba74" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold">$ whoami</text>
+  <text x="36" y="100" fill="#ffedd5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Sarah Chen — Principal Vulnerability Researcher &amp;amp; Red Team Operator</text>
+  <rect x="836" y="90" width="8" height="12" fill="#fdba74" opacity="0.8"/>
+</svg>

@@ -1,0 +1,41 @@
+name: Tariq Benali
+role: Co-fondateur & CEO chez Stratos
+metrics:
+  - label: ARR
+    value: 1.2M€
+    detail: "+180% YoY"
+  - label: Clients Actifs
+    value: "450+"
+    detail: Entreprises Mid-Market
+  - label: Net Retention
+    value: 124%
+    detail: "Cohort 2025"
+  - label: Équipe
+    value: "14 pers."
+    detail: "Paris & Remote"
+pitch:
+  problem: "Les équipes d'ingénierie perdent 30% de leur bande passante sur des pipelines CI/CD instables et des environnements éphémères mal orchestrés."
+  offer: "Stratos fournit des bacs à sable de test instantanés, isolés et auto-nettoyés à chaque pull request, sans configuration manuelle."
+  proof: "Plus de 450 clients en production réduisent leur délai de livraison de 4 jours à 40 minutes avec un ROI constaté dès le premier mois."
+projects:
+  - name: Stratos-CLI
+    url: https://github.com/example-user/stratos-cli
+    description: "Interface en ligne de commande pour provisionner des environnements éphémères en 4 secondes."
+    language: TypeScript
+    stars: 2100
+  - name: Ephemeral-Sandbox
+    url: https://github.com/example-user/sandbox-engine
+    description: "Orchestrateur de conteneurs légers avec isolation réseau stricte et zéro résidu sur disque."
+    language: Go
+    stars: 3450
+principles:
+  - "L'exécution rapide et disciplinée bat l'idée brillante."
+  - "Écouter les clients jusqu'à ce que le point de douleur soit évident."
+  - "Bâtir pour durer : rentabilité unitaire dès le premier jour."
+links:
+  - label: Découvrir Stratos
+    url: https://example.com/stratos
+  - label: Dossier Investisseurs
+    url: https://example.com/deck
+  - label: GitHub
+    url: https://github.com/example-user

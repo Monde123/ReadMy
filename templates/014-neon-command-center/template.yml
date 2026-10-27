@@ -1,0 +1,23 @@
+id: 014-neon-command-center
+version: 2.0.0
+title: Neon Command Center
+summary: Station de commande et télémétrie temps réel pour ingénieurs SRE et systèmes distribués.
+audiences:
+  - professionnel
+  - devops
+theme: signal
+banner: cyber-hud
+projects: cards
+components:
+  - banner
+  - identity
+  - metrics
+  - prose
+  - stack
+  - projects
+  - principles
+  - links
+  - colophon
+requires:
+  - name
+  - role

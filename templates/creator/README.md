@@ -16,10 +16,22 @@
 <p>Contraste, états vides, et textes qui tiennent sur un téléphone.</p>
 
 <h2>Projets</h2>
-<ul>
-<li><a href="https://github.com/example-user/atelier">Atelier</a> — Maquettes versionnées d'un système de formulaires. · TypeScript</li>
-<li><a href="https://github.com/example-user/lisiere">Lisiere</a> — Jeu d'états vides et d'erreurs pour une application fictive. · CSS</li>
-</ul>
+<table width="100%">
+<tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/example-user/atelier">Atelier</a></h3>
+      <p>Maquettes versionnées d'un système de formulaires.</p>
+      <p><sub> · <code>TypeScript</code></sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/example-user/lisiere">Lisiere</a></h3>
+      <p>Jeu d'états vides et d'erreurs pour une application fictive.</p>
+      <p><sub> · <code>CSS</code></sub></p>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 <h2>Stack</h2>
 <ul>

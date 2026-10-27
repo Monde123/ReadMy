@@ -1,0 +1,33 @@
+name: Sarah Chen
+role: Principal Vulnerability Researcher & Red Team Operator
+summary: "Je traque les failles de logique d'authentification, les vulnérabilités de corruption mémoire et les escalades de privilèges dans le cloud."
+focus: "Audit de sécurité kubernetes multi-tenant, durcissement Linux SELinux/AppArmor et divulgation coordonnée de CVEs."
+checklist:
+  - label: "Audit de sécurité chaîne CI/CD zero-trust"
+    status: fait
+  - label: "Recherche sur l'isolation des enclaves confidentielles"
+    status: encours
+  - label: "Publication du guide de durcissement conteneurs"
+    status: prevu
+projects:
+  - name: Kube-Hardener
+    url: https://github.com/example-user/kube-hardener
+    description: "Scanner de conformité de politiques CIS Kubernetes avec correction automatique."
+    language: Go
+    stars: 2150
+  - name: Memory-Fuzzer-Lite
+    url: https://github.com/example-user/mem-fuzzer
+    description: "Fuzzer guidé par la couverture pour protocoles réseau binaires sans instrumentation lourde."
+    language: C
+    stars: 1680
+principles:
+  - "La sécurité par l'obscurité est un sursis, pas une protection."
+  - "La divulgation responsable protège les utilisateurs avant tout."
+  - "Moins de surface d'attaque vaut mieux que mille alertes."
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Security Advisories
+    url: https://example.com/cve
+  - label: PGP Public Key
+    url: https://example.com/security-pgp

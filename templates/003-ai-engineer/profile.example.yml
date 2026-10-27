@@ -1,0 +1,39 @@
+name: Dr. Elena Rostova
+role: Senior Machine Learning Systems Engineer
+summary: "Spécialisée dans l'entraînement distribué, les runtimes de tenseurs quantifiés (vLLM / TensorRT-LLM) et les pipelines de recherche à faible latence."
+focus: "Optimisation de l'attention paginée, décodage spéculatif et compilation CUDA sur clusters H100 SXM5."
+stack:
+  - name: Runtimes & Inference
+    items:
+      - vLLM
+      - TensorRT-LLM
+      - Triton
+      - PyTorch
+  - name: Compute & Storage
+    items:
+      - 8x H100 SXM5
+      - Qdrant HNSW
+      - CUDA 12
+      - DeepSpeed
+projects:
+  - name: Aura-Reason-7B
+    url: https://github.com/example-user/aura-reason
+    description: "Modèle de raisonnement open weights optimisé avec Direct Preference Optimization (DPO)."
+    language: Python
+    stars: 1800
+  - name: TurboRAG-Engine
+    url: https://github.com/example-user/turborag
+    description: "Pipeline RAG distribué et asynchrone traitant 4 000 requêtes par seconde à p99 < 50ms."
+    language: Rust
+    stars: 3200
+principles:
+  - "La latence d'inférence est une fonctionnalité, pas un détail d'implémentation."
+  - "Un benchmark sans contrainte de mémoire est une fiction théorique."
+  - "Zéro copie de tenseur à travers la mémoire partagée GPU."
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: HuggingFace
+    url: https://huggingface.co
+  - label: Papers
+    url: https://example.com/papers

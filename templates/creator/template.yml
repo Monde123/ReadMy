@@ -6,7 +6,7 @@ audiences:
   - createur
 theme: violet
 banner: masthead
-projects: list
+projects: cards
 components:
   - banner
   - identity

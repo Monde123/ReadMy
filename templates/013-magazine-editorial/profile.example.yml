@@ -1,0 +1,35 @@
+name: Clara de Montmirail
+role: Directrice de publication & Critique technologique
+summary: "J'écris sur les frictions entre systèmes computationnels et écologie politique. Chroniques, essais et typographie soignée."
+focus: "Enquêtes sur la sobriété numérique, l'éthique logicielle et la durabilité des artefacts ouverts."
+publications:
+  - year: 2026
+    title: "L'illusion de la vitesse infinie dans le Cloud"
+    venue: "Revue Critique des Systèmes"
+    url: https://example.com/notes/vitesse
+  - year: 2025
+    title: "Typographie et lisibilité des interfaces publiques"
+    venue: "Cahiers d'Ergonomie Numérique"
+    url: https://example.com/notes/typographie
+projects:
+  - name: Gazette-OpenSource
+    url: https://github.com/example-user/gazette
+    description: "Moteur de publication statique minimaliste privilégiant les fontes système et l'encre numérique."
+    language: HTML
+    stars: 640
+  - name: Manifeste-Sobriete
+    url: https://github.com/example-user/manifeste
+    description: "Recueil d'essais collaboratifs sur la longévité des outils logiciels."
+    language: Markdown
+    stars: 1200
+principles:
+  - "Un texte clair vaut mieux qu'une interface complexe."
+  - "La typographie n'est pas un ornement, c'est la structure même de la pensée."
+  - "La longévité d'un document se mesure à son indépendance envers les serveurs distants."
+links:
+  - label: Essais & Revue
+    url: https://example.com
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Lettre mensuelle
+    url: https://example.com/lettre

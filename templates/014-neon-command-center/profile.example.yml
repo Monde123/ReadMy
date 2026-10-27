@@ -1,0 +1,52 @@
+name: Kaizen Vex
+role: Platform SRE & Distributed Systems Operator
+metrics:
+  - label: Core Cluster
+    value: 64 Nodes
+    detail: "Kubernetes 1.31 / eBPF"
+  - label: Ingestion Rate
+    value: 1.4M msg/s
+    detail: "Kafka 0% lag"
+  - label: Tail Latency
+    value: p99 < 1.8ms
+    detail: Global edge dispatch
+  - label: Uptime
+    value: 99.995%
+    detail: DEFCON 5 NORMAL
+summary: "J'automatise les plateformes distribuées auto-réparatrices, élimine le travail répétitif et maintiens le consensus sous partition réseau hostile."
+focus: "Inspection de paquets au niveau noyau Linux via eBPF XDP et consensus Raft vectorisé."
+stack:
+  - name: Compute & Runtime
+    items:
+      - Kubernetes
+      - Cilium eBPF
+      - Linux Kernel
+      - WASM
+  - name: Distributed Data
+    items:
+      - Apache Kafka
+      - ClickHouse
+      - ScyllaDB
+      - Redis
+projects:
+  - name: Operation-Sentinel
+    url: https://github.com/example-user/sentinel
+    description: "Démon d'inspection de paquets au niveau noyau rejetant 10M pps avant allocation de socket."
+    language: Rust
+    stars: 2400
+  - name: Operation-ChronoFlux
+    url: https://github.com/example-user/chronoflux
+    description: "Moteur de réplication WAL distribué sur consensus Raft avec zéro événement split-brain."
+    language: Go
+    stars: 1950
+principles:
+  - "Automatiser la remédiation avant qu'une alerte ne réveille un humain."
+  - "Une architecture sans test de chaos engineering est fragile par définition."
+  - "Le zero-trust n'est pas négociable : mTLS via SPIRE/SPIFFE systématique."
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Grafana Dashboards
+    url: https://example.com/telemetry
+  - label: Incident Log
+    url: https://example.com/incidents

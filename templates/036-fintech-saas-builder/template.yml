@@ -1,0 +1,23 @@
+id: 036-fintech-saas-builder
+version: 2.0.0
+title: Fintech SaaS Builder
+summary: Architecture financière robuste, transactions PCI-DSS et haute disponibilité.
+audiences:
+  - professionnel
+  - finance
+theme: paper
+banner: blueprint
+projects: cards
+components:
+  - banner
+  - identity
+  - metrics
+  - prose
+  - stack
+  - projects
+  - principles
+  - links
+  - colophon
+requires:
+  - name
+  - role

@@ -1,0 +1,22 @@
+id: 031-cyberpunk-netrunner
+version: 2.0.0
+title: Cyberpunk Netrunner
+summary: Fiche immersive pour hacker, ingénieur de sécurité offensive et constructeur de cyberware.
+audiences:
+  - hacker
+  - securite
+theme: violet
+banner: cyber-hud
+projects: cards
+components:
+  - banner
+  - identity
+  - prose
+  - stack
+  - projects
+  - checklist
+  - links
+  - colophon
+requires:
+  - name
+  - role

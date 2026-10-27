@@ -1,0 +1,22 @@
+id: 025-security-lab
+version: 2.0.0
+title: Offensive & Defensive Lab
+summary: Recherche de vulnérabilités, durcissement d'infrastructures et divulgation responsable.
+audiences:
+  - securite
+  - sysadmin
+theme: signal
+banner: terminal
+projects: table
+components:
+  - banner
+  - identity
+  - prose
+  - checklist
+  - projects
+  - principles
+  - links
+  - colophon
+requires:
+  - name
+  - role

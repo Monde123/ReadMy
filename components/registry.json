@@ -3,8 +3,9 @@
   "components": {
     "banner": { "version": "2.0.0", "description": "Bandeau SVG local, variantes clair et sombre." },
     "identity": { "version": "2.0.0", "description": "Nom, rôle, organisation et lieu seulement s'ils sont fournis." },
+    "metrics": { "version": "2.0.0", "description": "Indicateurs clés et télémétrie en tableau HTML responsive." },
     "prose": { "version": "2.0.0", "description": "Résumé et focus en paragraphes HTML échappés." },
-    "projects": { "version": "2.0.0", "description": "Projets en liste ou en tableau, selon le gabarit." },
+    "projects": { "version": "2.0.0", "description": "Projets en liste, tableau ou cartes 2 colonnes, selon le gabarit." },
     "stack": { "version": "2.0.0", "description": "Groupes de technologies en liste, sans badge distant." },
     "publications": { "version": "2.0.0", "description": "Tableau année, titre, support." },
     "timeline": { "version": "2.0.0", "description": "Parcours daté." },

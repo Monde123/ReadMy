@@ -6,7 +6,7 @@ audiences:
   - professionnel
 theme: ink
 banner: sheet
-projects: table
+projects: cards
 components:
   - banner
   - identity

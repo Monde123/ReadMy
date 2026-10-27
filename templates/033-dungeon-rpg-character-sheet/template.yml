@@ -1,0 +1,23 @@
+id: 033-dungeon-rpg-character-sheet
+version: 2.0.0
+title: Dungeon RPG Character Sheet
+summary: Fiche de personnage d'aventure avec statistiques de classe, équipement et quêtes actives.
+audiences:
+  - gamer
+  - dev
+theme: signal
+banner: retro-ascii
+projects: cards
+components:
+  - banner
+  - identity
+  - metrics
+  - prose
+  - stack
+  - projects
+  - checklist
+  - links
+  - colophon
+requires:
+  - name
+  - role

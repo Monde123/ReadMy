@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Julian Kross — Audio DSP Engineer &amp; Modular Synthesizer Designer</title>
+  <defs>
+    <pattern id="bp-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 12 0 L 12 24 M 0 12 L 24 12" fill="none" stroke="#30363d" stroke-width="0.25" opacity="0.25"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="140" fill="#010409"/>
+  <rect width="880" height="140" fill="url(#bp-grid)"/>
+  <rect x="20" y="16" width="840" height="108" fill="none" stroke="#f0f6fc" stroke-width="1.5"/>
+  <text x="36" y="34" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" letter-spacing="1.5">SYS ARCHITECTURE BLUEPRINT · REV 2.0</text>
+  <text x="840" y="34" text-anchor="end" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10">SCALE: 1:1</text>
+  <text x="36" y="64" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="bold">Julian Kross</text>
+  <text x="36" y="96" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">SPEC: Audio DSP Engineer &amp; Modular Synthesizer Designer</text>
+  <rect x="680" y="86" width="170" height="32" fill="#010409" stroke="#30363d" stroke-width="1"/>
+  <text x="690" y="106" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10">APPROVED // READMY</text>
+</svg>

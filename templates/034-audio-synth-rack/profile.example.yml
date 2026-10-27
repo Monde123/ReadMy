@@ -1,0 +1,39 @@
+name: Julian Kross
+role: Audio DSP Engineer & Modular Synthesizer Designer
+summary: "Je conçois des modules Eurorack analogiques/numériques, des algorithmes de réverbération algorithmique et des plug-ins audio temps réel."
+focus: "Traitement de signal en virgule fixe, filtres non-linéaires à modélisation physique et compilation SIMD sans jitter."
+stack:
+  - name: DSP & Audio Frameworks
+    items:
+      - JUCE
+      - FAUST
+      - C++23
+      - PureData
+  - name: Hardware & Embedded
+    items:
+      - STM32 ARM Cortex-M7
+      - Daisy Seed
+      - KiCad
+      - Eurorack
+projects:
+  - name: Resonator-Core
+    url: https://github.com/example-user/resonator-core
+    description: "Algorithme de modélisation de résonateur modal physique avec latence inférieure à 12 microsecondes."
+    language: C++
+    stars: 960
+  - name: Polymorph-Synth
+    url: https://github.com/example-user/polymorph
+    description: "Synthétiseur à tables d'ondes vectorielles avec synthèse granulaire temps réel."
+    language: Rust
+    stars: 1340
+principles:
+  - "Le son ne pardonne aucun glitch : buffer d'échantillonnage prioritaire sur toute tâche UI."
+  - "L'analogique apporte le grain, le numérique apporte la précision infinie."
+  - "Un bon instrument doit être jouable sans écran."
+links:
+  - label: Écoutes & Démos
+    url: https://example.com/audio
+  - label: Schémas Électroniques
+    url: https://example.com/schematics
+  - label: GitHub
+    url: https://github.com/example-user

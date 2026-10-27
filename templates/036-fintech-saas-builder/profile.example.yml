@@ -1,0 +1,52 @@
+name: Mathieu Valadier
+role: Lead Financial Systems Architect
+metrics:
+  - label: Volume Traité
+    value: 2.4Mds€ / an
+    detail: "Double-Entry Ledger"
+  - label: Disponibilité SLA
+    value: 99.999%
+    detail: "Multi-Region Active/Active"
+  - label: Temps de Clôture
+    value: "< 120ms"
+    detail: Instant Settlement
+  - label: Conformité
+    value: PCI-DSS N1
+    detail: SOC2 Type II
+summary: "Je conçois des moteurs de comptabilité transactionnelle immuable, des passerelles de paiement résilientes et des audits automatisés."
+focus: "Idempotence stricte des requêtes financières, consensus distribué et détection d'anomalies en temps réel."
+stack:
+  - name: Core Ledger
+    items:
+      - PostgreSQL
+      - TigerBeetle
+      - Kafka
+      - Go
+  - name: Banking Protocols
+    items:
+      - ISO 20022
+      - SEPA Instant
+      - SWIFT
+      - Open Banking API
+projects:
+  - name: Immutable-Ledger-Core
+    url: https://github.com/example-user/immutable-ledger
+    description: "Grand livre comptable en partie double avec garanties ACID et audit cryptographique continu."
+    language: Go
+    stars: 1850
+  - name: Settlement-Engine
+    url: https://github.com/example-user/settlement-engine
+    description: "Moteur de réconciliation bancaire automatisé traitant 100k opérations par minute sans divergence."
+    language: Rust
+    stars: 1420
+principles:
+  - "Dans les systèmes financiers, chaque centime et chaque arrondi doivent être prouvables."
+  - "L'idempotence n'est pas optionnelle : jamais deux débits pour un clic."
+  - "Les audits manuels sont des pannes en attente : tout vérifier par le code."
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Spécifications Techniques
+    url: https://example.com/specs
+  - label: Rapports d'Audit
+    url: https://example.com/audits

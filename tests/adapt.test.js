@@ -106,8 +106,11 @@ test("bio hostile échappée, fork sans booléen, dépôt override inconnu", () 
 
 test("la skill énonce l'interdiction d'inventer", () => {
   const skill = fs.readFileSync(path.join(root, "skills/readmy-profile-adapter/SKILL.md"), "utf8");
-  assert.ok(skill.includes("## Entrées"));
-  assert.ok(skill.includes("## Sorties"));
-  assert.ok(skill.includes("## Interdits"));
-  assert.ok(skill.includes("N'invente aucun dépôt, chiffre, diplôme, récompense ou intitulé de poste."));
+  assert.ok(skill.includes("## Inputs") || skill.includes("## Entrées"));
+  assert.ok(skill.includes("## Outputs") || skill.includes("## Sorties"));
+  assert.ok(skill.includes("## Guardrails") || skill.includes("## Interdits"));
+  assert.ok(
+    skill.includes("Do not invent any repository, metric, degree, award, or job title.") ||
+    skill.includes("N'invente aucun dépôt, chiffre, diplôme, récompense ou intitulé de poste.")
+  );
 });

@@ -1,18 +1,38 @@
 {
   "name": "readmy",
   "version": "2.0.0",
-  "private": true,
   "type": "module",
   "description": "Catalogue durable de README de profil GitHub. CLI locale, sans dépendance.",
   "bin": {
     "readmy": "./cli/readmy.js"
   },
+  "files": [
+    "cli",
+    "components",
+    "design",
+    "lib",
+    "skills",
+    "templates"
+  ],
   "engines": {
-    "node": ">=22"
+    "node": ">=20"
   },
   "scripts": {
     "build": "node tools/build.js",
     "test": "node --test tests/*.test.js",
     "validate": "node tools/validate.js"
-  }
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "readme",
+    "templates",
+    "svg",
+    "generator",
+    "portfolio",
+    "zero-dependency",
+    "wcag"
+  ],
+  "author": "Moise Koudanko",
+  "license": "MIT"
 }

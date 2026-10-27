@@ -1,0 +1,52 @@
+name: Roman Kowalski
+role: Staff Data Streaming & OLAP Platform Engineer
+metrics:
+  - label: Événements / Sec
+    value: 3.8M / s
+    detail: "Kafka Cluster 120 Partitions"
+  - label: Latence Ingestion
+    value: "< 8ms"
+    detail: End-to-End Pipeline
+  - label: Volume Journalier
+    value: 45 To / jour
+    detail: ClickHouse Tiering
+  - label: Jobs Flink
+    value: "84 Actifs"
+    detail: Exactly-Once Semantics
+summary: "Je construis les autoroutes de données temps réel : streaming distribué, sémantique exactly-once et requêtes analytiques sub-secondes."
+focus: "Optimisation des topologies Apache Flink, partitionnement ClickHouse et format Apache Iceberg sur stockage objet."
+stack:
+  - name: Streaming Engine
+    items:
+      - Apache Kafka
+      - Apache Flink
+      - Rust
+      - Vector
+  - name: Analytics & Storage
+    items:
+      - ClickHouse
+      - Apache Iceberg
+      - DuckDB
+      - Parquet
+projects:
+  - name: Flink-Delta-Sink
+    url: https://github.com/example-user/flink-sink
+    description: "Connecteur Flink haute performance pour l'ingestion sans compaction vers tables Iceberg."
+    language: Java
+    stars: 1290
+  - name: Fast-ClickHouse-Proxy
+    url: https://github.com/example-user/ch-proxy
+    description: "Proxy d'équilibrage et de mise en cache de requêtes analytiques avec déduplication de requêtes identiques."
+    language: Go
+    stars: 870
+principles:
+  - "La latence d'ingestion se perd dans les sérialisations inutiles : vive Arrow et FlatBuffers."
+  - "Chaque schéma doit être versionné et validé avant d'entrer dans le topic."
+  - "Une donnée non requêtée dans les 90 jours va au stockage froid."
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Observabilité Data
+    url: https://example.com/data-metrics
+  - label: Architecture Notes
+    url: https://example.com/notes

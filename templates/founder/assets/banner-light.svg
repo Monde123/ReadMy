@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
   <title>Omar Diallo — Fondateur d'un outil de notes d'équipe</title>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#fed7aa" stroke-width="0.75" opacity="0.4"/>
+    </pattern>
+  </defs>
   <rect width="880" height="140" fill="#fff7ed"/>
-  <text x="32" y="62" fill="#431407" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">Omar Diallo</text>
-  <text x="32" y="96" fill="#9a3412" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Fondateur d'un outil de notes d'équipe</text>
-  <line x1="32" y1="116" x2="848" y2="116" stroke="#9a3412" stroke-width="4"/>
+  <rect width="880" height="140" fill="url(#grid)"/>
+  <rect x="36" y="24" width="8" height="8" fill="#9a3412"/>
+  <text x="54" y="32" fill="#9a3412" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" letter-spacing="1.5">PROFILE // LOCAL SVG</text>
+  <text x="36" y="60" fill="#431407" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="bold">Omar Diallo</text>
+  <text x="36" y="94" fill="#9a3412" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Fondateur d'un outil de notes d'équipe</text>
+  <line x1="36" y1="116" x2="844" y2="116" stroke="#9a3412" stroke-width="3"/>
+  <line x1="36" y1="122" x2="200" y2="122" stroke="#fed7aa" stroke-width="1.5"/>
 </svg>

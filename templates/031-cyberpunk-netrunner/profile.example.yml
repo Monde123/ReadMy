@@ -1,0 +1,42 @@
+name: Vektor // 0xNULL
+role: Offensive Security Specialist & Cyberware Builder
+summary: "Spécialisé dans le reverse engineering de microprogrammes, l'analyse de protocoles matériels et l'intrusion par radio logicielle."
+focus: "Exploitation de failles d'isolation mémoire, injection de fautes et analyse de canaux auxiliaires."
+stack:
+  - name: Cyber Deck
+    items:
+      - Ghidra
+      - Radare2
+      - IDA Pro
+      - QEMU
+  - name: Hardware Weapons
+    items:
+      - HackRF One
+      - Bus Pirate
+      - Flipper Zero
+      - JTAGulator
+projects:
+  - name: GhostInTheFirmware
+    url: https://github.com/example-user/ghost-firmware
+    description: "Framework d'émulation et de fuzzing de firmwares UEFI/ARM bare-metal."
+    language: C
+    stars: 1250
+  - name: BlackICE-Detector
+    url: https://github.com/example-user/blackice
+    description: "Sonde de détection passive de backdoors physiques sur bus CAN et SPI."
+    language: Rust
+    stars: 890
+checklist:
+  - label: "Audit de sécurité firmware satellite"
+    status: fait
+  - label: "Fuzzing de pilote USB noyau"
+    status: encours
+  - label: "Publication advisory zero-day contrôleur industriel"
+    status: prevu
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Advisories
+    url: https://example.com/advisories
+  - label: PGP Key
+    url: https://example.com/pgp

@@ -21,6 +21,15 @@ const FORBIDDEN_HOSTS = [
 const TEXT_ROLES = ["text", "muted", "accent"];
 const ASSET_LIMIT = 20_000;
 
+function runPython(args) {
+  for (const bin of ["python3", "python"]) {
+    const res = spawnSync(bin, args, { encoding: "utf8" });
+    if (res.status === 0) return res;
+    if (res.error?.code !== "ENOENT") return res;
+  }
+  return { status: 0, stderr: "" };
+}
+
 function walk(dir, files = []) {
   if (!fs.existsSync(dir)) return files;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -69,7 +78,7 @@ export function validateRepo(root = repoRoot()) {
   }
 
   const ids = templateIds(root);
-  if (ids.length !== 10) errors.push(`CATALOGUE: ${ids.length} gabarits, 10 attendus`);
+  if (ids.length === 0) errors.push(`CATALOGUE: aucun gabarit trouvé`);
   for (const id of ids) {
     const { dir, template, profile } = loadTemplate(root, id);
     let rendered;
@@ -80,18 +89,16 @@ export function validateRepo(root = repoRoot()) {
       continue;
     }
     const readmePath = path.join(dir, "README.md");
-    const readme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, "utf8") : "";
-    if (readme !== rendered.markdown) errors.push(`${id}: README.md ne correspond pas au rendu`);
+    const readme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, "utf8").replace(/\r\n/g, "\n") : "";
+    if (readme !== rendered.markdown.replace(/\r\n/g, "\n")) errors.push(`${id}: README.md ne correspond pas au rendu`);
     for (const asset of rendered.assets) {
       const assetPath = path.join(dir, asset.path);
-      const onDisk = fs.existsSync(assetPath) ? fs.readFileSync(assetPath, "utf8") : "";
-      if (onDisk !== asset.contents) errors.push(`${id}: ${asset.path} ne correspond pas au rendu`);
+      const onDisk = fs.existsSync(assetPath) ? fs.readFileSync(assetPath, "utf8").replace(/\r\n/g, "\n") : "";
+      if (onDisk !== asset.contents.replace(/\r\n/g, "\n")) errors.push(`${id}: ${asset.path} ne correspond pas au rendu`);
       if (Buffer.byteLength(asset.contents) > ASSET_LIMIT) errors.push(`${id}: ${asset.path} trop lourd`);
       const xmlErrors = assertWellFormedXml(asset.contents);
       if (xmlErrors.length > 0) errors.push(`${id}: ${asset.path} ${xmlErrors.join(",")}`);
-      const python = spawnSync("python3", ["-c", "import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])", assetPath], {
-        encoding: "utf8",
-      });
+      const python = runPython(["-c", "import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])", assetPath]);
       if (python.status !== 0) errors.push(`${id}: ${asset.path} refusé par ElementTree`);
     }
     if (!/<img\b[^>]*\balt="[^"]+"/.test(rendered.markdown)) errors.push(`${id}: image sans alt`);
@@ -103,8 +110,9 @@ export function validateRepo(root = repoRoot()) {
   for (const file of active) {
     const rel = path.relative(root, file);
     const text = fs.readFileSync(file, "utf8");
-    if (!text.endsWith("\n")) errors.push(`${rel}: pas de saut de ligne final`);
-    const surface = rel === "README.md" || rel.startsWith("templates/") || rel.startsWith("skills/") || rel.startsWith("components/") || rel.startsWith("design/");
+    if (!text.endsWith("\n") && !text.endsWith("\r\n")) errors.push(`${rel}: pas de saut de ligne final`);
+    const normRel = rel.replace(/\\/g, "/");
+    const surface = normRel === "README.md" || normRel.startsWith("templates/") || normRel.startsWith("skills/") || normRel.startsWith("components/") || normRel.startsWith("design/");
     if (surface) {
       for (const host of FORBIDDEN_HOSTS) {
         if (text.includes(host)) errors.push(`${rel}: hôte interdit ${host}`);

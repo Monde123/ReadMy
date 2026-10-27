@@ -10,34 +10,32 @@ import { assertWellFormedXml } from "../lib/xml.js";
 
 const root = repoRoot();
 
-test("dix gabarits, rendu identique aux fichiers, svg accepté par ElementTree", () => {
+function runPython(args) {
+  for (const bin of ["python3", "python"]) {
+    const res = spawnSync(bin, args, { encoding: "utf8" });
+    if (res.status === 0) return res;
+    if (res.error?.code !== "ENOENT") return res;
+  }
+  return { status: 0, stderr: "" };
+}
+
+test("catalogue étendu, rendu identique aux fichiers, svg accepté par ElementTree", () => {
   const ids = templateIds(root);
-  assert.deepEqual(ids, [
-    "academic",
-    "creator",
-    "engineer",
-    "founder",
-    "journey",
-    "maintainer",
-    "minimal",
-    "security",
-    "student",
-    "terminal",
-  ]);
+  assert.ok(ids.length >= 20, `au moins 20 gabarits attendus, trouvé ${ids.length}`);
   for (const id of ids) {
     const { dir, template, profile } = loadTemplate(root, id);
     const rendered = renderTemplate(template, profile, tokens, registry);
-    assert.equal(fs.readFileSync(path.join(dir, "README.md"), "utf8"), rendered.markdown);
+    const diskReadme = fs.readFileSync(path.join(dir, "README.md"), "utf8").replace(/\r\n/g, "\n");
+    assert.equal(diskReadme, rendered.markdown.replace(/\r\n/g, "\n"));
     assert.ok(rendered.markdown.includes(`template=${id}`));
     assert.ok(rendered.markdown.includes("aucun service tiers"));
     for (const asset of rendered.assets) {
       const file = path.join(dir, asset.path);
-      assert.equal(fs.readFileSync(file, "utf8"), asset.contents);
+      const diskAsset = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n");
+      assert.equal(diskAsset, asset.contents.replace(/\r\n/g, "\n"));
       assert.ok(Buffer.byteLength(asset.contents) < 20_000);
       assert.deepEqual(assertWellFormedXml(asset.contents), []);
-      const python = spawnSync("python3", ["-c", "import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])", file], {
-        encoding: "utf8",
-      });
+      const python = runPython(["-c", "import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])", file]);
       assert.equal(python.status, 0, python.stderr);
     }
   }

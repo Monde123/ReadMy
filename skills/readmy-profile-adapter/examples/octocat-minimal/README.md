@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
-  <img alt="Bandeau : The Octocat, {{role}}" src="./assets/banner-light.svg" />
+  <img alt="Bandeau : The Octocat" src="./assets/banner-light.svg" />
 </picture>
 
 <h1>The Octocat</h1>

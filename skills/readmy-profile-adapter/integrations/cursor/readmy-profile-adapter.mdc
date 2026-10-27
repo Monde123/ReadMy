@@ -1,0 +1,36 @@
+---
+description: Commercial-grade rules for auditing, inferring, and generating indestructible GitHub profile READMEs
+globs: ["**/README.md", "**/profile*.yml", "**/profile*.json"]
+alwaysApply: false
+---
+
+# ReadMy Profile Adapter Rules for Cursor & Windsurf
+
+When the user asks to generate, audit, polish, or upgrade a GitHub Profile README:
+
+## 1. Prime Directive: Durability & Zero Third-Party Fragility
+- Never insert dynamic third-party widgets (Shields badges, Vercel apps, Heroku dynos, dynamic visitor counters, skill-icons CDNs).
+- Ensure all visual banners are standalone, local SVG files stored in an `assets/` subfolder.
+- Always support GitHub Dark & Light modes using `<picture>` and `(prefers-color-scheme: dark/light)`.
+- Enforce WCAG 2.2 AA contrast (>= 4.5:1) between text and background.
+
+## 2. Anti-Hallucination Law
+- Do not invent any repository, metric, degree, award, or job title.
+- If data is missing:
+  - Role: use placeholder `{{role}}`.
+  - Bio: omit prose section gracefully.
+  - Repositories: cap at top 4 public repositories by stars, excluding forks.
+- Never output private details (email, location, company, social handles) unless explicit user consent is confirmed.
+
+## 3. Execution Commands
+When ReadMy CLI is available in the workspace:
+```bash
+# Durability audit
+node cli/readmy.js audit <username>
+
+# Interactive full setup
+node cli/readmy.js init
+
+# Deterministic profile adaptation
+node cli/readmy.js adapt --github <username> --template engineer --out ./profile
+```
