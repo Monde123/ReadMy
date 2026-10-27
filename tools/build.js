@@ -20,25 +20,27 @@ for (const id of templateIds(root)) {
   process.stdout.write(`rendu ${id}\n`);
 }
 
-const fixturePath = path.join(root, "skills", "readmy-profile-adapter", "fixtures", "octocat.json");
-const fixture = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
-const minimal = loadTemplate(root, "minimal").template;
-const adapted = adaptProfile({
-  template: minimal,
-  github: fixture.github,
-  consent: fixture.consent,
-  overrides: fixture.overrides,
-  tokens,
-  registry,
-});
-const exampleDir = path.join(root, "skills", "readmy-profile-adapter", "examples", "octocat-minimal");
-fs.mkdirSync(path.join(exampleDir, "assets"), { recursive: true });
-fs.writeFileSync(path.join(exampleDir, "README.md"), adapted.markdown);
-for (const asset of adapted.assets) {
-  fs.writeFileSync(path.join(exampleDir, asset.path), asset.contents);
+const fixturePath = path.join(root, "tests", "fixtures", "octocat.json");
+if (fs.existsSync(fixturePath)) {
+  const fixture = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
+  const minimal = loadTemplate(root, "minimal").template;
+  const adapted = adaptProfile({
+    template: minimal,
+    github: fixture.github,
+    consent: fixture.consent,
+    overrides: fixture.overrides,
+    tokens,
+    registry,
+  });
+  const exampleDir = path.join(root, "examples", "octocat-minimal");
+  fs.mkdirSync(path.join(exampleDir, "assets"), { recursive: true });
+  fs.writeFileSync(path.join(exampleDir, "README.md"), adapted.markdown);
+  for (const asset of adapted.assets) {
+    fs.writeFileSync(path.join(exampleDir, asset.path), asset.contents);
+  }
+  fs.writeFileSync(
+    path.join(exampleDir, "provenance.json"),
+    `${JSON.stringify({ placeholders: adapted.placeholders, warnings: adapted.warnings, provenance: adapted.provenance }, null, 2)}\n`,
+  );
+  process.stdout.write("rendu exemple octocat-minimal\n");
 }
-fs.writeFileSync(
-  path.join(exampleDir, "provenance.json"),
-  `${JSON.stringify({ placeholders: adapted.placeholders, warnings: adapted.warnings, provenance: adapted.provenance }, null, 2)}\n`,
-);
-process.stdout.write("rendu skill octocat-minimal\n");

@@ -10,8 +10,8 @@
     "cli",
     "components",
     "design",
+    "examples",
     "lib",
-    "skills",
     "templates"
   ],
   "engines": {

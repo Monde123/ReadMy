@@ -11,7 +11,7 @@ const root = repoRoot();
 const minimal = loadTemplate(root, "minimal").template;
 
 function adapt(file, extra = {}) {
-  const fixture = JSON.parse(fs.readFileSync(path.join(root, "skills", "readmy-profile-adapter", "fixtures", file), "utf8"));
+  const fixture = JSON.parse(fs.readFileSync(path.join(root, "tests", "fixtures", file), "utf8"));
   return adaptProfile({
     template: minimal,
     github: fixture.github,
@@ -24,7 +24,7 @@ function adapt(file, extra = {}) {
 }
 
 test("octocat : dépôt réel, fork exclu, vie privée omise, rien d'inventé", () => {
-  const fixture = JSON.parse(fs.readFileSync(path.join(root, "skills/readmy-profile-adapter/fixtures/octocat.json"), "utf8"));
+  const fixture = JSON.parse(fs.readFileSync(path.join(root, "tests", "fixtures", "octocat.json"), "utf8"));
   const result = adapt("octocat.json");
   assert.ok(result.markdown.includes("Hello-World"));
   assert.ok(result.markdown.includes("My first repository"));
@@ -49,7 +49,7 @@ test("profil sans dépôt : login seul, placeholder, aucun projet fabriqué", ()
 });
 
 test("le consentement explicite laisse passer le lieu et refuse un email mal formé", () => {
-  const fixture = JSON.parse(fs.readFileSync(path.join(root, "skills/readmy-profile-adapter/fixtures/octocat.json"), "utf8"));
+  const fixture = JSON.parse(fs.readFileSync(path.join(root, "tests", "fixtures", "octocat.json"), "utf8"));
   const shown = adaptProfile({
     template: minimal,
     github: fixture.github,
@@ -104,15 +104,16 @@ test("bio hostile échappée, fork sans booléen, dépôt override inconnu", () 
   assert.ok(custom.warnings.some((warning) => warning.includes("HorsLigne")));
 });
 
-test("la skill énonce l'interdiction d'inventer", () => {
-  const skill = fs.readFileSync(path.join(root, "skills/readmy-profile-adapter/SKILL.md"), "utf8");
-  assert.ok(skill.includes("## Inputs") || skill.includes("## Entrées"));
-  assert.ok(skill.includes("## Outputs") || skill.includes("## Sorties"));
-  assert.ok(skill.includes("## Guardrails") || skill.includes("## Interdits"));
-  assert.ok(
-    skill.includes("Do not invent any repository, metric, degree, award, or job title.") ||
-    skill.includes("N'invente aucun dépôt, chiffre, diplôme, récompense ou intitulé de poste.")
-  );
+test("l'adaptateur garantit l'interdiction stricte d'inventer des données", () => {
+  const result = adaptProfile({
+    template: minimal,
+    github: { login: "nobody", repos: [] },
+    tokens,
+    registry,
+  });
+  assert.ok(result.markdown.includes("{{role}}"));
+  assert.ok(result.placeholders.includes("role"));
+  assert.ok(result.warnings.some((w) => w.includes("role absent")));
 });
 
 test("les liens personnalisés dans overrides sont acceptés et validés", () => {
