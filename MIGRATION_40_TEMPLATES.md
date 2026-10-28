@@ -5,8 +5,8 @@ ReadMy v2 is built upon a single non-negotiable architectural rule: **Zero Remot
 In v1, profile READMEs relied extensively on third-party badges (`img.shields.io`), external widgets (Vercel, Heroku, Demolab, Komarev counters), and unvalidated remote assets.
 
 As of v2.0.0:
-- **20 Templates are Active & Production-Ready**: 100% validated against WCAG 2.1 AA contrast rules, parsed by Python `ElementTree`, zero network calls, native Dark/Light mode support.
-- **20 Templates are Archived in `archive/v1/templates/`**: Preserved for auditability and scheduled for progressive zero-dependency migration.
+- **22 Templates are Active & Production-Ready**: 100% validated against WCAG 2.1 AA contrast rules, parsed by Python `ElementTree`, zero network calls, native Dark/Light mode support.
+- **18 Templates are Archived in `archive/v1/templates/`**: Preserved for auditability and scheduled for progressive zero-dependency migration.
 
 ---
 
@@ -17,8 +17,8 @@ As of v2.0.0:
 | `001` | `minimal-clean` | ✅ **Active** | `templates/minimal/` | Canonical baseline. High-contrast typography and clean minimalism. |
 | `002` | `professional-engineer` | ✅ **Active** | `templates/engineer/` | Canonical production engineer format with 2-column project cards and error budgets. |
 | `003` | `ai-engineer` | ✅ **Active** | `templates/003-ai-engineer/` | Quantized inference, LLM fine-tuning, tensor engine architectures. |
-| `004` | `mobile-developer` | 🔄 **Consolidated** | Covered by `engineer` (Batch 1) | iOS (Swift/SwiftUI) & Android (Kotlin) architecture. Targeted for dedicated v2 extraction. |
-| `005` | `frontend-developer` | 🔄 **Consolidated** | Covered by `creator` (Batch 1) | Bento grid, design systems, CSS architecture, interactive web applications. |
+| `004` | `mobile-developer` | ✅ **Active** | `templates/004-mobile-developer/` | Native iOS (Swift/SwiftUI) & Android (Kotlin) architecture, store ratings, crash-free telemetry. |
+| `005` | `frontend-developer` | ✅ **Active** | `templates/005-frontend-developer/` | Bento grid, design systems tokens, Core Web Vitals, accessible headless primitives. |
 | `006` | `full-stack-ai` | 🔄 **Consolidated** | Covered by `engineer` | Hybrid web applications powered by local and cloud AI APIs. |
 | `007` | `student-researcher` | ✅ **Active** | `templates/student/` | Canonical student & apprentice profile with milestone checklist. |
 | `008` | `robotics-stem` | 🔄 **Consolidated** | Covered by `engineer` | Embedded systems, microcontrollers (STM32/ESP32), RTOS. |

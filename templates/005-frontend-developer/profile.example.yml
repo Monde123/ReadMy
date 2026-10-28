@@ -1,0 +1,50 @@
+name: Morgan Riley
+role: Staff Frontend Architect & Design Systems Engineer
+location: Stockholm, Sweden
+metrics:
+  - label: Lighthouse Score
+    value: 100 / 100
+    detail: Perfect Web Vitals
+  - label: Bundle Budget
+    value: "< 38kb gzip"
+    detail: Zero-Runtime Tokens
+  - label: Interaction Latency
+    value: INP < 40ms
+    detail: 120 FPS Spring Motion
+summary: "I bridge the boundary between product design tokens and production-grade frontend infrastructure. Interfaces should feel immediate before they feel complex."
+focus: "Zero-runtime CSS token engines, headless accessibility primitives, micro-animations tuned to natural spring physics, and WCAG AAA compliance."
+stack:
+  - name: Core Frontend Frameworks
+    items:
+      - React
+      - Next.js
+      - TypeScript
+      - Vue
+  - name: Styling & UI Tooling
+    items:
+      - Tailwind
+      - CSS
+      - Svelte
+      - Figma
+projects:
+  - name: Bento-Design-System
+    url: https://github.com/example-user/bento-design-system
+    description: "Zero-runtime CSS token engine and accessible headless UI primitives for modern web applications."
+    language: TypeScript
+    stars: 3100
+  - name: Command-Palette-Primitive
+    url: https://github.com/example-user/command-palette
+    description: "Ultra-lightweight keyboard-driven shortcut dialog with fuzzy matching and ARIA combobox pattern."
+    language: JavaScript
+    stars: 1850
+principles:
+  - "Accessibility is not a feature: it is the fundamental medium of the open web."
+  - "Interaction latency above 50ms feels sluggish: prioritize input responsiveness over visual chrome."
+  - "Zero runtime styling overhead: tokens must resolve to static CSS custom properties."
+links:
+  - label: GitHub
+    url: https://github.com/example-user
+  - label: Design System Specs
+    url: https://example.com/bento
+  - label: Showcase
+    url: https://example.com/showcase

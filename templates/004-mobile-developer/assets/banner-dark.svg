@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
+  <title>Taylor Morgan — Staff Mobile Engineer (iOS &amp; Android)</title>
+  <rect width="880" height="140" fill="#010409"/>
+  <rect x="36" y="24" width="76" height="20" rx="3" fill="none" stroke="#f0f6fc" stroke-width="1.5"/>
+  <text x="74" y="38" text-anchor="middle" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="bold" letter-spacing="2">PROFILE</text>
+  <text x="36" y="74" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="36" font-weight="bold">Taylor Morgan</text>
+  <text x="36" y="108" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Staff Mobile Engineer (iOS &amp; Android)</text>
+  <circle cx="836" cy="70" r="16" fill="none" stroke="#30363d" stroke-width="2"/>
+  <circle cx="836" cy="70" r="8" fill="#f0f6fc" opacity="0.5"/>
+</svg>

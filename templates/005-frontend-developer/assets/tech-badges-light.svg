@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="76" viewBox="0 0 880 76" role="img">
+  <title>Tech Badges: Morgan Riley</title>
+  <rect width="880" height="76" fill="#faf5ff" rx="8"/>
+  <rect x="0.5" y="0.5" width="879" height="75" rx="7.5" fill="none" stroke="#e9d5ff" stroke-width="1"/>
+  
+    <g class="badge">
+      <rect x="24" y="18" width="72" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(32, 24)"><ellipse cx="8" cy="8" rx="6.5" ry="2.5" fill="none" stroke="#6d28d9" stroke-width="1" transform="rotate(30 8 8)"/><ellipse cx="8" cy="8" rx="6.5" ry="2.5" fill="none" stroke="#6d28d9" stroke-width="1" transform="rotate(90 8 8)"/><ellipse cx="8" cy="8" rx="6.5" ry="2.5" fill="none" stroke="#6d28d9" stroke-width="1" transform="rotate(150 8 8)"/><circle cx="8" cy="8" r="1.3" fill="#6d28d9"/></g>
+      <text x="52" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">React</text>
+    </g>
+    <g class="badge">
+      <rect x="104" y="18" width="87" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(112, 24)"><circle cx="8" cy="8" r="6.5" fill="none" stroke="#6d28d9" stroke-width="1.2"/><path d="M5.5 5.5v5m0-5h1.2l4.3 5m-1.5-5v3.2" stroke="#6d28d9" stroke-width="1.2" stroke-linecap="round"/></g>
+      <text x="132" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">Next.js</text>
+    </g>
+    <g class="badge">
+      <rect x="199" y="18" width="109" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(207, 24)"><rect x="1.5" y="1.5" width="13" height="13" rx="2" fill="none" stroke="#6d28d9" stroke-width="1.2"/><path d="M4 6.5h3.6m-1.8 0v5.5m3.7-2c.4.6 1.1 1 1.8 1 .8 0 1.3-.4 1.3-.9 0-1.2-3.1-.7-3.1-2.5 0-.8.6-1.3 1.6-1.3.7 0 1.3.3 1.7.7" fill="none" stroke="#6d28d9" stroke-width="1.2" stroke-linecap="round"/></g>
+      <text x="227" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">TypeScript</text>
+    </g>
+    <g class="badge">
+      <rect x="316" y="18" width="64" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(324, 24)"><path d="M1.5 2.5h3L8 8.2l3.5-5.7h3L8 13.5 1.5 2.5zm4 0L8 6.8l2.5-4.3H8L5.5 2.5z" fill="#6d28d9"/></g>
+      <text x="344" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">Vue</text>
+    </g>
+    <g class="badge">
+      <rect x="388" y="18" width="94" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(396, 24)"><path d="M4.5 8c.8-1.5 2-2 3.5-1.5 1 .3 1.7 1 2.5 1.8 1.3 1.3 2.8 1.8 4.5.7-1 1.7-2.3 2.2-3.8 1.7-1-.3-1.7-1-2.5-1.8C7.4 7.6 5.9 7 4.5 8zm-3 4c.8-1.5 2-2 3.5-1.5 1 .3 1.7 1 2.5 1.8 1.3 1.3 2.8 1.8 4.5.7-1 1.7-2.3 2.2-3.8 1.7-1-.3-1.7-1-2.5-1.8C4.4 11.6 2.9 11 1.5 12z" fill="#6d28d9"/></g>
+      <text x="416" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">Tailwind</text>
+    </g>
+    <g class="badge">
+      <rect x="490" y="18" width="64" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(498, 24)"><path d="M3 1.5l1 11.5 4 1.5 4-1.5 1-11.5H3zm8 3.5H6.2l.2 2h4.4l-.4 4.5-2.2.7-2.2-.7-.1-1.5h1.4l.1.5.8.2.8-.2.2-2H5.1L4.7 3.5h7.5l-.2 1.5z" fill="#6d28d9"/></g>
+      <text x="518" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">CSS</text>
+    </g>
+    <g class="badge">
+      <rect x="562" y="18" width="79" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(570, 24)"><path d="M11.5 3.5c-1.8-1-4.2-.4-5.2 1.4L4.7 7.8c-.8 1.4-.4 3.2 1 4 1.1.6 2.4.5 3.3-.2l1.6-2.7c.3-.5 1-.7 1.5-.4.5.3.7 1 .4 1.5l-1.6 2.7c-1.5 2.5-4.7 3.4-7.2 1.9-2.5-1.5-3.4-4.7-1.9-7.2l1.6-2.9C4.9 2 8.1 1.1 10.6 2.6l.9.5-1.2 2c-.4-.7-1.2-1.1-2-1.1" fill="#6d28d9"/></g>
+      <text x="590" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">Svelte</text>
+    </g>
+    <g class="badge">
+      <rect x="649" y="18" width="72" height="28" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.2"/>
+      <g transform="translate(657, 24)"><path d="M5 1.5a2.5 2.5 0 0 1 2.5 2.5v2.5H5a2.5 2.5 0 1 1 0-5zm3.5 0H11a2.5 2.5 0 1 1 0 5H8.5v-5zm0 5H11a2.5 2.5 0 1 1 0 5H8.5v-5zm-3.5 0H7.5V9a2.5 2.5 0 1 1-2.5-2.5zm3.5 2.5H11a2.5 2.5 0 1 1-2.5 2.5V9z" fill="#6d28d9"/></g>
+      <text x="677" y="36" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600">Figma</text>
+    </g>
+</svg>

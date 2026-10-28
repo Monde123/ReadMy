@@ -1,0 +1,24 @@
+id: 004-mobile-developer
+version: 2.0.0
+title: Native & Cross-Platform Mobile Engineer
+summary: "High-density mobile profile featuring store ratings, crash-free metrics, and native iOS & Android architectures."
+audiences:
+  - mobile
+  - professional
+theme: ink
+banner: masthead
+projects: cards
+components:
+  - banner
+  - identity
+  - metrics
+  - prose
+  - tech-badges
+  - stack
+  - projects
+  - principles
+  - links
+  - colophon
+requires:
+  - name
+  - role

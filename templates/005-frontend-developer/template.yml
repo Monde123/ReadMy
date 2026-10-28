@@ -1,0 +1,25 @@
+id: 005-frontend-developer
+version: 2.0.0
+title: Modern Frontend & Design Systems Architect
+summary: "High-performance frontend architecture featuring design token systems, Core Web Vitals, and responsive UI components."
+audiences:
+  - frontend
+  - creator
+  - professional
+theme: violet
+banner: rule
+projects: cards
+components:
+  - banner
+  - identity
+  - metrics
+  - prose
+  - tech-badges
+  - stack
+  - projects
+  - principles
+  - links
+  - colophon
+requires:
+  - name
+  - role
