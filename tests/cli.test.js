@@ -13,7 +13,7 @@ function run(args) {
   return spawnSync(process.execPath, [cli, ...args], { encoding: "utf8", cwd: root });
 }
 
-test("list et render écrivent un README et deux SVG", () => {
+test("list and render write a README and two SVGs", () => {
   const listed = run(["list"]);
   assert.equal(listed.status, 0, listed.stderr);
   assert.ok(listed.stdout.includes("minimal"));
@@ -24,19 +24,19 @@ test("list et render écrivent un README et deux SVG", () => {
   assert.equal(fs.existsSync(path.join(out, "assets", "banner-dark.svg")), true);
 });
 
-test("commande inconnue et gabarit inconnu échouent clairement", () => {
-  const unknown = run(["danse"]);
+test("unknown command and missing template fail clearly", () => {
+  const unknown = run(["dance"]);
   assert.equal(unknown.status, 1);
-  assert.ok(unknown.stderr.includes("COMMANDE_INCONNUE"));
+  assert.ok(unknown.stderr.includes("UNKNOWN_COMMAND"));
   const missing = run(["render", "--template", "absent", "--out", os.tmpdir()]);
   assert.equal(missing.status, 1);
-  assert.ok(missing.stderr.includes("TEMPLATE_INCONNU"));
+  assert.ok(missing.stderr.includes("UNKNOWN_TEMPLATE"));
 });
 
-test("profil yaml vide refusé par la commande render", () => {
-  const file = path.join(os.tmpdir(), "readmy-vide.yml");
+test("empty yaml profile rejected by render command", () => {
+  const file = path.join(os.tmpdir(), "readmy-empty.yml");
   fs.writeFileSync(file, "");
   const result = run(["render", "--template", "minimal", "--profile", file, "--out", os.tmpdir()]);
   assert.equal(result.status, 1);
-  assert.ok(result.stderr.includes("YAML_VIDE"));
+  assert.ok(result.stderr.includes("YAML_EMPTY"));
 });

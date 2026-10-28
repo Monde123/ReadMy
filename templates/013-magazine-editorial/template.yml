@@ -1,9 +1,9 @@
 id: 013-magazine-editorial
 version: 2.0.0
 title: Magazine Editorial
-summary: Mise en page élégante inspirée de la grande presse technologique et des revues de design.
+summary: "Editorial layout inspired by long-form tech reviews and typographic publications."
 audiences:
-  - auteur
+  - author
   - designer
 theme: paper
 banner: masthead

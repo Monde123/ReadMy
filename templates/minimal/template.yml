@@ -1,10 +1,10 @@
 id: minimal
 version: 2.0.0
 title: Minimal
-summary: Profil court et typographique, pour une lecture immédiate.
+summary: "Short typographic profile for immediate readability."
 audiences:
-  - debutant
-  - professionnel
+  - beginner
+  - professional
 theme: paper
 banner: rule
 projects: list

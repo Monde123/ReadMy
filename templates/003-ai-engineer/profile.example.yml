@@ -1,7 +1,7 @@
 name: Dr. Elena Rostova
 role: Senior Machine Learning Systems Engineer
-summary: "Spécialisée dans l'entraînement distribué, les runtimes de tenseurs quantifiés (vLLM / TensorRT-LLM) et les pipelines de recherche à faible latence."
-focus: "Optimisation de l'attention paginée, décodage spéculatif et compilation CUDA sur clusters H100 SXM5."
+summary: "Specialized in distributed training, quantized tensor runtimes (vLLM / TensorRT-LLM), and ultra-low-latency retrieval pipelines."
+focus: "Paged attention optimization, speculative decoding, and native CUDA kernel compilation on H100 SXM5 clusters."
 stack:
   - name: Runtimes & Inference
     items:
@@ -18,18 +18,18 @@ stack:
 projects:
   - name: Aura-Reason-7B
     url: https://github.com/example-user/aura-reason
-    description: "Modèle de raisonnement open weights optimisé avec Direct Preference Optimization (DPO)."
+    description: "Open-weights reasoning model optimized using Direct Preference Optimization (DPO)."
     language: Python
     stars: 1800
   - name: TurboRAG-Engine
     url: https://github.com/example-user/turborag
-    description: "Pipeline RAG distribué et asynchrone traitant 4 000 requêtes par seconde à p99 < 50ms."
+    description: "Asynchronous distributed retrieval pipeline processing 4,000 QPS at p99 < 50ms."
     language: Rust
     stars: 3200
 principles:
-  - "La latence d'inférence est une fonctionnalité, pas un détail d'implémentation."
-  - "Un benchmark sans contrainte de mémoire est une fiction théorique."
-  - "Zéro copie de tenseur à travers la mémoire partagée GPU."
+  - "Inference latency is a core feature, never an afterthought."
+  - "A benchmark without VRAM bounds is theoretical fiction."
+  - "Zero tensor copying across GPU shared memory."
 links:
   - label: GitHub
     url: https://github.com/example-user

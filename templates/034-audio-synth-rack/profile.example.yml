@@ -1,7 +1,7 @@
 name: Julian Kross
 role: Audio DSP Engineer & Modular Synthesizer Designer
-summary: "Je conçois des modules Eurorack analogiques/numériques, des algorithmes de réverbération algorithmique et des plug-ins audio temps réel."
-focus: "Traitement de signal en virgule fixe, filtres non-linéaires à modélisation physique et compilation SIMD sans jitter."
+summary: "I build hybrid analog/digital Eurorack modules, algorithmic reverb models, and real-time audio plugins."
+focus: "Fixed-point digital signal processing, non-linear physical filter modeling, and jitter-free SIMD vectorization."
 stack:
   - name: DSP & Audio Frameworks
     items:
@@ -18,22 +18,22 @@ stack:
 projects:
   - name: Resonator-Core
     url: https://github.com/example-user/resonator-core
-    description: "Algorithme de modélisation de résonateur modal physique avec latence inférieure à 12 microsecondes."
+    description: "Physical modal resonator modeling engine with sub-12-microsecond sample loop latency."
     language: C++
     stars: 960
   - name: Polymorph-Synth
     url: https://github.com/example-user/polymorph
-    description: "Synthétiseur à tables d'ondes vectorielles avec synthèse granulaire temps réel."
+    description: "Vector wavetable synthesizer featuring real-time granular synthesis engine."
     language: Rust
     stars: 1340
 principles:
-  - "Le son ne pardonne aucun glitch : buffer d'échantillonnage prioritaire sur toute tâche UI."
-  - "L'analogique apporte le grain, le numérique apporte la précision infinie."
-  - "Un bon instrument doit être jouable sans écran."
+  - "Audio tolerates zero glitches: audio callback buffers preempt all UI tasks."
+  - "Analog hardware provides unique character; digital processing provides infinite precision."
+  - "A great musical instrument should remain completely playable without a monitor."
 links:
-  - label: Écoutes & Démos
+  - label: Audio Demos
     url: https://example.com/audio
-  - label: Schémas Électroniques
+  - label: Hardware Schematics
     url: https://example.com/schematics
   - label: GitHub
     url: https://github.com/example-user

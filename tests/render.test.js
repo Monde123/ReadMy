@@ -3,7 +3,7 @@ import test from "node:test";
 import { renderTemplate } from "../lib/render.js";
 import { ReadMyError } from "../lib/errors.js";
 import { assertWellFormedXml } from "../lib/xml.js";
-import { profilEssai, registry, templateEssai, tokens } from "./helpers.js";
+import { sampleProfile, sampleTemplate, registry, tokens } from "./helpers.js";
 
 function render(template, profile) {
   return renderTemplate(template, profile, tokens, registry);
@@ -16,60 +16,60 @@ function codeOf(action) {
     assert.ok(error instanceof ReadMyError);
     return error.code;
   }
-  assert.fail("aucune erreur");
+  assert.fail("no error thrown");
 }
 
-test("le texte fourni réapparaît, l'image est locale, l'alt est rempli", () => {
-  const result = render(templateEssai(), profilEssai());
+test("provided text renders, image paths are local, alt is populated", () => {
+  const result = render(sampleTemplate(), sampleProfile());
   assert.equal(result.markdown.includes(">A<") || result.markdown.includes(">A</h1>"), true);
-  assert.ok(result.markdown.includes("Seul"));
-  assert.ok(result.markdown.includes("https://github.com/example-user/seul"));
+  assert.ok(result.markdown.includes("Solo"));
+  assert.ok(result.markdown.includes("https://github.com/example-user/solo"));
   assert.ok(result.markdown.includes('src="./assets/banner-light.svg"'));
-  assert.ok(result.markdown.includes('alt="Bandeau : A, Rôle test"'));
+  assert.ok(result.markdown.includes('alt="Banner: A, Test Role"'));
   assert.equal(result.markdown.includes("img.shields.io"), false);
   assert.equal(result.assets.length, 2);
   for (const asset of result.assets) assert.deepEqual(assertWellFormedXml(asset.contents), []);
   assert.ok(result.markdown.includes("banner@2.0.0"));
-  const again = render(templateEssai(), profilEssai());
+  const again = render(sampleTemplate(), sampleProfile());
   assert.equal(again.markdown, result.markdown);
 });
 
-test("champ requis manquant, vide, trop long, url interdite, clé en trop", () => {
-  assert.equal(codeOf(() => render(templateEssai(), { role: "Rôle test" })), "CHAMP_MANQUANT");
-  assert.equal(codeOf(() => render(templateEssai(), { name: "   ", role: "Rôle test" })), "CHAMP_VIDE");
-  assert.equal(codeOf(() => render(templateEssai(), { name: "A".repeat(121), role: "Rôle test" })), "CHAMP_TROP_LONG");
+test("missing required field, empty field, oversized field, invalid url, unknown key", () => {
+  assert.equal(codeOf(() => render(sampleTemplate(), { role: "Test Role" })), "MISSING_FIELD");
+  assert.equal(codeOf(() => render(sampleTemplate(), { name: "   ", role: "Test Role" })), "EMPTY_FIELD");
+  assert.equal(codeOf(() => render(sampleTemplate(), { name: "A".repeat(121), role: "Test Role" })), "FIELD_TOO_LONG");
   assert.equal(
-    codeOf(() => render(templateEssai(), profilEssai({ projects: [{ name: "X", url: "javascript:alert(1)", description: "Y" }] }))),
-    "URL_INVALIDE",
+    codeOf(() => render(sampleTemplate(), sampleProfile({ projects: [{ name: "X", url: "javascript:alert(1)", description: "Y" }] }))),
+    "INVALID_URL",
   );
-  assert.equal(codeOf(() => render(templateEssai(), profilEssai({ password: "secret" }))), "PROFIL_CLE_INCONNUE");
+  assert.equal(codeOf(() => render(sampleTemplate(), sampleProfile({ password: "secret" }))), "UNKNOWN_PROFILE_KEY");
 });
 
-test("liste vide visible, injection échappée, thème et composant inconnus", () => {
-  const empty = render(templateEssai(), { name: "A", role: "Rôle test", projects: [] });
-  assert.ok(empty.markdown.includes("section:projets omise : liste vide ou absente"));
+test("empty list is gracefully noted, injection is escaped, unknown theme and component fail", () => {
+  const empty = render(sampleTemplate(), { name: "A", role: "Test Role", projects: [] });
+  assert.ok(empty.markdown.includes("section:projects omitted : empty or missing list"));
   assert.equal(empty.markdown.includes("NexusDB"), false);
-  const hostile = render(templateEssai(), profilEssai({ name: '<script>alert(1)</script>' }));
+  const hostile = render(sampleTemplate(), sampleProfile({ name: '<script>alert(1)</script>' }));
   assert.ok(hostile.markdown.includes("&lt;script&gt;"));
   assert.equal(hostile.markdown.includes("<script>"), false);
-  assert.equal(codeOf(() => render(templateEssai({ theme: "neon" }), profilEssai())), "THEME_INCONNU");
-  assert.equal(codeOf(() => render(templateEssai({ components: ["banner", "banner"] }), profilEssai())), "COMPOSANT_DUPLIQUE");
-  assert.equal(codeOf(() => render(templateEssai({ colour: "bleu" }), profilEssai())), "TEMPLATE_CLE_INCONNUE");
+  assert.equal(codeOf(() => render(sampleTemplate({ theme: "neon" }), sampleProfile())), "UNKNOWN_THEME");
+  assert.equal(codeOf(() => render(sampleTemplate({ components: ["banner", "banner"] }), sampleProfile())), "DUPLICATE_COMPONENT");
+  assert.equal(codeOf(() => render(sampleTemplate({ colour: "blue" }), sampleProfile())), "UNKNOWN_TEMPLATE_KEY");
 });
 
-test("neuf projets dépassent le plafond, un secret arrête le rendu sans être recopié", () => {
+test("excessive projects exceed cap, secret detection aborts without leaking", () => {
   const projects = Array.from({ length: 9 }, (_, index) => ({
     name: `P${index}`,
     url: `https://example.com/p${index}`,
-    description: "Trop.",
+    description: "Too many.",
   }));
-  assert.equal(codeOf(() => render(templateEssai(), profilEssai({ projects }))), "LISTE_TROP_LONGUE");
+  assert.equal(codeOf(() => render(sampleTemplate(), sampleProfile({ projects }))), "LIST_TOO_LONG");
   let message = "";
   try {
-    render(templateEssai(), profilEssai({ name: "ghp_ABCDEFGHIJ1234" }));
+    render(sampleTemplate(), sampleProfile({ name: "ghp_ABCDEFGHIJ1234" }));
   } catch (error) {
     message = error.message;
-    assert.equal(error.code, "SECRET_DETECTE");
+    assert.equal(error.code, "SECRET_DETECTED");
   }
   assert.equal(message.includes("ghp_"), false);
 });

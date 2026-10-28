@@ -3,13 +3,13 @@ import { loadTokens, loadRegistry } from "../lib/catalog.js";
 export const tokens = loadTokens();
 export const registry = loadRegistry();
 
-export function templateEssai(overrides = {}) {
+export function sampleTemplate(overrides = {}) {
   return {
-    id: "essai",
+    id: "trial",
     version: "2.0.0",
-    title: "Essai",
-    summary: "Gabarit utilisé par les tests.",
-    audiences: ["debutant"],
+    title: "Trial",
+    summary: "Template used for automated tests.",
+    audiences: ["beginner"],
     theme: "paper",
     banner: "rule",
     projects: "list",
@@ -19,17 +19,21 @@ export function templateEssai(overrides = {}) {
   };
 }
 
-export function profilEssai(overrides = {}) {
+export const templateEssai = sampleTemplate;
+
+export function sampleProfile(overrides = {}) {
   return {
     name: "A",
-    role: "Rôle test",
+    role: "Test Role",
     projects: [
       {
-        name: "Seul",
-        url: "https://github.com/example-user/seul",
-        description: "Un seul projet.",
+        name: "Solo",
+        url: "https://github.com/example-user/solo",
+        description: "A single project.",
       },
     ],
     ...overrides,
   };
 }
+
+export const profilEssai = sampleProfile;

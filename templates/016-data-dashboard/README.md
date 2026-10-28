@@ -1,42 +1,49 @@
-<!-- readmy:template=016-data-dashboard;version=2.0.0;composants=banner@2.0.0,identity@2.0.0,metrics@2.0.0,prose@2.0.0,stack@2.0.0,projects@2.0.0,principles@2.0.0,links@2.0.0,colophon@2.0.0 -->
+<!-- readmy:template=016-data-dashboard;version=2.0.0;components=banner@2.0.0,identity@2.0.0,metrics@2.0.0,prose@2.0.0,tech-badges@2.0.0,stack@2.0.0,projects@2.0.0,principles@2.0.0,links@2.0.0,colophon@2.0.0 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
-  <img alt="Bandeau : Roman Kowalski, Staff Data Streaming &amp; OLAP Platform Engineer" src="./assets/banner-light.svg" />
+  <img alt="Banner: Roman Kowalski, Staff Data Streaming &amp; OLAP Platform Engineer" src="./assets/banner-light.svg" />
 </picture>
 
 <h1>Roman Kowalski</h1>
 <p>Staff Data Streaming &amp; OLAP Platform Engineer</p>
-<!-- section:organisation omise : champ absent -->
-<!-- section:lieu omise : champ absent -->
+<!-- section:organization omitted : missing field -->
+<!-- section:location omitted : missing field -->
 
 <table width="100%">
 <tbody>
   <tr>
     <td width="25%" align="center">
       <h4>3.8M / s</h4>
-      <p><strong>Événements / Sec</strong><br/><small>Kafka Cluster 120 Partitions</small></p>
+      <p><strong>Events / Sec</strong><br/><small>Kafka Cluster 120 Partitions</small></p>
     </td>
     <td width="25%" align="center">
       <h4>&lt; 8ms</h4>
-      <p><strong>Latence Ingestion</strong><br/><small>End-to-End Pipeline</small></p>
+      <p><strong>Ingestion Latency</strong><br/><small>End-to-End Pipeline</small></p>
     </td>
     <td width="25%" align="center">
-      <h4>45 To / jour</h4>
-      <p><strong>Volume Journalier</strong><br/><small>ClickHouse Tiering</small></p>
+      <h4>45 TB / day</h4>
+      <p><strong>Daily Ingestion</strong><br/><small>ClickHouse Tiering</small></p>
     </td>
     <td width="25%" align="center">
-      <h4>84 Actifs</h4>
-      <p><strong>Jobs Flink</strong><br/><small>Exactly-Once Semantics</small></p>
+      <h4>84 Active</h4>
+      <p><strong>Active Flink Jobs</strong><br/><small>Exactly-Once Semantics</small></p>
     </td>
   </tr>
 </tbody>
 </table>
 
-<h2>En bref</h2>
-<p>Je construis les autoroutes de données temps réel : streaming distribué, sémantique exactly-once et requêtes analytiques sub-secondes.</p>
-<p>Optimisation des topologies Apache Flink, partitionnement ClickHouse et format Apache Iceberg sur stockage objet.</p>
+<h2>Overview</h2>
+<p>I build real-time data backbones: distributed streaming, exactly-once delivery guarantees, and sub-second analytical queries.</p>
+<p>Apache Flink topology tuning, ClickHouse table partitioning, and Apache Iceberg catalog formats on object storage.</p>
+
+<h2>Technologies</h2>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-badges-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/tech-badges-light.svg" />
+  <img alt="Tech Stack: Apache Kafka, Apache Flink, Rust, Vector, ClickHouse, Apache Iceberg, DuckDB, Parquet" src="./assets/tech-badges-light.svg" />
+</picture>
 
 <h2>Stack</h2>
 <ul>
@@ -44,32 +51,32 @@
 <li><strong>Analytics &amp; Storage</strong> — ClickHouse, Apache Iceberg, DuckDB, Parquet</li>
 </ul>
 
-<h2>Projets</h2>
+<h2>Projects</h2>
 <table width="100%">
 <tbody>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/example-user/flink-sink">Flink-Delta-Sink</a></h3>
-      <p>Connecteur Flink haute performance pour l'ingestion sans compaction vers tables Iceberg.</p>
+      <p>High-performance Flink connector for zero-compaction streaming ingestion into Iceberg tables.</p>
       <p><sub> · <code>Java</code> · ★ 1290</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/example-user/ch-proxy">Fast-ClickHouse-Proxy</a></h3>
-      <p>Proxy d'équilibrage et de mise en cache de requêtes analytiques avec déduplication de requêtes identiques.</p>
+      <p>Load-balancing and analytical query caching proxy with concurrent query deduplication.</p>
       <p><sub> · <code>Go</code> · ★ 870</sub></p>
     </td>
   </tr>
 </tbody>
 </table>
 
-<h2>Principes</h2>
+<h2>Principles</h2>
 <ul>
-<li>La latence d'ingestion se perd dans les sérialisations inutiles : vive Arrow et FlatBuffers.</li>
-<li>Chaque schéma doit être versionné et validé avant d'entrer dans le topic.</li>
-<li>Une donnée non requêtée dans les 90 jours va au stockage froid.</li>
+<li>Ingestion latency is lost in needless serialization: embrace Arrow and FlatBuffers.</li>
+<li>Every event schema must be contract-tested and validated before hitting a topic.</li>
+<li>Any data unqueried after 90 days belongs in cold archive tiers.</li>
 </ul>
 
-<h2>Liens</h2>
-<p><a href="https://github.com/example-user">GitHub</a> · <a href="https://example.com/data-metrics">Observabilité Data</a> · <a href="https://example.com/notes">Architecture Notes</a></p>
+<h2>Links</h2>
+<p><a href="https://github.com/example-user">GitHub</a> · <a href="https://example.com/data-metrics">Data Observability</a> · <a href="https://example.com/notes">Architecture Notes</a></p>
 
-<p><sub>Profil généré par ReadMy 016-data-dashboard 2.0.0. Images SVG locales, aucun service tiers.</sub></p>
+<p><sub>Profile generated by ReadMy 016-data-dashboard 2.0.0. Local SVG assets, zero third-party services.</sub></p>

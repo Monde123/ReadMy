@@ -1,10 +1,10 @@
 id: 016-data-dashboard
 version: 2.0.0
 title: Real-Time Data Platform
-summary: Ingestion de flux à haut débit, pipelines streaming et stockage analytique OLAP.
+summary: "High-throughput stream processing, real-time ingestion pipelines, and sub-second OLAP storage."
 audiences:
   - data
-  - professionnel
+  - professional
 theme: ink
 banner: cyber-hud
 projects: cards
@@ -13,6 +13,7 @@ components:
   - identity
   - metrics
   - prose
+  - tech-badges
   - stack
   - projects
   - principles

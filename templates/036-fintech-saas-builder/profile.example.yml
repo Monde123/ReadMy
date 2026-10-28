@@ -1,20 +1,20 @@
 name: Mathieu Valadier
 role: Lead Financial Systems Architect
 metrics:
-  - label: Volume Traité
-    value: 2.4Mds€ / an
+  - label: Processed Volume
+    value: "$2.4B / year"
     detail: "Double-Entry Ledger"
-  - label: Disponibilité SLA
+  - label: SLA Availability
     value: 99.999%
-    detail: "Multi-Region Active/Active"
-  - label: Temps de Clôture
+    detail: Multi-Region Active/Active
+  - label: Settlement Time
     value: "< 120ms"
     detail: Instant Settlement
-  - label: Conformité
-    value: PCI-DSS N1
+  - label: Compliance Level
+    value: PCI-DSS L1
     detail: SOC2 Type II
-summary: "Je conçois des moteurs de comptabilité transactionnelle immuable, des passerelles de paiement résilientes et des audits automatisés."
-focus: "Idempotence stricte des requêtes financières, consensus distribué et détection d'anomalies en temps réel."
+summary: "I build immutable double-entry ledger platforms, mission-critical payment gateways, and automated reconciliation pipelines."
+focus: "Strict financial idempotency, distributed consensus, and real-time ledger fraud anomaly detection."
 stack:
   - name: Core Ledger
     items:
@@ -31,22 +31,22 @@ stack:
 projects:
   - name: Immutable-Ledger-Core
     url: https://github.com/example-user/immutable-ledger
-    description: "Grand livre comptable en partie double avec garanties ACID et audit cryptographique continu."
+    description: "Double-entry transactional ledger with ACID guarantees and continuous cryptographic audit logs."
     language: Go
     stars: 1850
   - name: Settlement-Engine
     url: https://github.com/example-user/settlement-engine
-    description: "Moteur de réconciliation bancaire automatisé traitant 100k opérations par minute sans divergence."
+    description: "Automated multi-currency bank reconciliation engine processing 100k records/min without ledger drift."
     language: Rust
     stars: 1420
 principles:
-  - "Dans les systèmes financiers, chaque centime et chaque arrondi doivent être prouvables."
-  - "L'idempotence n'est pas optionnelle : jamais deux débits pour un clic."
-  - "Les audits manuels sont des pannes en attente : tout vérifier par le code."
+  - "In financial architectures, every cent and rounding delta must be formally provable."
+  - "Idempotency keys are non-negotiable: never double-charge an account."
+  - "Manual audits are future outages waiting to happen: enforce everything in code."
 links:
   - label: GitHub
     url: https://github.com/example-user
-  - label: Spécifications Techniques
+  - label: Architecture Specs
     url: https://example.com/specs
-  - label: Rapports d'Audit
+  - label: Audit Reports
     url: https://example.com/audits

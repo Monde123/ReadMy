@@ -13,8 +13,8 @@ metrics:
   - label: Uptime
     value: 99.995%
     detail: DEFCON 5 NORMAL
-summary: "J'automatise les plateformes distribuées auto-réparatrices, élimine le travail répétitif et maintiens le consensus sous partition réseau hostile."
-focus: "Inspection de paquets au niveau noyau Linux via eBPF XDP et consensus Raft vectorisé."
+summary: "I build self-healing distributed platforms, eliminate operational toil, and maintain state consensus under adversarial network partitions."
+focus: "Kernel-level packet filtering via eBPF XDP and vectorized Raft consensus engines."
 stack:
   - name: Compute & Runtime
     items:
@@ -31,22 +31,22 @@ stack:
 projects:
   - name: Operation-Sentinel
     url: https://github.com/example-user/sentinel
-    description: "Démon d'inspection de paquets au niveau noyau rejetant 10M pps avant allocation de socket."
+    description: "Kernel-level packet inspection daemon dropping 10M pps prior to socket allocation."
     language: Rust
     stars: 2400
   - name: Operation-ChronoFlux
     url: https://github.com/example-user/chronoflux
-    description: "Moteur de réplication WAL distribué sur consensus Raft avec zéro événement split-brain."
+    description: "Distributed WAL replication engine built on Raft consensus with zero split-brain incidents."
     language: Go
     stars: 1950
 principles:
-  - "Automatiser la remédiation avant qu'une alerte ne réveille un humain."
-  - "Une architecture sans test de chaos engineering est fragile par définition."
-  - "Le zero-trust n'est pas négociable : mTLS via SPIRE/SPIFFE systématique."
+  - "Automate remediation before an alert wakes a human engineer."
+  - "Any system untested by chaos engineering is fragile by definition."
+  - "Zero-trust is non-negotiable: ubiquitous mTLS via SPIRE/SPIFFE."
 links:
   - label: GitHub
     url: https://github.com/example-user
-  - label: Grafana Dashboards
+  - label: Telemetry Dashboard
     url: https://example.com/telemetry
-  - label: Incident Log
+  - label: Incident Postmortems
     url: https://example.com/incidents

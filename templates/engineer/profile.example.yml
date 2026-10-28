@@ -1,29 +1,29 @@
 name: Marc Elbaz
-role: Ingénieur plateforme
-summary: "Je rends les chemins de déploiement ennuyeux, donc sûrs."
-focus: "Files d'attente, budgets d'erreur, et revues de changement."
+role: Platform Engineer
+summary: "I make deployment paths boring, and therefore safe."
+focus: "Message queues, error budgets, and change review rigor."
 organization: Atelier Nord
 principles:
-  - "Un incident sans trace écrite se répète."
-  - "Le chemin manuel du vendredi devient la panne du samedi."
-  - "Chaque alerte a un propriétaire nommé."
+  - "An incident without written postmortem will repeat."
+  - "Friday's manual workaround becomes Saturday's outage."
+  - "Every alert must have a designated owner."
 stack:
-  - name: Langages
+  - name: Languages
     items:
       - Go
       - Python
-  - name: Plateforme
+  - name: Platform
     items:
       - Linux
       - PostgreSQL
 projects:
   - name: Quai
     url: https://github.com/example-user/quai
-    description: "Orchestrateur de migrations avec arrêt explicite."
+    description: "Migration orchestrator with explicit circuit-breaker shutdown."
     language: Go
   - name: Balise
     url: https://github.com/example-user/balise
-    description: "Sondes de latence pour files internes."
+    description: "Latency telemetry probes for internal queues."
     language: Python
 links:
   - label: GitHub

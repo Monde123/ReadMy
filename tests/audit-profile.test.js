@@ -3,8 +3,8 @@ import test from "node:test";
 import { auditReadme, formatAuditReport } from "../lib/audit-profile.js";
 import { inferRole, computeTopLanguages, suggestTemplates } from "../lib/github.js";
 
-test("audit : détecte les widgets tiers fragiles et calcule le score de durabilité", () => {
-  const fragileMarkdown = `# Mon Profil
+test("audit: detects fragile third-party widgets and computes durability score", () => {
+  const fragileMarkdown = `# My Profile
 ![Build](https://img.shields.io/badge/build-passing-green)
 ![Stats](https://github-readme-stats.vercel.app/api?username=john)
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=john)
@@ -12,22 +12,22 @@ test("audit : détecte les widgets tiers fragiles et calcule le score de durabil
 `;
 
   const report = auditReadme(fragileMarkdown, "john");
-  assert.ok(report.score < 70, `le score devrait être pénalisé, obtenu ${report.score}`);
+  assert.ok(report.score < 70, `score should be penalized, got ${report.score}`);
   assert.ok(report.fragileFound.length >= 3);
   assert.ok(report.issues.some((i) => i.includes("Shields.io")));
   assert.ok(report.issues.some((i) => i.includes("Dark Mode")));
 });
 
-test("audit : un profil ReadMy 100% local obtient un score parfait de 100", () => {
+test("audit: 100% local ReadMy profile achieves a perfect score of 100", () => {
   const cleanMarkdown = `<!-- readmy:template=minimal -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
-  <img alt="Bandeau : Inès Morel" src="./assets/banner-light.svg" />
+  <img alt="Banner: Inès Morel, Software Engineer" src="./assets/banner-light.svg" />
 </picture>
 
 # Inès Morel
-<p>Ingénieure logiciel</p>
+<p>Software Engineer</p>
 `;
 
   const report = auditReadme(cleanMarkdown, "ines");
@@ -40,7 +40,7 @@ test("audit : un profil ReadMy 100% local obtient un score parfait de 100", () =
   assert.ok(formatted.includes("100/100"));
 });
 
-test("intelligence sémantique : inférence de rôle et de templates recommandés", () => {
+test("semantic intelligence: role inference and recommended templates", () => {
   const bioAI = "Senior ML Systems Engineer at HuggingFace. Working on vLLM and CUDA.";
   const languagesAI = [{ name: "Python", count: 12 }, { name: "C++", count: 4 }];
 
@@ -56,7 +56,7 @@ test("intelligence sémantique : inférence de rôle et de templates recommandé
   assert.ok(recommendations.some((r) => r.id === "003-ai-engineer"));
 });
 
-test("intelligence sémantique : agrégation des langages dominants", () => {
+test("semantic intelligence: top dominant language aggregation", () => {
   const repos = [
     { language: "Rust", stargazers_count: 100 },
     { language: "Rust", stargazers_count: 50 },

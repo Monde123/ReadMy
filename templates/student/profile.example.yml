@@ -1,26 +1,26 @@
 name: Lina Costa
-role: Étudiante en informatique
-summary: "J'apprends les systèmes en livrant de petits programmes lisibles."
-focus: "Cette année : réseaux, tests, et un stage de quatre mois."
+role: Computer Science Student
+summary: "I learn computer systems by shipping small, readable programs."
+focus: "This semester: networking fundamentals, test suites, and internship placement."
 checklist:
-  - label: "Terminer le cours de réseaux"
-    status: fait
-  - label: "Publier un correctif documenté"
-    status: encours
-  - label: "Présenter le projet de fin d'études"
-    status: prevu
+  - label: "Complete networking systems coursework"
+    status: done
+  - label: "Ship documented open-source bug fix"
+    status: in_progress
+  - label: "Present final capstone engineering project"
+    status: planned
 stack:
-  - name: Langages
+  - name: Languages
     items:
       - Python
       - JavaScript
 projects:
   - name: Boussole
     url: https://github.com/example-user/boussole
-    description: "Petit client HTTP qui affiche les codes de statut."
+    description: "Lightweight HTTP status introspection client."
     language: Python
 links:
   - label: GitHub
     url: https://github.com/example-user
-  - label: CV
+  - label: Resume
     url: https://example.com/lina-cv

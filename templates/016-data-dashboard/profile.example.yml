@@ -1,20 +1,20 @@
 name: Roman Kowalski
 role: Staff Data Streaming & OLAP Platform Engineer
 metrics:
-  - label: Événements / Sec
+  - label: Events / Sec
     value: 3.8M / s
     detail: "Kafka Cluster 120 Partitions"
-  - label: Latence Ingestion
+  - label: Ingestion Latency
     value: "< 8ms"
     detail: End-to-End Pipeline
-  - label: Volume Journalier
-    value: 45 To / jour
+  - label: Daily Ingestion
+    value: 45 TB / day
     detail: ClickHouse Tiering
-  - label: Jobs Flink
-    value: "84 Actifs"
+  - label: Active Flink Jobs
+    value: "84 Active"
     detail: Exactly-Once Semantics
-summary: "Je construis les autoroutes de données temps réel : streaming distribué, sémantique exactly-once et requêtes analytiques sub-secondes."
-focus: "Optimisation des topologies Apache Flink, partitionnement ClickHouse et format Apache Iceberg sur stockage objet."
+summary: "I build real-time data backbones: distributed streaming, exactly-once delivery guarantees, and sub-second analytical queries."
+focus: "Apache Flink topology tuning, ClickHouse table partitioning, and Apache Iceberg catalog formats on object storage."
 stack:
   - name: Streaming Engine
     items:
@@ -31,22 +31,22 @@ stack:
 projects:
   - name: Flink-Delta-Sink
     url: https://github.com/example-user/flink-sink
-    description: "Connecteur Flink haute performance pour l'ingestion sans compaction vers tables Iceberg."
+    description: "High-performance Flink connector for zero-compaction streaming ingestion into Iceberg tables."
     language: Java
     stars: 1290
   - name: Fast-ClickHouse-Proxy
     url: https://github.com/example-user/ch-proxy
-    description: "Proxy d'équilibrage et de mise en cache de requêtes analytiques avec déduplication de requêtes identiques."
+    description: "Load-balancing and analytical query caching proxy with concurrent query deduplication."
     language: Go
     stars: 870
 principles:
-  - "La latence d'ingestion se perd dans les sérialisations inutiles : vive Arrow et FlatBuffers."
-  - "Chaque schéma doit être versionné et validé avant d'entrer dans le topic."
-  - "Une donnée non requêtée dans les 90 jours va au stockage froid."
+  - "Ingestion latency is lost in needless serialization: embrace Arrow and FlatBuffers."
+  - "Every event schema must be contract-tested and validated before hitting a topic."
+  - "Any data unqueried after 90 days belongs in cold archive tiers."
 links:
   - label: GitHub
     url: https://github.com/example-user
-  - label: Observabilité Data
+  - label: Data Observability
     url: https://example.com/data-metrics
   - label: Architecture Notes
     url: https://example.com/notes

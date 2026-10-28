@@ -1,23 +1,23 @@
 name: Samir Adler
-role: Développeur d'outils en ligne de commande
-summary: "J'écris des commandes courtes qui échouent bruyamment."
-focus: "Texte brut, codes de sortie stables, et pages manuel à jour."
+role: Command-Line Tools Developer
+summary: "I build concise CLI tools that fail loudly and predictably."
+focus: "Plain text streams, deterministic exit codes, and up-to-date manual pages."
 stack:
-  - name: Langages
+  - name: Languages
     items:
       - Rust
       - Go
 projects:
   - name: sentier
     url: https://github.com/example-user/sentier
-    description: "Cherche un motif dans un arbre de fichiers et rend un code de sortie."
+    description: "Searches patterns across file trees and returns deterministic exit codes."
     language: Rust
   - name: marge
     url: https://github.com/example-user/marge
-    description: "Affiche une différence de configuration en colonnes fixes."
+    description: "Displays configuration diffs in fixed columns."
     language: Go
 links:
   - label: GitHub
     url: https://github.com/example-user
-  - label: Manuel
+  - label: Manual
     url: https://example.com/sentier

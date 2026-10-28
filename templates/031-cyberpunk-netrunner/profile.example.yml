@@ -1,7 +1,7 @@
 name: Vektor // 0xNULL
 role: Offensive Security Specialist & Cyberware Builder
-summary: "Spécialisé dans le reverse engineering de microprogrammes, l'analyse de protocoles matériels et l'intrusion par radio logicielle."
-focus: "Exploitation de failles d'isolation mémoire, injection de fautes et analyse de canaux auxiliaires."
+summary: "Specialized in firmware reverse engineering, low-level hardware bus introspection, and software-defined radio analysis."
+focus: "Memory isolation bypasses, glitch fault injection, and physical side-channel leak analysis."
 stack:
   - name: Cyber Deck
     items:
@@ -18,21 +18,21 @@ stack:
 projects:
   - name: GhostInTheFirmware
     url: https://github.com/example-user/ghost-firmware
-    description: "Framework d'émulation et de fuzzing de firmwares UEFI/ARM bare-metal."
+    description: "Emulation and fuzzing framework for bare-metal UEFI/ARM vendor firmwares."
     language: C
     stars: 1250
   - name: BlackICE-Detector
     url: https://github.com/example-user/blackice
-    description: "Sonde de détection passive de backdoors physiques sur bus CAN et SPI."
+    description: "Passive intrusion detection probe intercepting anomalies across CAN and SPI buses."
     language: Rust
     stars: 890
 checklist:
-  - label: "Audit de sécurité firmware satellite"
-    status: fait
-  - label: "Fuzzing de pilote USB noyau"
-    status: encours
-  - label: "Publication advisory zero-day contrôleur industriel"
-    status: prevu
+  - label: "Satellite downlink telemetry firmware review"
+    status: done
+  - label: "Host USB kernel driver differential fuzzing"
+    status: in_progress
+  - label: "Industrial SCADA zero-day coordination release"
+    status: planned
 links:
   - label: GitHub
     url: https://github.com/example-user

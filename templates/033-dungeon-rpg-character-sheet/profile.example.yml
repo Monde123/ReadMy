@@ -6,15 +6,15 @@ metrics:
     detail: Compiler Heavy Lifting
   - label: DEX / AGI
     value: "20 (+5)"
-    detail: "Fast Refactoring Speed"
+    detail: Fast Refactoring Speed
   - label: INT / MANA
     value: "22 (+6)"
-    detail: "Algorithm Optimization"
+    detail: Algorithm Optimization
   - label: PV / HP
     value: "142 / 142"
     detail: Max Resilience
-summary: "J'arpente les donjons des bases de code legacy, désamorce les pièges de concurrence et terrasse les dragons de fuite mémoire."
-focus: "Spécialisation dans les incantations Rust sans allocation dynamique et la magie des compilateurs LLVM."
+summary: "I explore legacy codebase dungeons, disarm concurrency traps, and slay memory leak dragons."
+focus: "Zero-allocation Rust incantations and low-level LLVM compiler sorcery."
 stack:
   - name: Spellbook & Grimoires
     items:
@@ -31,21 +31,21 @@ stack:
 projects:
   - name: Vorpal-Compiler
     url: https://github.com/example-user/vorpal
-    description: "Compilateur JIT de langage fantastique produisant du code machine vectorisé."
+    description: "JIT compiler generating vectorized machine code for fantasy scripting languages."
     language: Rust
     stars: 780
   - name: Mithril-Engine
     url: https://github.com/example-user/mithril
-    description: "Moteur de rendu ASCII pour jeux de rôle textuels dans un terminal Unix."
+    description: "Lightweight ASCII rendering engine for terminal-based roguelike RPGs."
     language: C
     stars: 1120
 checklist:
-  - label: "Nettoyer les catacombes de la dette technique"
-    status: fait
-  - label: "Forger l'armure de tests d'intégration"
-    status: encours
-  - label: "Conquérir le donjon des microservices"
-    status: prevu
+  - label: "Purge the catacombs of legacy technical debt"
+    status: done
+  - label: "Forge full-coverage integration test armor"
+    status: in_progress
+  - label: "Conquer the distributed microservices dungeon"
+    status: planned
 links:
   - label: Guild Registry
     url: https://github.com/example-user

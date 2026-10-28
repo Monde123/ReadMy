@@ -1,9 +1,9 @@
 id: 024-pitch-deck
 version: 2.0.0
 title: Startup Pitch Deck
-summary: Vitrine stratégique pour fondateurs de startup, investisseurs et premiers clients.
+summary: "Strategic showcase for startup founders, early customers, and investor diligence."
 audiences:
-  - fondateur
+  - founder
   - business
 theme: paper
 banner: masthead

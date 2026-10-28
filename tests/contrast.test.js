@@ -4,7 +4,7 @@ import { contrastRatio } from "../lib/contrast.js";
 import { loadTokens } from "../lib/catalog.js";
 import { ReadMyError } from "../lib/errors.js";
 
-test("rapports calculés hors de ce dépôt par la formule WCAG en Python", () => {
+test("contrast ratios match WCAG 2.1 relative luminance specification", () => {
   assert.ok(Math.abs(contrastRatio("#000000", "#ffffff") - 21) < 0.001);
   assert.ok(Math.abs(contrastRatio("#ffffff", "#0d1117") - 18.9246) < 0.001);
   const gray = contrastRatio("#777777", "#ffffff");
@@ -12,13 +12,13 @@ test("rapports calculés hors de ce dépôt par la formule WCAG en Python", () =
   assert.ok(gray < 4.5);
 });
 
-test("couleur invalide, vide, ou raccourcie", () => {
+test("invalid, empty, or shortened hex color fails validation", () => {
   for (const color of ["", "#fff", "#gggggg", "ffffff", null]) {
-    assert.throws(() => contrastRatio(color, "#ffffff"), (error) => error instanceof ReadMyError && error.code === "COULEUR_INVALIDE");
+    assert.throws(() => contrastRatio(color, "#ffffff"), (error) => error instanceof ReadMyError && error.code === "INVALID_COLOR");
   }
 });
 
-test("chaque token de texte atteint 4,5:1 sur son fond", () => {
+test("every design text token achieves at least 4.5:1 contrast against its background", () => {
   const tokens = loadTokens();
   const spec = {
     paper: {

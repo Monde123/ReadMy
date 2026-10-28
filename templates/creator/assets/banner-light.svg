@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
-  <title>Hanaé Wolff — Designeuse d'interfaces</title>
+  <title>Hanaé Wolff — Interface Designer</title>
   <rect width="880" height="140" fill="#faf5ff"/>
   <rect x="36" y="24" width="76" height="20" rx="3" fill="none" stroke="#6d28d9" stroke-width="1.5"/>
-  <text x="74" y="38" text-anchor="middle" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="bold" letter-spacing="2">PROFIL</text>
+  <text x="74" y="38" text-anchor="middle" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="bold" letter-spacing="2">PROFILE</text>
   <text x="36" y="74" fill="#2e1065" font-family="ui-sans-serif, system-ui, sans-serif" font-size="36" font-weight="bold">Hanaé Wolff</text>
-  <text x="36" y="108" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Designeuse d'interfaces</text>
+  <text x="36" y="108" fill="#6d28d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Interface Designer</text>
   <circle cx="836" cy="70" r="16" fill="none" stroke="#e9d5ff" stroke-width="2"/>
   <circle cx="836" cy="70" r="8" fill="#6d28d9" opacity="0.5"/>
 </svg>

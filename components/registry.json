@@ -1,18 +1,19 @@
 {
   "version": "2.0.0",
   "components": {
-    "banner": { "version": "2.0.0", "description": "Bandeau SVG local, variantes clair et sombre." },
-    "identity": { "version": "2.0.0", "description": "Nom, rôle, organisation et lieu seulement s'ils sont fournis." },
-    "metrics": { "version": "2.0.0", "description": "Indicateurs clés et télémétrie en tableau HTML responsive." },
-    "prose": { "version": "2.0.0", "description": "Résumé et focus en paragraphes HTML échappés." },
-    "projects": { "version": "2.0.0", "description": "Projets en liste, tableau ou cartes 2 colonnes, selon le gabarit." },
-    "stack": { "version": "2.0.0", "description": "Groupes de technologies en liste, sans badge distant." },
-    "publications": { "version": "2.0.0", "description": "Tableau année, titre, support." },
-    "timeline": { "version": "2.0.0", "description": "Parcours daté." },
-    "checklist": { "version": "2.0.0", "description": "Feuille de route avec statut explicite." },
-    "pitch": { "version": "2.0.0", "description": "Problème, offre, preuve." },
-    "principles": { "version": "2.0.0", "description": "Liste de principes rédigés par l'auteur." },
-    "links": { "version": "2.0.0", "description": "Liens https ou mailto validés." },
-    "colophon": { "version": "2.0.0", "description": "Mention ReadMy et absence de service tiers." }
+    "banner": { "version": "2.0.0", "description": "Local SVG banner, light and dark variants." },
+    "identity": { "version": "2.0.0", "description": "Name, role, organization, and location (only when provided)." },
+    "metrics": { "version": "2.0.0", "description": "Key metrics and telemetry in responsive HTML table." },
+    "prose": { "version": "2.0.0", "description": "Summary and focus in escaped HTML paragraphs." },
+    "projects": { "version": "2.0.0", "description": "Projects rendered as list, table, or 2-column cards, according to template style." },
+    "stack": { "version": "2.0.0", "description": "Technology groupings in clean list format without remote badges." },
+    "tech-badges": { "version": "2.0.0", "description": "Local vector tech stack badges in pure SVG without remote network dependencies." },
+    "publications": { "version": "2.0.0", "description": "Year, title, and venue publication table." },
+    "timeline": { "version": "2.0.0", "description": "Chronological journey entries." },
+    "checklist": { "version": "2.0.0", "description": "Roadmap items with explicit completion status." },
+    "pitch": { "version": "2.0.0", "description": "Problem, offer, and proof framework." },
+    "principles": { "version": "2.0.0", "description": "Author-crafted technical and engineering principles." },
+    "links": { "version": "2.0.0", "description": "Validated https or mailto links." },
+    "colophon": { "version": "2.0.0", "description": "ReadMy generator attribution and zero third-party disclosure." }
   }
 }

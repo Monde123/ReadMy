@@ -1,35 +1,35 @@
 name: Clara de Montmirail
-role: Directrice de publication & Critique technologique
-summary: "J'écris sur les frictions entre systèmes computationnels et écologie politique. Chroniques, essais et typographie soignée."
-focus: "Enquêtes sur la sobriété numérique, l'éthique logicielle et la durabilité des artefacts ouverts."
+role: Editorial Lead & Technology Critic
+summary: "I write on the friction between computational scale and sociotechnical longevity. Essays, long-form reviews, and typographic craft."
+focus: "Investigations into digital sobriety, software ethics, and long-term open artifact resilience."
 publications:
-  - year: 2026
-    title: "L'illusion de la vitesse infinie dans le Cloud"
-    venue: "Revue Critique des Systèmes"
+  - year: "2026"
+    title: "The Illusion of Infinite Cloud Velocity"
+    venue: "Journal of Critical Systems Review"
     url: https://example.com/notes/vitesse
-  - year: 2025
-    title: "Typographie et lisibilité des interfaces publiques"
-    venue: "Cahiers d'Ergonomie Numérique"
+  - year: "2025"
+    title: "System Fonts and Readability in Public Computing"
+    venue: "Ergonomics & Typography Quarterly"
     url: https://example.com/notes/typographie
 projects:
   - name: Gazette-OpenSource
     url: https://github.com/example-user/gazette
-    description: "Moteur de publication statique minimaliste privilégiant les fontes système et l'encre numérique."
+    description: "Minimalist static publishing engine prioritizing system fonts and digital ink aesthetics."
     language: HTML
     stars: 640
   - name: Manifeste-Sobriete
     url: https://github.com/example-user/manifeste
-    description: "Recueil d'essais collaboratifs sur la longévité des outils logiciels."
+    description: "Collaborative essays on the longevity and preservation of software tools."
     language: Markdown
     stars: 1200
 principles:
-  - "Un texte clair vaut mieux qu'une interface complexe."
-  - "La typographie n'est pas un ornement, c'est la structure même de la pensée."
-  - "La longévité d'un document se mesure à son indépendance envers les serveurs distants."
+  - "Clear prose delivers more value than intricate interfaces."
+  - "Typography is not ornamentation; it is the structure of thought."
+  - "A document's longevity is measured by its freedom from remote dependencies."
 links:
-  - label: Essais & Revue
+  - label: Essays & Review
     url: https://example.com
   - label: GitHub
     url: https://github.com/example-user
-  - label: Lettre mensuelle
+  - label: Newsletter
     url: https://example.com/lettre

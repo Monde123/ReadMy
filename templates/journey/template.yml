@@ -1,10 +1,10 @@
 id: journey
 version: 2.0.0
-title: Parcours
-summary: Récit chronologique d'un parcours professionnel.
+title: Journey
+summary: "Chronological narrative of engineering experience and key milestones."
 audiences:
-  - professionnel
-  - etudiant
+  - professional
+  - student
 theme: paper
 banner: rule
 projects: list

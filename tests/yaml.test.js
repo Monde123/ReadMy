@@ -10,22 +10,22 @@ function codeOf(action) {
     assert.ok(error instanceof ReadMyError);
     return error.code;
   }
-  assert.fail("aucune erreur");
+  assert.fail("no error thrown");
 }
 
-test("document écrit à la main", () => {
+test("handwritten document", () => {
   const parsed = parseYaml(`
 id: minimal
 version: 2.0.0
 count: 2
 ready: false
-note: "Deux points: ok"
+note: "Colon: ok"
 site: https://example.com/a#b
 audiences:
-  - debutant
-  - professionnel
+  - beginner
+  - professional
 stack:
-  - name: Langages
+  - name: Languages
     items:
       - Go
       - Rust
@@ -35,38 +35,38 @@ stack:
     version: "2.0.0",
     count: 2,
     ready: false,
-    note: "Deux points: ok",
+    note: "Colon: ok",
     site: "https://example.com/a#b",
-    audiences: ["debutant", "professionnel"],
-    stack: [{ name: "Langages", items: ["Go", "Rust"] }],
+    audiences: ["beginner", "professional"],
+    stack: [{ name: "Languages", items: ["Go", "Rust"] }],
   });
 });
 
-test("les commentaires ne changent pas l'objet", () => {
-  const left = parseYaml("name: Inès\nrole: Ingénieure\n");
-  const right = parseYaml("# tête\nname: Inès # personne fictive\n\nrole: Ingénieure\n");
+test("comments do not change the parsed object", () => {
+  const left = parseYaml("name: Inès\nrole: Engineer\n");
+  const right = parseYaml("# header\nname: Inès # fictitious person\n\nrole: Engineer\n");
   assert.deepEqual(left, right);
 });
 
-test("guillemets et apostrophes", () => {
-  const parsed = parseYaml(`title: "a \\"b\\" c"\nmotto: 'l''atelier'\n`);
-  assert.deepEqual(parsed, { title: 'a "b" c', motto: "l'atelier" });
+test("quotes and apostrophes", () => {
+  const parsed = parseYaml(`title: "a \\"b\\" c"\nmotto: 'the ''workshop'''\n`);
+  assert.deepEqual(parsed, { title: 'a "b" c', motto: "the 'workshop'" });
 });
 
-test("document vide", () => {
-  assert.equal(codeOf(() => parseYaml("")), "YAML_VIDE");
-  assert.equal(codeOf(() => parseYaml("   \n# rien\n")), "YAML_VIDE");
+test("empty document", () => {
+  assert.equal(codeOf(() => parseYaml("")), "YAML_EMPTY");
+  assert.equal(codeOf(() => parseYaml("   \n# nothing\n")), "YAML_EMPTY");
 });
 
-test("une seule clé", () => {
+test("single key", () => {
   assert.deepEqual(parseYaml("name: A\n"), { name: "A" });
 });
 
-test("tabulation, clé dupliquée, flux, zéro en tête, entier énorme, guillemet ouvert", () => {
+test("tab, duplicate key, unsupported syntax, leading zero, huge integer, unclosed quote", () => {
   assert.equal(codeOf(() => parseYaml("name:\tA\n")), "YAML_TAB");
-  assert.equal(codeOf(() => parseYaml("name: A\nname: B\n")), "YAML_CLE_DUPLIQUEE");
-  assert.equal(codeOf(() => parseYaml("items: [Go, Rust]\n")), "YAML_SYNTAXE_NON_SUPPORTEE");
-  assert.equal(codeOf(() => parseYaml("count: 08\n")), "YAML_NOMBRE_INVALIDE");
-  assert.equal(codeOf(() => parseYaml("count: 1234567890\n")), "YAML_NOMBRE_TROP_GRAND");
-  assert.equal(codeOf(() => parseYaml('title: "ouvert\n')), "YAML_STRUCTURE");
+  assert.equal(codeOf(() => parseYaml("name: A\nname: B\n")), "YAML_DUPLICATE_KEY");
+  assert.equal(codeOf(() => parseYaml("items: [Go, Rust]\n")), "YAML_UNSUPPORTED_SYNTAX");
+  assert.equal(codeOf(() => parseYaml("count: 08\n")), "YAML_INVALID_NUMBER");
+  assert.equal(codeOf(() => parseYaml("count: 1234567890\n")), "YAML_NUMBER_TOO_LARGE");
+  assert.equal(codeOf(() => parseYaml('title: "unclosed\n')), "YAML_STRUCTURE");
 });

@@ -1,10 +1,10 @@
 id: 003-ai-engineer
 version: 2.0.0
 title: AI Systems Engineer
-summary: Profil haute performance pour ingénieur IA, inférence LLM et modèles distribués.
+summary: "High-performance profile for machine learning systems, distributed training, and LLM inference."
 audiences:
-  - professionnel
-  - chercheur
+  - professional
+  - researcher
 theme: ink
 banner: cyber-hud
 projects: cards
@@ -12,6 +12,7 @@ components:
   - banner
   - identity
   - prose
+  - tech-badges
   - stack
   - projects
   - principles

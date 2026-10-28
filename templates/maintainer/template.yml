@@ -1,10 +1,10 @@
 id: maintainer
 version: 2.0.0
-title: Mainteneur
-summary: Tableau de dépôts pour une personne qui tient des projets ouverts.
+title: Maintainer
+summary: "Repository table for developers actively maintaining open-source projects."
 audiences:
-  - professionnel
-  - createur
+  - professional
+  - creator
 theme: ink
 banner: sheet
 projects: table

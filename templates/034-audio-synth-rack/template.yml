@@ -1,9 +1,9 @@
 id: 034-audio-synth-rack
 version: 2.0.0
 title: Audio Synth Rack
-summary: Traitement du signal sonore, synthèse modulaire Eurorack et plug-ins DSP bare-metal.
+summary: "Digital signal processing, Eurorack modular hardware synthesis, and low-latency audio plugins."
 audiences:
-  - createur
+  - creator
   - audio
 theme: ink
 banner: blueprint
@@ -12,6 +12,7 @@ components:
   - banner
   - identity
   - prose
+  - tech-badges
   - stack
   - projects
   - principles

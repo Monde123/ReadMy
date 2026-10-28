@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
-  <title>Camille Bernard — Mainteneuse open source</title>
+  <title>Camille Bernard — Open-Source Maintainer</title>
   <rect width="880" height="140" fill="#f6f8fa"/>
   <path d="M 24 34 L 24 24 L 34 24" fill="none" stroke="#24292f" stroke-width="2"/>
   <path d="M 856 34 L 856 24 L 846 24" fill="none" stroke="#24292f" stroke-width="2"/>
   <path d="M 24 106 L 24 116 L 34 116" fill="none" stroke="#24292f" stroke-width="2"/>
   <path d="M 856 106 L 856 116 L 846 116" fill="none" stroke="#24292f" stroke-width="2"/>
-  <text x="36" y="44" fill="#57606a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" letter-spacing="1">NOM</text>
+  <text x="36" y="44" fill="#57606a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" letter-spacing="1">NAME</text>
   <text x="120" y="44" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="bold">Camille Bernard</text>
   <text x="36" y="76" fill="#57606a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" letter-spacing="1">ROLE</text>
-  <text x="120" y="76" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17">Mainteneuse open source</text>
+  <text x="120" y="76" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17">Open-Source Maintainer</text>
   <line x1="36" y1="96" x2="844" y2="96" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="4 4"/>
   <text x="36" y="122" fill="#24292f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" letter-spacing="1">ENGINEERING SHEET · LOCAL ASSET</text>
 </svg>

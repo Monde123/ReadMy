@@ -1,41 +1,41 @@
 name: Tariq Benali
-role: Co-fondateur & CEO chez Stratos
+role: Co-founder & CEO at Stratos
 metrics:
   - label: ARR
-    value: 1.2M€
+    value: "$1.2M"
     detail: "+180% YoY"
-  - label: Clients Actifs
+  - label: Active Customers
     value: "450+"
-    detail: Entreprises Mid-Market
+    detail: Mid-Market Enterprises
   - label: Net Retention
     value: 124%
-    detail: "Cohort 2025"
-  - label: Équipe
-    value: "14 pers."
+    detail: "2025 Cohort"
+  - label: Team
+    value: 14 people
     detail: "Paris & Remote"
 pitch:
-  problem: "Les équipes d'ingénierie perdent 30% de leur bande passante sur des pipelines CI/CD instables et des environnements éphémères mal orchestrés."
-  offer: "Stratos fournit des bacs à sable de test instantanés, isolés et auto-nettoyés à chaque pull request, sans configuration manuelle."
-  proof: "Plus de 450 clients en production réduisent leur délai de livraison de 4 jours à 40 minutes avec un ROI constaté dès le premier mois."
+  problem: "Engineering teams lose 30% of their velocity wrestling flaky CI environments and manual staging drift."
+  offer: "Stratos delivers instant, ephemeral, and fully isolated testing sandboxes for every pull request with zero configuration."
+  proof: "Over 450 production teams compress release cycles from 4 days to 40 minutes, realizing positive ROI in month one."
 projects:
   - name: Stratos-CLI
     url: https://github.com/example-user/stratos-cli
-    description: "Interface en ligne de commande pour provisionner des environnements éphémères en 4 secondes."
+    description: "Command-line interface provisioning reproducible staging sandboxes in 4 seconds."
     language: TypeScript
     stars: 2100
   - name: Ephemeral-Sandbox
     url: https://github.com/example-user/sandbox-engine
-    description: "Orchestrateur de conteneurs légers avec isolation réseau stricte et zéro résidu sur disque."
+    description: "Lightweight container runtime engine with strict network namespace isolation."
     language: Go
     stars: 3450
 principles:
-  - "L'exécution rapide et disciplinée bat l'idée brillante."
-  - "Écouter les clients jusqu'à ce que le point de douleur soit évident."
-  - "Bâtir pour durer : rentabilité unitaire dès le premier jour."
+  - "Disciplined, rapid execution beats theoretical brilliance."
+  - "Listen to customer feedback until the underlying root problem becomes obvious."
+  - "Build for enduring profitability: unit economics matter from day one."
 links:
-  - label: Découvrir Stratos
+  - label: Stratos Platform
     url: https://example.com/stratos
-  - label: Dossier Investisseurs
+  - label: Investor Deck
     url: https://example.com/deck
   - label: GitHub
     url: https://github.com/example-user

@@ -1,9 +1,9 @@
 id: creator
 version: 2.0.0
-title: Création
-summary: Vitrine courte pour le design et les prototypes.
+title: Creator
+summary: "Concise showcase for UI design systems, prototypes, and creative tooling."
 audiences:
-  - createur
+  - creator
 theme: violet
 banner: masthead
 projects: cards
@@ -12,6 +12,7 @@ components:
   - identity
   - prose
   - projects
+  - tech-badges
   - stack
   - links
   - colophon

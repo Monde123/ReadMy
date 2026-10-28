@@ -17,7 +17,7 @@ for (const id of templateIds(root)) {
     fs.mkdirSync(path.dirname(target), { recursive: true });
     fs.writeFileSync(target, asset.contents);
   }
-  process.stdout.write(`rendu ${id}\n`);
+  process.stdout.write(`rendered ${id}\n`);
 }
 
 const fixturePath = path.join(root, "tests", "fixtures", "octocat.json");
@@ -42,5 +42,5 @@ if (fs.existsSync(fixturePath)) {
     path.join(exampleDir, "provenance.json"),
     `${JSON.stringify({ placeholders: adapted.placeholders, warnings: adapted.warnings, provenance: adapted.provenance }, null, 2)}\n`,
   );
-  process.stdout.write("rendu exemple octocat-minimal\n");
+  process.stdout.write("rendered octocat-minimal example\n");
 }

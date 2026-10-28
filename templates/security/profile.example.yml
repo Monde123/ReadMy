@@ -1,22 +1,22 @@
 name: Léa Fischer
-role: Ingénieure sécurité produit
-summary: "J'aide les équipes à réduire la surface d'attaque et à publier des correctifs."
-focus: "Divulgation coordonnée, revues de dépendances, et journaux exploitables."
+role: Product Security Engineer
+summary: "I help engineering teams minimize attack surfaces and ship timely mitigations."
+focus: "Coordinated disclosure, dependency audits, and actionable audit logs."
 principles:
-  - "Un rapport reçoit un accusé, puis une date de correctif."
-  - "Les secrets ne vivent ni dans le dépôt ni dans le README."
-  - "Le correctif est accompagné d'un test qui échouait avant."
+  - "Every vulnerability report receives an acknowledgment, then a fix timeline."
+  - "Secrets belong neither in source control nor in profile READMEs."
+  - "Every security fix must include a regression test that previously failed."
 projects:
   - name: Garde-fou
     url: https://github.com/example-user/garde-fou
-    description: "Refuse une publication si un motif de secret est présent."
+    description: "Blocks registry publication if known credential patterns are detected."
     language: Go
   - name: Dependances
     url: https://github.com/example-user/dependances
-    description: "Liste les dépendances directes et leur licence."
+    description: "Audits direct dependencies and surface licenses."
     language: Python
 links:
   - label: GitHub
     url: https://github.com/example-user
-  - label: Signalement
+  - label: Security Advisory
     url: https://example.com/security

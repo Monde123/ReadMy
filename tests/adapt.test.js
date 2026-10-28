@@ -23,12 +23,12 @@ function adapt(file, extra = {}) {
   });
 }
 
-test("octocat : dépôt réel, fork exclu, vie privée omise, rien d'inventé", () => {
+test("octocat: real repo, fork excluded, privacy omitted, nothing invented", () => {
   const fixture = JSON.parse(fs.readFileSync(path.join(root, "tests", "fixtures", "octocat.json"), "utf8"));
   const result = adapt("octocat.json");
   assert.ok(result.markdown.includes("Hello-World"));
   assert.ok(result.markdown.includes("My first repository"));
-  assert.ok(result.markdown.includes("42 étoiles"));
+  assert.ok(result.markdown.includes("42 stars"));
   assert.equal(result.markdown.includes("Spoon-Knife"), false);
   assert.equal(result.markdown.includes("10000"), false);
   assert.equal(result.markdown.includes(fixture.github.location), false);
@@ -37,18 +37,18 @@ test("octocat : dépôt réel, fork exclu, vie privée omise, rien d'inventé", 
   assert.equal(result.markdown.includes("NexusDB"), false);
   assert.ok(result.markdown.includes("{{role}}"));
   assert.ok(result.placeholders.includes("role"));
-  assert.ok(result.provenance.some((item) => item.field === "location" && item.source === "omis"));
+  assert.ok(result.provenance.some((item) => item.field === "location" && item.source === "omitted"));
 });
 
-test("profil sans dépôt : login seul, placeholder, aucun projet fabriqué", () => {
+test("profile without repositories: login only, placeholder, zero fabricated projects", () => {
   const result = adapt("solo.json");
   assert.ok(result.markdown.includes(">solo</h1>"));
   assert.ok(result.markdown.includes("{{role}}"));
-  assert.ok(result.markdown.includes("section:projets omise"));
-  assert.ok(result.warnings.some((warning) => warning.includes("aucun dépôt")));
+  assert.ok(result.markdown.includes("section:projects omitted"));
+  assert.ok(result.warnings.some((warning) => warning.includes("no un-forked public repositories")));
 });
 
-test("le consentement explicite laisse passer le lieu et refuse un email mal formé", () => {
+test("explicit consent enables location and rejects malformed email", () => {
   const fixture = JSON.parse(fs.readFileSync(path.join(root, "tests", "fixtures", "octocat.json"), "utf8"));
   const shown = adaptProfile({
     template: minimal,
@@ -61,16 +61,16 @@ test("le consentement explicite laisse passer le lieu et refuse un email mal for
   assert.throws(
     () => adaptProfile({
       template: minimal,
-      github: { ...fixture.github, email: "pas un email" },
+      github: { ...fixture.github, email: "not an email" },
       consent: { showEmail: true },
       tokens,
       registry,
     }),
-    (error) => error instanceof ReadMyError && error.code === "IDENTIFIANT_INVALIDE",
+    (error) => error instanceof ReadMyError && error.code === "INVALID_IDENTIFIER",
   );
 });
 
-test("bio hostile échappée, fork sans booléen, dépôt override inconnu", () => {
+test("hostile bio escaped, fork without boolean, untracked override project", () => {
   const injected = adaptProfile({
     template: minimal,
     github: {
@@ -91,20 +91,20 @@ test("bio hostile échappée, fork sans booléen, dépôt override inconnu", () 
       tokens,
       registry,
     }),
-    (error) => error instanceof ReadMyError && error.code === "DEPOT_INCOMPLET",
+    (error) => error instanceof ReadMyError && error.code === "INCOMPLETE_REPO",
   );
   const custom = adaptProfile({
     template: minimal,
     github: { login: "octocat", name: "The Octocat", repos: [] },
-    overrides: { projects: [{ name: "HorsLigne", url: "https://example.com/hors", description: "Confirmé par la personne." }] },
+    overrides: { projects: [{ name: "Offline", url: "https://example.com/offline", description: "Verified by author." }] },
     tokens,
     registry,
   });
-  assert.ok(custom.markdown.includes("HorsLigne"));
-  assert.ok(custom.warnings.some((warning) => warning.includes("HorsLigne")));
+  assert.ok(custom.markdown.includes("Offline"));
+  assert.ok(custom.warnings.some((warning) => warning.includes("Offline")));
 });
 
-test("l'adaptateur garantit l'interdiction stricte d'inventer des données", () => {
+test("adapter strictly forbids data fabrication", () => {
   const result = adaptProfile({
     template: minimal,
     github: { login: "nobody", repos: [] },
@@ -113,10 +113,10 @@ test("l'adaptateur garantit l'interdiction stricte d'inventer des données", () 
   });
   assert.ok(result.markdown.includes("{{role}}"));
   assert.ok(result.placeholders.includes("role"));
-  assert.ok(result.warnings.some((w) => w.includes("role absent")));
+  assert.ok(result.warnings.some((w) => w.includes("missing role")));
 });
 
-test("les liens personnalisés dans overrides sont acceptés et validés", () => {
+test("custom links in overrides are accepted and validated", () => {
   const result = adaptProfile({
     template: minimal,
     github: { login: "monde", name: "Moise", repos: [] },
@@ -140,6 +140,6 @@ test("les liens personnalisés dans overrides sont acceptés et validés", () =>
       tokens,
       registry,
     }),
-    (error) => error instanceof ReadMyError && error.code === "URL_INVALIDE",
+    (error) => error instanceof ReadMyError && error.code === "INVALID_URL",
   );
 });

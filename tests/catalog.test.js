@@ -19,16 +19,16 @@ function runPython(args) {
   return { status: 0, stderr: "" };
 }
 
-test("catalogue étendu, rendu identique aux fichiers, svg accepté par ElementTree", () => {
+test("extended catalog, render matches disk files, svg accepted by ElementTree", () => {
   const ids = templateIds(root);
-  assert.ok(ids.length >= 20, `au moins 20 gabarits attendus, trouvé ${ids.length}`);
+  assert.ok(ids.length >= 20, `at least 20 templates expected, found ${ids.length}`);
   for (const id of ids) {
     const { dir, template, profile } = loadTemplate(root, id);
     const rendered = renderTemplate(template, profile, tokens, registry);
     const diskReadme = fs.readFileSync(path.join(dir, "README.md"), "utf8").replace(/\r\n/g, "\n");
     assert.equal(diskReadme, rendered.markdown.replace(/\r\n/g, "\n"));
     assert.ok(rendered.markdown.includes(`template=${id}`));
-    assert.ok(rendered.markdown.includes("aucun service tiers"));
+    assert.ok(rendered.markdown.includes("zero third-party services"));
     for (const asset of rendered.assets) {
       const file = path.join(dir, asset.path);
       const diskAsset = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n");
@@ -41,7 +41,7 @@ test("catalogue étendu, rendu identique aux fichiers, svg accepté par ElementT
   }
 });
 
-test("l'archive v1 reste présente et réversible", () => {
+test("v1 archive remains present and reversible", () => {
   assert.equal(fs.existsSync(path.join(root, "archive/v1/templates/001-minimal-clean/README.md")), true);
   assert.equal(fs.existsSync(path.join(root, "archive/v1/README.md")), true);
 });

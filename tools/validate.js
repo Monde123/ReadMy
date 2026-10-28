@@ -78,7 +78,7 @@ export function validateRepo(root = repoRoot()) {
   }
 
   const ids = templateIds(root);
-  if (ids.length === 0) errors.push(`CATALOGUE: aucun gabarit trouvé`);
+  if (ids.length === 0) errors.push("CATALOG: no templates found");
   for (const id of ids) {
     const { dir, template, profile } = loadTemplate(root, id);
     let rendered;
@@ -90,43 +90,43 @@ export function validateRepo(root = repoRoot()) {
     }
     const readmePath = path.join(dir, "README.md");
     const readme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, "utf8").replace(/\r\n/g, "\n") : "";
-    if (readme !== rendered.markdown.replace(/\r\n/g, "\n")) errors.push(`${id}: README.md ne correspond pas au rendu`);
+    if (readme !== rendered.markdown.replace(/\r\n/g, "\n")) errors.push(`${id}: README.md does not match render`);
     for (const asset of rendered.assets) {
       const assetPath = path.join(dir, asset.path);
       const onDisk = fs.existsSync(assetPath) ? fs.readFileSync(assetPath, "utf8").replace(/\r\n/g, "\n") : "";
-      if (onDisk !== asset.contents.replace(/\r\n/g, "\n")) errors.push(`${id}: ${asset.path} ne correspond pas au rendu`);
-      if (Buffer.byteLength(asset.contents) > ASSET_LIMIT) errors.push(`${id}: ${asset.path} trop lourd`);
+      if (onDisk !== asset.contents.replace(/\r\n/g, "\n")) errors.push(`${id}: ${asset.path} does not match render`);
+      if (Buffer.byteLength(asset.contents) > ASSET_LIMIT) errors.push(`${id}: ${asset.path} exceeds size limit`);
       const xmlErrors = assertWellFormedXml(asset.contents);
       if (xmlErrors.length > 0) errors.push(`${id}: ${asset.path} ${xmlErrors.join(",")}`);
       const python = runPython(["-c", "import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])", assetPath]);
-      if (python.status !== 0) errors.push(`${id}: ${asset.path} refusé par ElementTree`);
+      if (python.status !== 0) errors.push(`${id}: ${asset.path} rejected by ElementTree`);
     }
-    if (!/<img\b[^>]*\balt="[^"]+"/.test(rendered.markdown)) errors.push(`${id}: image sans alt`);
+    if (!/<img\b[^>]*\balt="[^"]+"/.test(rendered.markdown)) errors.push(`${id}: image missing alt attribute`);
     const ratio = contrastRatio(tokens.themes[template.theme].light.text, tokens.themes[template.theme].light.bg);
-    if (ratio < 4.5) errors.push(`${id}: contraste clair ${ratio}`);
+    if (ratio < 4.5) errors.push(`${id}: light contrast ${ratio}`);
   }
 
   const active = walk(root).filter((file) => /\.(md|yml|yaml|svg|json)$/.test(file));
   for (const file of active) {
     const rel = path.relative(root, file);
     const text = fs.readFileSync(file, "utf8");
-    if (!text.endsWith("\n") && !text.endsWith("\r\n")) errors.push(`${rel}: pas de saut de ligne final`);
+    if (!text.endsWith("\n") && !text.endsWith("\r\n")) errors.push(`${rel}: missing trailing newline`);
     const normRel = rel.replace(/\\/g, "/");
     const surface = normRel === "README.md" || normRel.startsWith("templates/") || normRel.startsWith("skills/") || normRel.startsWith("components/") || normRel.startsWith("design/");
     if (surface) {
       for (const host of FORBIDDEN_HOSTS) {
-        if (text.includes(host)) errors.push(`${rel}: hôte interdit ${host}`);
+        if (text.includes(host)) errors.push(`${rel}: forbidden host ${host}`);
       }
     }
     if (file.endsWith(".md")) {
       for (const link of relativeLinks(file, text)) {
         const resolved = path.resolve(path.dirname(file), link);
-        if (!fs.existsSync(resolved)) errors.push(`${path.relative(root, file)}: lien relatif cassé ${link}`);
+        if (!fs.existsSync(resolved)) errors.push(`${path.relative(root, file)}: broken relative link ${link}`);
       }
       const images = text.match(/<img\b[^>]*>/g) ?? [];
       for (const image of images) {
         const alt = image.match(/\balt="([^"]*)"/);
-        if (!alt || alt[1].trim() === "") errors.push(`${path.relative(root, file)}: alt manquant`);
+        if (!alt || alt[1].trim() === "") errors.push(`${path.relative(root, file)}: missing alt text`);
       }
     }
   }
@@ -140,7 +140,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       for (const error of errors) console.error(error);
       process.exit(1);
     }
-    console.log(`validation: ok`);
+    console.log("validation: ok");
   } catch (error) {
     if (error instanceof ReadMyError) {
       console.error(error.message);

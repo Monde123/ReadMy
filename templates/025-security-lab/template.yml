@@ -1,9 +1,9 @@
 id: 025-security-lab
 version: 2.0.0
 title: Offensive & Defensive Lab
-summary: Recherche de vulnérabilités, durcissement d'infrastructures et divulgation responsable.
+summary: "Vulnerability research, cloud infrastructure hardening, and responsible CVE disclosure."
 audiences:
-  - securite
+  - security
   - sysadmin
 theme: signal
 banner: terminal
@@ -12,6 +12,7 @@ components:
   - banner
   - identity
   - prose
+  - tech-badges
   - checklist
   - projects
   - principles

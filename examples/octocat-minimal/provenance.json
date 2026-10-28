@@ -3,13 +3,13 @@
     "role"
   ],
   "warnings": [
-    "role absent : placeholder {{role}}, aucun intitulé inventé"
+    "missing role: placeholder {{role}}, no title invented"
   ],
   "provenance": [
     {
       "field": "consent",
-      "source": "defaut",
-      "reason": "objet absent, défaut documenté false pour les quatre clés"
+      "source": "default",
+      "reason": "missing object, documented default is false for all four keys"
     },
     {
       "field": "name",
@@ -25,23 +25,23 @@
     },
     {
       "field": "location",
-      "source": "omis",
-      "reason": "consentement.showLocation=false"
+      "source": "omitted",
+      "reason": "consent.showLocation=false"
     },
     {
       "field": "organization",
-      "source": "omis",
-      "reason": "consentement.showCompany=false"
+      "source": "omitted",
+      "reason": "consent.showCompany=false"
     },
     {
       "field": "projects",
       "source": "github.repos",
-      "reason": "plafond 4, forks exclus"
+      "reason": "cap 4, forks excluded"
     },
     {
       "field": "stack",
-      "source": "omis",
-      "reason": "composant stack absent du gabarit"
+      "source": "omitted",
+      "reason": "stack component absent from template"
     },
     {
       "field": "links.github",
@@ -49,13 +49,13 @@
     },
     {
       "field": "email",
-      "source": "omis",
-      "reason": "consentement.showEmail=false"
+      "source": "omitted",
+      "reason": "consent.showEmail=false"
     },
     {
       "field": "social",
-      "source": "omis",
-      "reason": "consentement.showSocial=false ou identifiant absent"
+      "source": "omitted",
+      "reason": "consent.showSocial=false or handle missing"
     }
   ]
 }

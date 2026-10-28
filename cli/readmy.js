@@ -28,8 +28,8 @@ function writeOutput(dir, markdown, assets) {
 }
 
 async function runAuditCommand(username) {
-  if (!username) throw new ReadMyError("ARGUMENT_INVALIDE", "identifiant GitHub requis pour l'audit : readmy audit <username>");
-  process.stdout.write(`\nAnalyse du README de profil pour @${username}...\n`);
+  if (!username) throw new ReadMyError("INVALID_ARGUMENT", "GitHub username required for audit: readmy audit <username>");
+  process.stdout.write(`\nAnalyzing profile README for @${username}...\n`);
   const current = await fetchCurrentReadme(username);
   const audit = auditReadme(current ? current.text : null, username);
   process.stdout.write(formatAuditReport(audit));
@@ -39,44 +39,44 @@ async function runInteractive(root, tokens, registry) {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
   try {
     process.stdout.write("\n╔═══════════════════════════════════════════════════════════════════╗\n");
-    process.stdout.write("║      ReadMy · Générateur de Profil GitHub Indestructible          ║\n");
+    process.stdout.write("║      ReadMy · Indestructible GitHub Profile Generator             ║\n");
     process.stdout.write("╚═══════════════════════════════════════════════════════════════════╝\n\n");
 
-    const username = await rl.question("Votre identifiant GitHub : ");
-    if (!username.trim()) throw new ReadMyError("ARGUMENT_INVALIDE", "identifiant requis");
+    const username = await rl.question("Your GitHub username: ");
+    if (!username.trim()) throw new ReadMyError("INVALID_ARGUMENT", "username is required");
     const cleanUser = username.trim();
 
-    process.stdout.write(`\n1/3 Audit de durabilité de votre profil actuel...\n`);
+    process.stdout.write("\n1/3 Durability audit of your current profile...\n");
     const current = await fetchCurrentReadme(cleanUser);
     const audit = auditReadme(current ? current.text : null, cleanUser);
     process.stdout.write(formatAuditReport(audit));
 
-    process.stdout.write(`2/3 Analyse sémantique de vos dépôts publics...\n`);
+    process.stdout.write("2/3 Semantic analysis of your public repositories...\n");
     const fixture = await fetchGitHubProfile(cleanUser);
     const meta = fixture.meta || {};
 
-    process.stdout.write(`\n✓ Spécialité déduite : ${meta.inferredRole || "Software Engineer"}\n`);
+    process.stdout.write(`\n✓ Inferred role: ${meta.inferredRole || "Software Engineer"}\n`);
     if (meta.topLanguages?.length > 0) {
-      process.stdout.write(`✓ Stack dominante : ${meta.topLanguages.slice(0, 4).map((l) => `${l.name} (${l.count})`).join(", ")}\n`);
+      process.stdout.write(`✓ Dominant stack: ${meta.topLanguages.slice(0, 4).map((l) => `${l.name} (${l.count})`).join(", ")}\n`);
     }
 
-    process.stdout.write(`\nGabarits recommandés pour votre profil :\n`);
+    process.stdout.write("\nRecommended templates for your profile:\n");
     const recs = meta.recommendations || [];
     recs.forEach((r, idx) => {
       process.stdout.write(`  [${idx + 1}] ${r.id} — ${r.reason}\n`);
     });
 
     const defaultTpl = recs[0]?.id || "minimal";
-    const templateChoice = await rl.question(`\nQuel gabarit souhaitez-vous utiliser [${defaultTpl}] : `) || defaultTpl;
+    const templateChoice = await rl.question(`\nWhich template would you like to use [${defaultTpl}]: `) || defaultTpl;
     const availableIds = templateIds(root);
     const selectedTemplate = availableIds.includes(templateChoice.trim()) ? templateChoice.trim() : defaultTpl;
 
-    const roleChoice = await rl.question(`Titre / Rôle affiché [${meta.inferredRole}] : `) || meta.inferredRole;
+    const roleChoice = await rl.question(`Displayed Title / Role [${meta.inferredRole}]: `) || meta.inferredRole;
     fixture.overrides.role = roleChoice.trim();
 
-    const outDir = await rl.question("\nDossier de sortie [./mon-profil] : ") || "./mon-profil";
+    const outDir = await rl.question("\nOutput directory [./my-profile]: ") || "./my-profile";
 
-    process.stdout.write(`\n3/3 Génération du profil sans service tiers...\n`);
+    process.stdout.write("\n3/3 Generating zero-third-party profile...\n");
     const { template } = loadTemplate(root, selectedTemplate);
 
     const adapted = adaptProfile({
@@ -95,9 +95,9 @@ async function runInteractive(root, tokens, registry) {
       `${JSON.stringify({ placeholders: adapted.placeholders, warnings: adapted.warnings, provenance: adapted.provenance }, null, 2)}\n`,
     );
 
-    process.stdout.write(`\n🎉 Félicitations ! Votre profil indestructible a été généré dans : ${targetDir}\n`);
-    process.stdout.write(`→ Score de durabilité prévisionnel : 100/100 (0 appel réseau, Dark/Light natif)\n`);
-    process.stdout.write(`→ Copiez README.md et le dossier assets/ à la racine de votre dépôt ${cleanUser}/${cleanUser}.\n\n`);
+    process.stdout.write(`\n🎉 Congratulations! Your indestructible profile has been generated in: ${targetDir}\n`);
+    process.stdout.write("→ Projected Durability Score: 100/100 (Zero network calls, native Dark/Light)\n");
+    process.stdout.write(`→ Copy README.md and the assets/ folder to the root of your ${cleanUser}/${cleanUser} repository.\n\n`);
   } finally {
     rl.close();
   }
@@ -110,15 +110,15 @@ async function main() {
   const registry = loadRegistry(root);
 
   if (!command || command === "--help" || command === "-h") {
-    process.stdout.write(`ReadMy v2.0.0 — Générateur de README de profil GitHub sans service tiers.
+    process.stdout.write(`ReadMy v2.0.0 — Zero-third-party GitHub profile README generator.
 
-Commandes :
-  init                                                        Assistant interactif complet (Audit + Génération)
-  audit <username>                                            Auditer la durabilité d'un profil GitHub actuel
-  list                                                        Lister les gabarits disponibles
-  render --template <id> --out <dir> [--profile <yml>]        Générer depuis un profil local
-  adapt --template <id> --out <dir> [--github <user>|--profile <json>] Adapter un profil GitHub
-  validate                                                    Valider la conformité du catalogue
+Commands:
+  init                                                        Full interactive wizard (Audit + Generation)
+  audit <username>                                            Audit durability of an existing GitHub profile
+  list                                                        List available templates
+  render --template <id> --out <dir> [--profile <yml>]        Generate from a local profile
+  adapt --template <id> --out <dir> [--github <user>|--profile <json>] Adapt a GitHub profile
+  validate                                                    Validate catalog compliance
 `);
     return;
   }
@@ -158,8 +158,8 @@ Commandes :
     const profilePath = flag(args, "--profile");
     const githubUser = flag(args, "--github");
 
-    if (!id) throw new ReadMyError("TEMPLATE_INCONNU", "option --template manquante");
-    if (!out) throw new ReadMyError("SORTIE_MANQUANTE", "option --out manquante");
+    if (!id) throw new ReadMyError("UNKNOWN_TEMPLATE", "missing --template option");
+    if (!out) throw new ReadMyError("MISSING_OUTPUT", "missing --out option");
     const { template, profile } = loadTemplate(root, id);
 
     if (command === "render") {
@@ -176,7 +176,7 @@ Commandes :
     } else if (profilePath) {
       fixture = JSON.parse(fs.readFileSync(profilePath, "utf8"));
     } else {
-      throw new ReadMyError("PROFIL_INCOMPLET", "option --github ou --profile manquante");
+      throw new ReadMyError("INCOMPLETE_PROFILE", "missing --github or --profile option");
     }
 
     const adapted = adaptProfile({
@@ -196,7 +196,7 @@ Commandes :
     return;
   }
 
-  throw new ReadMyError("COMMANDE_INCONNUE", "attendu: init, audit, list, render, adapt, validate");
+  throw new ReadMyError("UNKNOWN_COMMAND", "expected: init, audit, list, render, adapt, validate");
 }
 
 main().catch((error) => {

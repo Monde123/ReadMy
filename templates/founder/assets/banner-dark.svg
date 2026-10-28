@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
-  <title>Omar Diallo — Fondateur d'un outil de notes d'équipe</title>
+  <title>Omar Diallo — Founder &amp; Product Engineer</title>
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#7c2d12" stroke-width="0.75" opacity="0.4"/>
@@ -11,7 +11,7 @@
   <rect x="36" y="24" width="8" height="8" fill="#fdba74"/>
   <text x="54" y="32" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" letter-spacing="1.5">PROFILE // LOCAL SVG</text>
   <text x="36" y="60" fill="#ffedd5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="bold">Omar Diallo</text>
-  <text x="36" y="94" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Fondateur d'un outil de notes d'équipe</text>
+  <text x="36" y="94" fill="#fdba74" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Founder &amp; Product Engineer</text>
   <line x1="36" y1="116" x2="844" y2="116" stroke="#fdba74" stroke-width="3"/>
   <line x1="36" y1="122" x2="200" y2="122" stroke="#7c2d12" stroke-width="1.5"/>
 </svg>

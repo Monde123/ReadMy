@@ -1,10 +1,10 @@
 id: terminal
 version: 2.0.0
 title: Terminal
-summary: Profil en fenêtre de terminal, contenu lisible sans image.
+summary: "Terminal window aesthetic with clean text legible without decoration."
 audiences:
-  - createur
-  - professionnel
+  - creator
+  - professional
 theme: ink
 banner: terminal
 projects: list
@@ -13,6 +13,7 @@ components:
   - identity
   - prose
   - projects
+  - tech-badges
   - stack
   - links
   - colophon

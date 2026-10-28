@@ -1,10 +1,10 @@
 id: student
 version: 2.0.0
-title: Étudiante
-summary: Parcours d'apprentissage avec projets et feuille de route.
+title: Student
+summary: "Learning journey with early prototypes, coursework, and milestone roadmap."
 audiences:
-  - etudiant
-  - debutant
+  - student
+  - beginner
 theme: paper
 banner: masthead
 projects: list
@@ -14,6 +14,7 @@ components:
   - prose
   - checklist
   - projects
+  - tech-badges
   - stack
   - links
   - colophon
