@@ -73,3 +73,22 @@ test("excessive projects exceed cap, secret detection aborts without leaking", (
   }
   assert.equal(message.includes("ghp_"), false);
 });
+
+test("template variants: modular variant overrides apply correctly and produce expected structures", () => {
+  const custom = sampleTemplate({
+    projects_variant: "rpg",
+    identity_variant: "terminal",
+    components: ["identity", "projects"],
+    requires: ["name"],
+  });
+  const result = render(custom, sampleProfile({
+    name: "Archmage",
+    role: "Core Wizard",
+    projects: [
+      { name: "Spellbook", url: "https://example.com/spell", description: "Ancient spells" },
+    ],
+  }));
+  assert.ok(result.markdown.includes("$ whoami"));
+  assert.ok(result.markdown.includes("Grimoire of Spells &amp; Legendary Relics"));
+  assert.ok(result.markdown.includes("⚔️ <a href=\"https://example.com/spell\">Spellbook</a>"));
+});
