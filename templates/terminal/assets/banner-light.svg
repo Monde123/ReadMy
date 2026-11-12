@@ -2,6 +2,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="140" viewBox="0 0 880 140" role="img">
   <title>Samir Adler — Command-Line Tools Developer</title>
   <defs>
+    <style>
+      @keyframes blink { 0%, 49% { opacity: 0.9; } 50%, 100% { opacity: 0; } }
+      .cursor-blink { animation: blink 1s infinite; }
+    </style>
     <filter id="shadow" x="-2%" y="-2%" width="104%" height="108%">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.15"/>
     </filter>
@@ -15,5 +19,5 @@
   <text x="440" y="35" text-anchor="middle" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">bash — 80x24</text>
   <text x="36" y="74" fill="#24292f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold">$ whoami</text>
   <text x="36" y="100" fill="#24292f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Samir Adler — Command-Line Tools Developer</text>
-  <rect x="836" y="90" width="8" height="12" fill="#24292f" opacity="0.8"/>
+  <rect class="cursor-blink" x="836" y="90" width="8" height="12" fill="#24292f" opacity="0.8"/>
 </svg>
