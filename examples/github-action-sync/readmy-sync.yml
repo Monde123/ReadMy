@@ -1,0 +1,37 @@
+name: ReadMy Profile Auto-Sync
+
+on:
+  schedule:
+    # Runs every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch: # Allows manual one-click trigger
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refresh ReadMy profile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node cli/readmy.js adapt --github ${{ github.repository_owner }} --template 003-ai-engineer --out ./refreshed
+          cp -r refreshed/* .
+          rm -rf refreshed
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-sync ReadMy profile [skip ci]" && git push)
