@@ -4,7 +4,7 @@ Un README de profil GitHub qui reste lisible sans Shields, Vercel ni Heroku : de
 
 ![Bandeau du gabarit AI Engineer](templates/003-ai-engineer/assets/banner-light.svg)
 
-Vingt gabarits thématiques (AI, Cyberpunk, SRE, Audio DSP, Fintech, RPG, Design). Une commande instantanée. Une skill autonome qui interroge l'API GitHub sans inventer de faits ni dépendre de services tiers.
+Vingt-deux gabarits thématiques (AI, Cyberpunk, SRE, Mobile, Frontend, Audio DSP, Fintech, RPG, Design). Une commande instantanée. Une skill autonome qui interroge l'API GitHub sans inventer de faits ni dépendre de services tiers.
 
 ## En une minute
 
@@ -35,6 +35,8 @@ Copiez `mon-profil/README.md` et le dossier `mon-profil/assets/` à la racine du
 | Gabarit | Univers & Persona | Style SVG | Layout |
 |---|---|---|---|
 | [003-ai-engineer](templates/003-ai-engineer/README.md) | AI Systems, LLM Inference & CUDA | `cyber-hud` | Cartes 2 colonnes |
+| [004-mobile-developer](templates/004-mobile-developer/README.md) | iOS (Swift 6) & Android (Kotlin 2) | `masthead` | Cartes & Matrice Native |
+| [005-frontend-developer](templates/005-frontend-developer/README.md) | Design Systems, Tokens & Core Web Vitals | `masthead` | Cartes Bento & Badges |
 | [014-neon-command-center](templates/014-neon-command-center/README.md) | Platform SRE & Distributed Systems | `cyber-hud` | Cartes & Métriques |
 | [031-cyberpunk-netrunner](templates/031-cyberpunk-netrunner/README.md) | Offensive Security & Cyberware | `cyber-hud` | Cartes 2 colonnes |
 | [033-dungeon-rpg-character-sheet](templates/033-dungeon-rpg-character-sheet/README.md) | RPG Code-Mage & Dungeon Architect | `retro-ascii` | Cartes & Stats RPG |
@@ -57,9 +59,19 @@ Copiez `mon-profil/README.md` et le dossier `mon-profil/assets/` à la racine du
 
 Le détail des aperçus est dans [GALERIE.md](GALERIE.md). Les archives historiques de la v1 sont conservées dans [archive/v1](archive/v1/README.md).
 
+## Automatisation & Fraîcheur : Auto-Sync GitHub Action
+
+Les profils statiques risquent de devenir obsolètes si vos étoiles ou vos dépôts évoluent. ReadMy résout ce problème **sans aucune dépendance à un serveur tiers** grâce à un workflow GitHub Actions programmé :
+
+- **Exemple prêt à l'emploi** : [`examples/github-action-sync/readmy-sync.yml`](examples/github-action-sync/readmy-sync.yml)
+- **Fonctionnement** : Un cron hebdomadaire interroge l'API GitHub, exécute `readmy adapt`, vérifie les changements, et committe automatiquement le profil régénéré si vos étoiles ou statistiques ont bougé.
+- **Bénéfice** : 100% autonome sur votre propre quota GitHub Actions gratuit, 0 service tiers (pas de Vercel ni Heroku qui dort ou tombe en panne).
+
 ## Carte du dépôt
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) — données, thèmes, composants, skill, CLI
+- [AUDIT_SANS_HYPOCRISIE.md](AUDIT_SANS_HYPOCRISIE.md) — audit critique sans complaisance et vérités techniques
+- [COMPETITIVE_AND_TEST_ANALYSIS.md](COMPETITIVE_AND_TEST_ANALYSIS.md) — benchmark comparatif vs github-readme-stats, metrics, snk
 - [CONTRIBUTING.md](CONTRIBUTING.md) — ajouter un gabarit
 - [POSITIONNEMENT.md](POSITIONNEMENT.md) — promesse et feuille de route
 - [AUDIT.md](AUDIT.md) — mesure du dépôt d'origine
