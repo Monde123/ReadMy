@@ -15,19 +15,19 @@
 <p>I prototype clean, readable interfaces before introducing motion.</p>
 <p>Accessible contrast, clear empty states, and responsive typography.</p>
 
-<h2>Projects</h2>
+<h2>Selected Digital Works</h2>
 <table width="100%">
 <tbody>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/atelier">Atelier</a></h3>
+      <h3>✦ <a href="https://github.com/example-user/atelier">Atelier</a></h3>
       <p>Version-controlled design specifications for form systems.</p>
-      <p><sub> · <code>TypeScript</code></sub></p>
+      <p><sub><kbd>View Live Demo</kbd> · <code>TypeScript</code></sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/lisiere">Lisiere</a></h3>
+      <h3>✦ <a href="https://github.com/example-user/lisiere">Lisiere</a></h3>
       <p>Design pattern collection for application empty states and inline errors.</p>
-      <p><sub> · <code>CSS</code></sub></p>
+      <p><sub><kbd>Interactive Preview</kbd> · <code>CSS</code></sub></p>
     </td>
   </tr>
 </tbody>

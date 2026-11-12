@@ -11,6 +11,15 @@
 <!-- section:organization omitted : missing field -->
 <!-- section:location omitted : missing field -->
 
+<h2>Security Advisory Matrix</h2>
+<table width="100%">
+<thead><tr><th>Advisory ID</th><th>Target Subsystem</th><th>Severity</th></tr></thead>
+<tbody>
+  <tr><td><code>CVE-2025-4412</code></td><td>Hypervisor VM Escape via MMIO Emulation</td><td><strong>9.8 CRITICAL</strong></td></tr>
+  <tr><td><code>CVE-2025-1889</code></td><td>Side-channel Key Leakage in Elliptic Primitives</td><td><strong>7.5 HIGH</strong></td></tr>
+  <tr><td><code>LAB-2026-001</code></td><td>Speculative Store Bypass in RISC-V SoC</td><td><strong>8.1 HIGH</strong></td></tr>
+</tbody>
+</table>
 <h2>Overview</h2>
 <p>I hunt authentication logic bypasses, memory safety vulnerabilities, and cloud privilege escalation vectors.</p>
 <p>Multi-tenant Kubernetes security reviews, SELinux/AppArmor enforcement, and coordinated CVE disclosures.</p>
@@ -38,7 +47,19 @@
 </tbody>
 </table>
 
-<h2>Principles</h2>
+<h2>Security Governance &amp; PGP Coordination</h2>
+<details>
+<summary><b>🔑 RFC 9116 SECURITY DISCLOSURE POLICY &amp; PGP FINGERPRINT</b></summary>
+
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Responsible disclosure window: 90 days.
+PGP Fingerprint: 4E5A 910D 23B8 F41C 7A01  BB63 8C9E 31A0 FF45 99DE
+Coordination contact: security@example-lab.internal
+-----END PGP SIGNED MESSAGE-----</code></pre>
+</details>
+
 <ul>
 <li>Security through obscurity is a postponement, never a safeguard.</li>
 <li>Coordinated disclosure prioritizes user safety above all.</li>

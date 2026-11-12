@@ -11,10 +11,25 @@
 <!-- section:organization omitted : missing field -->
 <!-- section:location omitted : missing field -->
 
-<h2>Pitch</h2>
-<p>Verbal team decisions vanish by the next meeting.</p>
-<p>A collaborative log enforcing a decision, an assigned owner, and a date.</p>
-<p>Public repository open-sourcing the note format and parser test suite.</p>
+<h2>The Founder Manifesto</h2>
+<table width="100%">
+<tbody>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>1. What We Reject</h3>
+      <p>Verbal team decisions vanish by the next meeting.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>2. What We Build</h3>
+      <p>A collaborative log enforcing a decision, an assigned owner, and a date.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>3. Why Now</h3>
+      <p>Public repository open-sourcing the note format and parser test suite.</p>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 <h2>Projects</h2>
 <ul>

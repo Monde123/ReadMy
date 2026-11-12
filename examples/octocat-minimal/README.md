@@ -10,6 +10,7 @@
 <p>{{role}}</p>
 <!-- section:organization omitted : missing field -->
 <!-- section:location omitted : missing field -->
+<hr/>
 
 <h2>Overview</h2>
 <p>I love tacos</p>

@@ -70,3 +70,19 @@ test("semantic intelligence: top dominant language aggregation", () => {
   assert.equal(top[1].name, "Go");
   assert.equal(top[1].count, 1);
 });
+
+test("semantic intelligence: mobile and frontend archetype suggestions", () => {
+  const mobileRecs = suggestTemplates({
+    github: { bio: "Building iOS apps with Swift and SwiftUI" },
+    topLanguages: [{ name: "Swift", count: 8 }],
+    inferredRole: "Mobile Applications Developer",
+  });
+  assert.ok(mobileRecs.some((r) => r.id === "004-mobile-developer"));
+
+  const frontendRecs = suggestTemplates({
+    github: { bio: "Staff Frontend Architect specialized in Design Systems and Web Components" },
+    topLanguages: [{ name: "TypeScript", count: 15 }],
+    inferredRole: "Frontend Engineer",
+  });
+  assert.ok(frontendRecs.some((r) => r.id === "005-frontend-developer"));
+});

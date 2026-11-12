@@ -6,14 +6,29 @@
   <img alt="Banner: Vektor // 0xNULL, Offensive Security Specialist &amp; Cyberware Builder" src="./assets/banner-light.svg" />
 </picture>
 
+<table width="100%">
+<tbody>
+  <tr>
+    <td width="70%">
+      <code>╔═══════════════════════════════════════════════════════════╗</code><br/>
+      <code>║ NODE : Vektor // 0xNULL            [DECK STATUS: ONLINE]   ║</code><br/>
+      <code>║ CLASS: Offensive Security Specialist &amp; Cyberware Builder    ║</code><br/>
+      <code>╚═══════════════════════════════════════════════════════════╝</code>
+    </td>
+    <td width="30%" align="right">
+      <code>SIGNAL: 99.8% [SYNC]</code><br/>
+      <code>NEURAL LINK: LOCKED</code><br/>
+      <code>ICE STATUS: BREACHED</code>
+    </td>
+  </tr>
+</tbody>
+</table>
 <h1>Vektor // 0xNULL</h1>
 <p>Offensive Security Specialist &amp; Cyberware Builder</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
 
-<h2>Overview</h2>
-<p>Specialized in firmware reverse engineering, low-level hardware bus introspection, and software-defined radio analysis.</p>
-<p>Memory isolation bypasses, glitch fault injection, and physical side-channel leak analysis.</p>
+<h2>Deck Initialization &amp; Vectors</h2>
+<blockquote>Specialized in firmware reverse engineering, low-level hardware bus introspection, and software-defined radio analysis.</blockquote>
+<p><code>&gt;&gt; VECTORS:</code> Memory isolation bypasses, glitch fault injection, and physical side-channel leak analysis.</p>
 
 <h2>Technologies</h2>
 <picture>
@@ -22,36 +37,44 @@
   <img alt="Tech Stack: Ghidra, Radare2, IDA Pro, QEMU, HackRF One, Bus Pirate, Flipper Zero, JTAGulator" src="./assets/tech-badges-light.svg" />
 </picture>
 
-<h2>Stack</h2>
-<ul>
-<li><strong>Cyber Deck</strong> — Ghidra, Radare2, IDA Pro, QEMU</li>
-<li><strong>Hardware Weapons</strong> — HackRF One, Bus Pirate, Flipper Zero, JTAGulator</li>
-</ul>
+<h2>Cyberware &amp; Arsenal</h2>
+<table width="100%">
+<thead><tr><th align="left">Cyber Deck</th><th align="left">Hardware Weapons</th></tr></thead>
+<tbody>
+  <tr>
+    <td valign="top"><code>Ghidra</code> · <code>Radare2</code> · <code>IDA Pro</code> · <code>QEMU</code></td>
+    <td valign="top"><code>HackRF One</code> · <code>Bus Pirate</code> · <code>Flipper Zero</code> · <code>JTAGulator</code></td>
+  </tr>
+</tbody>
+</table>
 
-<h2>Projects</h2>
+<h2>Exploits &amp; System Penetrations</h2>
 <table width="100%">
 <tbody>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/ghost-firmware">GhostInTheFirmware</a></h3>
-      <p>Emulation and fuzzing framework for bare-metal UEFI/ARM vendor firmwares.</p>
-      <p><sub> · <code>C</code> · ★ 1250</sub></p>
+      <h3><code>[ROOTKIT]</code> <a href="https://github.com/example-user/ghost-firmware">GhostInTheFirmware</a></h3>
+      <blockquote>Emulation and fuzzing framework for bare-metal UEFI/ARM vendor firmwares.</blockquote>
+      <p><sub> · <code>C</code> · ★ 1250 · <code>DEFCON_TALK_VERIFIED</code></sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/blackice">BlackICE-Detector</a></h3>
-      <p>Passive intrusion detection probe intercepting anomalies across CAN and SPI buses.</p>
-      <p><sub> · <code>Rust</code> · ★ 890</sub></p>
+      <h3><code>[DAEMON]</code> <a href="https://github.com/example-user/blackice">BlackICE-Detector</a></h3>
+      <blockquote>Passive intrusion detection probe intercepting anomalies across CAN and SPI buses.</blockquote>
+      <p><sub> · <code>Rust</code> · ★ 890 · <code>HARDWARE_VERIFIED</code></sub></p>
     </td>
   </tr>
 </tbody>
 </table>
 
 <h2>Roadmap</h2>
+<details open>
+<summary><b>[+] DECRYPT RUNTIME LOGS &amp; PENETRATION ROADMAP</b></summary>
 <ul>
-<li><strong>done</strong> — Satellite downlink telemetry firmware review</li>
-<li><strong>in progress</strong> — Host USB kernel driver differential fuzzing</li>
-<li><strong>planned</strong> — Industrial SCADA zero-day coordination release</li>
+<li><code>[✓]</code> <strong>done</strong> — Satellite downlink telemetry firmware review</li>
+<li><code>[⚡]</code> <strong>in progress</strong> — Host USB kernel driver differential fuzzing</li>
+<li><code>[⏳]</code> <strong>planned</strong> — Industrial SCADA zero-day coordination release</li>
 </ul>
+</details>
 
 <h2>Links</h2>
 <p><a href="https://github.com/example-user">GitHub</a> · <a href="https://example.com/advisories">Advisories</a> · <a href="https://example.com/pgp">PGP Key</a></p>

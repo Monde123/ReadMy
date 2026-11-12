@@ -11,6 +11,15 @@
 <p>Atelier Nord</p>
 <!-- section:location omitted : missing field -->
 
+<h2>Technical Specification &amp; Production Ledger</h2>
+<table width="100%">
+<thead><tr><th>Subsystem</th><th>Specification</th><th>Tolerance / Budget</th></tr></thead>
+<tbody>
+  <tr><td><strong>Execution Runtime</strong></td><td>Go 1.23, Rust 2024, Linux Kernel 6.8</td><td>Zero Panic Policy</td></tr>
+  <tr><td><strong>Availability Target</strong></td><td>99.99% Annual Production Uptime</td><td>52.6 min Error Budget</td></tr>
+  <tr><td><strong>Concurrency Model</strong></td><td>Lock-free Ring Buffers, Epoll Event Loop</td><td>Zero-allocation Hot Paths</td></tr>
+</tbody>
+</table>
 <h2>Overview</h2>
 <p>I make deployment paths boring, and therefore safe.</p>
 <p>Message queues, error budgets, and change review rigor.</p>

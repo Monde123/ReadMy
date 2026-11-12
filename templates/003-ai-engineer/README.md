@@ -11,6 +11,11 @@
 <!-- section:organization omitted : missing field -->
 <!-- section:location omitted : missing field -->
 
+<h2>Architecture &amp; Inference Pipeline</h2>
+<pre><code>[PROMPT] ──▶ [Speculative Draft (1.2B)] ──▶ [Target Model (70B FP8)] ──▶ [vLLM Token Stream]
+                       │                              │
+                       ▼                              ▼
+                 H100 SRAM Hit                 Paged KV-Cache</code></pre>
 <h2>Overview</h2>
 <p>Specialized in distributed training, quantized tensor runtimes (vLLM / TensorRT-LLM), and ultra-low-latency retrieval pipelines.</p>
 <p>Paged attention optimization, speculative decoding, and native CUDA kernel compilation on H100 SXM5 clusters.</p>
@@ -22,11 +27,16 @@
   <img alt="Tech Stack: vLLM, TensorRT-LLM, Triton, PyTorch, 8x H100 SXM5, Qdrant HNSW, CUDA 12, DeepSpeed" src="./assets/tech-badges-light.svg" />
 </picture>
 
-<h2>Stack</h2>
-<ul>
-<li><strong>Runtimes &amp; Inference</strong> — vLLM, TensorRT-LLM, Triton, PyTorch</li>
-<li><strong>Compute &amp; Storage</strong> — 8x H100 SXM5, Qdrant HNSW, CUDA 12, DeepSpeed</li>
-</ul>
+<h2>Stack Topology</h2>
+<table width="100%">
+<thead><tr><th width="50%">Runtimes &amp; Inference</th><th width="50%">Compute &amp; Storage</th></tr></thead>
+<tbody>
+  <tr>
+    <td valign="top"><code>vLLM</code> · <code>TensorRT-LLM</code> · <code>Triton</code> · <code>PyTorch</code></td>
+    <td valign="top"><code>8x H100 SXM5</code> · <code>Qdrant HNSW</code> · <code>CUDA 12</code> · <code>DeepSpeed</code></td>
+  </tr>
+</tbody>
+</table>
 
 <h2>Projects</h2>
 <table width="100%">

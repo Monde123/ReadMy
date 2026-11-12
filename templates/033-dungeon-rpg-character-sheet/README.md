@@ -6,29 +6,34 @@
   <img alt="Banner: Eldrin Shadowstride, Level 42 Code-Mage &amp; Dungeon Architect" src="./assets/banner-light.svg" />
 </picture>
 
+<pre><code>┌─────────────────────────────────────────────────────────────────────────────┐
+│ CHARACTER: ELDRIN SHADOWSTRIDE              CLASS: LEVEL 80 ARCHMAGE │
+│ RACE: OPEN-SOURCE GNOME                           ALIGNMENT: CHAOTIC LAWFUL │
+│ HP: [████████████████████░░░░] 85/100             MANA: [████████████████████] 100/100 │
+└─────────────────────────────────────────────────────────────────────────────┘</code></pre>
 <h1>Eldrin Shadowstride</h1>
 <p>Level 42 Code-Mage &amp; Dungeon Architect</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
 
+<h2>Ability Scores &amp; Character Stats</h2>
 <table width="100%">
+<thead><tr><th align="center">STR (RAM)</th><th align="center">DEX (Latency)</th><th align="center">CON (Uptime)</th><th align="center">INT (Algorithms)</th></tr></thead>
 <tbody>
   <tr>
-    <td width="25%" align="center">
-      <h4>18 (+4)</h4>
-      <p><strong>FOR / STR</strong><br/><small>Compiler Heavy Lifting</small></p>
+    <td align="center">
+      <b>18 (+4)</b><br/>
+      <small>STR (RAM)</small>
     </td>
-    <td width="25%" align="center">
-      <h4>20 (+5)</h4>
-      <p><strong>DEX / AGI</strong><br/><small>Fast Refactoring Speed</small></p>
+    <td align="center">
+      <b>20 (+5)</b><br/>
+      <small>DEX (Latency)</small>
     </td>
-    <td width="25%" align="center">
-      <h4>22 (+6)</h4>
-      <p><strong>INT / MANA</strong><br/><small>Algorithm Optimization</small></p>
+    <td align="center">
+      <b>22 (+6)</b><br/>
+      <small>CON (Uptime)</small>
     </td>
-    <td width="25%" align="center">
-      <h4>142 / 142</h4>
-      <p><strong>PV / HP</strong><br/><small>Max Resilience</small></p>
+    <td align="center">
+      <b>142 / 142</b><br/>
+      <small>INT (Algorithms)</small>
     </td>
   </tr>
 </tbody>
@@ -51,29 +56,29 @@
 <li><strong>Enchanted Artifacts</strong> — Neovim, Valgrind, GDB, Perf</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Grimoire of Spells &amp; Legendary Relics</h2>
 <table width="100%">
 <tbody>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/vorpal">Vorpal-Compiler</a></h3>
-      <p>JIT compiler generating vectorized machine code for fantasy scripting languages.</p>
-      <p><sub> · <code>Rust</code> · ★ 780</sub></p>
+      <h3>⚔️ <a href="https://github.com/example-user/vorpal">Vorpal-Compiler</a></h3>
+      <p><b>[Relic / Spell]</b> JIT compiler generating vectorized machine code for fantasy scripting languages.</p>
+      <p><sub> · <code>Rust</code> · ★ 780 Gold</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/mithril">Mithril-Engine</a></h3>
-      <p>Lightweight ASCII rendering engine for terminal-based roguelike RPGs.</p>
-      <p><sub> · <code>C</code> · ★ 1120</sub></p>
+      <h3>🔮 <a href="https://github.com/example-user/mithril">Mithril-Engine</a></h3>
+      <p><b>[Ancient Tome]</b> Lightweight ASCII rendering engine for terminal-based roguelike RPGs.</p>
+      <p><sub> · <code>C</code> · ★ 1120 Gold</sub></p>
     </td>
   </tr>
 </tbody>
 </table>
 
-<h2>Roadmap</h2>
+<h2>Active Quests &amp; Dungeon Raids</h2>
 <ul>
-<li><strong>done</strong> — Purge the catacombs of legacy technical debt</li>
-<li><strong>in progress</strong> — Forge full-coverage integration test armor</li>
-<li><strong>planned</strong> — Conquer the distributed microservices dungeon</li>
+<li><strong>[x]</strong> <i>(done)</i> Purge the catacombs of legacy technical debt</li>
+<li><strong>[/]</strong> <i>(in progress)</i> Forge full-coverage integration test armor</li>
+<li><strong>[ ]</strong> <i>(planned)</i> Conquer the distributed microservices dungeon</li>
 </ul>
 
 <h2>Links</h2>

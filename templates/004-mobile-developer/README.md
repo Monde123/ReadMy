@@ -15,14 +15,17 @@
 <tbody>
   <tr>
     <td width="33%" align="center">
+      <code>APP STORE RATING</code><br/>
       <h4>4.9 ★ (84k)</h4>
       <p><strong>App Store Rating</strong><br/><small>Swift &amp; SwiftUI</small></p>
     </td>
     <td width="33%" align="center">
+      <code>GOOGLE PLAY RATING</code><br/>
       <h4>4.8 ★ (120k)</h4>
       <p><strong>Google Play Rating</strong><br/><small>Kotlin &amp; Compose</small></p>
     </td>
     <td width="33%" align="center">
+      <code>CRASH-FREE USERS</code><br/>
       <h4>99.94%</h4>
       <p><strong>Crash-Free Users</strong><br/><small>3.4M+ Monthly Active Users</small></p>
     </td>
@@ -41,11 +44,15 @@
   <img alt="Tech Stack: Swift, Kotlin, iOS, Android, Flutter, Dart, React" src="./assets/tech-badges-light.svg" />
 </picture>
 
-<h2>Stack</h2>
-<ul>
-<li><strong>Native iOS &amp; Android</strong> — Swift, Kotlin, iOS, Android</li>
-<li><strong>Cross-Platform &amp; Hybrid</strong> — Flutter, Dart, React</li>
-</ul>
+<h2>Native Mobile Engineering Matrix</h2>
+<table width="100%">
+<thead><tr><th>Platform</th><th>Core Runtime</th><th>Architecture</th></tr></thead>
+<tbody>
+  <tr><td><strong>Apple iOS</strong></td><td>Swift 6 · SwiftUI</td><td>Observation Framework · Metal Shaders</td></tr>
+  <tr><td><strong>Android</strong></td><td>Kotlin 2.0 · Jetpack Compose</td><td>Coroutines / Flow · Android NDK</td></tr>
+  <tr><td><strong>Cross-Core</strong></td><td>Kotlin Multiplatform (KMP)</td><td>Shared SQLite · SQLDelight</td></tr>
+</tbody>
+</table>
 
 <h2>Projects</h2>
 <table width="100%">

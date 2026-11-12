@@ -34,6 +34,11 @@
 </tbody>
 </table>
 
+<h2>Stream Architecture &amp; Topologies</h2>
+<pre><code>STREAM TOPOLOGY:
+[IoT Edge Producers] ──▶ [Kafka Cluster (35 Partitions)] ──▶ [Flink Stateful Job] ──▶ [ClickHouse OLAP]
+                                                                        │
+                                                                        └──▶ [Prometheus Alerts]</code></pre>
 <h2>Overview</h2>
 <p>I build real-time data backbones: distributed streaming, exactly-once delivery guarantees, and sub-second analytical queries.</p>
 <p>Apache Flink topology tuning, ClickHouse table partitioning, and Apache Iceberg catalog formats on object storage.</p>

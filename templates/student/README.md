@@ -15,11 +15,11 @@
 <p>I learn computer systems by shipping small, readable programs.</p>
 <p>This semester: networking fundamentals, test suites, and internship placement.</p>
 
-<h2>Roadmap</h2>
+<h2>Learning Curriculum &amp; Mastery Quests</h2>
 <ul>
-<li><strong>done</strong> — Complete networking systems coursework</li>
-<li><strong>in progress</strong> — Ship documented open-source bug fix</li>
-<li><strong>planned</strong> — Present final capstone engineering project</li>
+<li><strong>[x]</strong> <code>done</code> — Complete networking systems coursework</li>
+<li><strong>[/]</strong> <code>in progress</code> — Ship documented open-source bug fix</li>
+<li><strong>[ ]</strong> <code>planned</code> — Present final capstone engineering project</li>
 </ul>
 
 <h2>Projects</h2>

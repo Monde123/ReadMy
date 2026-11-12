@@ -11,6 +11,10 @@
 <!-- section:organization omitted : missing field -->
 <!-- section:location omitted : missing field -->
 
+<h2>Eurorack Modular Signal Chain (19" Rack 3U 84HP)</h2>
+<pre><code>[OSC 1: Sawtooth] ──▶ [Ladder Filter 24dB] ──▶ [VCA / ADSR] ──▶ [Stereo Delay] ──▶ OUT L/R
+       ◎ FREQ                  ◎ CUTOFF               ◎ LEVEL           ◎ FEEDBACK
+      [○] V/OCT               [○] CV IN              [○] GATE          [○] SYNC IN</code></pre>
 <h2>Overview</h2>
 <p>I build hybrid analog/digital Eurorack modules, algorithmic reverb models, and real-time audio plugins.</p>
 <p>Fixed-point digital signal processing, non-linear physical filter modeling, and jitter-free SIMD vectorization.</p>
@@ -22,11 +26,15 @@
   <img alt="Tech Stack: JUCE, FAUST, C++23, PureData, STM32 ARM Cortex-M7, Daisy Seed, KiCad, Eurorack" src="./assets/tech-badges-light.svg" />
 </picture>
 
-<h2>Stack</h2>
-<ul>
-<li><strong>DSP &amp; Audio Frameworks</strong> — JUCE, FAUST, C++23, PureData</li>
-<li><strong>Hardware &amp; Embedded</strong> — STM32 ARM Cortex-M7, Daisy Seed, KiCad, Eurorack</li>
-</ul>
+<h2>Module Bay Specifications</h2>
+<table width="100%">
+<thead><tr><th>Module Bay</th><th>Hardware Spec</th><th>Patch Status</th></tr></thead>
+<tbody>
+  <tr><td><strong>Wavetable VCO Core</strong></td><td>Dual ARM Cortex-M7 DSP</td><td>🔴 PATCHED TO VCF</td></tr>
+  <tr><td><strong>State Variable VCF</strong></td><td>4-Pole OTA Resonant Analog</td><td>🟡 ATTENUATED</td></tr>
+  <tr><td><strong>Granular Cloud DSP</strong></td><td>SIMD Vectorized Delay Lines</td><td>🟢 READY</td></tr>
+</tbody>
+</table>
 
 <h2>Projects</h2>
 <table width="100%">

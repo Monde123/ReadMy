@@ -15,24 +15,32 @@
 <tbody>
   <tr>
     <td width="25%" align="center">
+      <code>CORE CLUSTER</code><br/>
       <h4>64 Nodes</h4>
       <p><strong>Core Cluster</strong><br/><small>Kubernetes 1.31 / eBPF</small></p>
     </td>
     <td width="25%" align="center">
+      <code>INGESTION RATE</code><br/>
       <h4>1.4M msg/s</h4>
       <p><strong>Ingestion Rate</strong><br/><small>Kafka 0% lag</small></p>
     </td>
     <td width="25%" align="center">
+      <code>TAIL LATENCY</code><br/>
       <h4>p99 &lt; 1.8ms</h4>
       <p><strong>Tail Latency</strong><br/><small>Global edge dispatch</small></p>
     </td>
     <td width="25%" align="center">
+      <code>UPTIME</code><br/>
       <h4>99.995%</h4>
       <p><strong>Uptime</strong><br/><small>DEFCON 5 NORMAL</small></p>
     </td>
   </tr>
 </tbody>
 </table>
+
+<pre><code>SYSTEM INTEGRITY MONITOR:
+[████████████████████████████████████████████████] 100% HEALTHY
+POLICIES: ZERO-TOIL · AUTO-DRAIN · SEV-1 AUTO-TRIAGE · CHAOS-ENGINEERED</code></pre>
 
 <h2>Overview</h2>
 <p>I build self-healing distributed platforms, eliminate operational toil, and maintain state consensus under adversarial network partitions.</p>
@@ -51,19 +59,19 @@
 <li><strong>Distributed Data</strong> — Apache Kafka, ClickHouse, ScyllaDB, Redis</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Distributed Engines in Production</h2>
 <table width="100%">
 <tbody>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/sentinel">Operation-Sentinel</a></h3>
+      <h3>🛡️ <a href="https://github.com/example-user/sentinel">Operation-Sentinel</a></h3>
       <p>Kernel-level packet inspection daemon dropping 10M pps prior to socket allocation.</p>
-      <p><sub> · <code>Rust</code> · ★ 2400</sub></p>
+      <p><sub><code>10M pps filtered</code> · <code>Rust</code> · ★ 2400</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/example-user/chronoflux">Operation-ChronoFlux</a></h3>
+      <h3>⚡ <a href="https://github.com/example-user/chronoflux">Operation-ChronoFlux</a></h3>
       <p>Distributed WAL replication engine built on Raft consensus with zero split-brain incidents.</p>
-      <p><sub> · <code>Go</code> · ★ 1950</sub></p>
+      <p><sub><code>4.5k QPS commit rate</code> · <code>Go</code> · ★ 1950</sub></p>
     </td>
   </tr>
 </tbody>

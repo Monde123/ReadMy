@@ -6,23 +6,22 @@
   <img alt="Banner: Clara de Montmirail, Editorial Lead &amp; Technology Critic" src="./assets/banner-light.svg" />
 </picture>
 
+<div align="center">
 <h1>Clara de Montmirail</h1>
-<p>Editorial Lead &amp; Technology Critic</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
+<p><em>THE TECHNICAL DISPATCH · VOL. IV · Editorial Lead &amp; Technology Critic</em></p>
+<hr width="30%"/>
+</div>
 
-<h2>Overview</h2>
-<p>I write on the friction between computational scale and sociotechnical longevity. Essays, long-form reviews, and typographic craft.</p>
-<p>Investigations into digital sobriety, software ethics, and long-term open artifact resilience.</p>
+<h2>Editorial Dispatch</h2>
+<blockquote>I write on the friction between computational scale and sociotechnical longevity. Essays, long-form reviews, and typographic craft.</blockquote>
+<p><em>Investigations into digital sobriety, software ethics, and long-term open artifact resilience.</em></p>
+<div align="center">⁂</div>
 
-<h2>Publications</h2>
-<table>
-<thead><tr><th>Year</th><th>Title</th><th>Venue</th></tr></thead>
-<tbody>
-<tr><td>2026</td><td><a href="https://example.com/notes/vitesse">The Illusion of Infinite Cloud Velocity</a></td><td>Journal of Critical Systems Review</td></tr>
-<tr><td>2025</td><td><a href="https://example.com/notes/typographie">System Fonts and Readability in Public Computing</a></td><td>Ergonomics &amp; Typography Quarterly</td></tr>
-</tbody>
-</table>
+<h2>Selected Essays &amp; Treatises</h2>
+<ol>
+<li><strong><a href="https://example.com/notes/vitesse">The Illusion of Infinite Cloud Velocity</a></strong> (2026)<br/><em>Published in Journal of Critical Systems Review</em><br/><details><summary><small>Read Abstract &amp; Synopsis</small></summary><blockquote>Analysis and formal treatise published in Journal of Critical Systems Review.</blockquote></details></li>
+<li><strong><a href="https://example.com/notes/typographie">System Fonts and Readability in Public Computing</a></strong> (2025)<br/><em>Published in Ergonomics &amp; Typography Quarterly</em><br/><details><summary><small>Read Abstract &amp; Synopsis</small></summary><blockquote>Analysis and formal treatise published in Ergonomics &amp; Typography Quarterly.</blockquote></details></li>
+</ol>
 
 <h2>Projects</h2>
 <ul>

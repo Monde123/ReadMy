@@ -22,12 +22,12 @@
 <li>Dependency pinning is an explicit choice, not an oversight.</li>
 </ul>
 
-<h2>Projects</h2>
-<table>
-<thead><tr><th>Project</th><th>Description</th><th>Language</th></tr></thead>
+<h2>Open Source Repository Triage &amp; Governance</h2>
+<table width="100%">
+<thead><tr><th>Repository</th><th>Role</th><th>Stars</th><th>Triage Policy</th><th>Status</th></tr></thead>
 <tbody>
-<tr><td><a href="https://github.com/example-user/lice">lice</a></td><td>Validates license files prior to package registry publication.</td><td>Go</td></tr>
-<tr><td><a href="https://github.com/example-user/rebord">rebord</a></td><td>Splits unified changelogs into release notes by version.</td><td>JavaScript</td></tr>
+  <tr><td><strong><a href="https://github.com/example-user/lice">lice</a></strong></td><td><code>Lead Maintainer</code></td><td>not specified</td><td>PR Reviews within 48h</td><td align="center">🟢 ACTIVE</td></tr>
+  <tr><td><strong><a href="https://github.com/example-user/rebord">rebord</a></strong></td><td><code>Author / Owner</code></td><td>not specified</td><td>Zero breaking changes</td><td align="center">🟢 ACTIVE</td></tr>
 </tbody>
 </table>
 

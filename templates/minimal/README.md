@@ -10,6 +10,7 @@
 <p>Software Engineer</p>
 <!-- section:organization omitted : missing field -->
 <!-- section:location omitted : missing field -->
+<hr/>
 
 <h2>Overview</h2>
 <p>I build small, explicit, and observable services.</p>

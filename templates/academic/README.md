@@ -7,22 +7,17 @@
 </picture>
 
 <h1>Nora Belkacem</h1>
-<p>Research Scientist</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
+<p><strong>Research Scientist</strong><br/><em>Laboratory for Scalable Computing</em></p>
 
 <h2>Overview</h2>
 <p>I research the formal verification of distributed consensus protocols.</p>
 <p>Formal proofs and reproducibility artifacts maintained in the same repository.</p>
 
-<h2>Publications</h2>
-<table>
-<thead><tr><th>Year</th><th>Title</th><th>Venue</th></tr></thead>
-<tbody>
-<tr><td>2025</td><td><a href="https://example.com/notes/horloges">Explicit Logical Clocks for Pedagogical Consensus</a></td><td>Journal of Distributed Systems Research</td></tr>
-<tr><td>2024</td><td><a href="https://example.com/notes/tla-atelier">Annotated TLA+ Specifications for Fault-Tolerant Workshops</a></td><td>Symposium on Reliable Computing</td></tr>
-</tbody>
-</table>
+<h2>Peer-Reviewed Publications &amp; Proceedings</h2>
+<ol>
+<li><strong>[1] <a href="https://example.com/notes/horloges">Explicit Logical Clocks for Pedagogical Consensus</a></strong> (2025)<br/><em>Journal of Distributed Systems Research</em> · <code>DOI: 10.1145/2025.001</code><br/><details><summary>Abstract</summary>Peer-reviewed paper presented at Journal of Distributed Systems Research.</details></li>
+<li><strong>[2] <a href="https://example.com/notes/tla-atelier">Annotated TLA+ Specifications for Fault-Tolerant Workshops</a></strong> (2024)<br/><em>Symposium on Reliable Computing</em> · <code>DOI: 10.1145/2024.001</code><br/><details><summary>Abstract</summary>Peer-reviewed paper presented at Symposium on Reliable Computing.</details></li>
+</ol>
 
 <h2>Links</h2>
 <p><a href="https://github.com/example-user">GitHub</a> · <a href="https://example.com/nora">Laboratory</a></p>

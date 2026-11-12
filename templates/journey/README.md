@@ -15,12 +15,15 @@
 <p>I document the trajectory and lessons rather than a dry list of tools.</p>
 <p>From application support to platform reliability, keeping postmortems transparent.</p>
 
-<h2>Timeline</h2>
-<ul>
-<li><strong>2018</strong> — Application Support<br/>Reproduce incidents locally before proposing production patches.</li>
-<li><strong>2021</strong> — Platform Engineering<br/>Move release deployments behind managed queues and dual review.</li>
-<li><strong>2024</strong> — Site Reliability<br/>Written error budgets and quarterly disaster recovery drills.</li>
-</ul>
+<h2>Chronological Journey &amp; Milestones</h2>
+<pre><code>2018             ──▶ Application Support
+ │                  ├── Reproduce incidents locally before proposing production patches.
+ │
+2021             ──▶ Platform Engineering
+ │                  ├── Move release deployments behind managed queues and dual review.
+ │
+2024             ──▶ Site Reliability
+                    └── Written error budgets and quarterly disaster recovery drills.</code></pre>
 
 <h2>Projects</h2>
 <ul>

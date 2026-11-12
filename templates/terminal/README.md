@@ -6,10 +6,18 @@
   <img alt="Banner: Samir Adler, Command-Line Tools Developer" src="./assets/banner-light.svg" />
 </picture>
 
+<pre><code>$ whoami
+Samir Adler
+
+$ uptime
+up 842 days, 14:02, 1 user, load average: 0.12, 0.08, 0.05
+
+$ cat ~/.profile
+NAME="Samir Adler"
+ROLE="Command-Line Tools Developer"
+SHELL="/bin/zsh"</code></pre>
 <h1>Samir Adler</h1>
 <p>Command-Line Tools Developer</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
 
 <h2>Overview</h2>
 <p>I build concise CLI tools that fail loudly and predictably.</p>
@@ -29,9 +37,8 @@
 </picture>
 
 <h2>Stack</h2>
-<ul>
-<li><strong>Languages</strong> — Rust, Go</li>
-</ul>
+<pre><code>$ echo $TECH_STACK
+Languages: Rust, Go</code></pre>
 
 <h2>Links</h2>
 <p><a href="https://github.com/example-user">GitHub</a> · <a href="https://example.com/sentier">Manual</a></p>

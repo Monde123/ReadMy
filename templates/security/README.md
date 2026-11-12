@@ -7,10 +7,17 @@
 </picture>
 
 <h1>Léa Fischer</h1>
-<p>Product Security Engineer</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
+<p>🛡️ Defensive Engineering &amp; Infrastructure Hardening</p>
 
+<h2>Defensive Posture &amp; Compliance Ledger</h2>
+<table width="100%">
+<thead><tr><th>Control Layer</th><th>Standard Specification</th><th>Operational Status</th></tr></thead>
+<tbody>
+  <tr><td><strong>Identity &amp; Access</strong></td><td>SPIFFE/SPIRE · OIDC Attestation</td><td><code>ENFORCED (100% MFA)</code></td></tr>
+  <tr><td><strong>Compute Hardening</strong></td><td>CIS Benchmark Level 2 · SELinux Enforcing</td><td><code>COMPLIANT</code></td></tr>
+  <tr><td><strong>Supply Chain</strong></td><td>SLSA Level 3 · Cosign Signed Artifacts</td><td><code>ACTIVE</code></td></tr>
+</tbody>
+</table>
 <h2>Overview</h2>
 <p>I help engineering teams minimize attack surfaces and ship timely mitigations.</p>
 <p>Coordinated disclosure, dependency audits, and actionable audit logs.</p>

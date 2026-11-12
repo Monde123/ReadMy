@@ -15,18 +15,22 @@
 <tbody>
   <tr>
     <td width="25%" align="center">
+      <code>ARR</code><br/>
       <h4>$1.2M</h4>
       <p><strong>ARR</strong><br/><small>+180% YoY</small></p>
     </td>
     <td width="25%" align="center">
+      <code>ACTIVE CUSTOMERS</code><br/>
       <h4>450+</h4>
       <p><strong>Active Customers</strong><br/><small>Mid-Market Enterprises</small></p>
     </td>
     <td width="25%" align="center">
+      <code>NET RETENTION</code><br/>
       <h4>124%</h4>
       <p><strong>Net Retention</strong><br/><small>2025 Cohort</small></p>
     </td>
     <td width="25%" align="center">
+      <code>TEAM</code><br/>
       <h4>14 people</h4>
       <p><strong>Team</strong><br/><small>Paris &amp; Remote</small></p>
     </td>
@@ -34,10 +38,17 @@
 </tbody>
 </table>
 
-<h2>Pitch</h2>
-<p>Engineering teams lose 30% of their velocity wrestling flaky CI environments and manual staging drift.</p>
-<p>Stratos delivers instant, ephemeral, and fully isolated testing sandboxes for every pull request with zero configuration.</p>
-<p>Over 450 production teams compress release cycles from 4 days to 40 minutes, realizing positive ROI in month one.</p>
+<h2>Investment Diligence &amp; Thesis</h2>
+<table width="100%">
+<thead><tr><th>The Market Friction</th><th>Our Architectural Solution</th><th>Empirical Validation</th></tr></thead>
+<tbody>
+  <tr>
+    <td valign="top">Engineering teams lose 30% of their velocity wrestling flaky CI environments and manual staging drift.</td>
+    <td valign="top">Stratos delivers instant, ephemeral, and fully isolated testing sandboxes for every pull request with zero configuration.</td>
+    <td valign="top">Over 450 production teams compress release cycles from 4 days to 40 minutes, realizing positive ROI in month one.</td>
+  </tr>
+</tbody>
+</table>
 
 <h2>Projects</h2>
 <table width="100%">

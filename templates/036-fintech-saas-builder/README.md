@@ -6,27 +6,34 @@
   <img alt="Banner: Mathieu Valadier, Lead Financial Systems Architect" src="./assets/banner-light.svg" />
 </picture>
 
+<pre><code>================================================================================
+ACCOUNT AUDIT SPECIFICATION: LEDGER-FINTECH-V2
+COMPLIANCE: SOC2 TYPE II · PCI-DSS LEVEL 1 · ISO 27001
+SETTLEMENT TOLERANCE: ZERO FLOATING-POINT ERRORS (INTEGER-ONLY PRECISION)
+================================================================================</code></pre>
 <h1>Mathieu Valadier</h1>
 <p>Lead Financial Systems Architect</p>
-<!-- section:organization omitted : missing field -->
-<!-- section:location omitted : missing field -->
 
 <table width="100%">
 <tbody>
   <tr>
     <td width="25%" align="center">
+      <code>PROCESSED VOLUME</code><br/>
       <h4>$2.4B / year</h4>
       <p><strong>Processed Volume</strong><br/><small>Double-Entry Ledger</small></p>
     </td>
     <td width="25%" align="center">
+      <code>SLA AVAILABILITY</code><br/>
       <h4>99.999%</h4>
       <p><strong>SLA Availability</strong><br/><small>Multi-Region Active/Active</small></p>
     </td>
     <td width="25%" align="center">
+      <code>SETTLEMENT TIME</code><br/>
       <h4>&lt; 120ms</h4>
       <p><strong>Settlement Time</strong><br/><small>Instant Settlement</small></p>
     </td>
     <td width="25%" align="center">
+      <code>COMPLIANCE LEVEL</code><br/>
       <h4>PCI-DSS L1</h4>
       <p><strong>Compliance Level</strong><br/><small>SOC2 Type II</small></p>
     </td>
